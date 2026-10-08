@@ -1,0 +1,54 @@
+project:
+  name: "multimodal-stock-ai"
+  version: "0.1.0"
+  seed: 42
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/pipeline.log"
+
+market_data:
+  provider: "yahooquery"
+  frequency: "daily"
+
+  acquisition_range:
+    start_date: "2020-01-01"
+    end_date: "2022-09-30"
+
+  evaluation_periods:
+    uptrend:
+      start_date: "2021-07-01"
+      end_date: "2021-12-31"
+    downtrend:
+      start_date: "2022-01-01"
+      end_date: "2022-09-20"
+
+  required_columns:
+    - "symbol"
+    - "date"
+    - "open"
+    - "high"
+    - "low"
+    - "adj_close"
+    - "volume"
+
+  provider_column_mapping:
+    open: "open"
+    high: "high"
+    low: "low"
+    close: "close"
+    adjclose: "adj_close"
+    volume: "volume"
+
+  retry_attempts: 3
+  retry_backoff_factor: 1.5
+  timeout: 30
+  rate_limit_delay: 0.5
+
+storage:
+  raw_market_dir: "data/raw/market"
+  processed_market_dir: "data/processed/market"
+  reports_dir: "reports"
+  manifest_file: "data/processed/market/manifest.json"
+  quality_report_file: "reports/market_data_quality_report.md"

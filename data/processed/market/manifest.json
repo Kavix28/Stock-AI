@@ -1,0 +1,125 @@
+{
+  "dataset": "paper_market_data",
+  "version": "1.0.0",
+  "provider": "YahooQuery",
+  "download_timestamp": "2026-10-08T20:04:20.773943Z",
+  "start_date": "2020-01-01",
+  "end_date": "2022-09-30",
+  "total_symbols": 12,
+  "total_rows": 7612,
+  "canonical_columns": [
+    "symbol",
+    "date",
+    "open",
+    "high",
+    "low",
+    "adj_close",
+    "volume"
+  ],
+  "symbols": {
+    "ATVI": {
+      "status": "FAILED",
+      "error": "Failed to fetch market data for 'ATVI' after 3 attempts. Error: No market data returned by YahooQuery for ticker 'ATVI'."
+    },
+    "NFLX": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "SBUX": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "TSLA": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "NVDA": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "AAPL": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "AMT": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "PLD": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "NDAQ": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "SCHW": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "BIO": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    },
+    "JNJ": {
+      "rows": 692,
+      "first_date": "2020-01-02",
+      "last_date": "2022-09-29",
+      "missing_values": 0,
+      "duplicates": 0,
+      "unexpected_gaps": 0,
+      "status": "PASS"
+    }
+  },
+  "overall_status": "FAILED"
+}

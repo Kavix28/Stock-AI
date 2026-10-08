@@ -1,0 +1,60 @@
+stocks:
+  - symbol: ATVI
+    name: Activision Blizzard, Inc.
+    sector: Communication Services
+    industry: Interactive Media & Services
+
+  - symbol: NFLX
+    name: Netflix, Inc.
+    sector: Communication Services
+    industry: Entertainment
+
+  - symbol: SBUX
+    name: Starbucks Corporation
+    sector: Consumer Discretionary
+    industry: Restaurants
+
+  - symbol: TSLA
+    name: Tesla, Inc.
+    sector: Consumer Discretionary
+    industry: Automobiles
+
+  - symbol: NVDA
+    name: NVIDIA Corporation
+    sector: Information Technology
+    industry: Semiconductors
+
+  - symbol: AAPL
+    name: Apple Inc.
+    sector: Information Technology
+    industry: Technology Hardware, Storage & Peripherals
+
+  - symbol: AMT
+    name: American Tower Corporation
+    sector: Real Estate
+    industry: REITs - Specialty
+
+  - symbol: PLD
+    name: Prologis, Inc.
+    sector: Real Estate
+    industry: REITs - Industrial
+
+  - symbol: NDAQ
+    name: Nasdaq, Inc.
+    sector: Financials
+    industry: Financial Exchanges & Data
+
+  - symbol: SCHW
+    name: The Charles Schwab Corporation
+    sector: Financials
+    industry: Capital Markets
+
+  - symbol: BIO
+    name: Bio-Rad Laboratories, Inc.
+    sector: Health Care
+    industry: Life Sciences Tools & Services
+
+  - symbol: JNJ
+    name: Johnson & Johnson
+    sector: Health Care
+    industry: Pharmaceuticals
