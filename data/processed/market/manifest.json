@@ -1,125 +1,132 @@
 {
   "dataset": "paper_market_data",
-  "version": "1.0.0",
-  "provider": "YahooQuery",
-  "download_timestamp": "2026-10-08T20:04:20.773943Z",
-  "start_date": "2020-01-01",
-  "end_date": "2022-09-30",
+  "paper_reference": "Neural Computing and Applications (2024) 36:21229\u201321271",
+  "generated_at": "2026-10-09 14:35:33 UTC",
+  "acquisition_start_date": "2020-01-01",
+  "acquisition_end_date": "2022-09-30",
+  "overall_status": "FAILED",
   "total_symbols": 12,
   "total_rows": 7612,
-  "canonical_columns": [
-    "symbol",
-    "date",
-    "open",
-    "high",
-    "low",
-    "adj_close",
-    "volume"
-  ],
   "symbols": {
     "ATVI": {
+      "provider": "YahooQuery",
       "status": "FAILED",
+      "rows": 0,
+      "first_date": null,
+      "last_date": null,
+      "missing_values": 0,
+      "unexpected_gaps": 0,
       "error": "Failed to fetch market data for 'ATVI' after 3 attempts. Error: No market data returned by YahooQuery for ticker 'ATVI'."
     },
     "NFLX": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "SBUX": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "TSLA": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "NVDA": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "AAPL": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "AMT": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "PLD": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "NDAQ": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "SCHW": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "BIO": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     },
     "JNJ": {
+      "provider": "YahooQuery",
+      "status": "PASS",
       "rows": 692,
       "first_date": "2020-01-02",
       "last_date": "2022-09-29",
       "missing_values": 0,
-      "duplicates": 0,
       "unexpected_gaps": 0,
-      "status": "PASS"
+      "error": null
     }
-  },
-  "overall_status": "FAILED"
+  }
 }

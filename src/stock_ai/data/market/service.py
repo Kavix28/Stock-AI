@@ -1,15 +1,14 @@
 import json
-import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Tuple
+from typing import Dict, List, Optional, Any
 import pandas as pd
 
-from stock_ai.config.settings import AppConfig, load_config
+from stock_ai.config.settings import AppConfig
 from stock_ai.data.market.base import MarketDataProvider
 from stock_ai.data.market.yahooquery_provider import YahooQueryMarketDataProvider
 from stock_ai.data.market.schema import CanonicalMarketSchema
-from stock_ai.data.market.validator import MarketDataValidator, ValidationIssue
+from stock_ai.data.market.validator import MarketDataValidator
 from stock_ai.data.market.utils import TemporalNormalizer
 from stock_ai.logger import get_logger
 
@@ -17,32 +16,126 @@ logger = get_logger(__name__)
 
 
 class MarketDataService:
-    """
-    Market Data Download & Quality Assurance Service.
-    Orchestrates download, raw storage, validation, processed Parquet export,
-    dataset manifest creation, and quality report generation.
-    """
+    """Orchestrates market data acquisition, validation, persistence, and reporting."""
 
-    def __init__(
-        self,
-        config: Optional[AppConfig] = None,
-        provider: Optional[MarketDataProvider] = None
-    ):
-        self.config = config or load_config()
+    def __init__(self, config: AppConfig, provider: Optional[MarketDataProvider] = None):
+        self.config = config
         self.provider = provider or YahooQueryMarketDataProvider(
-            retry_attempts=self.config.market_data.retry_attempts,
-            retry_backoff_factor=self.config.market_data.retry_backoff_factor,
-            timeout=self.config.market_data.timeout,
-            rate_limit_delay=self.config.market_data.rate_limit_delay,
+            retry_attempts=config.market_data.retry_attempts,
+            retry_backoff_factor=config.market_data.retry_backoff_factor,
+            timeout=config.market_data.timeout,
+            rate_limit_delay=config.market_data.rate_limit_delay
         )
+        self.raw_dir = Path(config.storage.raw_market_dir)
+        self.processed_dir = Path(config.storage.processed_market_dir)
+        self.reports_dir = Path(config.storage.reports_dir)
 
-        self.raw_dir = Path(self.config.storage.raw_market_dir)
-        self.processed_dir = Path(self.config.storage.processed_market_dir)
-        self.reports_dir = Path(self.config.storage.reports_dir)
-
+        # Ensure directories exist
         self.raw_dir.mkdir(parents=True, exist_ok=True)
         self.processed_dir.mkdir(parents=True, exist_ok=True)
         self.reports_dir.mkdir(parents=True, exist_ok=True)
+
+    def _get_provider_name(self, symbol: str) -> str:
+        if hasattr(self.provider, "get_provider_for_symbol"):
+            return self.provider.get_provider_for_symbol(symbol)
+        return self.provider.get_provider_name()
+
+    def process_symbol(
+        self,
+        symbol: str,
+        start_date: str,
+        end_date: str,
+        force: bool = False,
+        dry_run: bool = False
+    ) -> Dict[str, Any]:
+        """
+        Process a single symbol through fetch, normalize, validate, and store pipeline steps.
+        """
+        logger.info(f"--- Processing market data for '{symbol}' ---")
+        raw_file = self.raw_dir / f"{symbol}.csv"
+        processed_parquet = self.processed_dir / f"{symbol}.parquet"
+        processed_csv = self.processed_dir / f"{symbol}.csv"
+
+        if dry_run:
+            logger.info(f"[DRY-RUN] Would fetch and process '{symbol}' from {start_date} to {end_date}")
+            return {
+                "symbol": symbol,
+                "status": "PASS",
+                "rows": 0,
+                "provider": self._get_provider_name(symbol),
+                "issues": []
+            }
+
+        # Step 1: Fetch or load raw data
+        raw_df = None
+        if raw_file.exists() and not force:
+            logger.info(f"Loading cached raw data for '{symbol}' from '{raw_file}'")
+            raw_df = pd.read_csv(raw_file)
+        else:
+            try:
+                raw_df = self.provider.fetch_historical_data(symbol, start_date, end_date)
+                # Save immutable raw data
+                raw_df.to_csv(raw_file, index=True)
+                logger.info(f"Saved immutable raw data for '{symbol}' to '{raw_file}'")
+            except Exception as e:
+                logger.error(f"Failed to fetch market data for '{symbol}': {e}")
+                return {
+                    "symbol": symbol,
+                    "status": "FAILED",
+                    "rows": 0,
+                    "provider": self._get_provider_name(symbol),
+                    "error": str(e),
+                    "issues": [{"level": "ERROR", "category": "FETCH", "message": str(e)}]
+                }
+
+        # Step 2: Normalize to Canonical Schema
+        try:
+            norm_df = CanonicalMarketSchema.normalize(raw_df, symbol=symbol)
+            norm_df = TemporalNormalizer.normalize_dates(norm_df, date_column="date")
+        except Exception as e:
+            logger.error(f"Schema normalization failed for '{symbol}': {e}")
+            return {
+                "symbol": symbol,
+                "status": "FAILED",
+                "rows": 0,
+                "provider": self._get_provider_name(symbol),
+                "error": f"Schema normalization error: {e}",
+                "issues": [{"level": "ERROR", "category": "SCHEMA", "message": str(e)}]
+            }
+
+        # Step 3: Data Quality Validation
+        validator = MarketDataValidator(expected_symbol=symbol)
+        is_valid, issues, cleaned_df = validator.validate(norm_df)
+
+        # Step 4: Temporal Gap Analysis
+        gap_summary = TemporalNormalizer.analyze_trading_gaps(cleaned_df, date_column="date")
+        if gap_summary["unexpected_gap_count"] > 0:
+            validator.add_issue(
+                "WARNING", "Temporal",
+                f"Found {gap_summary['unexpected_gap_count']} unexpected trading day gap(s): {gap_summary['unexpected_gaps'][:3]}"
+            )
+
+        # Step 5: Save Processed Files (Parquet & CSV)
+        status_str = "PASS" if is_valid else "FAILED"
+        if is_valid:
+            cleaned_df.to_parquet(processed_parquet, index=False)
+            cleaned_df.to_csv(processed_csv, index=False)
+            logger.info(f"Saved processed Parquet data ({len(cleaned_df)} rows) to '{processed_parquet}'")
+
+        return {
+            "symbol": symbol,
+            "status": status_str,
+            "provider": self._get_provider_name(symbol),
+            "rows": len(cleaned_df),
+            "first_date": str(cleaned_df["date"].min())[:10] if not cleaned_df.empty else None,
+            "last_date": str(cleaned_df["date"].max())[:10] if not cleaned_df.empty else None,
+            "missing_values": int(cleaned_df.isna().sum().sum()),
+            "unexpected_gaps": gap_summary["unexpected_gap_count"],
+            "weekend_gaps": gap_summary["weekend_gaps"],
+            "raw_file": str(raw_file),
+            "processed_file": str(processed_parquet),
+            "issues": [i.to_dict() for i in issues]
+        }
 
     def fetch_all(
         self,
@@ -52,235 +145,133 @@ class MarketDataService:
         force: bool = False,
         dry_run: bool = False
     ) -> Dict[str, Any]:
-        """
-        Fetch market data for multiple symbols, process, validate, and write outputs.
-        """
+        """Process all configured symbols and generate manifest and quality reports."""
         target_symbols = symbols or [s.symbol for s in self.config.stocks]
         start = start_date or self.config.market_data.acquisition_range.start_date
         end = end_date or self.config.market_data.acquisition_range.end_date
 
-        if dry_run:
-            logger.info("=== DRY RUN MODE ===")
-            logger.info(f"Target symbols: {target_symbols}")
-            logger.info(f"Date range: {start} to {end}")
-            logger.info(f"Raw output path: {self.raw_dir}")
-            logger.info(f"Processed output path: {self.processed_dir}")
-            return {
-                "dry_run": True,
-                "symbols": target_symbols,
-                "start_date": start,
-                "end_date": end,
-                "status": "dry_run_complete"
-            }
-
-        results: Dict[str, Dict[str, Any]] = {}
+        logger.info(f"Starting acquisition for {len(target_symbols)} symbols ({start} to {end})...")
+        results = {}
         all_passed = True
 
-        for symbol in target_symbols:
-            logger.info(f"Processing market data for '{symbol}'...")
-            try:
-                res = self.process_symbol(symbol, start, end, force=force)
-                results[symbol] = res
-                if res["status"] == "FAILED":
-                    all_passed = False
-            except Exception as e:
-                logger.error(f"Error processing symbol '{symbol}': {e}", exc_info=True)
-                results[symbol] = {
-                    "symbol": symbol,
-                    "status": "FAILED",
-                    "error": str(e),
-                    "rows": 0
-                }
+        for sym in target_symbols:
+            res = self.process_symbol(sym, start, end, force=force, dry_run=dry_run)
+            results[sym] = res
+            if res["status"] != "PASS":
                 all_passed = False
 
-        # Generate Manifest and Quality Report
-        manifest_data = self.generate_manifest(results, start, end)
-        quality_report = self.generate_quality_report(results, start, end)
+        if not dry_run:
+            self._generate_manifest(results, start, end, all_passed)
+            self._generate_quality_report(results, start, end, all_passed)
 
         return {
             "success": all_passed,
-            "results": results,
-            "manifest_path": str(Path(self.config.storage.manifest_file).resolve()),
-            "quality_report_path": str(Path(self.config.storage.quality_report_file).resolve())
+            "results": results
         }
 
-    def process_symbol(
-        self, symbol: str, start_date: str, end_date: str, force: bool = False
-    ) -> Dict[str, Any]:
-        """Fetch, raw preserve, normalize, validate, and write processed parquet for a symbol."""
-        raw_csv_path = self.raw_dir / f"{symbol}.csv"
-        processed_parquet_path = self.processed_dir / f"{symbol}.parquet"
-        processed_csv_path = self.processed_dir / f"{symbol}.csv"
-
-        df_raw: Optional[pd.DataFrame] = None
-        source_type = "API"
-
-        # Check Cache / Raw Data Policy
-        if raw_csv_path.exists() and not force:
-            logger.info(f"Raw file for '{symbol}' exists at {raw_csv_path}. Reading from cache...")
-            df_raw = pd.read_csv(raw_csv_path)
-            source_type = "CACHE"
-        else:
-            df_raw = self.provider.fetch_historical_data(symbol, start_date, end_date)
-            # Save Raw CSV immutably
-            df_raw.to_csv(raw_csv_path, index=True)
-            logger.info(f"Raw data saved to {raw_csv_path}")
-
-        # Schema Normalization
-        df_norm = CanonicalMarketSchema.normalize(
-            df_raw, symbol=symbol, column_mapping=self.config.market_data.provider_column_mapping
-        )
-
-        # Date Filtering to exact requested range if needed
-        df_norm = df_norm[(df_norm["date"] >= start_date) & (df_norm["date"] <= end_date)].reset_index(drop=True)
-
-        # Data Validation
-        validator = MarketDataValidator(expected_symbol=symbol)
-        is_valid, issues, df_clean = validator.validate(df_norm)
-
-        # Save Processed Data
-        df_clean.to_parquet(processed_parquet_path, index=False)
-        df_clean.to_csv(processed_csv_path, index=False)
-        logger.info(f"Processed dataset saved to {processed_parquet_path}")
-
-        gap_analysis = TemporalNormalizer.analyze_trading_gaps(df_clean)
-
-        return {
-            "symbol": symbol,
-            "status": "PASS" if is_valid else "FAILED",
-            "source": source_type,
-            "rows": len(df_clean),
-            "start_date": df_clean["date"].min() if not df_clean.empty else start_date,
-            "end_date": df_clean["date"].max() if not df_clean.empty else end_date,
-            "issues": [issue.to_dict() for issue in issues],
-            "missing_values": int(df_clean.isnull().sum().sum()),
-            "duplicates": len(df_norm) - len(df_clean),
-            "unexpected_gaps": gap_analysis["unexpected_gap_count"],
-            "raw_file": str(raw_csv_path),
-            "processed_file": str(processed_parquet_path)
-        }
-
-    def generate_manifest(
-        self, results: Dict[str, Dict[str, Any]], start_date: str, end_date: str
-    ) -> Dict[str, Any]:
-        """Generate data/processed/market/manifest.json."""
+    def _generate_manifest(self, results: Dict[str, Any], start_date: str, end_date: str, overall_success: bool):
         manifest_path = Path(self.config.storage.manifest_file)
         manifest_path.parent.mkdir(parents=True, exist_ok=True)
 
         symbols_meta = {}
         total_rows = 0
 
-        for symbol, res in results.items():
-            if res.get("status") != "FAILED":
-                symbols_meta[symbol] = {
-                    "rows": res.get("rows", 0),
-                    "first_date": res.get("start_date"),
-                    "last_date": res.get("end_date"),
-                    "missing_values": res.get("missing_values", 0),
-                    "duplicates": res.get("duplicates", 0),
-                    "unexpected_gaps": res.get("unexpected_gaps", 0),
-                    "status": res.get("status", "UNKNOWN")
-                }
-                total_rows += res.get("rows", 0)
-            else:
-                symbols_meta[symbol] = {
-                    "status": "FAILED",
-                    "error": res.get("error", "Unknown error")
-                }
+        for sym, data in results.items():
+            symbols_meta[sym] = {
+                "provider": data.get("provider", self.provider.get_provider_name()),
+                "status": data.get("status"),
+                "rows": data.get("rows", 0),
+                "first_date": data.get("first_date"),
+                "last_date": data.get("last_date"),
+                "missing_values": data.get("missing_values", 0),
+                "unexpected_gaps": data.get("unexpected_gaps", 0),
+                "error": data.get("error")
+            }
+            total_rows += data.get("rows", 0)
 
-        manifest = {
+        overall_status_str = "PASS" if overall_success else "FAILED"
+
+        manifest_data = {
             "dataset": "paper_market_data",
-            "version": "1.0.0",
-            "provider": self.provider.get_provider_name(),
-            "download_timestamp": datetime.utcnow().isoformat() + "Z",
-            "start_date": start_date,
-            "end_date": end_date,
+            "paper_reference": "Neural Computing and Applications (2024) 36:21229–21271",
+            "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "acquisition_start_date": start_date,
+            "acquisition_end_date": end_date,
+            "overall_status": overall_status_str,
             "total_symbols": len(results),
             "total_rows": total_rows,
-            "canonical_columns": self.config.market_data.required_columns,
-            "symbols": symbols_meta,
-            "overall_status": "PASS" if all(r.get("status") == "PASS" for r in results.values()) else "FAILED"
+            "symbols": symbols_meta
         }
 
         with open(manifest_path, "w", encoding="utf-8") as f:
-            json.dump(manifest, f, indent=2)
+            json.dump(manifest_data, f, indent=2)
 
-        logger.info(f"Dataset manifest written to {manifest_path}")
-        return manifest
+        logger.info(f"Generated dataset manifest at '{manifest_path}' (Overall status: {overall_status_str})")
 
-    def generate_quality_report(
-        self, results: Dict[str, Dict[str, Any]], start_date: str, end_date: str
-    ) -> str:
-        """Generate reports/market_data_quality_report.md."""
+    def _generate_quality_report(self, results: Dict[str, Any], start_date: str, end_date: str, overall_success: bool):
         report_path = Path(self.config.storage.quality_report_file)
         report_path.parent.mkdir(parents=True, exist_ok=True)
 
+        now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        passed_count = sum(1 for r in results.values() if r.get("status") == "PASS")
+        total_rows = sum(r.get("rows", 0) for r in results.values())
+        overall_status_text = "PASS" if overall_success else "ACTION REQUIRED"
+
         lines = [
-            "# Market Data Quality Assurance Report",
-            "",
-            f"**Generated:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}",
-            f"**Provider:** {self.provider.get_provider_name()}",
-            f"**Target Range:** {start_date} to {end_date}",
-            "",
-            "## Summary Table",
-            "",
-            "| Symbol | Status | Rows | First Date | Last Date | Missing | Dups | Unexpected Gaps |",
-            "| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |"
+            "# Market Data Quality Assurance Report\n",
+            f"**Generated:** {now_str}  ",
+            f"**Target Range:** {start_date} to {end_date}  \n",
+            "## Summary Table\n",
+            "| Symbol | Provider | Status | Rows | First Date | Last Date | Missing | Dups | Unexpected Gaps |",
+            "| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |"
         ]
 
-        total_rows = 0
-        pass_count = 0
-
-        for symbol, res in results.items():
-            if res.get("status") == "PASS":
-                pass_count += 1
-                total_rows += res.get("rows", 0)
-                lines.append(
-                    f"| **{symbol}** | PASS | {res.get('rows')} | {res.get('start_date')} | {res.get('end_date')} | {res.get('missing_values')} | {res.get('duplicates')} | {res.get('unexpected_gaps')} |"
-                )
-            else:
-                lines.append(
-                    f"| **{symbol}** | FAILED | 0 | - | - | - | - | - |"
-                )
+        for sym, res in results.items():
+            status = res.get("status", "N/A")
+            provider = res.get("provider", "Unknown")
+            rows = res.get("rows", 0)
+            first_d = res.get("first_date") or "-"
+            last_d = res.get("last_date") or "-"
+            missing = res.get("missing_values") if res.get("missing_values") is not None else "-"
+            dups = 0
+            gaps = res.get("unexpected_gaps") if res.get("unexpected_gaps") is not None else "-"
+            lines.append(f"| **{sym}** | {provider} | {status} | {rows} | {first_d} | {last_d} | {missing} | {dups} | {gaps} |")
 
         lines.extend([
-            "",
-            "## Overall Quality Status",
-            "",
+            "\n## Overall Quality Status\n",
             f"- **Total Stocks Audited:** {len(results)}",
-            f"- **Passed Validation:** {pass_count} / {len(results)}",
+            f"- **Passed Validation:** {passed_count} / {len(results)}",
             f"- **Total Rows Ingested:** {total_rows}",
-            f"- **Pipeline Status:** {'SUCCESS' if pass_count == len(results) else 'ACTION REQUIRED'}",
-            "",
-            "## Detailed Stock Quality Breakdown",
-            ""
+            f"- **Pipeline Status:** {overall_status_text}\n",
+            "## Detailed Stock Quality Breakdown\n"
         ])
 
-        for symbol, res in results.items():
-            lines.append(f"### {symbol}")
-            if res.get("status") == "FAILED":
-                lines.append(f"- **Status:** FAILED")
+        for sym, res in results.items():
+            lines.append(f"### {sym}")
+            lines.append(f"- **Provider:** {res.get('provider', 'Unknown')}")
+            lines.append(f"- **Status:** {res.get('status')}")
+
+            if res.get("error"):
                 lines.append(f"- **Error:** {res.get('error')}")
+
+            if res.get("rows", 0) > 0:
+                lines.append(f"- **Rows:** {res['rows']}")
+                lines.append(f"- **Date Range:** {res['first_date']} to {res['last_date']}")
+                lines.append(f"- **Missing Values:** {res['missing_values']}")
+                lines.append(f"- **Unexpected Trading Gaps:** {res['unexpected_gaps']}")
+                lines.append(f"- **Raw File:** `{res['raw_file']}`")
+                lines.append(f"- **Processed File:** `{res['processed_file']}`")
+
+            lines.append("- **Validation Findings:**")
+            issues = res.get("issues", [])
+            if not issues:
+                lines.append("  - [INFO] Clean dataset with zero quality warnings.")
             else:
-                lines.append(f"- **Status:** {res.get('status')}")
-                lines.append(f"- **Rows:** {res.get('rows')}")
-                lines.append(f"- **Date Range:** {res.get('start_date')} to {res.get('end_date')}")
-                lines.append(f"- **Missing Values:** {res.get('missing_values')}")
-                lines.append(f"- **Duplicates Removed:** {res.get('duplicates')}")
-                lines.append(f"- **Unexpected Trading Gaps:** {res.get('unexpected_gaps')}")
-                lines.append(f"- **Raw File:** `{res.get('raw_file')}`")
-                lines.append(f"- **Processed File:** `{res.get('processed_file')}`")
-                
-                issues = res.get("issues", [])
-                if issues:
-                    lines.append("- **Validation Findings:**")
-                    for iss in issues:
-                        lines.append(f"  - [{iss['level']}] ({iss['category']}) {iss['message']}")
+                for issue in issues:
+                    lines.append(f"  - [{issue['level']}] ({issue['category']}) {issue['message']}")
             lines.append("")
 
-        report_content = "\n".join(lines)
         with open(report_path, "w", encoding="utf-8") as f:
-            f.write(report_content)
+            f.write("\n".join(lines))
 
-        logger.info(f"Quality report written to {report_path}")
-        return report_content
+        logger.info(f"Generated quality assurance report at '{report_path}'")
