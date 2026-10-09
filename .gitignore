@@ -34,6 +34,12 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Research PDFs (Keep local, exclude from public push)
+*.pdf
+
+# Temporary Investigation Files
+tmp_investigation/
+
 # Data directories (keep directory structure and manifests)
 data/raw/*
 !data/raw/.gitkeep

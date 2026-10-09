@@ -18,6 +18,7 @@ class CanonicalMarketSchema:
         "close": "close",
         "adjclose": "adj_close",
         "adj_close": "adj_close",
+        "adj close": "adj_close",
         "volume": "volume"
     }
 
