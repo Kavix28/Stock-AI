@@ -4,7 +4,6 @@ and mux into Stock_AI_Project_Explained.mp4 with AAC audio track.
 """
 import os
 import subprocess
-import json
 
 ROOT = r"C:\PROJECTS\multimodal-stock-ai"
 AUDIO_DIR = os.path.join(ROOT, "video", "assets", "audio")
@@ -15,13 +14,13 @@ CHAPTERS = [
         "id": 1,
         "duration": 45,
         "text": (
-            "Welcome to the technical overview of Stock-AI: a rigorous quantitative machine learning platform "
+            "Welcome to the technical overview of Stock-AI: a quantitative machine learning platform "
             "investigating multimodal deep fusion for stock trend prediction. "
             "Financial markets represent one of the lowest signal-to-noise ratio domains in applied artificial intelligence. "
-            "While academic literature frequently reports dramatic directional forecasting accuracies exceeding 65 or 70 percent, "
-            "such results frequently collapse under strict out-of-sample forward testing. "
+            "While academic literature frequently reports inflated directional forecasting accuracies, "
+            "such claims often collapse under rigorous out-of-sample forward testing. "
             "In this project, our primary research objective is twofold: first, to establish an academically rigorous, "
-            "leakage-free benchmark across twelve diverse equities over sixteen years of historical market data; and second, "
+            "leakage-free benchmark across equities with zero lookahead bias; and second, "
             "to systematically evaluate whether fusing high-dimensional financial news sentiment with temporal price sequences "
             "yields genuine predictive alpha beyond classical econometric baselines."
         )
@@ -41,7 +40,7 @@ CHAPTERS = [
             "capturing sequential momentum and mean-reversion dynamics. "
             "The linguistic branch processes financial news headlines through FinBERT, a domain-specialized transformer pre-trained on corporate filings and market commentary, "
             "extracting dense 768-dimensional semantic embeddings. "
-            "These two streams are projected into a common sixty-four-dimensional latent space for downstream fusion."
+            "These two streams are projected into a common sixty-four-dimensional latent subspace for downstream multimodal fusion."
         )
     },
     {
@@ -56,10 +55,10 @@ CHAPTERS = [
             "and an untouched out-of-sample forward test horizon from July 2024 through October 2026 comprising six thousand two hundred and ninety-two target sessions. "
             "Second: Sequence Isolation. Every twenty-day market window strictly terminates on session t minus one. "
             "Under no circumstances do current-day open, high, low, or volume enter the model prior to forecasting day t. "
-            "MinMax scaling parameters are fitted solely on training data, preventing distributional leakage across temporal boundaries. "
-            "Third: Handling Corporate Actions. We document and audit our twelve-stock universe with complete transparency. "
-            "For Activision Blizzard, which was delisted in October 2023 following its acquisition by Microsoft, "
-            "we enforce a historical fallback provider, evaluating its performance strictly on historical 2022 targets rather than fabricating modern observations."
+            "MinMax scaling parameters are fitted solely on training data, preventing cross-temporal distributional leakage. "
+            "Third: Handling Corporate Actions. For Activision Blizzard, which was delisted in October 2023, "
+            "full twelve-ticker validation is marked BLOCKED due to unverified legacy data. "
+            "All modern forward-testing benchmarks are strictly evaluated across the eleven validated active equities."
         )
     },
     {
@@ -83,16 +82,13 @@ CHAPTERS = [
         "duration": 105,
         "text": (
             "Let us examine the empirical results across our six thousand two hundred and ninety-two forward test observations. "
-            "Our highest overall directional accuracy is achieved by the Shared Multi-Ticker BiLSTM at 52.13 percent, "
-            "closely followed by the Training-Majority baseline at 51.21 percent. "
-            "While an accuracy of 52 percent may appear modest compared to uncalibrated literature claims, "
-            "this is precisely what empirical quantitative theory predicts: in modern efficient markets, daily directional predictability rarely exceeds fifty-two to fifty-four percent. "
-            "Crucially, our shared multi-ticker architecture outperforms individual per-ticker models by three point five five percentage points, "
-            "confirming that pooling market sequences across eleven diverse equities acts as an effective regularizer, mitigating idiosyncratic overfitting. "
-            "We also uncover a critical trade-off between Accuracy and Macro F1. "
-            "While neural networks converge toward predicting the empirical market drift—where approximately fifty-two percent of trading sessions are upward—"
-            "linear models achieve higher Macro F1 scores around 0.47 by making balanced predictions across both bull and bear sessions. "
-            "Validation threshold calibration enables researchers to shift between maximum accuracy and balanced sensitivity depending on their risk objectives."
+            "The Training-Majority baseline achieves 52.13 percent accuracy simply by aligning with the upward drift of US equities during 2024 to 2026. "
+            "The BiLSTM three-seed ensemble achieves 51.30 percent accuracy while making balanced predictions across both bull and bear sessions. "
+            "Direction Persistence achieves the highest Macro F1 among baselines at 0.4953, while Logistic Regression achieves 0.4930. "
+            "While directional accuracies near 51 to 52 percent may appear modest compared to uncalibrated literature claims, "
+            "this is precisely what empirical quantitative finance predicts: in modern efficient markets, daily returns are near-martingale sequences. "
+            "Crucially, these modest edges do not translate into a risk-free trading arbitrage after transaction costs. "
+            "Stock-AI demonstrates that claims of sixty-five to seventy-five percent directional predictability are artifacts of future data leakage."
         )
     },
     {
@@ -101,7 +97,7 @@ CHAPTERS = [
         "text": (
             "To make these research findings accessible, transparent, and actionable, we have transformed Stock-AI into a full-stack platform. "
             "The core computational engine is packaged as a modular, testable Python library under src/stock_ai, "
-            "complete with automated data pipelines, technical indicator calculators, and forty passing automated unit, integration, and regression tests. "
+            "complete with automated data pipelines, technical indicator calculators, and fifty-one passing automated unit and integration tests. "
             "Above the core library sits a high-performance FastAPI service. "
             "It exposes RESTful endpoints for ticker metadata, historical OHLCV series, technical indicators, benchmark metrics, and point-in-time inference. "
             "Finally, we built a modern research dashboard using React, TypeScript, and Vite. "
@@ -149,8 +145,6 @@ def pad_and_concat():
         raw_wav = synthesize_chapter(ch)
         target_dur = ch["duration"]
         padded_wav = os.path.join(AUDIO_DIR, f"chapter_{ch['id']:02d}_padded.wav")
-        # Pad with silence or trim to exactly target_dur
-        # apad filter adds silence at the end up to target_dur
         cmd = [
             "ffmpeg", "-y",
             "-i", raw_wav,
@@ -161,7 +155,6 @@ def pad_and_concat():
         subprocess.run(cmd, check=True, capture_output=True)
         padded_wavs.append(padded_wav)
 
-    # Concat all padded wavs
     concat_list = os.path.join(AUDIO_DIR, "audio_concat.txt")
     with open(concat_list, "w") as f:
         for pw in padded_wavs:
@@ -199,7 +192,6 @@ def mux_video_with_audio(audio_path):
     if res.returncode != 0:
         print("Mux error:", res.stderr)
     else:
-        # Replace original with muxed
         os.replace(temp_muxed, video_in)
         print("Muxed video with audio successfully replaced original!")
 

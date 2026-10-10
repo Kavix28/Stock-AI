@@ -56,11 +56,13 @@ node_modules/
 frontend/dist/
 frontend/.vite/
 
-# Large Video Output Binaries (Keep scripts, storyboard, captions; ignore large mp4 and wav)
+# Large Video Output Binaries (Keep scripts, storyboard, captions; ignore large mp4, bak, and wav)
 video/output/*.mp4
+video/output/*.bak
 video/render/
 video/assets/audio/
 *.wav
+*.bak
 
 # Data directories (keep manifests and sample/metadata; ignore large bulk dumps)
 data/raw/*
