@@ -209,19 +209,21 @@ Any machine learning model must be evaluated against standard econometric baseli
 
 Out-of-sample forward evaluation on **6,292 test observations** across 11 active equities (July 2024 – October 2026):
 
-| Model Architecture                 | Pooled Accuracy | Balanced Acc | Macro F1   | Total Predictions | Evaluation Scope     |
-| :--------------------------------- | :-------------- | :----------- | :--------- | :---------------- | :------------------- |
-| **Shared Multi-Ticker BiLSTM**     | **52.13%**      | 50.00%       | 0.3426     | 6,292             | Pooled 11 Tickers    |
-| **Training Majority Baseline**     | **51.21%**      | 50.00%       | 0.3382     | 6,292             | Heuristic Floor      |
-| **Next-Day LR (20-Day Flat)**      | 50.19%          | 50.08%       | 0.4930     | 6,292             | Linear Classifier    |
-| **Next-Day LR (t-1 Endpoint)**     | 49.90%          | 49.88%       | 0.4938     | 6,292             | Linear Classifier    |
-| **Direction Persistence (Lag-1)**  | 49.63%          | 49.53%       | **0.4953** | 6,292             | Momentum Heuristic   |
-| **Individual BiLSTM (Per-Ticker)** | 48.58%          | 50.00%       | 0.3590     | 6,292             | Recurrent Deep Model |
+| Model Architecture                | Pooled Accuracy | Balanced Acc | Macro F1   | Total Predictions | Evaluation Scope        |
+| :-------------------------------- | :-------------- | :----------- | :--------- | :---------------- | :---------------------- |
+| **Majority Baseline**             | **52.13%**      | 50.00%       | 0.3427     | 6,292             | Heuristic Floor (Drift) |
+| **BiLSTM (3-Seed Ensemble)**      | 51.30%          | 50.12%       | 0.4648     | 6,292             | Deep Recurrent Ensemble |
+| **BiLSTM (Seed 123)**             | 50.52%          | **50.58%**   | **0.5052** | 6,292             | Deep Recurrent Model    |
+| **Next-Day LR (20-Day Flat)**     | 50.11%          | 49.66%       | 0.4930     | 6,292             | Linear Classifier       |
+| **Next-Day LR (t-1 Endpoint)**    | 49.95%          | 49.59%       | 0.4938     | 6,292             | Linear Classifier       |
+| **Direction Persistence (Lag-1)** | 49.62%          | 49.53%       | 0.4953     | 6,292             | Momentum Heuristic      |
+| **BiLSTM (Seed 42)**              | 48.82%          | 49.22%       | 0.4856     | 6,292             | Deep Recurrent Model    |
+| **BiLSTM (Seed 7)**               | 48.43%          | 48.74%       | 0.4828     | 6,292             | Deep Recurrent Model    |
 
 > [!NOTE]
-> **Macro F1 Clarification:** Direction Persistence achieves the highest overall Macro F1 (**0.4953**) among all models because it predicts both Up and Down regimes near 50/50 without parameter training. Among _trained parametric classifiers_, Logistic Regression achieves the highest Macro F1 (**0.4930**).
+> **Macro F1 & Baseline Classification:** Direction Persistence achieves the highest Macro F1 (**0.4953**) among heuristic baselines because it predicts both Up and Down regimes near 50/50 without parameter training. Among linear classifiers, Logistic Regression achieves a Macro F1 of **0.4930**, while balanced BiLSTM models achieve up to **0.5052**.
 >
-> **Marginal Edge Over Majority:** The Shared Multi-Ticker BiLSTM achieves 52.13% accuracy versus 51.21% for the Majority baseline—an improvement of only **+0.92%** (58 additional sessions correctly classified out of 6,292). This confirms that daily market returns are near-martingale sequences and directional edge is highly constrained.
+> **Absence of Trading Edge:** The Majority baseline achieves 52.13% accuracy simply by aligning with upward market drift (3,280 Up sessions out of 6,292). The trained BiLSTM ensemble achieves 51.30% accuracy. Crucially, a daily directional accuracy of ~51% does **not** generate a profitable trading strategy once realistic transaction costs, exchange fees, and bid-ask spreads are included.
 
 ---
 
@@ -229,14 +231,14 @@ Out-of-sample forward evaluation on **6,292 test observations** across 11 active
 
 Our empirical findings reveal a fundamental quantitative tradeoff:
 
-- **Drift-Aligned Models:** Recurrent neural networks converge toward predicting the empirical market drift (~52% Up days in US equities), maximizing overall accuracy (52.13%) at the expense of Down-class recall.
-- **Regime-Balanced Models:** Linear models (Logistic Regression) maintain sensitivity across both Up and Down sessions, achieving higher Macro F1 scores (0.4930) while sacrificing top-line accuracy.
+- **Drift-Aligned Heuristics:** The Majority baseline maximizes raw accuracy (52.13%) by predicting only the market drift, collapsing Down-class recall to 0%.
+- **Regime-Balanced Models:** Linear models (Logistic Regression) and balanced neural configurations maintain sensitivity across both Up and Down sessions, achieving higher Macro F1 scores (~0.49–0.50) while sacrificing top-line raw accuracy.
 
 ---
 
 ## 15. Financial Reality & Limitations
 
-In modern liquid equity markets, out-of-sample point-in-time directional predictability is bounded near **52% to 54%**. Claims of 65% to 75% accuracy in daily financial forecasting are virtually always artifacts of:
+In modern liquid equity markets, out-of-sample point-in-time directional predictability is bounded near **50% to 52%**. Claims of 65% to 75% accuracy in daily financial forecasting are virtually always artifacts of:
 
 1. Target leakage (using current-day prices in feature calculation).
 2. Lookahead bias in news timestamp alignment.
