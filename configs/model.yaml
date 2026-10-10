@@ -1,0 +1,54 @@
+# Stock-AI Model Architecture Configuration
+
+baselines:
+  majority_baseline:
+    strategy: empirical_training_majority
+  direction_persistence:
+    strategy: lag1_direction
+  logistic_regression_endpoint:
+    max_iter: 1000
+    features: endpoint_t_minus_1
+  logistic_regression_flat:
+    max_iter: 1000
+    features: flattened_20_day_window
+
+market_bilstm:
+  sequence_length: 20
+  feature_dim: 16
+  layers:
+    - type: BidirectionalLSTM
+      units: 64
+      return_sequences: true
+    - type: Dropout
+      rate: 0.2
+    - type: BidirectionalLSTM
+      units: 32
+      return_sequences: false
+    - type: Dropout
+      rate: 0.2
+    - type: Dense
+      units: 32
+      activation: relu
+    - type: Dense
+      units: 1
+      activation: sigmoid
+  optimizer:
+    name: Adam
+    learning_rate: 0.001
+  loss: binary_crossentropy
+
+shared_bilstm:
+  pooling_scope: all_active_tickers
+  batch_size: 64
+  epochs: 10
+  early_stopping_patience: 4
+
+fusion_architectures:
+  finbert_lstm:
+    frozen_embeddings_dim: 768
+    market_rep_dim: 64
+    news_rep_dim: 64
+  gmu_fusion:
+    projected_dim: 64
+    gate_activation: sigmoid
+    combination: convex_gated

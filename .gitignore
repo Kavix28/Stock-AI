@@ -34,23 +34,33 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Environment variables & secrets
+.env
+.env.local
+*.key
+*.pem
+
 # Research PDFs (Keep local, exclude from public push)
 *.pdf
 
-# Temporary Investigation Files
+# Temporary Investigation Files & Caches
 tmp_investigation/
-
-# Data directories (keep directory structure and manifests)
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-!data/processed/market/
-!data/processed/market/manifest.json
-data/processed/market/*.parquet
-data/processed/market/*.csv
-
-# Cache
 .cache/
 .pytest_cache/
 .mypy_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large Video Output Binaries (Keep scripts, storyboard, captions; ignore large mp4)
+video/output/*.mp4
+video/render/
+
+# Data directories (keep manifests and sample/metadata; ignore large bulk dumps)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/market/*.parquet

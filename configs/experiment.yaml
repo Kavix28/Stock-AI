@@ -1,0 +1,36 @@
+# Stock-AI Experiment Execution Configuration
+
+experiment_meta:
+  project_name: Stock-AI
+  research_title: Multimodal AI for Stock Trend Prediction
+  paper_doi: 10.1007/s00521-024-10303-1
+
+execution:
+  random_seeds:
+    - 42
+    - 123
+    - 7
+  epochs: 10
+  batch_size: 32
+  early_stopping:
+    monitor: val_loss
+    patience: 4
+    restore_best_weights: true
+
+threshold_calibration:
+  method: val_grid_search
+  metric: macro_f1
+  range:
+    min: 0.30
+    max: 0.70
+    step: 0.02
+  default_threshold: 0.50
+
+reporting:
+  metrics:
+    - accuracy
+    - balanced_accuracy
+    - macro_f1
+    - confusion_matrix
+    - prediction_counts
+  export_predictions: true

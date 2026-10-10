@@ -1,0 +1,97 @@
+# Stock-AI Data Configuration
+# Defines universe, feature allowlists, date partitions, and schemas.
+
+stock_universe:
+  tickers:
+    - symbol: AAPL
+      name: Apple Inc.
+      sector: Information Technology
+      delisted: false
+    - symbol: AMT
+      name: American Tower Corporation
+      sector: Real Estate
+      delisted: false
+    - symbol: ATVI
+      name: Activision Blizzard, Inc.
+      sector: Communication Services
+      delisted: true
+      delisted_date: "2023-10-13"
+      fallback_source: historical_archive
+    - symbol: BIO
+      name: Bio-Rad Laboratories, Inc.
+      sector: Health Care
+      delisted: false
+    - symbol: JNJ
+      name: Johnson & Johnson
+      sector: Health Care
+      delisted: false
+    - symbol: NDAQ
+      name: Nasdaq, Inc.
+      sector: Financials
+      delisted: false
+    - symbol: NFLX
+      name: Netflix, Inc.
+      sector: Communication Services
+      delisted: false
+    - symbol: NVDA
+      name: NVIDIA Corporation
+      sector: Information Technology
+      delisted: false
+    - symbol: PLD
+      name: Prologis, Inc.
+      sector: Real Estate
+      delisted: false
+    - symbol: SBUX
+      name: Starbucks Corporation
+      sector: Consumer Discretionary
+      delisted: false
+    - symbol: SCHW
+      name: The Charles Schwab Corporation
+      sector: Financials
+      delisted: false
+    - symbol: TSLA
+      name: Tesla, Inc.
+      sector: Consumer Discretionary
+      delisted: false
+
+data_paths:
+  raw_market_dir: data/raw/market
+  processed_market_dir: data/processed/market
+  processed_news_dir: data/processed/news
+  manifests_dir: data/manifests
+  results_dir: results/latest
+
+partitions:
+  train_cutoff: "2023-01-01"
+  val_cutoff: "2024-07-01"
+  test_start: "2024-07-01"
+  test_end: "2026-10-09"
+  atvi_historical_test:
+    start: "2022-01-03"
+    end: "2022-09-20"
+
+features:
+  core_market_features:
+    - high
+    - close
+    - open
+    - volume
+    - low
+    - adjclose
+    - rsi
+    - 12-Day EMA
+    - 26-Day EMA
+    - MACD
+    - SAR
+    - Upper Band
+    - Middle Band
+    - Lower Band
+    - Slow k
+    - Slow d
+  forbidden_columns:
+    - Diff
+    - NextDayTrend
+    - PrevDayTrend
+    - NextDayClose
+    - return
+    - target
