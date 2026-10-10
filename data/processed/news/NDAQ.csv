@@ -1,0 +1,428 @@
+date,symbol,close,rsi,26-Day EMA,NextDayClose,Diff,Titles,filename
+2021-01-05,NDAQ,43.9900016784668,60.79327058513864,0.2557949819291437,45.133331298828125,1,Nasdaq Advances Corporate Sustainability Leadership in 2020,headlinesIter1.csv
+2021-01-06,NDAQ,45.133331298828125,67.94311622387596,0.3100688925752973,45.59999847412109,1,Nasdaq Led all Exchanges in 2020 Equity Options Trading,headlinesIter2.csv
+2021-01-07,NDAQ,45.59999847412109,70.32209097242702,0.377684915881361,46.27000045776367,1,Nasdaq Led all Exchanges in 2020 Equity Options Trading,headlinesIter3.csv
+2021-01-08,NDAQ,46.27000045776367,73.37687857949582,0.4599476432673162,46.96666717529297,1,Nasdaq Led all Exchanges in 2020 Equity Options Trading,headlinesIter4.csv
+2021-01-11,NDAQ,46.96666717529297,76.12834324530888,0.5571448897906632,47.30666732788086,1,Nasdaq Led all Exchanges in 2020 Equity Options Trading,headlinesIter5.csv
+2021-01-12,NDAQ,47.30666732788086,77.3582003182273,0.6627622212623192,47.49666595458984,1,"Nasdaq December 2020 Volumes, 4Q20 Statistics, Issues Update to Expense Guidance",headlinesIter6.csv
+2021-01-13,NDAQ,47.49666595458984,78.03909257669459,0.7696412117713249,47.37666702270508,0,Nasdaq Welcomed 79 Listings to its European Markets in 2020,headlinesIter7.csv
+2021-01-14,NDAQ,47.37666702270508,76.47487263993058,0.8680395315534917,46.68000030517578,0,"Nasdaq Halts Generations Bancorp NY, Inc.",headlinesIter8.csv
+2021-01-15,NDAQ,46.68000030517578,67.95837626681102,0.9428707804316612,47.41999816894531,1,"Nasdaq Resumes Trading in Generations Bancorp NY, Inc.",headlinesIter9.csv
+2021-01-19,NDAQ,47.41999816894531,71.5789131156653,1.0086651086104748,47.88999938964844,1,"Nasdaq Resumes Trading in Generations Bancorp NY, Inc.",headlinesIter10.csv
+2021-01-20,NDAQ,47.88999938964844,73.61792871596182,1.0705458657257572,47.133331298828125,0,"Nasdaq Resumes Trading in Generations Bancorp NY, Inc.",headlinesIter11.csv
+2021-01-21,NDAQ,47.133331298828125,65.4739017005708,1.11221759273827,46.80666732788086,0,"Nasdaq Resumes Trading in Generations Bancorp NY, Inc.",headlinesIter12.csv
+2021-01-22,NDAQ,46.80666732788086,62.271151909349065,1.1312914886649297,47.43333435058594,1,Nasdaq Appoints Jeremy Skule Chief Strategy Officer,headlinesIter13.csv
+2021-01-25,NDAQ,47.43333435058594,65.73403655220568,1.1426212809228642,47.04333114624024,0,Nasdaq Appoints Jeremy Skule Chief Strategy Officer,headlinesIter14.csv
+2021-01-26,NDAQ,47.04333114624024,61.92474079242353,1.139676754224276,47.06666564941406,1,Nasdaq Appoints Jeremy Skule Chief Strategy Officer,headlinesIter15.csv
+2021-01-27,NDAQ,47.06666564941406,62.06638333339964,1.125714452412335,46.34333419799805,0,Nasdaq Reports Fourth Quarter and Full Year 2020 Results; Delivers Strong Growth in Revenue and EPS,headlinesIter16.csv
+2021-01-28,NDAQ,46.34333419799805,55.210042535278646,1.0914722877472385,45.09000015258789,0,Nasdaq Reports Fourth Quarter and Full Year 2020 Results; Delivers Strong Growth in Revenue and EPS,headlinesIter17.csv
+2021-01-29,NDAQ,45.09000015258789,45.774376422057856,1.0238302299700304,46.20333480834961,1,Nasdaq Named to 2021 Bloomberg Gender-Equality Index,headlinesIter18.csv
+2021-02-01,NDAQ,46.20333480834961,53.39409607468224,0.954228762696314,47.53666687011719,1,"Delisting of Securities of Superconductor Technologies Inc.; Gulfport Energy Corporation; Apex Global Brands Inc.; Pareteum Corporation; and Youngevity International, Inc. from The Nasdaq Stock Market",headlinesIter19.csv
+2021-02-02,NDAQ,47.53666687011719,60.54462114543766,0.9061454533836968,47.38666534423828,0,Nasdaq Agrees to Sell U.S. Fixed Income Business to Tradeweb Markets,headlinesIter20.csv
+2021-02-03,NDAQ,47.38666534423828,59.43973906453069,0.8696114396128618,47.856666564941406,1,Nasdaq Agrees to Sell U.S. Fixed Income Business to Tradeweb Markets,headlinesIter21.csv
+2021-02-04,NDAQ,47.856666564941406,61.79249580375144,0.8477480485110371,47.52999877929688,0,Nasdaq’s European Debt Market Showed Continued Growth in 2020,headlinesIter22.csv
+2021-02-05,NDAQ,47.52999877929688,59.22123714295749,0.8290820515546194,47.48333358764648,0,Nasdaq Recognized as a “Best Place to Work for LGBTQ Equality” for the Third Consecutive Year,headlinesIter23.csv
+2021-02-08,NDAQ,47.48333358764648,58.844544046222666,0.8107644601295445,47.709999084472656,1,Nasdaq Celebrates 50 Years of Innovation,headlinesIter24.csv
+2021-02-09,NDAQ,47.709999084472656,60.16979986730735,0.7953939003661222,47.4900016784668,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date January 29, 2021",headlinesIter25.csv
+2021-02-10,NDAQ,47.4900016784668,58.21054560689546,0.7773534393812883,47.456668853759766,0,"How NYSE, Nasdaq’s battle with SEC over market data could affect retail investors",headlinesIter26.csv
+2021-02-11,NDAQ,47.456668853759766,57.90289924454255,0.7562816953296333,47.33000183105469,0,Nasdaq Completes Acquisition of Verafin,headlinesIter27.csv
+2021-02-12,NDAQ,47.33000183105469,56.67705990308111,0.7306700000883424,47.99666595458984,1,U.S. Senate Republicans ask SEC to reject Nasdaq diversity rules,headlinesIter28.csv
+2021-02-16,NDAQ,47.99666595458984,61.3186145820997,0.7125262507799468,48.22999954223633,1,U.S. Senate Republicans ask SEC to reject Nasdaq diversity rules,headlinesIter29.csv
+2021-02-17,NDAQ,48.22999954223633,62.82005847872537,0.702113100282685,48.29333114624024,1,U.S. Senate Republicans ask SEC to reject Nasdaq diversity rules,headlinesIter30.csv
+2021-02-18,NDAQ,48.29333114624024,63.23716216612502,0.6965013748845529,48.143333435058594,0,"Nasdaq and PBHFA Host “Air Mobility – Investing in the Flight of the Future” Featuring Archer, United Airlines on Feb. 22",headlinesIter31.csv
+2021-02-19,NDAQ,48.143333435058594,61.4780078392427,0.6902126722402937,47.206668853759766,0,"Nasdaq and PBHFA Host “Air Mobility – Investing in the Flight of the Future” Featuring Archer, United Airlines on Feb. 22",headlinesIter32.csv
+2021-02-22,NDAQ,47.206668853759766,51.789489829237176,0.6673122469220767,46.77999877929688,0,"Watch Replay: Nasdaq and PBHFA Host “Air Mobility – Investing in the Flight of the Future” Featuring Archer, United Airlines",headlinesIter33.csv
+2021-02-23,NDAQ,46.77999877929688,48.07301103988575,0.626872182353303,47.33000183105469,1,Nasdaq pushed to add disabled people to its board diversity proposal,headlinesIter34.csv
+2021-02-24,NDAQ,47.33000183105469,52.77734382528065,0.5849047556674465,46.77333450317383,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 12, 2021",headlinesIter35.csv
+2021-02-25,NDAQ,46.77333450317383,48.034155463945496,0.5339655915018027,46.0966682434082,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 12, 2021",headlinesIter36.csv
+2021-02-26,NDAQ,46.0966682434082,42.977873975495655,0.4680606006900222,47.290000915527344,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 12, 2021",headlinesIter37.csv
+2021-03-01,NDAQ,47.290000915527344,52.47833034570783,0.4142022892289593,46.880001068115234,0,"Nasdaq, Easterly, MorganFranklin, V&amp;E, Mizuho to Host “SPAC to the Future” on March 4 Featuring SwitchBack, Haymaker, InterPrivate",headlinesIter38.csv
+2021-03-02,NDAQ,46.880001068115234,49.43108083455036,0.3632325857768726,45.56999969482422,0,"Nasdaq, Easterly, MorganFranklin, V&amp;E, Mizuho to Host “SPAC to the Future” on March 4 Featuring SwitchBack, Haymaker, InterPrivate",headlinesIter39.csv
+2021-03-03,NDAQ,45.56999969482422,41.19935080148152,0.2950171345938516,46.0,1,Nasdaq February 2021 Volumes,headlinesIter40.csv
+2021-03-04,NDAQ,46.0,44.46833913932164,0.2257563495141677,48.23333358764648,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter41.csv
+2021-03-05,NDAQ,48.23333358764648,57.64037429603496,0.1945881228373582,48.33000183105469,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter42.csv
+2021-03-08,NDAQ,48.33000183105469,58.10361180366526,0.1900282434092721,48.883331298828125,1,"Be Sure To Check Out Nasdaq, Inc. (NASDAQ:NDAQ) Before It Goes Ex-Dividend",headlinesIter43.csv
+2021-03-09,NDAQ,48.883331298828125,60.74955686406716,0.2107799326450027,48.18333435058594,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 26, 2021",headlinesIter44.csv
+2021-03-10,NDAQ,48.18333435058594,55.93674934868712,0.2346601323303909,48.03333282470703,0,Nasdaq Foundation Grant Program to Engage More Communities in Markets and Entrepreneurship,headlinesIter45.csv
+2021-03-11,NDAQ,48.03333282470703,54.93243778191198,0.2563213575825237,48.13999938964844,1,Nasdaq Foundation Grant Program to Engage More Communities in Markets and Entrepreneurship,headlinesIter46.csv
+2021-03-12,NDAQ,48.13999938964844,55.54369211020206,0.2765738499504709,48.663333892822266,1,NASDAQ Rises 2.5% While S&amp;P Hits New Record,headlinesIter47.csv
+2021-03-15,NDAQ,48.663333892822266,58.51651385431367,0.3026008353204752,48.4900016784668,0,NASDAQ Rises 2.5% While S&amp;P Hits New Record,headlinesIter48.csv
+2021-03-16,NDAQ,48.4900016784668,57.15330797821319,0.327427680693321,48.00666809082031,0,Nasdaq to Deliver Execution Platform Technology to PureStream,headlinesIter49.csv
+2021-03-17,NDAQ,48.00666809082031,53.41641937625884,0.3417432582894993,48.31333160400391,1,"Nasdaq (NDAQ) Ties Up With PureStream, Offers Execution Platform",headlinesIter50.csv
+2021-03-18,NDAQ,48.31333160400391,55.40856043579117,0.3528338658815742,48.58000183105469,1,Nasdaq to Hold First Quarter 2021 Investor Conference Call,headlinesIter51.csv
+2021-03-19,NDAQ,48.58000183105469,57.12560790624246,0.3647721247505226,49.040000915527344,1,Nasdaq to Hold First Quarter 2021 Investor Conference Call,headlinesIter52.csv
+2021-03-22,NDAQ,49.040000915527344,59.98774822692643,0.3831234790353388,49.18999862670898,1,Is Enphase Energy (ENPH) Stock A Buy or Sell?,headlinesIter53.csv
+2021-03-23,NDAQ,49.18999862670898,60.9042531635427,0.406052338938501,49.11000061035156,0,Is Enphase Energy (ENPH) Stock A Buy or Sell?,headlinesIter54.csv
+2021-03-24,NDAQ,49.11000061035156,60.11340625265742,0.4284465249130746,48.856666564941406,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date March 15, 2021",headlinesIter55.csv
+2021-03-25,NDAQ,48.856666564941406,57.564248775728025,0.4443133343621531,50.2400016784668,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date March 15, 2021",headlinesIter56.csv
+2021-03-26,NDAQ,50.2400016784668,66.03427481165664,0.4763147701325435,50.27999877929688,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter57.csv
+2021-03-29,NDAQ,50.27999877929688,66.24406673548184,0.516304021632438,49.150001525878906,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter58.csv
+2021-03-30,NDAQ,49.150001525878906,55.76458292973191,0.5399983711279049,49.1533317565918,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter59.csv
+2021-03-31,NDAQ,49.1533317565918,55.78678158422653,0.5510596611458772,50.28333282470703,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter60.csv
+2021-04-01,NDAQ,50.28333282470703,62.63810723730266,0.5703954737597166,50.70000076293945,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter61.csv
+2021-04-05,NDAQ,50.70000076293945,64.80388139103349,0.5992516285219602,50.88666534423828,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter63.csv
+2021-04-06,NDAQ,50.88666534423828,65.7614205738881,0.6341745706844305,50.2599983215332,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter64.csv
+2021-04-07,NDAQ,50.2599983215332,59.87233849603344,0.6596258208485092,51.17333221435547,1,Is ANET Stock A Buy or Sell?,headlinesIter65.csv
+2021-04-08,NDAQ,51.17333221435547,64.81750053708362,0.6908744895324175,52.03333282470703,1,Nasdaq March 2021 Volumes and 1Q21 Statistics,headlinesIter66.csv
+2021-04-09,NDAQ,52.03333282470703,68.7257113704275,0.7362649257289222,52.02999877929688,0,Nasdaq March 2021 Volumes and 1Q21 Statistics,headlinesIter67.csv
+2021-04-12,NDAQ,52.02999877929688,68.69385277652124,0.7864084167170965,52.643333435058594,1,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date March 31, 2021",headlinesIter68.csv
+2021-04-13,NDAQ,52.643333435058594,71.32708901974436,0.8448954380724405,52.47999954223633,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date March 31, 2021",headlinesIter69.csv
+2021-04-14,NDAQ,52.47999954223633,69.64702337048129,0.9010144518425326,53.34999847412109,1,"Coinbase is really worth $5 billion, not $100 billion: strategist",headlinesIter70.csv
+2021-04-15,NDAQ,53.34999847412109,73.25996403434024,0.9645341235469695,53.38999938964844,1,"Coinbase is really worth $5 billion, not $100 billion: strategist",headlinesIter71.csv
+2021-04-16,NDAQ,53.38999938964844,73.41664105066057,1.027802400990182,52.87666702270508,0,"Coinbase is really worth $5 billion, not $100 billion: strategist",headlinesIter72.csv
+2021-04-19,NDAQ,52.87666702270508,67.91698998285912,1.0770639940513442,53.22666549682617,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter73.csv
+2021-04-20,NDAQ,53.22666549682617,69.58967392581819,1.118093269116668,53.106666564941406,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter74.csv
+2021-04-21,NDAQ,53.106666564941406,68.27536123798299,1.147348990751409,53.2400016784668,1,"Fintech Spotlight: Nasdaq Democratizes Information, Fuels On-Demand Finance Trend",headlinesIter75.csv
+2021-04-22,NDAQ,53.2400016784668,68.9764882411734,1.1672038873443653,54.15666580200195,1,Nasdaq Launches Nasdaq-100® Micro Index Options (XND),headlinesIter76.csv
+2021-04-23,NDAQ,54.15666580200195,73.33891553235131,1.192090249394354,53.34333419799805,0,"Delisting of Securities of Interpace Biosciences, Inc., Francesca's Holdings Corporation, and Wins Finance Holdings Inc. from The Nasdaq Stock Market",headlinesIter77.csv
+2021-04-26,NDAQ,53.34333419799805,64.65207568777335,1.2031324067631186,53.59999847412109,1,Is Realty Income (O) Stock A Buy or Sell?,headlinesIter78.csv
+2021-04-27,NDAQ,53.59999847412109,66.01991249054142,1.206271183207165,53.21666717529297,0,Is Realty Income (O) Stock A Buy or Sell?,headlinesIter79.csv
+2021-04-28,NDAQ,53.21666717529297,62.15164469262201,1.1954265707337988,53.96333312988281,1,Is Realty Income (O) Stock A Buy or Sell?,headlinesIter80.csv
+2021-04-29,NDAQ,53.96333312988281,66.29432456865712,1.1855739337498783,53.8466682434082,0,Is Realty Income (O) Stock A Buy or Sell?,headlinesIter81.csv
+2021-04-30,NDAQ,53.8466682434082,65.0954235846322,1.1722960563583351,54.163333892822266,1,Is Realty Income (O) Stock A Buy or Sell?,headlinesIter82.csv
+2021-05-03,NDAQ,54.163333892822266,66.84794332541867,1.1599476685564194,54.51333236694336,1,Is Realty Income (O) Stock A Buy or Sell?,headlinesIter83.csv
+2021-05-04,NDAQ,54.51333236694336,68.71747255580551,1.1517694555850069,54.51666641235352,1,Nasdaq April 2021 Volumes,headlinesIter84.csv
+2021-05-05,NDAQ,54.51666641235352,68.73555938716855,1.1440618200244577,54.526668548583984,1,Is Now The Time To Put Nasdaq (NASDAQ:NDAQ) On Your Watchlist?,headlinesIter85.csv
+2021-05-06,NDAQ,54.526668548583984,68.79385109368631,1.134605210194893,54.85333251953125,1,Intercontinental Exchange: Steady Growth From a Fairly Valued Company,headlinesIter86.csv
+2021-05-07,NDAQ,54.85333251953125,70.71430877309213,1.1271738463790864,54.5099983215332,0,Artisan Partners Spots Value in Nasdaq Inc. (NDAQ),headlinesIter87.csv
+2021-05-10,NDAQ,54.5099983215332,66.10932803906914,1.113354678094178,53.24333190917969,0,Was The Smart Money Right About Piling Into Enphase Energy Inc (ENPH)?,headlinesIter88.csv
+2021-05-11,NDAQ,53.24333190917969,52.52056859574499,1.0735096980189147,52.78666687011719,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 30, 2021",headlinesIter89.csv
+2021-05-12,NDAQ,52.78666687011719,48.63887888049342,1.0097084132779568,53.633331298828125,1,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 30, 2021",headlinesIter90.csv
+2021-05-13,NDAQ,53.633331298828125,55.24347135535156,0.9454430564086218,54.78666687011719,1,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 30, 2021",headlinesIter91.csv
+2021-05-14,NDAQ,54.78666687011719,62.34653263549078,0.900501663790697,54.58333206176758,0,Boards Are Adding More Women and Minorities Ahead of Nasdaq Rule,headlinesIter92.csv
+2021-05-17,NDAQ,54.58333206176758,60.52284999358043,0.864731546106361,53.97999954223633,0,"Coinbase: ‘This business will be commoditized,’ New Constructs CEO argues",headlinesIter93.csv
+2021-05-18,NDAQ,53.97999954223633,55.34940754085091,0.8249882184633948,53.64666748046875,0,"Coinbase: ‘This business will be commoditized,’ New Constructs CEO argues",headlinesIter94.csv
+2021-05-19,NDAQ,53.64666748046875,52.67064670777685,0.7776395373077865,54.48666763305664,1,"Coinbase: ‘This business will be commoditized,’ New Constructs CEO argues",headlinesIter95.csv
+2021-05-20,NDAQ,54.48666763305664,58.16534795893692,0.7396353780471301,54.62333297729492,1,"Coinbase: ‘This business will be commoditized,’ New Constructs CEO argues",headlinesIter96.csv
+2021-05-21,NDAQ,54.62333297729492,58.99935161991553,0.7099750620132047,54.973331451416016,1,SEC approves Nasdaq proposal to allow IPO alternative to raise funds,headlinesIter97.csv
+2021-05-24,NDAQ,54.973331451416016,61.13618034317485,0.6910651925045566,54.77000045776367,0,SEC approves Nasdaq proposal to allow IPO alternative to raise funds,headlinesIter98.csv
+2021-05-25,NDAQ,54.77000045776367,59.20570327178638,0.6750656766029268,55.150001525878906,1,Nasdaq Executives to Present at June 2021 Investor Conferences,headlinesIter99.csv
+2021-05-26,NDAQ,55.150001525878906,61.64336143778145,0.6662531188958754,55.32666778564453,1,Exclusive: Nasdaq seeks to remove restriction in direct listing plan,headlinesIter100.csv
+2021-05-27,NDAQ,55.32666778564453,62.757565897217816,0.6637072575540314,55.81999969482422,1,Invesco Launches Two New Thematic Technology ETFs in Partnership with Nasdaq in Canada,headlinesIter101.csv
+2021-05-28,NDAQ,55.81999969482422,65.74956031510199,0.6715807977346894,54.81666564941406,0,Invesco Launches Two New Thematic Technology ETFs in Partnership with Nasdaq in Canada,headlinesIter102.csv
+2021-06-01,NDAQ,54.81666564941406,55.91139579645803,0.6680339957590575,55.61333465576172,1,Nasdaq Acquires Emerging Carbon Removal Market Puro.earth,headlinesIter103.csv
+2021-06-02,NDAQ,55.61333465576172,60.91260489469049,0.6687028778885737,56.02000045776367,1,Nasdaq May 2021 Volumes,headlinesIter104.csv
+2021-06-03,NDAQ,56.02000045776367,63.20695061935373,0.6769430114735029,56.74333190917969,1,Snowflake-Backed Data Startup Alation Valued at $1.2 Billion,headlinesIter105.csv
+2021-06-04,NDAQ,56.74333190917969,66.92570201853445,0.6994941381666339,56.29999923706055,0,Nasdaq (NASDAQ:NDAQ) Has Announced That It Will Be Increasing Its Dividend To US$0.54,headlinesIter106.csv
+2021-06-07,NDAQ,56.29999923706055,62.74013875392864,0.7211655482735826,56.31999969482422,1,"Why You Might Be Interested In Nasdaq, Inc. (NASDAQ:NDAQ) For Its Upcoming Dividend",headlinesIter107.csv
+2021-06-08,NDAQ,56.31999969482422,62.85300900636429,0.7398249314002758,56.37333297729492,1,"Shareholders May Not Be So Generous With Nasdaq, Inc.'s (NASDAQ:NDAQ) CEO Compensation And Here's Why",headlinesIter108.csv
+2021-06-09,NDAQ,56.37333297729492,63.1733726845179,0.7547829693746275,56.119998931884766,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter109.csv
+2021-06-10,NDAQ,56.119998931884766,60.50415049654846,0.7608748510468717,57.650001525878906,1,"Join “SPAC to the Future 2” June 16 with Gallagher, Stifel, Nasdaq, ICR, MorganFranklin, V&amp;E Featuring Hennessy, Bespoke, SOAC",headlinesIter110.csv
+2021-06-11,NDAQ,57.650001525878906,69.01826812678787,0.7837663613125544,58.38666534423828,1,Invesco Expands Longstanding Partnership with Nasdaq with Two New Thematic Technology ETFs,headlinesIter111.csv
+2021-06-14,NDAQ,58.38666534423828,72.13312639658098,0.8259542214227674,58.76333236694336,1,Hedge Funds Have Never Been This Bullish On Expedia Group Inc (EXPE),headlinesIter112.csv
+2021-06-15,NDAQ,58.76333236694336,73.5949422385616,0.8821520880565671,59.11666870117188,1,Hedge Funds Have Never Been This Bullish On Expedia Group Inc (EXPE),headlinesIter113.csv
+2021-06-16,NDAQ,59.11666870117188,74.9238087963339,0.9478118421272946,59.93000030517578,1,"Replay: “SPAC to the Future 2” with Gallagher, Stifel, Nasdaq, ICR, MorganFranklin, V&amp;E Featuring Hennessy, Bespoke, SOAC",headlinesIter114.csv
+2021-06-17,NDAQ,59.93000030517578,77.705198785761,1.0267761069386003,58.59999847412109,0,"Replay: “SPAC to the Future 2” with Gallagher, Stifel, Nasdaq, ICR, MorganFranklin, V&amp;E Featuring Hennessy, Bespoke, SOAC",headlinesIter115.csv
+2021-06-21,NDAQ,59.59333419799805,69.07228026089042,1.1440974645655149,59.56666564941406,0,Should I Avoid DraftKings Inc. (DKNG)?,headlinesIter116.csv
+2021-06-22,NDAQ,59.56666564941406,68.84106513300995,1.194573111744543,59.31999969482422,0,Nasdaq Announces Expected Closing Date for Sale of U.S. Fixed Income Business to Tradeweb Markets,headlinesIter117.csv
+2021-06-23,NDAQ,59.31999969482422,66.61975103995262,1.2312058213117798,59.26666641235352,0,Nasdaq Announces Expected Closing Date for Sale of U.S. Fixed Income Business to Tradeweb Markets,headlinesIter118.csv
+2021-06-24,NDAQ,59.26666641235352,66.12294329979046,1.2535846301111628,59.356666564941406,1,Digital Asset partners with Nasdaq to bring Daml to the Nasdaq Marketplace Services Platform,headlinesIter119.csv
+2021-06-25,NDAQ,59.356666564941406,66.57591851996557,1.2644349628409357,59.03666687011719,0,Nasdaq (NDAQ) to Boost Market Technology With Digital Asset,headlinesIter120.csv
+2021-06-28,NDAQ,59.03666687011719,63.33332816683067,1.2595033664572313,58.95000076293945,0,Nasdaq Welcomed 395 IPOs and 14 Exchange Transfers in the First Half of 2021,headlinesIter121.csv
+2021-06-29,NDAQ,58.95000076293945,62.44624234432846,1.240685115016929,58.59999847412109,0,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter122.csv
+2021-06-30,NDAQ,58.59999847412109,58.86062083630493,1.2057376066098275,58.676666259765625,1,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter123.csv
+2021-07-01,NDAQ,58.676666259765625,59.41041417402598,1.160987668391662,59.29333114624024,1,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter124.csv
+2021-07-02,NDAQ,59.29333114624024,63.62161660679629,1.119632025143083,58.78666687011719,0,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter125.csv
+2021-07-06,NDAQ,58.78666687011719,58.27217473650755,1.0719363909049855,58.720001220703125,0,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter126.csv
+2021-07-07,NDAQ,58.720001220703125,57.58607420110098,1.01926048573482,58.026668548583984,0,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter127.csv
+2021-07-08,NDAQ,58.026668548583984,50.87686806011122,0.9528395825521796,58.59000015258789,1,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter128.csv
+2021-07-09,NDAQ,58.59000015258789,55.42138160113591,0.8881013869826331,59.883331298828125,1,Nasdaq Launches ESG Data Hub to Offer Investors Expert-led Sustainability Data,headlinesIter129.csv
+2021-07-12,NDAQ,59.883331298828125,63.71989332681331,0.8464217435006075,59.6966667175293,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 12, 2021",headlinesIter130.csv
+2021-07-13,NDAQ,59.6966667175293,61.9280586358124,0.8164723787913739,59.36000061035156,0,"Nasdaq's (NDAQ) Q2 Volumes Mixed, June Volume Increases",headlinesIter131.csv
+2021-07-14,NDAQ,59.36000061035156,58.72077870404389,0.7882131039323834,59.54999923706055,1,Digital Asset Strengthens C-Suite as it Drives Toward Becoming the Global Economic Network of Interconnected Businesses,headlinesIter132.csv
+2021-07-15,NDAQ,59.54999923706055,59.98045032854877,0.7637293625516932,59.51666641235352,0,"Honeywell International Inc. to Join the NASDAQ-100 Index Beginning July 21, 2021",headlinesIter133.csv
+2021-07-16,NDAQ,59.51666641235352,59.63661918981546,0.7406230311374713,59.04999923706055,0,"July 21 at 2pm ET:  SPACtivism and M&amp;A with Vinson &amp; Elkins, Nasdaq, Gallagher, Stifel, Morrow Sodali, ICR",headlinesIter134.csv
+2021-07-19,NDAQ,59.04999923706055,54.8923720846092,0.7104578737520063,60.29999923706055,1,Where Do Hedge Funds Stand On Arthur J. Gallagher &amp; Co. (AJG)?,headlinesIter135.csv
+2021-07-20,NDAQ,60.29999923706055,63.31157215562422,0.6957734311335433,62.09333419799805,1,Nasdaq to spin out marketplace for shares of private companies with group of banks: WSJ,headlinesIter136.csv
+2021-07-21,NDAQ,62.09333419799805,71.52347668358617,0.71858758688905,61.77999877929688,0,Nasdaq Sees Up to $1.5 Billion of Revenue From Trading Platform,headlinesIter137.csv
+2021-07-22,NDAQ,61.77999877929688,68.63292936727755,0.7570722918244267,62.58666610717773,1,Nasdaq Sees Up to $1.5 Billion of Revenue From Trading Platform,headlinesIter138.csv
+2021-07-23,NDAQ,62.58666610717773,71.79340070620593,0.8145059467638887,62.19333267211914,0,Nasdaq Sees Up to $1.5 Billion of Revenue From Trading Platform,headlinesIter139.csv
+2021-07-26,NDAQ,62.19333267211914,68.18576487302605,0.872673840325211,61.89666748046875,0,Earnings Estimates Moving Higher for Nasdaq (NDAQ): Time to Buy?,headlinesIter140.csv
+2021-07-27,NDAQ,61.89666748046875,65.51184488676142,0.9215305632591224,61.84333419799805,0,"Nasdaq, Inc. Prices €615 Million Senior Notes Offering",headlinesIter141.csv
+2021-07-28,NDAQ,61.84333419799805,65.01820970768574,0.9590388187501336,62.22666549682617,1,Looking for Finance Stocks? The Zacks Rank Can Help You Find Winners,headlinesIter142.csv
+2021-07-29,NDAQ,62.22666549682617,66.94604679395087,0.9913978135003048,62.24333190917969,1,"If You Invested $1000 in Nasdaq 10 Years Ago, This Is How Much You'd Have Now",headlinesIter143.csv
+2021-07-30,NDAQ,62.24333190917969,67.03111847955627,1.0168393461193974,62.810001373291016,1,"If You Invested $1000 in Nasdaq 10 Years Ago, This Is How Much You'd Have Now",headlinesIter144.csv
+2021-08-02,NDAQ,62.810001373291016,69.87051299169393,1.0433347580920485,62.88999938964844,1,Nasdaq Acquires Minority Stake in LeveL ATS,headlinesIter145.csv
+2021-08-03,NDAQ,62.88999938964844,70.25991467630416,1.0680001386191555,63.119998931884766,1,SEC Poised to Bless Nasdaq Plan to Spur Diverse Corporate Boards,headlinesIter146.csv
+2021-08-04,NDAQ,63.119998931884766,71.40421633699593,1.091460810900991,62.893333435058594,0,SEC Poised to Bless Nasdaq Plan to Spur Diverse Corporate Boards,headlinesIter147.csv
+2021-08-05,NDAQ,62.893333435058594,68.60276510216168,1.1068325725990864,62.90666580200195,1,SEC Poised to Bless Nasdaq Plan to Spur Diverse Corporate Boards,headlinesIter148.csv
+2021-08-06,NDAQ,62.90666580200195,68.68060085968041,1.114018563508396,62.893333435058594,0,Nasdaq Reports Strong Earnings Growth as Indexing Increases,headlinesIter149.csv
+2021-08-09,NDAQ,62.893333435058594,68.49772827379846,1.112945386577382,62.95333480834961,1,Did You Participate In Any Of Nasdaq's (NASDAQ:NDAQ) Fantastic 195% Return ?,headlinesIter150.csv
+2021-08-10,NDAQ,62.95333480834961,68.8990811283178,1.105172440164394,63.106666564941406,1,"Nasdaq Announces End-Of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 30, 2021",headlinesIter151.csv
+2021-08-11,NDAQ,63.106666564941406,69.95261093499843,1.0935350858105144,63.36333465576172,1,"Nasdaq Announces End-Of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 30, 2021",headlinesIter152.csv
+2021-08-12,NDAQ,63.36333465576172,71.68187964259603,1.0816882465935584,63.663333892822266,1,"Nasdaq Announces End-Of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 30, 2021",headlinesIter153.csv
+2021-08-13,NDAQ,63.663333892822266,73.5947230667688,1.0726520635075991,64.0566635131836,1,"Nasdaq Announces End-Of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 30, 2021",headlinesIter154.csv
+2021-08-16,NDAQ,64.0566635131836,75.89385527126534,1.0696817902245417,63.33000183105469,0,"Nasdaq Announces End-Of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 30, 2021",headlinesIter155.csv
+2021-08-17,NDAQ,63.33000183105469,64.68773117370833,1.0566377344142612,62.29666519165039,0,"Nasdaq Announces End-Of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 30, 2021",headlinesIter156.csv
+2021-08-18,NDAQ,62.29666519165039,52.75798361984643,1.019068844138809,62.67333221435547,1,The Zacks Rank Explained: How to Find Strong Buy Finance Stocks,headlinesIter157.csv
+2021-08-19,NDAQ,62.67333221435547,55.94719534299158,0.9717845243777956,62.88999938964844,1,Bull Of The Day: Nasdaq (NDAQ),headlinesIter158.csv
+2021-08-20,NDAQ,62.88999938964844,57.71549703125994,0.9221313885453224,63.51333236694336,1,Nasdaq (NDAQ) Up 1.5% Since Last Earnings Report: Can It Continue?,headlinesIter159.csv
+2021-08-23,NDAQ,63.51333236694336,62.3925122841135,0.8814396137544777,63.619998931884766,1,Nasdaq (NDAQ) Up 1.5% Since Last Earnings Report: Can It Continue?,headlinesIter160.csv
+2021-08-24,NDAQ,63.619998931884766,63.143774084225925,0.8481906000974738,63.87666702270508,1,Diversify Your Portfolio While Beating the Market With This Company,headlinesIter161.csv
+2021-08-25,NDAQ,63.87666702270508,64.95777265782826,0.82351132470044,63.723331451416016,0,"Nasdaq Halts Evolv Technologies Holdings, Inc. – Unit",headlinesIter162.csv
+2021-08-26,NDAQ,63.723331451416016,62.96400679482967,0.8011737952450583,64.49333190917969,1,"Nasdaq Halts Evolv Technologies Holdings, Inc. – Unit",headlinesIter163.csv
+2021-08-27,NDAQ,64.49333190917969,68.23637614258223,0.7919338674319069,64.69999694824219,1,Why Is Everyone Talking About CrowdStrike Stock?,headlinesIter164.csv
+2021-08-30,NDAQ,64.69999694824219,69.49171324526657,0.7928798773904282,65.26000213623047,1,Why Is Everyone Talking About CrowdStrike Stock?,headlinesIter165.csv
+2021-08-31,NDAQ,65.26000213623047,72.64638885827513,0.8072880664867073,65.98666381835938,1,Why Is Everyone Talking About CrowdStrike Stock?,headlinesIter166.csv
+2021-09-01,NDAQ,65.98666381835938,76.0999044340166,0.8391322775136627,65.97000122070312,0,"Abu Dhabi Securities Exchange (ADX) to Launch Derivatives Market, Leveraging Nasdaq Technology",headlinesIter167.csv
+2021-09-02,NDAQ,65.97000122070312,75.86338105438493,0.878057328919442,66.17666625976562,1,Nasdaq August 2021 Volumes,headlinesIter168.csv
+2021-09-03,NDAQ,66.17666625976562,76.82545865261159,0.9206759481118004,65.48999786376953,0,10 Stocks to Invest In Today According to Rob Cope’s Columbus Point,headlinesIter169.csv
+2021-09-07,NDAQ,65.48999786376953,67.23588068879899,0.9503216856626784,66.1433334350586,1,Here's How Much a $1000 Investment in Nasdaq Made 10 Years Ago Would Be Worth Today,headlinesIter170.csv
+2021-09-08,NDAQ,66.1433334350586,70.95120237001143,0.9785398058877072,65.9800033569336,0,Nasdaq Launches Nasdaq Data Link to Simplify Data Discovery and Expand Cloud Delivery,headlinesIter171.csv
+2021-09-09,NDAQ,65.9800033569336,68.84930253001328,0.9995477565798644,65.34666442871094,0,Here’s a safer way to invest in bitcoin and blockchain technology,headlinesIter172.csv
+2021-09-10,NDAQ,65.34666442871094,61.269602529907,1.002552516977783,64.77333068847656,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 31, 2021",headlinesIter173.csv
+2021-09-13,NDAQ,64.77333068847656,55.33108973586324,0.9826834870197216,65.18333435058594,1,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 31, 2021",headlinesIter174.csv
+2021-09-14,NDAQ,65.18333435058594,58.43377774784201,0.9538208103126846,65.27999877929688,1,Sporttrade to Leverage Nasdaq Surveillance Technology to Bolster Market Integrity of Sports Betting Platform,headlinesIter175.csv
+2021-09-15,NDAQ,65.27999877929688,59.154129378495135,0.9202023932044112,65.1433334350586,0,Nasdaq to Hold Third Quarter 2021 Investor Conference Call,headlinesIter176.csv
+2021-09-16,NDAQ,65.1433334350586,57.63339083141111,0.881087759982812,64.30000305175781,0,"Delisting of Securities of Abraxas Petroleum Corporation and Sequential Brands Group, Inc. from The Nasdaq Stock Market",headlinesIter177.csv
+2021-09-17,NDAQ,64.30000305175781,49.22390269645834,0.8251156377352148,63.65999984741211,0,"Delisting of Securities of Abraxas Petroleum Corporation and Sequential Brands Group, Inc. from The Nasdaq Stock Market",headlinesIter178.csv
+2021-09-20,NDAQ,63.65999984741211,43.9792979119886,0.7494202363112966,63.96666717529297,1,"Delisting of Securities of Abraxas Petroleum Corporation and Sequential Brands Group, Inc. from The Nasdaq Stock Market",headlinesIter179.csv
+2021-09-21,NDAQ,63.96666717529297,46.89881473582077,0.6685153614243988,64.83333587646484,1,‘Dark Pool’ Trading Platforms LeveL ATS and Luminex Set to Merge,headlinesIter180.csv
+2021-09-22,NDAQ,64.83333587646484,54.168228168041175,0.6008899679434434,65.1933364868164,1,‘Dark Pool’ Trading Platforms LeveL ATS and Luminex Set to Merge,headlinesIter181.csv
+2021-09-23,NDAQ,65.1933364868164,56.812970089700045,0.5495069807102697,65.59333038330078,1,‘Dark Pool’ Trading Platforms LeveL ATS and Luminex Set to Merge,headlinesIter182.csv
+2021-09-24,NDAQ,65.59333038330078,59.6023493773035,0.5161272315834966,65.26000213623047,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 15, 2021",headlinesIter183.csv
+2021-09-27,NDAQ,65.26000213623047,56.336845546241854,0.4892869690620814,63.6533317565918,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 15, 2021",headlinesIter184.csv
+2021-09-28,NDAQ,63.6533317565918,43.86246014930051,0.4412038694533346,64.663330078125,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date September 15, 2021",headlinesIter185.csv
+2021-09-29,NDAQ,64.663330078125,51.18055475787673,0.3974351071055869,64.33999633789062,0,Here's Why Investing in Nasdaq (NDAQ) is a Prudent Move Now,headlinesIter186.csv
+2021-09-30,NDAQ,64.33999633789062,48.97929045826316,0.3526004826314054,64.57666778564453,1,Nasdaq Appoints Toni Townes-Whitley to its Board of Directors,headlinesIter187.csv
+2021-10-01,NDAQ,64.57666778564453,50.65235672403109,0.3124204084245346,62.9900016784668,0,Nasdaq Appoints Toni Townes-Whitley to its Board of Directors,headlinesIter188.csv
+2021-10-04,NDAQ,62.9900016784668,40.95600073862384,0.2512376216743022,65.086669921875,1,This One-Stop Tech Solutions Company Has a Mammoth Addressable Market of Over $100 Billion,headlinesIter189.csv
+2021-10-05,NDAQ,65.086669921875,53.59705498437014,0.2129765402870641,64.87999725341797,0,"CME Group (CME) Q3, September Volumes Up in Two Product Lines",headlinesIter190.csv
+2021-10-06,NDAQ,64.87999725341797,52.40601409573789,0.1873052905288729,65.97000122070312,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter191.csv
+2021-10-07,NDAQ,65.97000122070312,57.73992462466689,0.1878343027032007,65.80000305175781,0,"Nasdaq wagers on sports betting trend, sees retail brokers joining",headlinesIter192.csv
+2021-10-08,NDAQ,65.80000305175781,56.67315199418294,0.2016170659114059,65.8933334350586,1,10 Biggest Price Target Changes For Friday,headlinesIter193.csv
+2021-10-12,NDAQ,65.82666778564453,56.67027362055147,0.2490618963984736,65.8066635131836,0,Here's Why I Think Nasdaq (NASDAQ:NDAQ) Is An Interesting Stock,headlinesIter194.csv
+2021-10-13,NDAQ,65.8066635131836,56.51971176225702,0.2735714628476762,66.87999725341797,1,Nasdaq (NDAQ) Earnings Expected to Grow: What to Know Ahead of Next Week's Release,headlinesIter195.csv
+2021-10-14,NDAQ,66.87999725341797,62.30632946100252,0.3129596795368449,67.67333221435547,1,Nasdaq (NDAQ) Earnings Expected to Grow: What to Know Ahead of Next Week's Release,headlinesIter196.csv
+2021-10-15,NDAQ,67.67333221435547,65.91691598425528,0.3715526480873586,67.83000183105469,1,Nasdaq (NDAQ) to Report Q3 Earnings: What's in the Offing?,headlinesIter197.csv
+2021-10-18,NDAQ,67.83000183105469,66.5973762632729,0.4407639714048595,69.62000274658203,1,5 Financial Stocks To Watch This Week With Earnings Reports,headlinesIter198.csv
+2021-10-19,NDAQ,69.62000274658203,73.18458678109693,0.5405563307608932,66.38666534423828,0,Should I Buy Public Service Enterprise Group Incorporated (PEG)?,headlinesIter199.csv
+2021-10-20,NDAQ,66.38666534423828,52.89348597793283,0.6014669636171875,66.28666687011719,0,Hedge Funds Are Warming Up To Nokia Corporation (NOK),headlinesIter200.csv
+2021-10-21,NDAQ,66.28666687011719,52.40951076517192,0.6318479654180119,67.23999786376953,1,Hedge Funds Are Warming Up To Nokia Corporation (NOK),headlinesIter201.csv
+2021-10-22,NDAQ,67.23999786376953,56.49629919531076,0.6552706935059583,67.16666412353516,0,Hedge Funds Are Warming Up To Nokia Corporation (NOK),headlinesIter202.csv
+2021-10-25,NDAQ,67.16666412353516,56.09722999625541,0.6704407608709204,67.16000366210938,0,"Is Nasdaq, Inc. (NDAQ) Going to Burn These Hedge Funds?",headlinesIter203.csv
+2021-10-26,NDAQ,67.16000366210938,56.05849934123953,0.6780086464944185,67.46333312988281,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date October 15, 2021",headlinesIter204.csv
+2021-10-27,NDAQ,67.46333312988281,57.49769832448308,0.6837090364590603,69.00333404541016,1,Invesco Expands QQQ Innovation Suite to Include Two ESG ETF Offerings,headlinesIter205.csv
+2021-10-28,NDAQ,69.00333404541016,63.95286891862752,0.710951596445034,69.9566650390625,1,Invesco Expands QQQ Innovation Suite to Include Two ESG ETF Offerings,headlinesIter206.csv
+2021-10-29,NDAQ,69.9566650390625,67.26713041643939,0.7638577079644808,69.96666717529297,1,Invesco Expands QQQ Innovation Suite to Include Two ESG ETF Offerings,headlinesIter207.csv
+2021-11-01,NDAQ,69.96666717529297,67.30109943135179,0.8284944026233158,70.40666961669922,1,Invesco Expands QQQ Innovation Suite to Include Two ESG ETF Offerings,headlinesIter208.csv
+2021-11-02,NDAQ,70.40666961669922,68.83337088132063,0.9022269128340572,69.82666778564453,0,Invesco Expands QQQ Innovation Suite to Include Two ESG ETF Offerings,headlinesIter209.csv
+2021-11-03,NDAQ,69.82666778564453,64.54007345479488,0.9664853758920012,70.75666809082031,1,Nasdaq October 2021 Volumes,headlinesIter210.csv
+2021-11-04,NDAQ,70.75666809082031,67.98789357559153,1.034071950956751,70.9433364868164,1,Google Strikes Deal With CME as Exchange Moves to Cloud,headlinesIter211.csv
+2021-11-05,NDAQ,70.9433364868164,68.64685540921923,1.100822848292495,70.5633316040039,0,Google Strikes Deal With CME as Exchange Moves to Cloud,headlinesIter212.csv
+2021-11-08,NDAQ,70.5633316040039,65.68270586904003,1.1549790127685728,70.2699966430664,0,Were Hedge Funds Right About SVB Financial Group (SIVB)?,headlinesIter213.csv
+2021-11-09,NDAQ,70.2699966430664,63.4066971219783,1.1910896682789756,69.12666320800781,0,"Nasdaq Private Fund Manager Diversity, Equity and Inclusion Data Will be Free to Investors on February 16, 2022",headlinesIter214.csv
+2021-11-10,NDAQ,69.12666320800781,55.35522535482623,1.193040816653222,68.73332977294922,0,Nasdaq Expands its European ESG Derivatives Offering with Options,headlinesIter215.csv
+2021-11-12,NDAQ,69.47333526611328,56.800682098370544,1.1274561268265249,69.91000366210938,1,New tracker shows which stocks retail investors are picking,headlinesIter216.csv
+2021-11-15,NDAQ,69.91000366210938,58.97592627864128,1.0914556366150734,70.65666961669922,1,Invesco Broadens ESG ETF Offering to Include ESG versions of the Nasdaq-100 Index® and Nasdaq Next Generation 100 Index™,headlinesIter217.csv
+2021-11-16,NDAQ,70.65666961669922,62.45704511589592,1.0674116291073203,69.9800033569336,0,Cboe Global (CBOE) to Expand in Canada With Aequitas Buyout,headlinesIter218.csv
+2021-11-17,NDAQ,69.9800033569336,57.68021504405584,1.0388934779385504,69.56666564941406,0,"Fintech Focus For November 18, 2021",headlinesIter219.csv
+2021-11-18,NDAQ,69.56666564941406,54.91720797717058,1.0001035787117214,69.25666809082031,0,Cboe Global (CBOE) Raises Medium-Term Financial Target,headlinesIter220.csv
+2021-11-19,NDAQ,69.25666809082031,52.87163128981312,0.949683709062974,69.2300033569336,0,Nasdaq (NDAQ) Up 5% Since Last Earnings Report: Can It Continue?,headlinesIter221.csv
+2021-11-22,NDAQ,69.2300033569336,52.68982965910609,0.8920275506156458,69.30332946777344,1,Nasdaq Named to Dow Jones Sustainability Index for the Sixth Consecutive Year,headlinesIter222.csv
+2021-11-23,NDAQ,69.30332946777344,53.16673868987972,0.831995021683859,69.53333282470703,1,Nasdaq Named to Dow Jones Sustainability Index for the Sixth Consecutive Year,headlinesIter223.csv
+2021-11-24,NDAQ,69.53333282470703,54.70898347320527,0.7753933184137365,67.8933334350586,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date November 15, 2021",headlinesIter224.csv
+2021-11-26,NDAQ,67.8933334350586,43.66701285050876,0.6959766343714613,69.6933364868164,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date November 15, 2021",headlinesIter225.csv
+2021-11-29,NDAQ,69.6933364868164,54.517444962623095,0.6335548420638043,67.74333190917969,0,"Is It Smart To Buy Nasdaq, Inc. (NASDAQ:NDAQ) Before It Goes Ex-Dividend?",headlinesIter226.csv
+2021-11-30,NDAQ,67.74333190917969,44.5144069786836,0.5525021883648653,66.34333038330078,0,Nasdaq Partners With Amazon to Move Market Trading to the Cloud Next Year,headlinesIter227.csv
+2021-12-01,NDAQ,66.34333038330078,38.98396328577232,0.4404255147980193,67.07666778564453,1,Nasdaq Partners With Amazon to Move Market Trading to the Cloud Next Year,headlinesIter228.csv
+2021-12-02,NDAQ,67.07666778564453,42.98014735155398,0.3254749821541854,66.7066650390625,0,V&amp;E Partner Elbaum Discusses Challenging ISS and Glass Lewis at 2021 Palm Beach CorpGov Forum – Video,headlinesIter229.csv
+2021-12-03,NDAQ,66.7066650390625,41.50318734587465,0.2081040661403407,65.99333190917969,0,CME Group (CME) November ADV Increases at Four Product Lines,headlinesIter230.csv
+2021-12-06,NDAQ,65.99333190917969,38.73927388116735,0.0835137533544048,68.51667022705078,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter231.csv
+2021-12-07,NDAQ,68.51667022705078,51.135835410395735,0.0009977369866918,69.12999725341797,1,Nasdaq Welcomes 21Shares as First Issuer on its New Segment for Exchange Traded Notes,headlinesIter232.csv
+2021-12-08,NDAQ,69.12999725341797,53.593911741045055,-0.0410382991210711,68.04666900634766,0,"Hedge Funds Are Bullish On CBRE Group, Inc. (CBRE)",headlinesIter233.csv
+2021-12-09,NDAQ,68.04666900634766,48.91347821717938,-0.0726890042394513,68.59333038330078,1,Banxa Submits Application for NASDAQ Capital Market Uplist,headlinesIter234.csv
+2021-12-10,NDAQ,68.59333038330078,51.22811664049638,-0.087283866890102,68.49333190917969,0,Banxa Submits Application for NASDAQ Capital Market Uplist,headlinesIter235.csv
+2021-12-13,NDAQ,68.49333190917969,50.77492097747183,-0.0918198507541276,66.57666778564453,0,"Is Verisk Analytics, Inc. (VRSK) Going to Burn These Hedge Funds?",headlinesIter236.csv
+2021-12-14,NDAQ,66.57666778564453,42.9347792481373,-0.1201833211567219,67.34333038330078,1,"Eventide Dividend Opportunities Fund Buys Hannon Armstrong Sustainable Infrastructure Capita, ...",headlinesIter237.csv
+2021-12-15,NDAQ,67.34333038330078,46.49373231918636,-0.1494889624404481,67.88333129882812,1,Equinix Collaborates with Nasdaq to Scale Digital Infrastructure,headlinesIter238.csv
+2021-12-16,NDAQ,67.88333129882812,48.91061908152415,-0.1688927732322163,67.02333068847656,0,Equinix Collaborates with Nasdaq to Scale Digital Infrastructure,headlinesIter239.csv
+2021-12-17,NDAQ,67.02333068847656,45.39389691483522,-0.1944089953418887,66.16666412353516,0,Nasdaq Welcomed 743 IPOs and 35 Exchange Transfers in 2021,headlinesIter240.csv
+2021-12-20,NDAQ,66.16666412353516,42.14331347491618,-0.2356432732080241,67.413330078125,1,"Zacks Industry Outlook Highlights: Cboe Global Markets, CME Group, Intercontinental Exchange, Nasdaq and OTC Markets Group",headlinesIter241.csv
+2021-12-21,NDAQ,67.413330078125,47.981097241171774,-0.2641408490497023,68.06666564941406,1,"Zacks Industry Outlook Highlights: Cboe Global Markets, CME Group, Intercontinental Exchange, Nasdaq and OTC Markets Group",headlinesIter242.csv
+2021-12-22,NDAQ,68.06666564941406,50.78377785179286,-0.2721357989103975,68.47333526611328,1,"Zacks Industry Outlook Highlights: Cboe Global Markets, CME Group, Intercontinental Exchange, Nasdaq and OTC Markets Group",headlinesIter243.csv
+2021-12-23,NDAQ,68.47333526611328,52.499323665909415,-0.2597525627713847,69.66000366210938,1,Nasdaq (NDAQ) Rallies 60% YTD: More Room for Upside Left?,headlinesIter244.csv
+2021-12-27,NDAQ,69.66000366210938,57.1887944758231,-0.2157211943167758,69.91000366210938,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date December 15, 2021",headlinesIter245.csv
+2021-12-28,NDAQ,69.91000366210938,58.12669462266528,-0.1496813105193791,69.98999786376953,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date December 15, 2021",headlinesIter246.csv
+2021-12-29,NDAQ,69.98999786376953,58.44043708531845,-0.0716914207639936,69.70333099365234,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date December 15, 2021",headlinesIter247.csv
+2021-12-30,NDAQ,69.70333099365234,56.798058671597616,0.0052899390860149,70.00333404541016,1,Red States Call Nasdaq Board Diversity Rule ‘Crude and Odious’,headlinesIter248.csv
+2022-01-03,NDAQ,67.48666381835938,45.50371795030858,0.1151520918682003,65.79666900634766,0,Investing in This ETF Right Now Could Make You a Millionaire Retiree,headlinesIter249.csv
+2022-01-04,NDAQ,65.79666900634766,39.32821674678472,0.091207642645432,65.00666809082031,0,Nasdaq to Hold Fourth Quarter 2021 Investor Conference Call,headlinesIter250.csv
+2022-01-05,NDAQ,65.00666809082031,36.813119102934905,0.0201564334485846,65.15333557128906,1,Edelman EVP Gorsky Discusses Evolving Anti-Trust Regulation and Proactive PR Engagement at 2021 Palm Beach CorpGov Forum – Video,headlinesIter251.csv
+2022-01-06,NDAQ,65.15333557128906,37.610839429377776,-0.0744017050964338,64.50333404541016,0,Montgomery Strategies Group CEO Michael W. Robinson on Embracing Washington in 2022 at Palm Beach CorpGov Forum,headlinesIter252.csv
+2022-01-07,NDAQ,64.50333404541016,35.47340943213384,-0.1889374558585865,63.040000915527344,0,Can Nasdaq (NDAQ) Keep the Earnings Surprise Streak Alive?,headlinesIter253.csv
+2022-01-10,NDAQ,63.040000915527344,31.17768641702717,-0.3329066323654792,64.1866683959961,1,Nasdaq December 2021 Volumes and 4Q21 Statistics,headlinesIter254.csv
+2022-01-11,NDAQ,64.1866683959961,37.55862775691737,-0.4687238362786337,64.413330078125,1,Nasdaq Partners with TRIBE Freedom Foundation to Support Survivors of Financial Crime,headlinesIter255.csv
+2022-01-12,NDAQ,64.413330078125,38.76717893807341,-0.5876272082499974,62.40666580200195,0,"Hedge Funds Are Selling Nasdaq, Inc. (NDAQ)",headlinesIter256.csv
+2022-01-13,NDAQ,62.40666580200195,32.72781836243689,-0.7203720420681486,62.04666519165039,0,"Hedge Funds Are Selling Nasdaq, Inc. (NDAQ)",headlinesIter257.csv
+2022-01-14,NDAQ,62.04666519165039,31.77155304136951,-0.858935458360241,61.2599983215332,0,"Bionomics Limited (Nasdaq: BNOX, ASX: BNO) to Ring the Nasdaq Stock Market Closing Bell on Friday January 14, 2022",headlinesIter258.csv
+2022-01-18,NDAQ,61.2599983215332,29.727500512261056,-1.0044752489841289,60.369998931884766,0,"Nasdaq Fines SpeedRoute $450,000 for Market Access and Supervision Violations",headlinesIter259.csv
+2022-01-19,NDAQ,60.369998931884766,27.566666570786165,-1.158668277751491,59.9900016784668,0,Nasdaq (NDAQ) Earnings Expected to Grow: What to Know Ahead of Next Week's Release,headlinesIter260.csv
+2022-01-20,NDAQ,59.9900016784668,26.675118455023306,-1.3136237300492932,58.973331451416016,0,"AAFMAA Wealth Management &amp; Trust LLC Buys Caterpillar Inc, Target Corp, PowerShares QQQ ...",headlinesIter261.csv
+2022-01-21,NDAQ,58.973331451416016,24.40129022102144,-1.4741603992754757,58.776668548583984,0,Nasdaq’s European Markets Delivered Record Year in 2021,headlinesIter262.csv
+2022-01-24,NDAQ,58.776668548583984,23.97554786300598,-1.6295574016837715,58.32666778564453,0,"Delisting of Securities of iFresh Inc. and Odonate Therapeutics, Inc. from The Nasdaq Stock Market",headlinesIter263.csv
+2022-01-25,NDAQ,58.32666778564453,22.98723097014075,-1.7770522012626264,56.5,0,"Delisting of Securities of iFresh Inc. and Odonate Therapeutics, Inc. from The Nasdaq Stock Market",headlinesIter264.csv
+2022-01-26,NDAQ,56.5,19.477376284613808,-1.9369552883168968,57.436668395996094,1,The total return for Nasdaq (NASDAQ:NDAQ) investors has risen faster than earnings growth over the last five years,headlinesIter265.csv
+2022-01-27,NDAQ,57.436668395996094,25.738830930709103,-2.076894555412653,58.220001220703125,1,"Hunter Associates Investment Management Llc Buys BTC iShares Floating Rate Bond ETF, II-VI Inc, ...",headlinesIter266.csv
+2022-01-28,NDAQ,58.220001220703125,30.59917586168685,-2.179753758781559,59.73666763305664,1,"Bellwether Advisors, LLC Buys Financial Select Sector SPDR, Consumer Discretionary Select ...",headlinesIter267.csv
+2022-01-31,NDAQ,59.73666763305664,38.93293229320667,-2.224814220617416,60.04333114624024,1,Nasdaq Fund Network Adds 555 New 529 Plan Share Classes in 2021,headlinesIter268.csv
+2022-02-01,NDAQ,60.04333114624024,40.48900577768355,-2.2213219682499323,60.79333114624024,1,Nasdaq Fund Network Adds 555 New 529 Plan Share Classes in 2021,headlinesIter269.csv
+2022-02-02,NDAQ,60.79333114624024,44.23178023427148,-2.1705522308232665,59.34333419799805,0,"Did Hedge Funds Get Pinterest, Inc. (PINS) Right?",headlinesIter270.csv
+2022-02-03,NDAQ,59.34333419799805,39.11048137338023,-2.110998042060784,59.540000915527344,1,"Curated Wealth Partners LLC Buys Ares Management Corp, iShares Russell 2000 ETF, Boyd Gaming ...",headlinesIter271.csv
+2022-02-04,NDAQ,59.540000915527344,40.12311733777609,-2.0411107642029647,59.52999877929688,0,2 Reasons Nasdaq Is My Top Dividend Growth Stock to Own in 2022,headlinesIter272.csv
+2022-02-07,NDAQ,59.52999877929688,40.08660357012872,-1.963917986809927,59.28666687011719,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter273.csv
+2022-02-08,NDAQ,59.28666687011719,39.15309342517763,-1.8855988889275497,59.883331298828125,1,"Diamond Hill Capital Management Buys Becton, Dickinson and Co, SS&amp;C Technologies Holdings ...",headlinesIter274.csv
+2022-02-09,NDAQ,59.883331298828125,42.67807089542042,-1.7968623579439122,59.060001373291016,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date January 31, 2022",headlinesIter275.csv
+2022-02-10,NDAQ,59.060001373291016,39.29519742739497,-1.7152884326140485,57.456668853759766,0,"AstraZeneca PLC – ADR to Join the NASDAQ-100 Index Beginning February 22, 2022",headlinesIter276.csv
+2022-02-11,NDAQ,57.456668853759766,33.6941432345695,-1.6641508743302915,57.310001373291016,0,How Long Will Inflation Last?,headlinesIter277.csv
+2022-02-14,NDAQ,57.310001373291016,33.22756579036656,-1.6333180140913377,58.3466682434082,1,What The Rock's arms and the S&amp;P 500 all have in common: Morning Brief,headlinesIter278.csv
+2022-02-15,NDAQ,58.3466682434082,39.59457313960799,-1.5965659781097163,58.220001220703125,0,Rigetti and Nasdaq Team-up to Pursue Quantum Advantage for Financial Applications,headlinesIter279.csv
+2022-02-16,NDAQ,58.220001220703125,39.10392794163707,-1.5564125214538382,57.29333114624024,0,Rigetti and Nasdaq Team-up to Pursue Quantum Advantage for Financial Applications,headlinesIter280.csv
+2022-02-17,NDAQ,57.29333114624024,35.62582029393854,-1.5274691316183606,57.18000030517578,0,Rigetti and Nasdaq Team-up to Pursue Quantum Advantage for Financial Applications,headlinesIter281.csv
+2022-02-18,NDAQ,57.18000030517578,35.213307792081,-1.5053959710652975,56.323333740234375,0,Rigetti and Nasdaq Team-up to Pursue Quantum Advantage for Financial Applications,headlinesIter282.csv
+2022-02-22,NDAQ,56.323333740234375,32.18006261586021,-1.4990225614613153,56.06333160400391,0,"Rigetti Computing Founder and CEO, Chad Rigetti, to Provide Business Update on Technology and Partnership Progress",headlinesIter283.csv
+2022-02-23,NDAQ,56.06333160400391,31.2988536509216,-1.5035551628522956,56.72999954223633,1,Cerberus Cyber Sentinel Corporation (Nasdaq: CISO) to Ring The Nasdaq Stock Market Opening Bell,headlinesIter284.csv
+2022-02-24,NDAQ,56.72999954223633,36.12851181973447,-1.50062263025158,57.573333740234375,1,Nasdaq Launches Nasdaq Universal Test Facility in Partnership with Sequitor,headlinesIter285.csv
+2022-02-25,NDAQ,57.573333740234375,41.71083610180004,-1.4762896973907211,57.04999923706055,0,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 15, 2022",headlinesIter286.csv
+2022-02-28,NDAQ,57.04999923706055,39.40903313060397,-1.444803714294162,56.663333892822266,0,"NYSE, Nasdaq halt trading in stocks of Russia-based companies",headlinesIter287.csv
+2022-03-01,NDAQ,56.663333892822266,37.75138369787849,-1.4133609049680345,57.356666564941406,1,"NYSE, Nasdaq halt trading in stocks of Russia-based companies",headlinesIter288.csv
+2022-03-02,NDAQ,57.356666564941406,42.42767720094343,-1.3693103869047396,57.49333190917969,1,"Nasdaq, Inc. -- Moody's assigns Baa2 rating to Nasdaq's proposed 30-year senior notes",headlinesIter289.csv
+2022-03-03,NDAQ,57.49333190917969,43.33136051283801,-1.3143654511005036,57.176666259765625,0,"Nasdaq, Inc. Prices $550 Million Senior Notes Offering",headlinesIter290.csv
+2022-03-04,NDAQ,57.176666259765625,41.69813418437441,-1.2575289204006244,56.12333297729492,0,"Nasdaq, Inc. Prices $550 Million Senior Notes Offering",headlinesIter291.csv
+2022-03-07,NDAQ,56.12333297729492,36.737842353656966,-1.2164253940692678,55.0,0,Nasdaq Updates Trading Halt Status in Ozon Holdings plc ADS,headlinesIter292.csv
+2022-03-08,NDAQ,55.0,32.32197624057458,-1.2024873668922371,56.223331451416016,1,International Women's Day: Nasdaq CEO Adena Friedman on advancing women to the C-suite,headlinesIter293.csv
+2022-03-09,NDAQ,56.223331451416016,40.68371357517805,-1.1840485519447372,55.49333190917969,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 28, 2022",headlinesIter294.csv
+2022-03-10,NDAQ,55.49333190917969,37.69109902393782,-1.1727033537507932,54.956668853759766,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date February 28, 2022",headlinesIter295.csv
+2022-03-11,NDAQ,54.956668853759766,35.61690143924,-1.1722883486050029,55.526668548583984,1,"Delisting of Securities of Triterras, Inc. from The Nasdaq Stock Market",headlinesIter296.csv
+2022-03-14,NDAQ,55.526668548583984,39.42957441263653,-1.1669800374631352,56.526668548583984,1,"Delisting of Securities of Triterras, Inc. from The Nasdaq Stock Market",headlinesIter297.csv
+2022-03-15,NDAQ,56.526668548583984,45.52450706019064,-1.1402687678480574,57.77333450317383,1,"Delisting of Securities of Triterras, Inc. from The Nasdaq Stock Market",headlinesIter298.csv
+2022-03-16,NDAQ,57.77333450317383,52.00803781315755,-1.0790540570273646,58.70000076293945,1,"Delisting of Securities of Triterras, Inc. from The Nasdaq Stock Market",headlinesIter299.csv
+2022-03-17,NDAQ,58.70000076293945,56.18263519290484,-0.98217843257008,59.74333190917969,1,Nasdaq to Hold First Quarter 2022 Investor Conference Call,headlinesIter300.csv
+2022-03-18,NDAQ,59.74333190917969,60.36314096047183,-0.849145296218101,59.21333312988281,0,Nasdaq to Hold First Quarter 2022 Investor Conference Call,headlinesIter301.csv
+2022-03-21,NDAQ,59.21333312988281,57.36883626020733,-0.706943595818065,59.16999816894531,0,"Global Water Resources to Ring Nasdaq Opening Bell on March 22, Commemorating World Water Day and the Utility’s Award-Winning Total Water Management",headlinesIter302.csv
+2022-03-22,NDAQ,59.16999816894531,57.119344846990586,-0.5655297817467577,58.04666519165039,0,"Join IPO Edge’s Going-Public Boot Camp Mar. 29 with Nasdaq, Gallagher, Vinson &amp; Elkins, Stifel, ICR, GTS",headlinesIter303.csv
+2022-03-23,NDAQ,58.04666519165039,50.93554654308483,-0.4486561101788296,58.209999084472656,1,"Join IPO Edge’s Going-Public Boot Camp Mar. 29 with Nasdaq, Gallagher, Vinson &amp; Elkins, Stifel, ICR, GTS",headlinesIter304.csv
+2022-03-24,NDAQ,58.209999084472656,51.7534292697141,-0.3496619606041949,58.426666259765625,1,Nasdaq Launches World’s First Carbon Removal Indexes,headlinesIter305.csv
+2022-03-25,NDAQ,58.426666259765625,52.87563144555582,-0.2628100373559806,59.18000030517578,1,Nasdaq Launches World’s First Carbon Removal Indexes,headlinesIter306.csv
+2022-03-28,NDAQ,59.18000030517578,56.65102832805346,-0.1755035457185862,60.43999862670898,1,Nasdaq Launches World’s First Carbon Removal Indexes,headlinesIter307.csv
+2022-03-29,NDAQ,60.43999862670898,62.11767219261056,-0.0719863445750607,60.62666702270508,1,"With EPS Growth And More, Nasdaq (NASDAQ:NDAQ) Is Interesting",headlinesIter308.csv
+2022-03-30,NDAQ,60.62666702270508,62.86483096497585,0.0394071291711612,59.400001525878906,0,"With EPS Growth And More, Nasdaq (NASDAQ:NDAQ) Is Interesting",headlinesIter309.csv
+2022-03-31,NDAQ,59.400001525878906,55.16502005704138,0.1302373196413126,60.63999938964844,1,"Video Highlights – IPO Edge Going-Public Boot Camp with Nasdaq, Gallagher, Vinson &amp; Elkins, Stifel, ICR, GTS, Morrow Sodali",headlinesIter310.csv
+2022-04-01,NDAQ,60.63999938964844,60.439863343940345,0.2229039783622048,60.78666687011719,1,What Is a Tech-Ish Stock? 7 Tech Stocks That Get to Play in 2 Sectors,headlinesIter311.csv
+2022-04-04,NDAQ,60.78666687011719,61.02396417661252,0.3136959111646751,60.68000030517578,0,Nasdaq Head of New US Listings Cassel on Signs of Returning Investor Demand at IPO Edge Going-Public Bootcamp,headlinesIter312.csv
+2022-04-05,NDAQ,60.68000030517578,60.32634848288766,0.3961365597556862,61.19333267211914,1,"Philadelphia VC firm closes $167M fund, looks to invest in fintech and software companies",headlinesIter313.csv
+2022-04-06,NDAQ,61.19333267211914,62.5454416128741,0.476308152923571,61.0,0,"Philadelphia VC firm closes $167M fund, looks to invest in fintech and software companies",headlinesIter314.csv
+2022-04-07,NDAQ,61.0,61.15798999854144,0.5466847062236986,61.13999938964844,1,Nasdaq March 2022 Volumes and 1Q22 Statistics,headlinesIter315.csv
+2022-04-08,NDAQ,61.13999938964844,61.81850200848699,0.6082202665478246,60.776668548583984,0,Nasdaq March 2022 Volumes and 1Q22 Statistics,headlinesIter316.csv
+2022-04-11,NDAQ,60.776668548583984,59.013758797246886,0.6538056796130232,60.02000045776367,0,"Spot Crypto ETF in Demand by Majority of Financial Advisors, Finds New Nasdaq Survey",headlinesIter317.csv
+2022-04-12,NDAQ,60.02000045776367,53.56333722125075,0.6734418338473157,60.46333312988281,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter318.csv
+2022-04-13,NDAQ,60.46333312988281,56.1204394422077,0.6813223394094696,59.51666641235352,0,Nasdaq (NDAQ) Expected to Beat Earnings Estimates: Should You Buy?,headlinesIter319.csv
+2022-04-14,NDAQ,59.51666641235352,49.81262936747413,0.6647651369946832,59.4466667175293,0,Why Nasdaq (NDAQ) is Poised to Beat Earnings Estimates Again,headlinesIter320.csv
+2022-04-18,NDAQ,59.4466667175293,49.37074267080976,0.6311268701038102,60.3466682434082,1,Should You Buy Nasdaq (NDAQ) Ahead of Earnings?,headlinesIter322.csv
+2022-04-19,NDAQ,60.3466682434082,54.9092269110166,0.6014664293522307,57.60333251953125,0,Should You Buy Nasdaq (NDAQ) Ahead of Earnings?,headlinesIter323.csv
+2022-04-20,NDAQ,57.60333251953125,40.40130627561983,0.5307148793792296,56.47999954223633,0,Nasdaq Reports First Quarter 2022 Results; Delivers Strong Growth in Solutions Segments Revenue,headlinesIter324.csv
+2022-04-21,NDAQ,56.47999954223633,36.18525649309658,0.4187854032365287,55.61666870117188,0,Is it Still Worthy to Invest in Newmark Group (NMRK)?,headlinesIter325.csv
+2022-04-22,NDAQ,55.61666870117188,33.30840410549824,0.2721854928235759,55.54666519165039,0,Bitcoin 2022 Exclusive: Tapping Traditional Finance Expertise For Crypto Innovation,headlinesIter326.csv
+2022-04-25,NDAQ,55.54666519165039,33.07875628052471,0.1098026045318874,53.88999938964844,0,Bitcoin 2022 Exclusive: Tapping Traditional Finance Expertise For Crypto Innovation,headlinesIter327.csv
+2022-04-26,NDAQ,53.88999938964844,28.135017854795503,-0.0806417668469553,53.34999847412109,0,"Nasdaq Elects Kathlyn Card Beckles, Anne Marie Darling, and Elizabeth Wideman to the Board of Directors of its U.S. Exchanges",headlinesIter328.csv
+2022-04-27,NDAQ,53.34999847412109,26.73255596496701,-0.2871227238647689,54.18333435058594,1,CME Group (CME) Q1 Earnings and Revenues Beat Estimates,headlinesIter329.csv
+2022-04-28,NDAQ,54.18333435058594,32.33786829080423,-0.4788812311508179,52.456668853759766,0,Hashdex Announces Launch of the Hashdex Nasdaq Crypto Index Europe ETP,headlinesIter330.csv
+2022-04-29,NDAQ,52.456668853759766,27.62241696192091,-0.6778161667054,52.22999954223633,0,Hashdex Announces Launch of the Hashdex Nasdaq Crypto Index Europe ETP,headlinesIter331.csv
+2022-05-02,NDAQ,52.22999954223633,27.06448549970668,-0.8728921467501226,52.61333465576172,1,These 2 Critical Numbers Have Me Buying More Nasdaq Stock,headlinesIter332.csv
+2022-05-03,NDAQ,52.61333465576172,29.65233733908998,-1.0472178173984523,53.36666870117188,1,Nasdaq April 2022 Volumes,headlinesIter333.csv
+2022-05-04,NDAQ,53.36666870117188,34.56591755145286,-1.1849933304531872,51.633331298828125,0,Nasdaq’s Friedman Sees IPO Comeback Led by Digital Innovators,headlinesIter334.csv
+2022-05-05,NDAQ,51.633331298828125,29.466134097011675,-1.3175910391716388,50.76333236694336,0,"Intercontinental Exchange (ICE) Q1 Earnings, Revenues Top",headlinesIter335.csv
+2022-05-06,NDAQ,50.76333236694336,27.289805908839632,-1.4508696777841523,48.72666549682617,0,"Intercontinental Exchange (ICE) Q1 Earnings, Revenues Top",headlinesIter336.csv
+2022-05-09,NDAQ,48.72666549682617,23.00601231543408,-1.6067754285238798,48.59333419799805,0,"Nasdaq Inc.: Good Historical Growth, but Can It Continue?",headlinesIter337.csv
+2022-05-10,NDAQ,48.59333419799805,22.75419455828768,-1.767155634491513,47.74333190917969,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 29, 2022",headlinesIter338.csv
+2022-05-11,NDAQ,47.74333190917969,21.163778064747945,-1.9314665318270203,48.11000061035156,1,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date April 29, 2022",headlinesIter339.csv
+2022-05-12,NDAQ,48.11000061035156,23.643117681044952,-2.0793754737150496,49.163333892822266,1,Nasdaq Announces 2022 Annual Meeting of Shareholders,headlinesIter340.csv
+2022-05-13,NDAQ,49.163333892822266,30.41348104973604,-2.187705721899395,48.709999084472656,0,Nasdaq Is a FCF Powerhouse Raising Its Dividend In the Middle of a Crash,headlinesIter341.csv
+2022-05-16,NDAQ,48.709999084472656,29.21294003727014,-2.267796429251364,49.5966682434082,1,"Texas Capital Bancshares, Inc. to Ring the Nasdaq Stock Market Closing Bell",headlinesIter342.csv
+2022-05-17,NDAQ,49.5966682434082,34.64675962243932,-2.3066735969114847,47.36333465576172,0,Nasdaq Launches Digital Education Program to Increase Knowledge of Equity Derivatives,headlinesIter343.csv
+2022-05-18,NDAQ,47.36333465576172,28.67580652697224,-2.348055068264306,47.69333267211914,1,Nasdaq Launches Digital Education Program to Increase Knowledge of Equity Derivatives,headlinesIter344.csv
+2022-05-19,NDAQ,47.69333267211914,30.57956044907292,-2.3782202854669547,48.709999084472656,1,Nasdaq Launches Digital Education Program to Increase Knowledge of Equity Derivatives,headlinesIter345.csv
+2022-05-20,NDAQ,48.709999084472656,36.227131742535846,-2.3781332974071523,49.23666763305664,1,Nasdaq (NDAQ) Down 15.6% Since Last Earnings Report: Can It Rebound?,headlinesIter346.csv
+2022-05-23,NDAQ,49.23666763305664,38.99584127964308,-2.3452664373033776,48.87666702270508,0,Nasdaq (NDAQ) Down 15.6% Since Last Earnings Report: Can It Rebound?,headlinesIter347.csv
+2022-05-24,NDAQ,48.87666702270508,37.788172411687455,-2.2939749864427976,49.16666793823242,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date May 13, 2022",headlinesIter348.csv
+2022-05-25,NDAQ,49.16666793823242,39.41585375030982,-2.223968913397688,50.310001373291016,1,The Risks and Rewards of Buying the Dip,headlinesIter349.csv
+2022-05-26,NDAQ,50.310001373291016,45.47297724451851,-2.122592619544564,51.880001068115234,1,The Risks and Rewards of Buying the Dip,headlinesIter350.csv
+2022-05-27,NDAQ,51.880001068115234,52.49635063847485,-1.976982145755496,51.75333404541016,0,The Risks and Rewards of Buying the Dip,headlinesIter351.csv
+2022-05-31,NDAQ,51.75333404541016,51.91534758237452,-1.808794642742367,50.75666809082031,0,The Risks and Rewards of Buying the Dip,headlinesIter352.csv
+2022-06-01,NDAQ,50.75666809082031,47.46406676649647,-1.6470515763607412,51.60333251953125,1,The Risks and Rewards of Buying the Dip,headlinesIter353.csv
+2022-06-02,NDAQ,51.60333251953125,51.28523544404424,-1.4805645966414585,51.356666564941406,0,"Nasdaq to Acquire Metrio, a Leader in Sustainability Software",headlinesIter354.csv
+2022-06-03,NDAQ,51.356666564941406,50.14100017192964,-1.3203926515687294,51.369998931884766,1,Nasdaq (NASDAQ:NDAQ) Is Increasing Its Dividend To US$0.60,headlinesIter355.csv
+2022-06-06,NDAQ,51.369998931884766,50.20566760492814,-1.1693531738334426,51.58666610717773,1,Nasdaq (NASDAQ:NDAQ) Is Increasing Its Dividend To US$0.60,headlinesIter356.csv
+2022-06-07,NDAQ,51.58666610717773,51.31087697531112,-1.0258334980464725,51.3033332824707,0,What It Takes for a Bear Market to Turn Around,headlinesIter357.csv
+2022-06-08,NDAQ,51.3033332824707,49.7556440226319,-0.8967329546897931,50.91666793823242,0,What It Takes for a Bear Market to Turn Around,headlinesIter358.csv
+2022-06-09,NDAQ,50.91666793823242,47.63374935927472,-0.7875628919496641,50.06333160400391,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date May 31, 2022",headlinesIter359.csv
+2022-06-10,NDAQ,50.06333160400391,43.25007756302747,-0.7084272111131813,48.95333480834961,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date May 31, 2022",headlinesIter360.csv
+2022-06-13,NDAQ,48.95333480834961,38.31113018903911,-0.668359623817914,48.62333297729492,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter361.csv
+2022-06-14,NDAQ,48.62333297729492,36.95981516120306,-0.6586212295145335,49.973331451416016,1,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter362.csv
+2022-06-15,NDAQ,49.973331451416016,45.43834899014957,-0.6453635203242809,49.51666641235352,0,Nasdaq Urges SEC Not to Move Ahead with Climate Disclosure Plan,headlinesIter363.csv
+2022-06-16,NDAQ,49.51666641235352,43.31607455634442,-0.6364098737450815,49.61666870117188,1,"The SPAC Commandments – Join IPO Edge Spring Forum Tues 6/21 with Gallagher, Cowen, Nasdaq, ICR, Vinson &amp; Elkins, Knightswan",headlinesIter364.csv
+2022-06-17,NDAQ,49.61666870117188,43.93363329516848,-0.627577310228872,50.87666702270508,1,Nasdaq to Hold Second Quarter 2022 Investor Conference Call,headlinesIter365.csv
+2022-06-21,NDAQ,50.87666702270508,51.154475299521074,-0.5977507438459593,51.20333480834961,1,"Replay – The SPAC Commandments: Join IPO Edge Spring Forum with Gallagher, Cowen, Nasdaq, ICR, Vinson &amp; Elkins, Knightswan",headlinesIter366.csv
+2022-06-22,NDAQ,51.20333480834961,52.84993981994289,-0.549754912494628,52.75333404541016,1,Nasdaq Announces Results from 2022 Annual Meeting of Shareholders,headlinesIter367.csv
+2022-06-23,NDAQ,52.75333404541016,59.952976101663765,-0.4669046234403841,53.09333419799805,1,Nasdaq Announces Results from 2022 Annual Meeting of Shareholders,headlinesIter368.csv
+2022-06-24,NDAQ,53.09333419799805,61.32916375198957,-0.3600627106559762,52.643333435058594,0,"Video Highlights – The SPAC Commandments: Join IPO Edge Spring Forum with Gallagher, Cowen, Nasdaq, ICR, Vinson &amp; Elkins, Knightswan",headlinesIter369.csv
+2022-06-27,NDAQ,52.643333435058594,58.46547563143151,-0.2501429861294982,51.5533332824707,0,Nasdaq Global Head of SPACs Eklavya Saraf Discusses Creative and Unique Transaction Types at 2022 IPO Edge Spring Forum,headlinesIter370.csv
+2022-06-28,NDAQ,51.5533332824707,52.11743496631027,-0.1608765117842749,51.02000045776367,0,Nasdaq Global Head of SPACs Eklavya Saraf Discusses Creative and Unique Transaction Types at 2022 IPO Edge Spring Forum,headlinesIter371.csv
+2022-06-29,NDAQ,51.02000045776367,49.29699353748971,-0.097376934238937,50.8466682434082,0,Climate Impact X Selects Nasdaq Technology to Power New Global Carbon Exchange,headlinesIter372.csv
+2022-06-30,NDAQ,50.8466682434082,48.38062290491813,-0.0558997737186953,51.86333465576172,1,Climate Impact X Selects Nasdaq Technology to Power New Global Carbon Exchange,headlinesIter373.csv
+2022-07-01,NDAQ,51.86333465576172,53.80477310920798,-0.0140524131156587,52.49666595458984,1,The “Sleeper” Stock Quietly Beating Robinhood,headlinesIter374.csv
+2022-07-05,NDAQ,52.49666595458984,56.84683967671985,0.0359697332054663,52.26333236694336,0,Nasdaq (NASDAQ:NDAQ) shareholders have earned a 19% CAGR over the last five years,headlinesIter375.csv
+2022-07-06,NDAQ,52.26333236694336,55.3993766547293,0.0846887498635884,52.23333358764648,0,Nasdaq (NASDAQ:NDAQ) shareholders have earned a 19% CAGR over the last five years,headlinesIter376.csv
+2022-07-07,NDAQ,52.23333358764648,55.20475612276877,0.1293654229424422,52.186668395996094,0,CFA Society New York Veteran’s Roundtable Rings the Nasdaq Stock Market Closing Bell,headlinesIter377.csv
+2022-07-08,NDAQ,52.186668395996094,54.88176838986715,0.168127042506521,52.54333114624024,1,CFA Society New York Veteran’s Roundtable Rings the Nasdaq Stock Market Closing Bell,headlinesIter378.csv
+2022-07-11,NDAQ,52.54333114624024,56.954698547139294,0.2064564233074448,51.59000015258789,0,Nasdaq June 2022 Volumes and 2Q22 Statistics,headlinesIter379.csv
+2022-07-12,NDAQ,51.59000015258789,50.3021264910544,0.2268252005820709,51.4466667175293,0,"Nasdaq Announces End-of-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date June 30, 2022",headlinesIter380.csv
+2022-07-13,NDAQ,51.4466667175293,49.36844667095672,0.2320650728013342,51.17333221435547,0,Nasdaq (NDAQ) Earnings Expected to Grow: Should You Buy?,headlinesIter381.csv
+2022-07-14,NDAQ,51.17333221435547,47.55566493664751,0.2226579420660989,52.356666564941406,1,Nasdaq (NDAQ) Earnings Expected to Grow: Should You Buy?,headlinesIter382.csv
+2022-07-15,NDAQ,52.356666564941406,55.221557617111806,0.2229354169296308,51.59333419799805,0,Nasdaq (NDAQ) Earnings Expected to Grow: Should You Buy?,headlinesIter383.csv
+2022-07-18,NDAQ,51.59333419799805,50.13104201394261,0.2165818322655645,53.106666564941406,1,"Delisting of Securities of Alberton Acquisition Corporation; Zosano Pharma Corporation; Electric Last Mile Solutions, Inc.; 4D pharma plc; and Enjoy Technology, Inc. from The Nasdaq Stock Market",headlinesIter384.csv
+2022-07-19,NDAQ,53.106666564941406,58.331945019331336,0.2300557936152244,56.3466682434082,1,"Delisting of Securities of Alberton Acquisition Corporation; Zosano Pharma Corporation; Electric Last Mile Solutions, Inc.; 4D pharma plc; and Enjoy Technology, Inc. from The Nasdaq Stock Market",headlinesIter385.csv
+2022-07-20,NDAQ,56.3466682434082,69.78745235442501,0.3064189401463886,58.0,1,Nasdaq Reports Second Quarter 2022 Results; Continues Strong Growth in Solutions Segments Revenue,headlinesIter386.csv
+2022-07-21,NDAQ,58.0,73.75289730663943,0.4438762790665965,57.53333282470703,0,Nasdaq Appoints Johan Torgeby to its Board of Directors,headlinesIter387.csv
+2022-07-22,NDAQ,57.53333282470703,70.9232949341839,0.6039634472875574,57.33333206176758,0,Nasdaq Appoints Johan Torgeby to its Board of Directors,headlinesIter388.csv
+2022-07-25,NDAQ,57.33333206176758,69.68927729578698,0.7652750699831876,57.66999816894531,1,Here's Why Nasdaq (NDAQ) is a Strong Growth Stock,headlinesIter389.csv
+2022-07-26,NDAQ,57.66999816894531,70.616095169669,0.9225250296333368,57.99666595458984,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date July 15, 2022",headlinesIter390.csv
+2022-07-27,NDAQ,57.99666595458984,71.52588268705972,1.0720950874268884,59.80666732788086,1,3 Fintech Stocks That Could Beat the Market Over the Next 5 Years,headlinesIter391.csv
+2022-07-28,NDAQ,59.80666732788086,75.96616703764762,1.2354448151595725,60.29999923706055,1,3 Fintech Stocks That Could Beat the Market Over the Next 5 Years,headlinesIter392.csv
+2022-07-29,NDAQ,60.29999923706055,77.01810779457735,1.4039233042472596,59.619998931884766,0,3 Fintech Stocks That Could Beat the Market Over the Next 5 Years,headlinesIter393.csv
+2022-08-01,NDAQ,59.619998931884766,72.31940808534596,1.552735647883394,59.56333160400391,0,3 Fintech Stocks That Could Beat the Market Over the Next 5 Years,headlinesIter394.csv
+2022-08-02,NDAQ,59.56333160400391,71.9256071958675,1.676977550845209,60.05666732788086,1,Are You a Momentum Investor? This 1 Stock Could Be the Perfect Pick,headlinesIter395.csv
+2022-08-03,NDAQ,60.05666732788086,73.28925538222744,1.7833549240354774,60.93000030517578,1,1 Under-the-Radar Growth Stock to Buy and Hold,headlinesIter396.csv
+2022-08-04,NDAQ,60.93000030517578,75.5530576627778,1.8828275693544705,60.68999862670898,0,Intercontinental Exchange (ICE) Q2 Earnings Top Estimates,headlinesIter397.csv
+2022-08-05,NDAQ,60.68999862670898,73.70436461728366,1.9646375130767453,60.95000076293945,1,Intercontinental Exchange (ICE) Q2 Earnings Top Estimates,headlinesIter398.csv
+2022-08-08,NDAQ,60.95000076293945,74.43419110498,2.030758581119993,61.05666732788086,1,Intercontinental Exchange (ICE) Q2 Earnings Top Estimates,headlinesIter399.csv
+2022-08-09,NDAQ,61.05666732788086,74.74388917802828,2.0806532833438505,62.20000076293945,1,2nd Palm Beach CorpGov Forum: Save the Date Nov. 9 in West Palm Beach,headlinesIter400.csv
+2022-08-10,NDAQ,62.20000076293945,77.84226194484192,2.1312610385832875,62.18999862670898,0,2nd Palm Beach CorpGov Forum: Save the Date Nov. 9 in West Palm Beach,headlinesIter401.csv
+2022-08-11,NDAQ,62.18999862670898,77.75239798968352,2.174645626225188,63.473331451416016,1,2nd Palm Beach CorpGov Forum: Save the Date Nov. 9 in West Palm Beach,headlinesIter402.csv
+2022-08-12,NDAQ,63.473331451416016,80.81300923206406,2.226746949004724,63.98333358764648,1,Here’s Who Wall Street Is Betting Could Be Carlyle’s Next CEO,headlinesIter403.csv
+2022-08-15,NDAQ,63.98333358764648,81.87986049407321,2.284642094561535,63.86333465576172,0,Should You Invest in the First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF (GRID)?,headlinesIter404.csv
+2022-08-16,NDAQ,63.86333465576172,80.74226463260004,2.3360120624504,64.59333038330078,1,"Nasdaq Resumes Trading in Vinco Ventures, Inc.",headlinesIter405.csv
+2022-08-17,NDAQ,64.59333038330078,82.34887620736643,2.386921688254237,64.04000091552734,0,"Nasdaq Resumes Trading in Vinco Ventures, Inc.",headlinesIter406.csv
+2022-08-18,NDAQ,64.04000091552734,77.09839420532732,2.4206056880078424,62.369998931884766,0,"Nasdaq Resumes Trading in Vinco Ventures, Inc.",headlinesIter407.csv
+2022-08-19,NDAQ,62.369998931884766,63.86371178046589,2.409566271848849,61.94333267211914,0,Why Is Nasdaq (NDAQ) Up 10.4% Since Last Earnings Report?,headlinesIter408.csv
+2022-08-22,NDAQ,61.94333267211914,60.98342329181969,2.35877468954851,61.43999862670898,0,Why Is Nasdaq (NDAQ) Up 10.4% Since Last Earnings Report?,headlinesIter409.csv
+2022-08-23,NDAQ,61.43999862670898,57.67859287702731,2.272323272938467,62.073333740234375,1,Here's Why Should You Hold Nasdaq (NDAQ) Stock in Portfolio,headlinesIter410.csv
+2022-08-24,NDAQ,62.073333740234375,60.57382859619602,2.1729782965987416,62.39666748046875,1,"Nasdaq Announces Mid-Month Open Short Interest Positions in Nasdaq Stocks as of Settlement Date August 15, 2022",headlinesIter411.csv
+2022-08-25,NDAQ,62.39666748046875,62.00297133856109,2.0709656585272618,60.68999862670898,0,Nasdaq to Resume Trading in Smart Powerr Corp.,headlinesIter412.csv
+2022-08-26,NDAQ,60.68999862670898,51.40992457915014,1.940679598380718,59.70000076293945,0,"Nasdaq Resumes Trading in Statera Biopharma, Inc.",headlinesIter413.csv
+2022-08-29,NDAQ,59.70000076293945,46.45217982686468,1.77928407650873,59.59999847412109,0,Nasdaq Board-Diversity Rule Takes Center Stage in Court Battle,headlinesIter414.csv
+2022-08-30,NDAQ,59.59999847412109,45.96993074196068,1.6011995402329144,59.52999877929688,0,Nasdaq Board-Diversity Rule Takes Center Stage in Court Battle,headlinesIter415.csv
+2022-08-31,NDAQ,59.52999877929688,45.61296665682784,1.4172238768215757,59.9900016784668,1,Nasdaq Board-Diversity Rule Takes Center Stage in Court Battle,headlinesIter416.csv
+2022-09-01,NDAQ,59.9900016784668,48.44606468294574,1.243309015036583,59.68000030517578,0,Nasdaq Board-Diversity Rule Takes Center Stage in Court Battle,headlinesIter417.csv
+2022-09-02,NDAQ,59.68000030517578,46.68126044574906,1.0770373296395714,60.619998931884766,1,Nasdaq Board-Diversity Rule Takes Center Stage in Court Battle,headlinesIter418.csv
+2022-09-06,NDAQ,60.619998931884766,52.34956512797908,0.936814818779652,62.41999816894531,1,Nasdaq August 2022 Volumes,headlinesIter419.csv
+2022-09-07,NDAQ,62.41999816894531,60.91765011893627,0.8468528676647409,63.09000015258789,1,Nasdaq August 2022 Volumes,headlinesIter420.csv
+2022-09-08,NDAQ,63.09000015258789,63.54525134825256,0.8018685571728573,63.2599983215332,1,Nasdaq August 2022 Volumes,headlinesIter421.csv
+2022-09-09,NDAQ,63.2599983215332,64.20287849469157,0.7883181132065356,64.11000061035156,1,Nasdaq August 2022 Volumes,headlinesIter422.csv
+2022-09-12,NDAQ,64.11000061035156,67.37225090459773,0.8069446981046635,61.84999847412109,0,Nasdaq Receives 'AA' ESG Rating From MSCI,headlinesIter423.csv
+2022-09-13,NDAQ,61.84999847412109,53.746791641889935,0.8068665806286575,62.02999877929688,1,"Delisting of Securities of Renovare Environmental, Inc.; Endo International plc; Clarus Therapeutics Holdings, Inc.; NewAge, Inc.; and Allena Pharmaceuticals, Inc. from The Nasdaq Stock Market",headlinesIter424.csv
+2022-09-14,NDAQ,62.02999877929688,54.53545562984713,0.7961016007131377,61.11000061035156,0,Nasdaq Launches Nasdaq Primary in Partnership with Onbrane,headlinesIter425.csv
+2022-09-15,NDAQ,61.11000061035156,49.85628909442006,0.7627101104474417,61.0099983215332,0,Nasdaq Launches Nasdaq Primary in Partnership with Onbrane,headlinesIter426.csv
+2022-09-16,NDAQ,61.0099983215332,49.36052283313021,0.713553350204849,60.72999954223633,0,Nasdaq Launches Nasdaq Primary in Partnership with Onbrane,headlinesIter427.csv
+2022-09-19,NDAQ,60.72999954223633,47.92358751007212,0.6509985533506322,59.20000076293945,0,Nasdaq Launches Nasdaq Primary in Partnership with Onbrane,headlinesIter428.csv
+2022-09-20,NDAQ,59.20000076293945,40.91459830528829,0.5574313582081457,58.56999969482422,0,Nasdaq Establishes New Digital Assets Business,headlinesIter429.csv

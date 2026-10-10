@@ -1,0 +1,428 @@
+date,symbol,close,rsi,26-Day EMA,NextDayClose,Diff,Titles,filename
+2021-01-05,ATVI,90.69000244140624,64.37852584936633,2.947858058584328,88.0,0,6 Video Games Stocks To Watch In 2021,headlinesIter1.csv
+2021-01-06,ATVI,88.0,53.751544368644325,2.867232456280738,89.66999816894531,1,6 Video Games Stocks To Watch In 2021,headlinesIter2.csv
+2021-01-07,ATVI,89.66999816894531,58.348282983875535,2.766660001850308,91.3000030517578,1,Top Activision Blizzard Shareholders,headlinesIter3.csv
+2021-01-08,ATVI,91.3000030517578,62.288202917677225,2.678557419316982,90.91000366210938,0,"The Zacks Analyst Blog Highlights: Harmonic, Himax Technologies, Glu Mobile, Activision Blizzard and Mattel",headlinesIter4.csv
+2021-01-11,ATVI,90.91000366210938,60.80615670154433,2.5905620072067093,89.25,0,"Activision Blizzard to Release Fourth Quarter 2020 Financial Results on February 4, 2021",headlinesIter5.csv
+2021-01-12,ATVI,89.25,54.8264997659778,2.474857828607329,89.7699966430664,1,"Activision Blizzard to Release Fourth Quarter 2020 Financial Results on February 4, 2021",headlinesIter6.csv
+2021-01-13,ATVI,89.7699966430664,56.27699043430698,2.3505072773495743,89.98999786376953,1,"Activision Blizzard to Release Fourth Quarter 2020 Financial Results on February 4, 2021",headlinesIter7.csv
+2021-01-14,ATVI,89.98999786376953,56.90742909127496,2.225408718035859,90.69000244140624,1,"Activision Blizzard to Release Fourth Quarter 2020 Financial Results on February 4, 2021",headlinesIter8.csv
+2021-01-15,ATVI,90.69000244140624,58.93628630481062,2.1124952025380943,93.1500015258789,1,"Video Game Stocks Well-Positioned After Record 2020 Sales, Analysts Say",headlinesIter9.csv
+2021-01-19,ATVI,93.1500015258789,65.14659320365811,2.0475711942645,95.12000274658205,1,"Video Game Stocks Well-Positioned After Record 2020 Sales, Analysts Say",headlinesIter10.csv
+2021-01-20,ATVI,95.12000274658205,69.16795709581291,2.04289289317631,94.5999984741211,0,"Video Game Stocks Well-Positioned After Record 2020 Sales, Analysts Say",headlinesIter11.csv
+2021-01-21,ATVI,94.5999984741211,66.97139941213894,2.0632681478729906,94.43000030517578,0,Take-Two Interactive Software Earns Relative Strength Rating Upgrade,headlinesIter12.csv
+2021-01-22,ATVI,94.43000030517578,66.23090738967309,2.0908635544838043,93.4000015258789,0,Blizzard Absorbs Activision Studio After Dismantling Classic Games Team,headlinesIter13.csv
+2021-01-25,ATVI,93.4000015258789,61.77418881213706,2.100339285686702,92.37999725341795,0,Roblox’s IPO Is Coming. How to Play the Videogame Boom.,headlinesIter14.csv
+2021-01-26,ATVI,92.37999725341795,57.63788432277639,2.076900551367644,88.66999816894531,0,We're Watching These Trends At Activision Blizzard (NASDAQ:ATVI),headlinesIter15.csv
+2021-01-27,ATVI,88.66999816894531,45.66179721619522,1.97013581984773,90.2699966430664,1,"Playing to WIN: CEO’s of DraftKings, FansUnite, ESE and Activision Blizzard Embracing Trillion Dollar Millennials Demand for E-Sports &amp; I-Gaming",headlinesIter16.csv
+2021-01-28,ATVI,90.2699966430664,50.44405644649829,1.837777454353397,91.0,1,"Playing to WIN: CEO’s of DraftKings, FansUnite, ESE and Activision Blizzard Embracing Trillion Dollar Millennials Demand for E-Sports &amp; I-Gaming",headlinesIter17.csv
+2021-01-29,ATVI,91.0,52.49818681522939,1.7037740497880356,91.41999816894533,1,"Playing to WIN: CEO’s of DraftKings, FansUnite, ESE and Activision Blizzard Embracing Trillion Dollar Millennials Demand for E-Sports &amp; I-Gaming",headlinesIter18.csv
+2021-02-01,ATVI,91.41999816894533,53.68761072360895,1.5785818262900233,93.9800033569336,1,"Playing to WIN: CEO’s of DraftKings, FansUnite, ESE and Activision Blizzard Embracing Trillion Dollar Millennials Demand for E-Sports &amp; I-Gaming",headlinesIter19.csv
+2021-02-02,ATVI,93.9800033569336,60.22513510432766,1.5027205439284277,92.7699966430664,0,"Video Game Stocks To Buy And Watch, Including Esports Stocks",headlinesIter20.csv
+2021-02-03,ATVI,92.7699966430664,56.18784351762285,1.4390257590388145,92.68000030517578,0,"Video Game Stocks To Buy And Watch, Including Esports Stocks",headlinesIter21.csv
+2021-02-04,ATVI,92.68000030517578,55.88775406462839,1.3815800151360589,101.61000061035156,1,"Video Game Publisher Activision Tops Holiday-Quarter Targets, Guides Higher",headlinesIter22.csv
+2021-02-05,ATVI,101.61000061035156,71.91582739446582,1.4703864889022324,101.19000244140624,0,"Stock Market Up As Activision, J&amp;J, Ubiquiti Lead Upside; Should Investors Take Profits In Peloton, Unity Software?",headlinesIter23.csv
+2021-02-08,ATVI,101.19000244140624,70.61623454434526,1.636153503502172,102.7300033569336,1,14 Best Low-Risk Stocks to Buy Right Now,headlinesIter24.csv
+2021-02-09,ATVI,102.7300033569336,72.5733391271389,1.8623088036831408,102.76000213623048,1,Market Signals Flip to Risk-On,headlinesIter25.csv
+2021-02-10,ATVI,102.76000213623048,72.61160753683666,2.110692911344485,103.23999786376952,1,Market Signals Flip to Risk-On,headlinesIter26.csv
+2021-02-11,ATVI,103.23999786376952,73.25464216863043,2.362836254931352,103.80999755859376,1,Market Signals Flip to Risk-On,headlinesIter27.csv
+2021-02-12,ATVI,103.80999755859376,74.03427515557713,2.6078266744973826,102.95999908447266,0,Market Signals Flip to Risk-On,headlinesIter28.csv
+2021-02-16,ATVI,102.95999908447266,70.72347045278956,2.8159859835241696,102.3499984741211,0,"CEOs of GameStop, FansUnite, ESE and Activision Blizzard Driving New Trends in E-Sports, I-Gaming and Digital Entertainment",headlinesIter29.csv
+2021-02-17,ATVI,102.3499984741211,68.36079196555802,2.973997805914162,102.25,0,Saudi Sovereign Wealth Fund Is Betting On These 3 US Video-Game Stocks,headlinesIter30.csv
+2021-02-18,ATVI,102.25,67.95997870225146,3.083921154538114,100.8000030517578,0,Saudi Sovereign Wealth Fund Is Betting On These 3 US Video-Game Stocks,headlinesIter31.csv
+2021-02-19,ATVI,100.8000030517578,62.259647921991125,3.1277784812902807,96.58000183105467,0,Saudi Sovereign Wealth Fund Is Betting On These 3 US Video-Game Stocks,headlinesIter32.csv
+2021-02-22,ATVI,96.58000183105467,49.29927429429943,3.0534713372589657,96.41999816894533,0,Saudi Sovereign Wealth Fund Is Betting On These 3 US Video-Game Stocks,headlinesIter33.csv
+2021-02-23,ATVI,96.41999816894533,48.8837680397641,2.899484051632752,95.69000244140624,0,George Soros’ Top 10 Stock Picks,headlinesIter34.csv
+2021-02-24,ATVI,95.69000244140624,46.93995372847731,2.68537189873907,95.0999984741211,0,George Soros’ Top 10 Stock Picks,headlinesIter35.csv
+2021-02-25,ATVI,95.0999984741211,45.36968087730689,2.429265082251694,95.61000061035156,1,3 Stocks That Could Set You Up for Life,headlinesIter36.csv
+2021-02-26,ATVI,95.61000061035156,47.0195513248434,2.162862366419146,98.72000122070312,1,3 Stocks That Could Set You Up for Life,headlinesIter37.csv
+2021-03-01,ATVI,98.72000122070312,55.78811230638371,1.9486602934362125,96.75,0,3 Stocks That Could Set You Up for Life,headlinesIter38.csv
+2021-03-02,ATVI,96.75,50.12848329878366,1.7425337888268246,93.70999908447266,0,"Playtika Holding Corp. -- Moody's upgrades Playtika to Ba3 and rates new debt issuance, outlook stable",headlinesIter39.csv
+2021-03-03,ATVI,93.70999908447266,42.89646232202132,1.499801359912532,91.54000091552734,0,Activision Blizzard Needs to Keep These Customers Happy,headlinesIter40.csv
+2021-03-04,ATVI,91.54000091552734,38.61402937657317,1.2088100777529949,92.58000183105467,1,Activision Blizzard Needs to Keep These Customers Happy,headlinesIter41.csv
+2021-03-05,ATVI,92.58000183105467,41.6220247229883,0.9166628096747488,89.20999908447266,0,"Top Gaming Stocks to Buy in 2021: Skillz, Activision Blizzard",headlinesIter42.csv
+2021-03-08,ATVI,89.20999908447266,35.54408261585003,0.5832501490093914,92.5,1,The future of gaming: key trends transforming the industry,headlinesIter43.csv
+2021-03-09,ATVI,92.5,44.12273284570334,0.292611880352081,91.30999755859376,0,The future of gaming: key trends transforming the industry,headlinesIter44.csv
+2021-03-10,ATVI,91.30999755859376,41.94800938066801,0.0243667946261333,92.94000244140624,1,Roblox could change the future of gaming — but it has two major challenges,headlinesIter45.csv
+2021-03-11,ATVI,92.94000244140624,45.88264006910168,-0.1898305881644711,93.04000091552734,1,Roblox could change the future of gaming — but it has two major challenges,headlinesIter46.csv
+2021-03-12,ATVI,93.04000091552734,46.12389278890967,-0.3568952575227872,92.58000183105467,0,Roblox could change the future of gaming — but it has two major challenges,headlinesIter47.csv
+2021-03-15,ATVI,92.58000183105467,45.12728764333467,-0.4921858294330494,93.27999877929688,1,15 Most Valuable App Companies,headlinesIter48.csv
+2021-03-16,ATVI,93.27999877929688,47.00385982474549,-0.588179023749511,92.44000244140624,0,"The Activision Blizzard (NASDAQ:ATVI) Share Price Has Gained 189%, So Why Not Pay It Some Attention?",headlinesIter49.csv
+2021-03-17,ATVI,92.44000244140624,45.01443918489795,-0.6665703332429785,89.58000183105469,0,Is Activision Blizzard Stock a Buy?,headlinesIter50.csv
+2021-03-18,ATVI,89.58000183105469,38.96709672952999,-0.7739301111000816,90.48999786376952,1,Is Activision Blizzard Stock a Buy?,headlinesIter51.csv
+2021-03-19,ATVI,90.48999786376952,41.65299372511026,-0.8775363882601649,91.87000274658205,1,4 Stocks to Watch as Live Streaming Boosts E-Sports Market,headlinesIter52.csv
+2021-03-22,ATVI,91.87000274658205,45.565250575051365,-0.9493415767950384,91.37999725341795,0,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter53.csv
+2021-03-23,ATVI,91.37999725341795,44.42617455399231,-1.0031043224059684,90.51000213623048,0,Top Video Game Stocks for Q2 2021,headlinesIter54.csv
+2021-03-24,ATVI,90.51000213623048,42.399516848686446,-1.0543340686887386,90.8499984741211,1,Top Video Game Stocks for Q2 2021,headlinesIter55.csv
+2021-03-25,ATVI,90.8499984741211,43.484569060456906,-1.0934631485016066,92.4000015258789,1,Get Ready For The Run Of A Lifetime As Crash Bandicoot™ Is Unleashed On Mobile Worldwide,headlinesIter56.csv
+2021-03-26,ATVI,92.4000015258789,48.26887991360123,-1.095734936859828,94.0199966430664,1,Get Ready For The Run Of A Lifetime As Crash Bandicoot™ Is Unleashed On Mobile Worldwide,headlinesIter57.csv
+2021-03-29,ATVI,94.0199966430664,52.769200749710144,-1.0464427205697553,92.66000366210938,0,"Got $5,000? 2 Tech Stocks to Buy in a Market Crash",headlinesIter58.csv
+2021-03-30,ATVI,92.66000366210938,48.92151875917607,-0.9867280036358532,93.0,1,"Hearthstone® Embarks on its Biggest Journey Yet With Forged in the Barrens™, Live Today",headlinesIter59.csv
+2021-03-31,ATVI,93.0,49.9049316202354,-0.9159376136388316,95.54000091552734,1,Activision (ATVI) Launches New Expansion Pack for Hearthstone,headlinesIter60.csv
+2021-04-01,ATVI,95.54000091552734,56.62376777786675,-0.7993043173289747,97.87000274658205,1,Activision (ATVI) Launches New Expansion Pack for Hearthstone,headlinesIter61.csv
+2021-04-05,ATVI,97.87000274658205,61.69859081130089,-0.6210560909778307,97.31999969482422,0,3 Stocks With Strong Earnings That You Should Watch Now,headlinesIter63.csv
+2021-04-06,ATVI,97.31999969482422,59.9165828731924,-0.4208923517287927,96.83999633789062,0,3 Stocks With Strong Earnings That You Should Watch Now,headlinesIter64.csv
+2021-04-07,ATVI,96.83999633789062,58.33310023241576,-0.2241841819444009,96.45999908447266,0,Is PLD Stock A Buy or Sell?,headlinesIter65.csv
+2021-04-08,ATVI,96.45999908447266,57.04773791327891,-0.0455053366039968,95.77999877929688,0,"Activision Blizzard, Inc (ATVI) Stock Sinks As Market Gains: What You Should Know",headlinesIter66.csv
+2021-04-09,ATVI,95.77999877929688,54.72392542380648,0.1017611452844347,96.13999938964844,1,"Activision Blizzard, Inc (ATVI) Stock Sinks As Market Gains: What You Should Know",headlinesIter67.csv
+2021-04-12,ATVI,96.13999938964844,55.75156166938792,0.2271306792399882,97.54000091552734,1,10 Best Tech Stocks to Buy According to Billionaire Ken Griffin,headlinesIter68.csv
+2021-04-13,ATVI,97.54000091552734,59.59254239997277,0.354022082231197,96.69000244140624,0,10 Best Tech Stocks to Buy According to Billionaire Ken Griffin,headlinesIter69.csv
+2021-04-14,ATVI,96.69000244140624,56.39191342879709,0.4608473890740956,97.77999877929688,1,4 Stocks to Watch Amid the Growing Popularity of Mobile Gaming,headlinesIter70.csv
+2021-04-15,ATVI,97.77999877929688,59.403036750069504,0.5658355870349161,96.4800033569336,0,"AppLovin goes public as it bets on the casual female gamer, apps that aren’t 'addictive'",headlinesIter71.csv
+2021-04-16,ATVI,96.4800033569336,54.5638950039965,0.6421383444504396,96.0,0,"AppLovin goes public as it bets on the casual female gamer, apps that aren’t 'addictive'",headlinesIter72.csv
+2021-04-19,ATVI,96.0,52.85188112626352,0.6873399704391849,94.47000122070312,0,How entertainment services vary across generations,headlinesIter73.csv
+2021-04-20,ATVI,94.47000122070312,47.71298331696234,0.6847016420903304,93.18000030517578,0,How entertainment services vary across generations,headlinesIter74.csv
+2021-04-21,ATVI,93.18000030517578,43.84230951261549,0.6300746779771506,93.6999969482422,1,Let's Take A Look At This Weeks Top Performing Sectors,headlinesIter75.csv
+2021-04-22,ATVI,93.6999969482422,45.75270504075496,0.5525860549759941,93.0199966430664,0,"Was The Smart Money Right About Gilead Sciences, Inc. (GILD)?",headlinesIter76.csv
+2021-04-23,ATVI,93.0199966430664,43.66099751627422,0.4527218056355259,94.23999786376952,1,3 Top Video Game Stocks to Buy in April,headlinesIter77.csv
+2021-04-26,ATVI,94.23999786376952,48.2336439173602,0.3625005585305154,91.5999984741211,0,Should You Consider Investing in Activision Blizzard (ATVI)?,headlinesIter78.csv
+2021-04-27,ATVI,91.5999984741211,40.56173803626501,0.2401070447864089,91.25,0,"Will Activision Blizzard, Inc (ATVI) Beat Estimates Again in Its Next Earnings Report?",headlinesIter79.csv
+2021-04-28,ATVI,91.25,39.66107024828302,0.0978333740661835,92.08999633789062,1,Activision Blizzard Is Set to Resume Its Long-Term Trend,headlinesIter80.csv
+2021-04-29,ATVI,92.08999633789062,42.936030110859456,-0.0362639040630429,91.19000244140624,0,Activision (ATVI) to Report Q1 Earnings: What's in Store?,headlinesIter81.csv
+2021-04-30,ATVI,91.19000244140624,40.4055865814973,-0.1724830010226511,91.1500015258789,0,The Call of Duty Endowment Announces #CODEMedicalHeroes Campaign to Raise $3 Million for Veteran Employment,headlinesIter82.csv
+2021-05-03,ATVI,91.1500015258789,40.291926530397184,-0.3031362503605003,88.69000244140625,0,"Uber, Pfizer, ViacomCBS, General Motors, and Other Stocks to Watch This Week",headlinesIter83.csv
+2021-05-04,ATVI,88.69000244140625,33.964325074303176,-0.4620088148212983,90.08000183105467,1,"Video Game Publisher Activision Tops Targets, Guides Higher For Full Year",headlinesIter84.csv
+2021-05-05,ATVI,90.08000183105467,39.72438596769873,-0.6070106969660904,93.02999877929688,1,12 Best Video Game Stocks to Invest in Now,headlinesIter85.csv
+2021-05-06,ATVI,93.02999877929688,49.74355798507493,-0.6872684873481614,94.8000030517578,1,Return to Outland on June 1 With the Launch of World of Warcraft®: Burning Crusade Classic™,headlinesIter86.csv
+2021-05-07,ATVI,94.8000030517578,54.617861595799496,-0.6929328810165899,93.16999816894533,0,"Here's How Much Activision Blizzard Is Relying on ""Call of Duty""",headlinesIter87.csv
+2021-05-10,ATVI,93.16999816894533,49.82527653066423,-0.6759730835694524,95.33999633789062,1,Roblox set to report first earnings as a public company,headlinesIter88.csv
+2021-05-11,ATVI,95.33999633789062,55.43204921371986,-0.6095602092409846,92.66000366210938,0,Activision Blizzard Is Upgraded to Outperform by BMO,headlinesIter89.csv
+2021-05-12,ATVI,92.66000366210938,48.259555134413006,-0.5570009838889682,93.41999816894533,1,Ubisoft Is Taking a Page Out of Activision Blizzard's Playbook,headlinesIter90.csv
+2021-05-13,ATVI,93.41999816894533,50.22639887129683,-0.5024854123714357,93.3499984741211,0,"E-Sports &amp; Video Games For The Win: CEO’s of Activision Blizzard, ESE Entertainment, NetEase, and Enthusiast Gaming - Driving Revenue Growth and Market Share",headlinesIter91.csv
+2021-05-14,ATVI,93.3499984741211,50.03772678711984,-0.4495729756705067,92.3000030517578,0,Electronic Arts Earnings: 3 Numbers to Know,headlinesIter92.csv
+2021-05-17,ATVI,92.3000030517578,47.17510219582474,-0.4161665061480596,93.66000366210938,1,"Earnings Roundup: General Motors, Editas Medicine, Activision Blizzard, Match Group",headlinesIter93.csv
+2021-05-18,ATVI,93.66000366210938,51.079000773536855,-0.3740906782084953,94.26000213623048,1,Saudi Wealth Fund Loads Up on Video-Game Makers and Exits Suncor,headlinesIter94.csv
+2021-05-19,ATVI,94.26000213623048,52.73844844406737,-0.3183614952395223,96.56999969482422,1,"Earnings Roundup: Peloton, Activision Blizzard, Cloudflare, and More",headlinesIter95.csv
+2021-05-20,ATVI,96.56999969482422,58.5658239960658,-0.2194157975578496,95.37000274658205,0,"Call of Duty, Rambo, and Die Hard Come Together in Epic Action Heroes Crossover",headlinesIter96.csv
+2021-05-21,ATVI,95.37000274658205,54.78668097598983,-0.1172148801401639,96.5,1,Why Roblox Stock Suddenly Soared 10% This Morning,headlinesIter97.csv
+2021-05-24,ATVI,96.5,57.56363791821166,-3.559239572432926e-05,96.56999969482422,1,Top 4 Mutual Fund Holders of Activision Blizzard (ATVI),headlinesIter98.csv
+2021-05-25,ATVI,96.56999969482422,57.73680626534892,0.1215060011672915,97.3000030517578,1,Top 4 Mutual Fund Holders of Activision Blizzard (ATVI),headlinesIter99.csv
+2021-05-26,ATVI,97.3000030517578,59.588824437233455,0.2507802327827913,97.25,0,Top 4 Mutual Fund Holders of Activision Blizzard (ATVI),headlinesIter100.csv
+2021-05-27,ATVI,97.25,59.396823879383454,0.3767550149217984,97.25,0,"A Look At The Fair Value Of Activision Blizzard, Inc. (NASDAQ:ATVI)",headlinesIter101.csv
+2021-05-28,ATVI,97.25,59.39682387938346,0.4931992589180028,96.4499969482422,0,3 Beautiful Breakout Stocks to Buy,headlinesIter102.csv
+2021-06-01,ATVI,96.4499969482422,56.04603499521008,0.5836780642306612,95.38999938964844,0,World of Warcraft®: Burning Crusade Classic™ Is Now Live!,headlinesIter103.csv
+2021-06-02,ATVI,95.38999938964844,51.87058849558079,0.634897224792201,94.9800033569336,0,Activision (ATVI) Expands Profile With Burning Crusade Classic,headlinesIter104.csv
+2021-06-03,ATVI,94.9800033569336,50.30936060800993,0.6508359011297669,96.83999633789062,1,Activision Blizzard Is Capitalizing on This Key Asset,headlinesIter105.csv
+2021-06-04,ATVI,96.83999633789062,56.67957652323084,0.6720176367225177,97.12000274658205,1,Top 25 Free Games Without Wifi or Internet,headlinesIter106.csv
+2021-06-07,ATVI,97.12000274658205,57.561599550817256,0.698310913285433,96.8000030517578,0,3 Stocks to Track in a Thriving Video Gaming Industry,headlinesIter107.csv
+2021-06-08,ATVI,96.8000030517578,56.15445812993906,0.7197326676347705,96.52999877929688,0,Activision Blizzard's Winning Strategy,headlinesIter108.csv
+2021-06-09,ATVI,96.52999877929688,54.93419520776488,0.731029905668144,97.69000244140624,1,10 Best Stocks to Buy Now According to Billionaire George Soros,headlinesIter109.csv
+2021-06-10,ATVI,97.69000244140624,59.0512205755568,0.7522300890404093,98.1500015258789,1,"Microsoft, Nintendo, Ubisoft Gear Up For 2021 Virtual E3 Gaming Showcase: Bloomberg",headlinesIter110.csv
+2021-06-11,ATVI,98.1500015258789,60.58880273292441,0.7841504302540468,99.18000030517578,1,Electronic Arts (EA) Announces Next Generation of Battlefield,headlinesIter111.csv
+2021-06-14,ATVI,99.18000030517578,63.86098928471916,0.8357624331959775,95.97000122070312,0,Activision (ATVI) Unveils Latest Remake Diablo II: Resurrected,headlinesIter112.csv
+2021-06-15,ATVI,95.97000122070312,49.9437659743559,0.8438926694897275,94.05999755859376,0,Hedge Funds Are Buying CME Group Inc (CME),headlinesIter113.csv
+2021-06-16,ATVI,94.05999755859376,43.82389948900093,0.791946781413652,93.19000244140624,0,"Video Game Stocks To Buy And Watch, Including Esports Stocks",headlinesIter114.csv
+2021-06-17,ATVI,93.19000244140624,41.33911280537728,0.6893841608528382,91.48999786376952,0,Best Growth Stocks July 2021,headlinesIter115.csv
+2021-06-21,ATVI,91.81999969482422,38.30726656289305,0.3519881643261885,91.87999725341795,1,3 Growth Stocks That Could Strengthen Your Portfolio During A High-Interest-Rate Market,headlinesIter116.csv
+2021-06-22,ATVI,91.87999725341795,38.56945242335108,0.1678725007585781,90.79000091552734,0,4 Stocks to Make the Most of Solid Demand for Mobile Gaming,headlinesIter117.csv
+2021-06-23,ATVI,90.79000091552734,35.60866586935093,-0.0270753367620404,92.51000213623048,1,4 Stocks to Make the Most of Solid Demand for Mobile Gaming,headlinesIter118.csv
+2021-06-24,ATVI,92.51000213623048,43.03932218904507,-0.1910897581970047,92.26000213623048,0,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter119.csv
+2021-06-25,ATVI,92.26000213623048,42.27568625839162,-0.3306708784929236,95.4000015258789,1,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter120.csv
+2021-06-28,ATVI,95.4000015258789,53.44780065016391,-0.3967700838348231,95.61000061035156,1,Take Two (TTWO) Unveils Latest Kerbal Space Program for Consoles,headlinesIter121.csv
+2021-06-29,ATVI,95.61000061035156,54.087796638593474,-0.409092486873902,95.44000244140624,0,Take Two (TTWO) Unveils Latest Kerbal Space Program for Consoles,headlinesIter122.csv
+2021-06-30,ATVI,95.44000244140624,53.44721621332842,-0.388842488300605,93.9000015258789,0,10 Best App Stocks to Buy Today,headlinesIter123.csv
+2021-07-01,ATVI,93.9000015258789,47.91148009582737,-0.3729218423066195,94.2699966430664,1,"Stand Tall with the Alliance in United in Stormwind™, Coming to Hearthstone® August 3",headlinesIter124.csv
+2021-07-02,ATVI,94.2699966430664,49.27094121522568,-0.3537963168928134,94.4000015258789,1,"Activision Blizzard, Inc (ATVI) Gains But Lags Market: What You Should Know",headlinesIter125.csv
+2021-07-06,ATVI,94.4000015258789,49.76703291418531,-0.3307841014447875,93.30999755859376,0,4 Growth Stocks to Buy in July,headlinesIter126.csv
+2021-07-07,ATVI,93.30999755859376,45.729169985301056,-0.3231785751487729,92.18000030517578,0,4 Growth Stocks to Buy in July,headlinesIter127.csv
+2021-07-08,ATVI,92.18000030517578,41.93096280649268,-0.3429202142553545,92.37999725341795,1,4 Growth Stocks to Buy in July,headlinesIter128.csv
+2021-07-09,ATVI,92.37999725341795,42.83594292852875,-0.3747952184543837,92.91000366210938,1,"Activision Blizzard, Inc (ATVI) Gains But Lags Market: What You Should Know",headlinesIter129.csv
+2021-07-12,ATVI,92.91000366210938,45.270169256271394,-0.4032940636210494,93.25,1,Investors Will Want Activision Blizzard's (NASDAQ:ATVI) Growth In ROCE To Persist,headlinesIter130.csv
+2021-07-13,ATVI,93.25,46.834209726899886,-0.4218392094108785,92.31999969482422,0,11 Best Gaming Stocks to Buy Now,headlinesIter131.csv
+2021-07-14,ATVI,92.31999969482422,43.19775184453014,-0.4470495568987632,90.68000030517578,0,Better Buy: Activision Blizzard vs. Zynga,headlinesIter132.csv
+2021-07-15,ATVI,90.68000030517578,37.646563275557135,-0.5002622716695767,91.8000030517578,1,"'For Netflix, this is an extension of their content strategy;' Analyst on Netflix gaming foray",headlinesIter133.csv
+2021-07-16,ATVI,91.8000030517578,43.030810131999175,-0.5492276407203518,90.3000030517578,0,10 Best Blue Chip Dividend Stocks Hedge Funds Are Buying,headlinesIter134.csv
+2021-07-19,ATVI,90.3000030517578,38.265132673169234,-0.6156438332425823,91.51000213623048,1,Tencent Offers to Buy British Game Maker Sumo Group,headlinesIter135.csv
+2021-07-20,ATVI,91.51000213623048,43.68339531384278,-0.6688082117524796,91.16999816894533,0,Tencent Offers to Buy British Game Maker Sumo Group,headlinesIter136.csv
+2021-07-21,ATVI,91.16999816894533,42.55322057854644,-0.7147798609179281,90.47000122070312,0,Netflix will face its biggest test yet when it breaks into gaming,headlinesIter137.csv
+2021-07-22,ATVI,90.47000122070312,40.24469498647466,-0.7633722514537447,91.5,1,10 Stocks with Over 10 Years of Dividend Increases,headlinesIter138.csv
+2021-07-23,ATVI,91.5,44.97498406824998,-0.7928870697684681,90.13999938964844,0,3 Best Video Game Stocks to Buy in the Next Market Crash,headlinesIter139.csv
+2021-07-26,ATVI,90.13999938964844,40.42463796432607,-0.828788085281263,84.05000305175781,0,Activision Blizzard Staff Sign Petition Supporting Labor Lawsuit,headlinesIter140.csv
+2021-07-27,ATVI,84.05000305175781,27.16881447810401,-0.9620832139624402,84.81999969482422,1,"Got $1,000? Here Are 3 Video Game Stocks to Buy Right Now",headlinesIter141.csv
+2021-07-28,ATVI,84.81999969482422,30.28170477692377,-1.1349579060537875,83.56999969482422,0,"Deutsche Bank tops estimates, Barclays pays out more to shareholders, Activision Blizzard worker protest",headlinesIter142.csv
+2021-07-29,ATVI,83.56999969482422,28.17629702285664,-1.3409341459824922,83.62000274658203,1,Should You Buy Activision Blizzard Stock Ahead of Q2 Earnings?,headlinesIter143.csv
+2021-07-30,ATVI,83.62000274658203,28.390781571740494,-1.553006150306926,82.76000213623047,0,Activision Shareholder Alert,headlinesIter144.csv
+2021-08-02,ATVI,82.76000213623047,26.902751032834228,-1.7679628890621686,79.83000183105469,0,10 Stocks Reddit’s WallStreetBets is Buying Before Earnings,headlinesIter145.csv
+2021-08-03,ATVI,79.83000183105469,22.56366946252436,-2.016176234596375,81.5199966430664,1,A Letter From President and Chief Operating Officer Daniel Alegre Regarding Blizzard Entertainment,headlinesIter146.csv
+2021-08-04,ATVI,81.5199966430664,29.61518525701284,-2.240664269585283,80.31999969482422,0,"ATVI: ROSEN, FIRST FILING TO RANKED INVESTOR COUNSEL, Encourages Activision Blizzard, Inc. Investors with Losses Exceeding $100K to Secure Counsel Before Important Deadline In Class Action Seeking Recovery of Losses - ATVI",headlinesIter147.csv
+2021-08-05,ATVI,80.31999969482422,27.687231123726235,-2.452552029163154,82.43000030517578,1,"ATVI Investor Alert: Bronstein, Gewirtz &amp; Grossman, LLC Notifies Activision Blizzard, Inc. Investors of Class Action and Encourages Investors to Contact the Firm",headlinesIter148.csv
+2021-08-06,ATVI,82.43000030517578,35.623180414091685,-2.606180984159942,81.41000366210938,0,"ATVI Investor Alert: Bronstein, Gewirtz &amp; Grossman, LLC Notifies Activision Blizzard, Inc. Shareholders of Class Action and Encourages Investors to Contact the Firm",headlinesIter149.csv
+2021-08-09,ATVI,81.41000366210938,33.697926912817934,-2.725574402501645,82.98999786376953,1,"The Call of Duty™ Endowment Opens Its 2021 ""Seal of Distinction"" Submissions for U.S. Organizations",headlinesIter150.csv
+2021-08-10,ATVI,82.98999786376953,39.18113788424187,-2.78583082935359,85.0,1,Activision Blizzard (ATVI) Long-Term Investor Alert: Contact Johnson Fistel Regarding Investigation,headlinesIter151.csv
+2021-08-11,ATVI,85.0,45.37069062166967,-2.767444712022641,85.16999816894531,1,"ATVI Investor Alert: Bronstein, Gewirtz &amp; Grossman, LLC Reminds Activision Blizzard, Inc. Shareholders of Class Action and Encourages Shareholders to Contact the Firm",headlinesIter152.csv
+2021-08-12,ATVI,85.16999816894531,45.8724228206942,-2.6917110144151706,83.8499984741211,0,"Activision Blizzard, Inc. (NASDAQ:ATVI) Seems to be Peaking Growth in the Short Term, but their Value lies in High Margins",headlinesIter153.csv
+2021-08-13,ATVI,83.8499984741211,42.6006946444512,-2.598927920382134,83.8499984741211,0,"Disney Rises Premarket; Airbnb, Doordash Fall",headlinesIter154.csv
+2021-08-16,ATVI,83.8499984741211,42.60069464445119,-2.4943989556376374,83.37000274658203,0,"SHAREHOLDER ALERT: Lowey Dannenberg, P.C., Investigates Claims on Behalf of Investors of Activision Blizzard, Inc. and Encourages Investors Who Lost More than $100,000 to Contact the Firm",headlinesIter155.csv
+2021-08-17,ATVI,83.37000274658203,41.3567394581836,-2.3899602994529308,82.83000183105469,0,Activision Investor Alert,headlinesIter156.csv
+2021-08-18,ATVI,82.83000183105469,39.94362500604968,-2.294221290118205,83.16999816894531,1,"Data: Blockchain-based gaming booms with help from Axie Infinity, outpacing NFTs, DeFi",headlinesIter157.csv
+2021-08-19,ATVI,83.16999816894531,41.30352659558048,-2.1983004105683017,82.62999725341797,0,"Rise on Every Front, Call of Duty®: Vanguard to Launch November 5",headlinesIter158.csv
+2021-08-20,ATVI,82.62999725341797,39.763466918858654,-2.110898897214631,82.22000122070312,0,Activision Director Peter Nolan Buys the Stock Dip,headlinesIter159.csv
+2021-08-23,ATVI,82.22000122070312,38.587048493372855,-2.0351489709672554,81.79000091552734,0,"ROSEN, FIRST FILING GLOBAL INVESTOR COUNSEL,  Encourages Activision Blizzard, Inc. Investors with Losses Exceeding $100K to Secure Counsel Before Important Deadline in Securities Class Action Commenced by the Firm – ATVI",headlinesIter160.csv
+2021-08-24,ATVI,81.79000091552734,37.33932645070305,-1.972894857650214,80.80999755859375,0,Activision Deadline Alert,headlinesIter161.csv
+2021-08-25,ATVI,80.80999755859375,34.59384446717316,-1.933501876647748,81.25,1,4 Stocks to Track in a Thriving Video Gaming Industry,headlinesIter162.csv
+2021-08-26,ATVI,81.25,36.83933395295838,-1.8990760317890367,82.43000030517578,1,Activision Shareholder Notice,headlinesIter163.csv
+2021-08-27,ATVI,82.43000030517578,42.53694539224245,-1.846413557194177,81.12000274658203,0,Buy Roblox Stock to Invest in Strong Platform Growth,headlinesIter164.csv
+2021-08-30,ATVI,81.12000274658203,38.39595131355596,-1.801773266282969,82.37000274658203,1,"Rosen, a Respected and Leading Firm, Encourages Activision Blizzard, Inc. Investors with Losses to Secure Counsel Before Important Deadline in Securities Class Action - ATVI",headlinesIter165.csv
+2021-08-31,ATVI,82.37000274658203,43.99822489202359,-1.7404516168251614,82.30000305175781,0,"ATVI Shareholder Alert: Bronstein, Gewirtz &amp; Grossman, LLC Reminds Activision Blizzard, Inc. Shareholders of Class Action and Lead Plaintiff Deadline: October 4, 2021",headlinesIter166.csv
+2021-09-01,ATVI,82.30000305175781,43.75823900056977,-1.6690389601517606,81.30999755859375,0,"ROSEN, TOP RANKED GLOBAL INVESTOR COUNSEL, Encourages Activision Blizzard, Inc. Investors with Losses Exceeding $100K to Secure Counsel Before Important Deadline in Securities Class Action First Filed by Firm – ATVI",headlinesIter167.csv
+2021-09-02,ATVI,81.30999755859375,40.40180961758318,-1.6070359071506042,81.18000030517578,0,3 Video Game Stocks You Can Buy at a Discount,headlinesIter168.csv
+2021-09-03,ATVI,81.18000030517578,39.96828432482359,-1.552592184282026,78.47000122070312,0,Why Unity Software Is a Great Video Game Stock,headlinesIter169.csv
+2021-09-07,ATVI,78.47000122070312,32.20916055589231,-1.5454383139934202,80.29000091552734,1,"ROSEN, TOP RANKED GLOBAL INVESTOR COUNSEL, Encourages Activision Blizzard, Inc. Investors with Losses Over $100K to Secure Counsel Before Important Deadline in Securities Class Action First Filed by Firm – ATVI",headlinesIter170.csv
+2021-09-08,ATVI,80.29000091552734,40.55549431731907,-1.5357404261512342,78.05000305175781,0,TCL Extends Relationship with Activision To Bring Next-Gen Gaming to More Gamers Around the World,headlinesIter171.csv
+2021-09-09,ATVI,78.05000305175781,34.86584044900807,-1.5571939712739964,79.63999938964844,1,GameStop says it isn't just selling video games — it's also 'evolving' into a tech company,headlinesIter172.csv
+2021-09-10,ATVI,79.63999938964844,41.174472277075296,-1.5681313778008137,78.52999877929688,0,Buy These 2 Growth Stocks on the Dip,headlinesIter173.csv
+2021-09-13,ATVI,78.52999877929688,38.379740218657126,-1.586039438300642,77.83999633789062,0,Is This the Best Gaming Stock to Buy Now?,headlinesIter174.csv
+2021-09-14,ATVI,77.83999633789062,36.71161841528186,-1.6147714808007554,78.25,1,3 Stocks to Buy and Hold for the Long Term,headlinesIter175.csv
+2021-09-15,ATVI,78.25,38.4242242212743,-1.6385598445704066,79.27999877929688,1,"ROSEN, A LEADING AND TOP RANKED LAW FIRM, Encourages Activision Blizzard, Inc. Investors with Losses Over $100K to Secure Counsel Before Important Deadline in Securities Class Action - ATVI",headlinesIter176.csv
+2021-09-16,ATVI,79.27999877929688,42.6246419994867,-1.637834942659766,79.55999755859375,1,"ROSEN, GLOBALLY RESPECTED INVESTOR COUNSEL, Encourages Activision Blizzard, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important October 4 Deadline in Securities Class Action – ATVI",headlinesIter177.csv
+2021-09-17,ATVI,79.55999755859375,43.74801646519503,-1.6135834271516962,76.18000030517578,0,"全球備受尊崇的投資者法律顧問 ROSEN 鼓勵損失超過 10 萬美元的 Activision Blizzard, Inc. 投資者在 10 月 4 日證券集體訴訟重要截止日期前尋求法律意見 - ATVI",headlinesIter178.csv
+2021-09-20,ATVI,76.18000030517578,34.87195455802656,-1.626105389624633,73.02999877929688,0,"The Crush is On! Khloé Kardashian To Host First Ever Candy Crush All Stars U.S. Tournament, Launching September 23",headlinesIter179.csv
+2021-09-21,ATVI,73.02999877929688,28.9723288221575,-1.707570045201674,72.80999755859375,0,4 Stocks I'm Watching This Week as Potential Buys,headlinesIter180.csv
+2021-09-22,ATVI,72.80999755859375,28.608297134546845,-1.8275942267617973,74.66999816894531,1,September Sell-Off: 3 Dirt Cheap Growth Stocks to Buy,headlinesIter181.csv
+2021-09-23,ATVI,74.66999816894531,35.937130549994194,-1.931654225917914,75.26000213623047,1,The Gates of Hell are Open: Diablo® II: Resurrected™ Now Live,headlinesIter182.csv
+2021-09-24,ATVI,75.26000213623047,38.10758688635436,-2.00643738829088,75.08000183105469,0,10 Large-Cap Stocks to Buy According to Anand Parekh’s Alyeska Investment Group,headlinesIter183.csv
+2021-09-27,ATVI,75.08000183105469,37.68806798406935,-2.0572488626820697,76.33000183105469,1,"Activision Blizzard Commits to Expanded Workplace Initiatives, Reaches Agreement with the EEOC",headlinesIter184.csv
+2021-09-28,ATVI,76.33000183105469,42.428007503519886,-2.0657398197657533,77.37999725341797,1,Key Takeaways From Activision Blizzard's EEOC Agreement On Workplace Harassment,headlinesIter185.csv
+2021-09-29,ATVI,77.37999725341797,46.13458966915014,-2.025799683860726,77.38999938964844,1,"ROSEN, NATIONAL TRIAL LAWYERS, Encourages Activision Blizzard, Inc. Investors with Losses Exceeding $100K to Secure Counsel Before Important October 4 Deadline in Securities Class Action - ATVI",headlinesIter186.csv
+2021-09-30,ATVI,77.38999938964844,46.170142619301856,-1.952820819560134,78.52999877929688,1,Electronic Arts (EA) Announces Expanded FIFA ESPORTS Program,headlinesIter187.csv
+2021-10-01,ATVI,78.52999877929688,50.2043104238865,-1.84032069491318,77.18000030517578,0,"Activision Blizzard to Release Third Quarter 2021 Financial Results on November 2, 2021",headlinesIter188.csv
+2021-10-04,ATVI,77.18000030517578,45.82462432031139,-1.7262908264384536,76.80000305175781,0,"Last Few Hours for Shareholders to Actively Participate in Activision Blizzard, Inc. (ATVI) Class Action- Bronstein, Gewirtz &amp; Grossman, LLC",headlinesIter189.csv
+2021-10-05,ATVI,76.80000305175781,44.64403915239139,-1.619407846555793,77.29000091552734,1,George Soros Stock Portfolio: Top 10 Large-Cap Stock Picks,headlinesIter190.csv
+2021-10-06,ATVI,77.29000091552734,46.556071333775655,-1.5110987926154151,77.36000061035156,1,Here's Why Electronic Arts Is Outperforming Other Gaming Stocks,headlinesIter191.csv
+2021-10-07,ATVI,77.36000061035156,46.838568512057385,-1.4030127386029487,77.61000061035156,1,Activision Blizzard (ATVI) Long-Term Investor Alert: Contact Johnson Fistel Regarding Investigation,headlinesIter192.csv
+2021-10-08,ATVI,77.61000061035156,47.897822620357374,-1.2935461523599647,76.31999969482422,0,Growth Stock Portfolio: 10 Stock Picks By Hedge Funds,headlinesIter193.csv
+2021-10-12,ATVI,74.91999816894531,38.62319110484978,-1.1578762984382682,75.25,1,Hearthstone® Mercenaries is Live Today—Experience an All-New Way to Play the Smash-Hit Digital Card game,headlinesIter194.csv
+2021-10-13,ATVI,75.25,40.207049132135,-1.1277914256870534,76.11000061035156,1,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter195.csv
+2021-10-14,ATVI,76.11000061035156,44.24501585057439,-1.0946658434668133,76.4000015258789,1,"Activision Blizzard, Inc (ATVI) Gains But Lags Market: What You Should Know",headlinesIter196.csv
+2021-10-15,ATVI,76.4000015258789,45.57964141696007,-1.054249141098256,76.4000015258789,0,Covid Is Forcing Video Game Companies to Rethink Remote Work,headlinesIter197.csv
+2021-10-18,ATVI,76.4000015258789,45.57964141696007,-1.0089783691515568,77.18000030517578,1,Activision Blizzard (NASDAQ:ATVI) shareholders have earned a 12% CAGR over the last five years,headlinesIter198.csv
+2021-10-19,ATVI,77.18000030517578,49.36081302736869,-0.9482942383366098,78.08000183105469,1,2 Beaten-Down Tech Stocks to Buy and Hold for the Long Term,headlinesIter199.csv
+2021-10-20,ATVI,78.08000183105469,53.38539693186194,-0.8646101221096657,78.69999694824219,1,"Moore Kuehn, PLLC Encourages Investors of APPH, GRPN and ATVI to Contact Law Firm",headlinesIter200.csv
+2021-10-21,ATVI,78.69999694824219,55.98080733780159,-0.7590346389140552,79.2699966430664,1,Is it Still Safe to Invest in Activision Blizzard (ATVI)?,headlinesIter201.csv
+2021-10-22,ATVI,79.2699966430664,58.280622375424976,-0.6344485065889469,81.19000244140625,1,3 Stocks to Watch This Earnings Season,headlinesIter202.csv
+2021-10-25,ATVI,81.19000244140625,64.92766054481534,-0.4723992709883939,80.76000213623047,0,3 Stocks to Watch This Earnings Season,headlinesIter203.csv
+2021-10-26,ATVI,80.76000213623047,62.5249864554557,-0.3011474869737272,78.6500015258789,0,"Activision Blizzard, Inc (ATVI) Reports Next Week: What to Expect",headlinesIter204.csv
+2021-10-27,ATVI,78.6500015258789,52.297980094207,-0.1660824767572206,78.87999725341797,1,3 Ways to Trade the Hot Video Games Growth,headlinesIter205.csv
+2021-10-28,ATVI,78.87999725341797,53.19663686724897,-0.0567309832585344,78.19000244140625,0,Activision buys mobile game developer Digital Legends,headlinesIter206.csv
+2021-10-29,ATVI,78.19000244140625,50.14458530253789,0.0198922272801678,79.3499984741211,1,Why I Just Bought Activision Blizzard Stock,headlinesIter207.csv
+2021-11-01,ATVI,79.3499984741211,54.83591805999881,0.0904469896031154,77.66999816894531,0,"Got $5,000? Buy These 3 Stocks to Double Your Money",headlinesIter208.csv
+2021-11-02,ATVI,77.66999816894531,47.81793574078863,0.1264899982654522,66.75,0,"Gaming Profits Flow to Apple (AAPL), at Least for Now",headlinesIter209.csv
+2021-11-03,ATVI,66.75,25.222158358440065,-0.0354982150363921,68.2300033569336,1,Activision-Blizzard Could Sell Off to 50,headlinesIter210.csv
+2021-11-04,ATVI,68.2300033569336,30.046839560508616,-0.2894233751658996,67.83000183105469,0,Activision Blizzard Q3 Earnings: Engagement Stays High Even as Economies Are Reopening,headlinesIter211.csv
+2021-11-05,ATVI,67.83000183105469,29.492982094503905,-0.5933837922768648,66.81999969482422,0,FIFA Is Looking for More Video Game Partners Than Just EA. Could These 2 Stocks Benefit?,headlinesIter212.csv
+2021-11-08,ATVI,66.81999969482422,28.0852412767511,-0.927532784288534,67.0999984741211,1,5 Stocks I Own and Will Add To If the Stock Market Crashes,headlinesIter213.csv
+2021-11-09,ATVI,67.0999984741211,29.095646187993182,-1.2565054960541857,66.66000366210938,0,Activision Blizzard (ATVI) Long-Term Investor Alert: Contact Johnson Fistel Regarding Investigation,headlinesIter214.csv
+2021-11-10,ATVI,66.66000366210938,28.41991145489419,-1.569144552548642,67.5,1,You Can Now Bet on NFTs With GameStop Stock,headlinesIter215.csv
+2021-11-12,ATVI,69.69000244140625,39.43199772563572,-2.026649607031749,70.43000030517578,1,NFTs are creating ‘a dramatic change from the tradition of video gaming’: Polygon advisor,headlinesIter216.csv
+2021-11-15,ATVI,70.43000030517578,41.83310782483125,-2.1383192927293257,66.13999938964844,0,NFTs are creating ‘a dramatic change from the tradition of video gaming’: Polygon advisor,headlinesIter217.csv
+2021-11-16,ATVI,66.13999938964844,33.53347334159012,-2.259568464499183,64.19999694824219,0,4 Stocks to Watch as Videogame Sales Continue to Soar,headlinesIter218.csv
+2021-11-17,ATVI,64.19999694824219,30.578927946802064,-2.406267382923205,62.66999816894531,0,Should You Consider Investing in Activision Blizzard (ATVI)?,headlinesIter219.csv
+2021-11-18,ATVI,62.66999816894531,28.44996840899173,-2.580153376625396,62.380001068115234,0,Xbox Chief Says He’s Evaluating Relationship With Activision,headlinesIter220.csv
+2021-11-19,ATVI,62.380001068115234,28.051323914866263,-2.7607103542034417,62.20000076293945,0,The Apple Car Is Coming and Tesla Had Better Watch Out,headlinesIter221.csv
+2021-11-22,ATVI,62.20000076293945,27.79102472827015,-2.9325630625247205,61.77000045776367,0,"Premarket Movers Monday - Activation Blizzard, Bluebird Bio, Astra Space",headlinesIter222.csv
+2021-11-23,ATVI,61.77000045776367,27.14304966176072,-3.0901277998755257,60.90999984741211,0,"Activision Blizzard Board of Directors Continues to Build Upon Its Ongoing Oversight With New ""Workplace Responsibility Committee"" to Ensure Implementation of Initiatives to Eliminate Harassment and Discrimination in the Workplace",headlinesIter223.csv
+2021-11-24,ATVI,60.90999984741211,25.845131926958715,-3.237155091064819,60.619998931884766,0,Singapore’s Coda Payments Seeks $4 Billion Value in Sale,headlinesIter224.csv
+2021-11-26,ATVI,60.619998931884766,25.40399258046165,-3.3671189655609064,60.310001373291016,0,Should You Still Consider Investing in Activision Blizzard (ATVI)?,headlinesIter225.csv
+2021-11-29,ATVI,60.310001373291016,24.914448384180048,-3.4768463847648112,58.59999847412109,0,Shiba Inu Surges Higher Today on Metaverse Speculation,headlinesIter226.csv
+2021-11-30,ATVI,58.59999847412109,22.35530941133308,-3.5874955545382528,57.27999877929688,0,Why Skillz Is a Disappointment as Bears Bet Against it,headlinesIter227.csv
+2021-12-01,ATVI,57.27999877929688,20.59657869905965,-3.705805243539192,57.290000915527344,1,Why Skillz Is a Disappointment as Bears Bet Against it,headlinesIter228.csv
+2021-12-02,ATVI,57.290000915527344,20.647521494941,-3.8141085501888776,57.36000061035156,1,"Activision Blizzard, Inc (ATVI) Down 14.2% Since Last Earnings Report: Can It Rebound?",headlinesIter229.csv
+2021-12-03,ATVI,57.36000061035156,21.02937536702244,-3.90065268279071,58.09000015258789,1,"Activision Blizzard, Inc (ATVI) Down 14.2% Since Last Earnings Report: Can It Rebound?",headlinesIter230.csv
+2021-12-06,ATVI,58.09000015258789,25.07843937699496,-3.9484847073778497,58.77000045776367,1,"Old Second National Bank Of Aurora Buys iShares Core S&amp;P Mid-Cap ETF, Regeneron ...",headlinesIter231.csv
+2021-12-07,ATVI,58.77000045776367,28.743528867048845,-3.949696895809656,59.27000045776367,1,Is Workday Inc (WDAY) A Good Stock To Buy?,headlinesIter232.csv
+2021-12-08,ATVI,59.27000045776367,31.400838461863383,-3.904645763050673,59.06999969482422,0,"O'Shares U.S. Quality Dividend ETF Buys Blackstone Inc, Abbott Laboratories, Verizon ...",headlinesIter233.csv
+2021-12-09,ATVI,59.06999969482422,30.90437854404354,-3.8272507495019816,58.59999847412109,0,Hedge Funds Aren’t Crazy About Boston Scientific Corporation (BSX) Anymore,headlinesIter234.csv
+2021-12-10,ATVI,58.59999847412109,29.71539334950092,-3.732415908921655,58.70000076293945,1,"Simplify Exchange Traded Funds Buys Twitter Inc, Amazon. ...",headlinesIter235.csv
+2021-12-13,ATVI,58.70000076293945,30.329580175852943,-3.621519112715112,59.52000045776367,1,"Invesco V.I. Capital Appreciation Fund Buys Atlassian Corporation PLC, Apple Inc, Datadog Inc, ...",headlinesIter236.csv
+2021-12-14,ATVI,59.52000045776367,35.32065761367608,-3.4850315963696668,60.2599983215332,1,Is Activision Blizzard (ATVI) a Good Stock for Value Investors?,headlinesIter237.csv
+2021-12-15,ATVI,60.2599983215332,39.53066204514289,-3.31990988787605,61.4900016784668,1,"VIP Contrafund Portfolio Buys Moderna Inc, Marvell Technology Inc, LyondellBasell Industries ...",headlinesIter238.csv
+2021-12-16,ATVI,61.4900016784668,45.84094130077444,-3.1183060439253287,61.36000061035156,0,Activision Publishes Diversity Report and Aims to ‘Do Better’,headlinesIter239.csv
+2021-12-17,ATVI,61.36000061035156,45.3028399277792,-2.899371151753626,61.79999923706055,1,Better Video Game Stock: Nintendo vs. Activision Blizzard,headlinesIter240.csv
+2021-12-20,ATVI,61.79999923706055,47.54708007104536,-2.6674222486883914,63.59000015258789,1,"LVIP ClearBridge Franklin Select Large Cap Managed Volatility Fund Buys HubSpot Inc, Cisco ...",headlinesIter241.csv
+2021-12-21,ATVI,63.59000015258789,55.53930052686167,-2.4048375464605334,64.0999984741211,1,"Federated Hermes Kaufmann Fund II Buys GXO Logistics Inc, Seres Therapeutics Inc, Domo Inc, ...",headlinesIter242.csv
+2021-12-22,ATVI,64.0999984741211,57.525077881575214,-2.123198206248234,65.16000366210938,1,3 Stocks to Watch as eSports Trend Gains Momentum,headlinesIter243.csv
+2021-12-23,ATVI,65.16000366210938,61.38544998508614,-1.8226288258239585,65.44999694824219,1,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter244.csv
+2021-12-27,ATVI,65.44999694824219,62.39246530599575,-1.5171699932349227,66.66999816894531,1,"2021 YouTube trends: Gaming evolved into ‘a main part of pop culture,’ expert says",headlinesIter245.csv
+2021-12-28,ATVI,66.66999816894531,66.36635690715997,-1.2017368592580395,67.16000366210938,1,"Six Circles Managed Eq Port U.s. Unconstrained Fund Buys United Parcel Service Inc, Activision ...",headlinesIter246.csv
+2021-12-29,ATVI,67.16000366210938,67.83640357660033,-0.8860307996706798,67.48999786376953,1,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter247.csv
+2021-12-30,ATVI,67.48999786376953,68.82463531404862,-0.5794192007473355,66.52999877929688,0,Early Sony PlayStation Boss Launches $225 Million Gaming SPAC,headlinesIter248.csv
+2022-01-03,ATVI,67.41999816894531,65.781181715102,-0.059448425611756,67.19999694824219,0,Former Sony PlayStation Executive Floats $225M Gaming SPAC,headlinesIter249.csv
+2022-01-04,ATVI,67.19999694824219,64.39939904733696,0.159635209434719,66.29000091552734,0,"Lvm Capital Management Ltd Buys Medtronic PLC, Zoetis Inc, Eaton Corp PLC, Sells AT&amp;T Inc, ...",headlinesIter250.csv
+2022-01-05,ATVI,66.29000091552734,58.8891358542012,0.3335205299591003,63.81999969482422,0,"Chesley Taft &amp; Associates LLC Buys iShares Core S&amp;P Small-Cap ETF, Stanley Black &amp; ...",headlinesIter251.csv
+2022-01-06,ATVI,63.81999969482422,47.107123659563904,0.4297934791090836,64.04000091552734,1,These 5 CEOs need to tell the world what they’ll change in 2022,headlinesIter252.csv
+2022-01-07,ATVI,64.04000091552734,48.10307589502966,0.4749041151135461,63.11000061035156,0,1 Top Gaming Stock to Consider Buying Right Now,headlinesIter253.csv
+2022-01-10,ATVI,63.11000061035156,44.30521657463238,0.4696624160878914,65.8499984741211,1,Take-Two Pays Up for Zynga in a Late Bid for Mobile Gaming,headlinesIter254.csv
+2022-01-11,ATVI,65.8499984741211,55.462196205001725,0.4757802374601984,64.80999755859375,0,Take-Two Interactive (TTWO) to Acquire Zynga in a Landmark Deal,headlinesIter255.csv
+2022-01-12,ATVI,64.80999755859375,51.264446193143954,0.4710202732409946,64.16999816894531,0,"DnB Asset Management AS Buys Check Point Software Technologies, Apple Inc, Accenture PLC, Sells ...",headlinesIter256.csv
+2022-01-13,ATVI,64.16999816894531,48.81588373695799,0.4484074819872511,65.38999938964844,1,"McElhenny Sheffield Capital Management, LLC Buys PowerShares QQQ Trust Ser 1, Technology Select ...",headlinesIter257.csv
+2022-01-14,ATVI,65.38999938964844,53.38647371641115,0.4342326800834156,82.30999755859375,1,These Stocks Could Thrive With a Leadership Change in 2022,headlinesIter258.csv
+2022-01-18,ATVI,82.30999755859375,80.0260087153361,0.6950486975927934,82.1500015258789,0,"Microsoft acquiring Activision ‘is a great extension’ and ‘smart timing,’ tech analyst says",headlinesIter259.csv
+2022-01-19,ATVI,82.1500015258789,79.56296793386413,1.1104144268043266,81.76000213623047,0,"Microsoft 'is looking forward' with Activision Blizzard acquisition, analyst explains",headlinesIter260.csv
+2022-01-20,ATVI,81.76000213623047,78.372571603495,1.5921216917238588,81.3499984741211,0,"Sony Expects Activision Games to Remain on PlayStation, WSJ Reports",headlinesIter261.csv
+2022-01-21,ATVI,81.3499984741211,77.0671275383253,2.079988518808774,79.97000122070312,0,Microsoft has ‘meaningful building blocks’ for the metaverse: Super League Gaming CEO,headlinesIter262.csv
+2022-01-24,ATVI,79.97000122070312,72.67900912815124,2.519383490121136,79.12000274658203,0,Will Activision Boost Microsoft's Metaverse Ambitions?,headlinesIter263.csv
+2022-01-25,ATVI,79.12000274658203,70.03390885676582,2.8860600170195823,78.77999877929688,0,"Burleson &amp; Company, LLC Buys Block Inc, ARK Innovation ETF, Twitter Inc, Sells Airbnb Inc, ...",headlinesIter264.csv
+2022-01-26,ATVI,78.77999877929688,68.95288297153631,3.175933763016592,78.9000015258789,1,Meta Platforms (FB) to Launch World's Fastest AI Computer,headlinesIter265.csv
+2022-01-27,ATVI,78.9000015258789,69.13397540699732,3.397149331366262,79.13999938964844,1,"Plimoth Trust Co Llc Buys iShares MSCI Intl Quality Factor ETF, The Walt Disney Co, Activision ...",headlinesIter266.csv
+2022-01-28,ATVI,79.13999938964844,69.51692244531826,3.5598210337101426,79.01000213623047,0,Microsoft Is Now the Dominant Force in Gaming,headlinesIter267.csv
+2022-01-31,ATVI,79.01000213623047,69.01743073015595,3.6670834731181,79.05999755859375,1,"Opes Wealth Management LLC Buys Netflix Inc, iShares Core S&amp;P Mid-Cap ETF, Schwab ...",headlinesIter268.csv
+2022-02-01,ATVI,79.05999755859375,69.10935822631569,3.726433208411328,79.25,1,"D.B. Root &amp; Company, LLC Buys JPMorgan Core Plus Bond ETF, Barrick Gold Corp, Harsco Corp, ...",headlinesIter269.csv
+2022-02-02,ATVI,79.25,69.47997621329698,3.747179060714556,78.94999694824219,0,"Tempus Wealth Planning, LLC Buys SPDR S&amp;P Global Natural Resources ETF, GlaxoSmithKline ...",headlinesIter270.csv
+2022-02-03,ATVI,78.94999694824219,68.09085694250042,3.729314262651415,79.25,1,"Taylor Investment Counselors Llc Buys Western Midstream Partners LP, iShares Russell 2000 Value ...",headlinesIter271.csv
+2022-02-04,ATVI,79.25,68.76341246241297,3.684472071093925,79.5,1,"Hills Bank &amp; Trust Co Buys Vanguard FTSE Developed Markets ETF, WillScot Mobile Mini ...",headlinesIter272.csv
+2022-02-07,ATVI,79.5,69.34329167666075,3.620662620559301,80.2300033569336,1,"McKinley Carter Wealth Services, Inc. Buys Vanguard Tax-Exempt Bond ETF, Schwab International ...",headlinesIter273.csv
+2022-02-08,ATVI,80.2300033569336,71.0342329485347,3.551704411099459,81.5,1,"Boyer &amp; Corporon Wealth Management, LLC Buys The Walt Disney Co, iShares MSCI Brazil ETF, ...",headlinesIter274.csv
+2022-02-09,ATVI,81.5,73.74718025341897,3.495300964496612,81.44999694824219,0,UPDATE 1-Microsoft announces app store principles as it woos regulators on deal,headlinesIter275.csv
+2022-02-10,ATVI,81.44999694824219,73.45546505375576,3.4409590944880395,81.5,1,Buy Microsoft Stock as Growth Drivers Accelerate,headlinesIter276.csv
+2022-02-11,ATVI,81.5,73.56806218510398,3.383713199046852,81.5,0,Is Microsoft's Acquisition of Activision Blizzard a Wise Move?,headlinesIter277.csv
+2022-02-14,ATVI,81.5,73.56806218510398,3.319935874322769,81.5199966430664,1,"Buffett’s Berkshire Takes Activision Blizzard Stake, Exits Teva",headlinesIter278.csv
+2022-02-15,ATVI,81.5199966430664,73.61996101766178,3.248160318357661,81.45999908447266,0,Warren Buffett’s firm took big stake in Activision Blizzard ahead of Microsoft deal,headlinesIter279.csv
+2022-02-16,ATVI,81.45999908447266,73.15583201669031,3.166773778842471,80.97000122070312,0,Exclusive: Charlie Munger: Apple is one of the strongest companies in the world,headlinesIter280.csv
+2022-02-17,ATVI,80.97000122070312,69.31256645578175,3.0685943301702383,81.05000305175781,1,8 Metaverse Stocks to Buy to Become a Virtual Millionaire,headlinesIter281.csv
+2022-02-18,ATVI,81.05000305175781,69.5934389229754,2.959318575602819,81.2300033569336,1,"Zacks Value Trader Highlights: Mastercard, Visa, Chevron and AbbVie",headlinesIter282.csv
+2022-02-22,ATVI,81.2300033569336,70.25314079393522,2.844943201193809,80.70999908447266,0,"SHAREHOLDER NOTICE: Halper Sadeh LLP Investigates EXTN, ECOL, ATVI, TLMD",headlinesIter283.csv
+2022-02-23,ATVI,80.70999908447266,65.81095271317213,2.718586664497734,81.01000213623047,1,Activision's mobile gaming unit to see leadership changes ahead of Microsoft deal,headlinesIter284.csv
+2022-02-24,ATVI,81.01000213623047,67.1033221632397,2.589934550395101,81.44000244140625,1,Crypto 'will be a multi-chain world': Ava Labs president,headlinesIter285.csv
+2022-02-25,ATVI,81.44000244140625,68.91696149429161,2.467545188254617,81.5,1,Should You Buy Activision Blizzard Before Microsoft Does?,headlinesIter286.csv
+2022-02-28,ATVI,81.5,69.17234268322872,2.350830241705525,80.87999725341797,0,3 Top Gaming Stocks to Buy in February,headlinesIter287.csv
+2022-03-01,ATVI,80.87999725341797,63.37745586762771,2.2285404999210656,81.4800033569336,1,Interested in Investing in Restaurants?,headlinesIter288.csv
+2022-03-02,ATVI,81.4800033569336,66.31818296936495,2.1136606671873315,81.5,1,Interested in Investing in Restaurants?,headlinesIter289.csv
+2022-03-03,ATVI,81.5,66.41497464388321,2.0049489871056827,81.43000030517578,0,7 Stocks to Buy That Have a Shot at Becoming the Metaverse King,headlinesIter290.csv
+2022-03-04,ATVI,81.43000030517578,65.70318340436603,1.900115742967797,80.55000305175781,0,Activision CEO Bobby Kotick Steps Down From Coca-Cola Board,headlinesIter291.csv
+2022-03-07,ATVI,80.55000305175781,57.3778647840776,1.784838368876207,81.02999877929688,1,Is Direxion NASDAQ100 Equal Weighted Index Shares (QQQE) a Strong ETF Right Now?,headlinesIter292.csv
+2022-03-08,ATVI,81.02999877929688,60.33051342147522,1.672647890717919,80.83000183105469,0,Google to Buy Cybersecurity Firm Mandiant for $5.4 Billion,headlinesIter293.csv
+2022-03-09,ATVI,80.83000183105469,58.51169263488314,1.5612702919918466,80.80000305175781,0,"Stocks Surge, Oil Eases, Feds Probe Microsoft/Activision Options Trades, Bumble, Stitch Fix - Five Things To Know",headlinesIter294.csv
+2022-03-10,ATVI,80.80000305175781,58.2281289442078,1.4522037243027857,80.30999755859375,0,A bet so good that JPMorgan called the Feds,headlinesIter295.csv
+2022-03-11,ATVI,80.30999755859375,53.6541580958289,1.3391754983016468,79.55000305175781,0,A bet so good that JPMorgan called the Feds,headlinesIter296.csv
+2022-03-14,ATVI,79.55000305175781,47.43092156080147,1.2144117876647278,79.51000213623047,0,Call of Duty League™ Joins Forces With Aim Lab in Multi-year Deal to Become the First Official Training Sponsor,headlinesIter297.csv
+2022-03-15,ATVI,79.51000213623047,47.1211277330296,1.0854267411268477,79.12000274658203,0,9 Stocks to Buy Now According to Munir Javeri’s 3G Sahana Capital Management,headlinesIter298.csv
+2022-03-16,ATVI,79.12000274658203,44.09700787911692,0.951861332717606,78.88999938964844,0,Is the Options Market Predicting a Spike in Activision Blizzard (ATVI) Stock?,headlinesIter299.csv
+2022-03-17,ATVI,78.88999938964844,42.36999083215254,0.8165877078924926,78.76000213623047,0,Here’s Why Baron Funds Sold its Activision Blizzard (ATVI) Position,headlinesIter300.csv
+2022-03-18,ATVI,78.76000213623047,41.3834859068899,0.6833994742350038,78.83999633789062,1,Here’s Why Baron Funds Sold its Activision Blizzard (ATVI) Position,headlinesIter301.csv
+2022-03-21,ATVI,78.83999633789062,42.27416271474303,0.5582189257800316,79.30000305175781,1,Sony Entertainment to Buy Jade Raymond’s Haven Gaming Studio,headlinesIter302.csv
+2022-03-22,ATVI,79.30000305175781,47.23898432896702,0.450686455083345,79.06999969482422,0,Sony Entertainment to Buy Jade Raymond’s Haven Gaming Studio,headlinesIter303.csv
+2022-03-23,ATVI,79.06999969482422,45.14811119752828,0.3551557126053087,79.62000274658203,1,Sony Entertainment to Buy Jade Raymond’s Haven Gaming Studio,headlinesIter304.csv
+2022-03-24,ATVI,79.62000274658203,50.76060003532673,0.2801208059946751,79.5999984741211,0,These 3 Gaming Stocks Are Set To Climb the Leaderboards,headlinesIter305.csv
+2022-03-25,ATVI,79.5999984741211,50.55797369149616,0.220908137566057,80.01000213623047,1,Microsoft Says It Won't Stop Activision Staff's Union Efforts. Are You Convinced?,headlinesIter306.csv
+2022-03-28,ATVI,80.01000213623047,54.56150100363016,0.1807544420630515,80.75,1,Take-Two's (TTWO) 2K Lends Virtual Key to Tiny Tina's Wonderland,headlinesIter307.csv
+2022-03-29,ATVI,80.75,60.74050722054734,0.166045722412892,80.36000061035156,0,Court to Approve Activision Agreement With EEOC,headlinesIter308.csv
+2022-03-30,ATVI,80.36000061035156,56.38837222245751,0.16145581179187,80.11000061035156,0,Judge Approves $18 Million Activision Settlement With EEOC,headlinesIter309.csv
+2022-03-31,ATVI,80.11000061035156,53.730666237889125,0.1590921908927943,80.81999969482422,1,Activision’s Merger With Microsoft Is Getting New Pushback From U.S. Senators,headlinesIter310.csv
+2022-04-01,ATVI,80.81999969482422,59.56014154116475,0.1692128876111085,80.7300033569336,0,Activision-Blizzard Stock Is a Buy Despite Negative Media Attention,headlinesIter311.csv
+2022-04-04,ATVI,80.7300033569336,58.55312174689632,0.184806459696755,80.37999725341797,0,"Market check: U.S. stocks mixed, crude oil rebounds, China stocks gain",headlinesIter312.csv
+2022-04-05,ATVI,80.37999725341797,54.68095675261638,0.1970075289533181,80.11000061035156,0,2 Charts You Need to See If You Own Microsoft,headlinesIter313.csv
+2022-04-06,ATVI,80.11000061035156,51.83334692717472,0.2016859841897829,80.11000061035156,0,"Roblox’s CEO Enters the $200 Million Club, Why You Should Care",headlinesIter314.csv
+2022-04-07,ATVI,80.11000061035156,51.83334692717471,0.2009444751865797,80.08999633789062,0,"What Amazon’s first union means for Google, Activision Blizzard, and other tech companies",headlinesIter315.csv
+2022-04-08,ATVI,80.08999633789062,51.60243395678208,0.1960675591377978,79.4800033569336,0,"What Amazon’s first union means for Google, Activision Blizzard, and other tech companies",headlinesIter316.csv
+2022-04-11,ATVI,79.4800033569336,45.01676206667272,0.1786753466918634,79.54000091552734,1,"Singapore’s Coda Nears Funding at $2.5 Billion Value, Sources Say",headlinesIter317.csv
+2022-04-12,ATVI,79.54000091552734,45.750130187421625,0.1549005061900989,79.0999984741211,0,"An Underwater Expedition Awaits in the Newest Hearthstone® Expansion, Voyage to the Sunken City™, Live Today",headlinesIter318.csv
+2022-04-13,ATVI,79.0999984741211,41.39005561936225,0.120998442942246,78.93000030517578,0,Activision Blizzard (ATVI) Expands Partnership With SCUF Gaming,headlinesIter319.csv
+2022-04-14,ATVI,78.93000030517578,39.811415825538994,0.0795380334242319,79.05999755859375,1,Newsom denies meddling in Activision lawsuit. How much influence does the company wield?,headlinesIter320.csv
+2022-04-18,ATVI,79.05999755859375,41.64434056737128,0.0374063690574901,79.02999877929688,0,Microsoft Stock Is the One to Own in 2022 and Beyond,headlinesIter322.csv
+2022-04-19,ATVI,79.02999877929688,41.33154096440497,-0.0035012830633256,78.91000366210938,0,World of Warcraft®: Wrath of the Lich King Classic™ to Transport Players Back to the Icy Realm of Northrend Later This Year,headlinesIter323.csv
+2022-04-20,ATVI,78.91000366210938,40.03613173211589,-0.0434037731803613,78.9000015258789,0,Elon Musk’s Twitter Gambit Tees Up a Who’s In-or-Out White Knight List,headlinesIter324.csv
+2022-04-21,ATVI,78.9000015258789,39.92380807779853,-0.0806451450220714,78.61000061035156,0,Activision Blizzard Diversifies Board by Adding Two Women,headlinesIter325.csv
+2022-04-22,ATVI,78.61000061035156,36.70812933434464,-0.1187093138679871,78.05000305175781,0,Tech companies gear up to report earnings next week,headlinesIter326.csv
+2022-04-25,ATVI,78.05000305175781,31.44168024306134,-0.1639576807514846,77.05999755859375,0,"Zacks Investment Ideas feature highlights: Apple, Amazon, Alphabet, Activision Blizzard and Microsoft",headlinesIter327.csv
+2022-04-26,ATVI,77.05999755859375,24.696089588093333,-0.2267582363379156,76.0999984741211,0,The Future of Activision Blizzard Stock With Microsoft in the Picture,headlinesIter328.csv
+2022-04-27,ATVI,76.0999984741211,20.175828569094303,-0.3120674516845504,76.69999694824219,1,Microsoft’s Earnings Give You Plenty of Reasons to Continue Investing,headlinesIter329.csv
+2022-04-28,ATVI,76.69999694824219,28.93126711919089,-0.3967287187931265,75.5999984741211,0,Microsoft Receives an Important Green Light,headlinesIter330.csv
+2022-04-29,ATVI,75.5999984741211,23.781287908328192,-0.4931913891862384,78.05999755859375,1,Is Microsoft Stock a Buy Now?,headlinesIter331.csv
+2022-05-02,ATVI,78.05999755859375,46.652148272967366,-0.5516222863684349,78.77999877929688,1,11 Best Video Game Stocks To Invest in Now,headlinesIter332.csv
+2022-05-03,ATVI,78.77999877929688,51.26185079696093,-0.570408102982009,79.23999786376953,1,Blizzard Entertainment to Bring Action-Packed Strategy to Mobile with Warcraft® Arclight Rumble™,headlinesIter333.csv
+2022-05-04,ATVI,79.23999786376953,53.99681878688678,-0.5547212754183233,78.76000213623047,0,Activision CEO Can Pocket Over $500 Million After Microsoft Deal,headlinesIter334.csv
+2022-05-05,ATVI,78.76000213623047,50.79380332321304,-0.5246437212508168,77.83999633789062,0,Can Electronic Arts Reach a Higher Level in 2022?,headlinesIter335.csv
+2022-05-06,ATVI,77.83999633789062,45.25296160127213,-0.5006054395549443,77.16999816894531,0,Ken Fisher is Selling These 10 Stocks in 2022,headlinesIter336.csv
+2022-05-09,ATVI,77.16999816894531,41.68657090604498,-0.4911610317092528,76.91999816894531,0,China’s Other Gaming Giant Is Quietly Snapping Up Global Talent,headlinesIter337.csv
+2022-05-10,ATVI,76.91999816894531,40.406927921250805,-0.494228021373626,77.47000122070312,1,EA Revenue Forecast Misses Estimates Following Battlefield Flop,headlinesIter338.csv
+2022-05-11,ATVI,77.47000122070312,44.44718060205317,-0.4950747128483924,77.37999725341797,0,Why You Should Pay Close Attention To The 5% Buy Zone After A Breakout,headlinesIter339.csv
+2022-05-12,ATVI,77.37999725341797,43.92239727823008,-0.4947929647837525,77.73999786376953,1,Why You Should Pay Close Attention To The 5% Buy Zone After A Breakout,headlinesIter340.csv
+2022-05-13,ATVI,77.73999786376953,46.63638166454405,-0.4869473696419736,78.0,1,This Metric Is Lifting Electronic Arts to New Highs,headlinesIter341.csv
+2022-05-16,ATVI,78.0,48.57224130356646,-0.4695141469646777,78.54000091552734,1,Warren Buffett Buys Stocks On the Dip,headlinesIter342.csv
+2022-05-17,ATVI,78.54000091552734,52.43188160016268,-0.4372999464951425,77.91999816894531,0,Living Off Dividends in Retirement: 10 Best Stocks To Consider,headlinesIter343.csv
+2022-05-18,ATVI,77.91999816894531,47.979534020090455,-0.4064051237977177,77.73999786376953,0,Warren Buffett Bought More of These 3 Stocks in 2022,headlinesIter344.csv
+2022-05-19,ATVI,77.73999786376953,46.73864192488704,-0.3799023394405846,77.4000015258789,0,Former Nintendo COO to execs: ‘Focus on your North Star’,headlinesIter345.csv
+2022-05-20,ATVI,77.4000015258789,44.402643733208926,-0.362100288096756,77.19999694824219,0,5 Stocks Warren Buffett Bought Hand Over Fist as the Nasdaq Plunged,headlinesIter346.csv
+2022-05-23,ATVI,77.19999694824219,43.03988828046478,-0.3530505570148711,77.02999877929688,0,Activision Union Gets Legal Recognition in Gaming First,headlinesIter347.csv
+2022-05-24,ATVI,77.02999877929688,41.86380838810975,-0.3518685604344568,77.70999908447266,1,7 Safe Stocks to Buy and Hold Onto Forever,headlinesIter348.csv
+2022-05-25,ATVI,77.70999908447266,47.986360372131095,-0.3440288822872951,77.98999786376953,1,Are Video Game Stocks Recession-Proof?,headlinesIter349.csv
+2022-05-26,ATVI,77.98999786376953,50.307026181219975,-0.3271759387934975,78.19999694824219,1,Broadcom to Buy VMware for $61 Billion in Record Tech Deal,headlinesIter350.csv
+2022-05-27,ATVI,78.19999694824219,52.03549393826984,-0.3014610014533864,77.87999725341797,0,Should Amazon Buy Electronic Arts?,headlinesIter351.csv
+2022-05-31,ATVI,77.87999725341797,49.22569650672185,-0.2759578751979546,77.41000366210938,0,10 New Stock Picks of Billionaire David Harding,headlinesIter352.csv
+2022-06-01,ATVI,77.41000366210938,45.35221992146917,-0.2587939334806958,78.2300033569336,1,10 New Stock Picks of Billionaire David Harding,headlinesIter353.csv
+2022-06-02,ATVI,78.2300033569336,52.39110119135595,-0.2340841333252453,77.88999938964844,0,EA Is Beating the Market: 3 Reasons You Should Buy Shares,headlinesIter354.csv
+2022-06-03,ATVI,77.88999938964844,49.54167893142405,-0.2108311034734854,77.79000091552734,0,Take-Two (TTWO) Private Division Sets Rollerdrome Launch Date,headlinesIter355.csv
+2022-06-06,ATVI,77.79000091552734,48.70270884710226,-0.190825001793761,78.02999877929688,1,Take-Two (TTWO) Private Division Sets Rollerdrome Launch Date,headlinesIter356.csv
+2022-06-07,ATVI,78.02999877929688,50.85382643493696,-0.169638810171616,77.62999725341797,0,Chill sweeps over buyout deals after Thoma Bravo cuts price for Anaplan. Who’s next?,headlinesIter357.csv
+2022-06-08,ATVI,77.62999725341797,47.29410750023463,-0.1548187257725459,76.77999877929688,0,"G FUEL and Blizzard Entertainment Charge the Undead Hordes Together with a Brand-New Flavor, G FUEL Health Potion!",headlinesIter358.csv
+2022-06-09,ATVI,76.77999877929688,40.76413328272937,-0.1579740533862372,76.4800033569336,0,2 Top Warren Buffett Stocks to Buy Right Now,headlinesIter359.csv
+2022-06-10,ATVI,76.4800033569336,38.73154054806845,-0.1766568104507571,74.76000213623047,0,These 3 Tech Giants Have Made Big Acquisitions in 2022,headlinesIter360.csv
+2022-06-13,ATVI,74.76000213623047,29.614155135888858,-0.2311314567938286,74.63999938964844,0,Mobile Game Developer King Acquires Artificial Intelligence Company Peltarion,headlinesIter361.csv
+2022-06-14,ATVI,74.63999938964844,29.09947453010396,-0.3065718933477084,75.3499984741211,1,Activision's (ATVI) King Acquires Artificial Intelligence Firm,headlinesIter362.csv
+2022-06-15,ATVI,75.3499984741211,36.16799072585551,-0.3791722086083153,73.93000030517578,0,"Activision Blizzard, Inc (ATVI) Gains But Lags Market: What You Should Know",headlinesIter363.csv
+2022-06-16,ATVI,73.93000030517578,29.774500967716165,-0.4679775936520899,74.70999908447266,1,Take-Two Interactive (TTWO) Launches OlliOlli World Expansion,headlinesIter364.csv
+2022-06-17,ATVI,74.70999908447266,36.422734380233344,-0.54877363689674,76.05000305175781,1,Take-Two Interactive (TTWO) Launches OlliOlli World Expansion,headlinesIter365.csv
+2022-06-21,ATVI,76.05000305175781,45.898560629705806,-0.5976843709738031,75.69999694824219,0,Activision Blizzard (ATVI) Landed in FPA Queens’ Top Contributors List,headlinesIter366.csv
+2022-06-22,ATVI,75.69999694824219,44.051708122541925,-0.6282679288657429,76.48999786376953,1,Akshon Media Named an Official Content Production Partner for 2022 season of Overwatch League™ and Call of Duty League™,headlinesIter367.csv
+2022-06-23,ATVI,76.48999786376953,49.03631204661143,-0.631725174233509,77.94000244140625,1,Akshon Media Named an Official Content Production Partner for 2022 season of Overwatch League™ and Call of Duty League™,headlinesIter368.csv
+2022-06-24,ATVI,77.94000244140625,56.66737869580472,-0.5934251322957552,78.01000213623047,1,"Markets see third-best week of 2022, software stocks among biggest gainers",headlinesIter369.csv
+2022-06-27,ATVI,78.01000213623047,57.002099805589125,-0.5284908429722142,77.16000366210938,0,3 Stocks Warren Buffett is Probably Buying During the Bear Market,headlinesIter370.csv
+2022-06-28,ATVI,77.16000366210938,51.772439790933376,-0.4626233778064515,77.95999908447266,1,Playtika Stock Surges On Report of Joffre Capital Interest in Online Casino Gaming Group,headlinesIter371.csv
+2022-06-29,ATVI,77.95999908447266,55.87557388942144,-0.3858060254790983,77.86000061035156,0,"Activision to Buy Studio, Aiding Warcraft Game, VentureBeat Says",headlinesIter372.csv
+2022-06-30,ATVI,77.86000061035156,55.24288915299578,-0.3068684758354151,78.56999969482422,1,Activision Blizzard (ATVI) Might Buy Gaming Studio Proletariat,headlinesIter373.csv
+2022-07-01,ATVI,78.56999969482422,58.80916592928472,-0.2187130283288694,78.87000274658203,1,Blizzard Entertainment Acquires Boston-Based Studio Proletariat to Expand Development Pipeline for World of Warcraft ®,headlinesIter374.csv
+2022-07-05,ATVI,78.87000274658203,60.250412204111406,-0.1241163705425082,78.37000274658203,0,7 Large-Cap Stocks With Sustained Dividend Growth Potential,headlinesIter375.csv
+2022-07-06,ATVI,78.37000274658203,56.69020978461945,-0.0381357217170422,78.61000061035156,1,"DoorDash, Uber, VMware Fall Premarket; Altria, Rocket Companies Rise",headlinesIter376.csv
+2022-07-07,ATVI,78.61000061035156,57.97388732912739,0.041853276694455,78.12999725341797,0,Video game developers are ‘migrating’ towards ‘ongoing live services’: Analyst,headlinesIter377.csv
+2022-07-08,ATVI,78.12999725341797,54.494941723478895,0.106140103932081,77.79000091552734,0,10 Cheap ETFs to Invest in For Beginners,headlinesIter378.csv
+2022-07-11,ATVI,77.79000091552734,52.10961576105366,0.1515487350023082,76.54000091552734,0,First Program of Its Kind at Activision Blizzard to Train and Develop Talent for Engineering Roles,headlinesIter379.csv
+2022-07-12,ATVI,76.54000091552734,44.412663104952095,0.1624560528060928,75.95999908447266,0,Activision Blizzard (ATVI) Introduces Level Up U Training Program,headlinesIter380.csv
+2022-07-13,ATVI,75.95999908447266,41.35995658933082,0.141542975560421,76.23999786376953,1,10 Stocks to Buy According to Carlson Capital,headlinesIter381.csv
+2022-07-14,ATVI,76.23999786376953,43.38314098550421,0.1059264011468128,77.38999938964844,1,Buy Microsoft Stock Before the Price Rises,headlinesIter382.csv
+2022-07-15,ATVI,77.38999938964844,50.87920868572879,0.0810672142439436,76.98999786376953,0,Michael Hintze’s 2022 Portfolio: Top 10 Stock Picks,headlinesIter383.csv
+2022-07-18,ATVI,76.98999786376953,48.47509863285322,0.0576871497771373,78.62999725341797,1,A Comprehensive Guide to Video-Gaming ETFs,headlinesIter384.csv
+2022-07-19,ATVI,78.62999725341797,57.369236020051495,0.0624935439551559,79.30000305175781,1,3 Best Gaming Stocks to Buy in July,headlinesIter385.csv
+2022-07-20,ATVI,79.30000305175781,60.37835091217746,0.0952618209950682,79.48999786376953,1,"Activision Blizzard, Inc (ATVI) Outpaces Stock Market Gains: What You Should Know",headlinesIter386.csv
+2022-07-21,ATVI,79.48999786376953,61.214404250782486,0.1466524325721636,79.2300033569336,0,NetEase to Launch Diablo Immortal in China After Long Delay,headlinesIter387.csv
+2022-07-22,ATVI,79.2300033569336,59.36827137881463,0.2025388708182697,79.6500015258789,1,"Does Netflix Have a ""Hidden Agenda"" With Microsoft?",headlinesIter388.csv
+2022-07-25,ATVI,79.6500015258789,61.39378186746246,0.2645527451125049,79.45999908447266,0,"Activision Blizzard, Inc (ATVI) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",headlinesIter389.csv
+2022-07-26,ATVI,79.45999908447266,59.93809291648821,0.3235219606477938,79.79000091552734,1,"Activision Blizzard, Inc (ATVI) Expected to Beat Earnings Estimates: Can the Stock Move Higher?",headlinesIter390.csv
+2022-07-27,ATVI,79.79000091552734,61.63935773205239,0.3820191938257339,79.51000213623047,0,Activision's Microsoft Deal Discount Offers a 'Call of Duty' to Investors,headlinesIter391.csv
+2022-07-28,ATVI,79.51000213623047,59.33691041293135,0.4318161599717229,79.94999694824219,1,Activision Blizzard Q2 Preview: Rebound Quarter in Store?,headlinesIter392.csv
+2022-07-29,ATVI,79.94999694824219,61.75452861387802,0.4795851919159265,80.08000183105469,1,3 No-Brainer Stocks I'd Buy Right Now Without Hesitation,headlinesIter393.csv
+2022-08-01,ATVI,80.08000183105469,62.46463718251283,0.5245601027149772,79.31999969482422,0,2 Buffett Stocks to Buy More of in August,headlinesIter394.csv
+2022-08-02,ATVI,79.31999969482422,55.92719844498054,0.5521050845804141,80.58999633789062,1,Simon Sadler’s Segantii Capital is Bullish on These 10 Stocks,headlinesIter395.csv
+2022-08-03,ATVI,80.58999633789062,62.91234101559348,0.5862850667358452,80.66000366210938,1,Beginner Investors: How to Understand Stock Investing Lingo,headlinesIter396.csv
+2022-08-04,ATVI,80.66000366210938,63.25803560137996,0.6226126310974747,80.48999786376953,0,Microsoft-Activision Deal Doubt May Yield Big Reward: Tech Watch,headlinesIter397.csv
+2022-08-05,ATVI,80.48999786376953,61.75273142218565,0.6542505040788426,81.0,1,Microsoft-Activision Deal Doubt May Yield Big Reward: Tech Watch,headlinesIter398.csv
+2022-08-08,ATVI,81.0,64.48318924188197,0.6879360767556879,80.58999633789062,0,4 Stocks Warren Buffett Can't Stop Buying,headlinesIter399.csv
+2022-08-09,ATVI,80.58999633789062,60.72968835502747,0.7130299401064187,80.91000366210938,1,The Fun Slows for Videogame Companies,headlinesIter400.csv
+2022-08-10,ATVI,80.91000366210938,62.56143769113384,0.7349036152125383,80.51000213623047,0,Amazon Joins Deal Revival Spurred by Lower Valuation: Tech Watch,headlinesIter401.csv
+2022-08-11,ATVI,80.51000213623047,58.86530537980157,0.7455554997976922,80.79000091552734,1,Amazon Joins Deal Revival Spurred by Lower Valuation: Tech Watch,headlinesIter402.csv
+2022-08-12,ATVI,80.79000091552734,60.61920386867219,0.7513833392923769,80.7300033569336,0,Amazon Joins Deal Revival Spurred by Lower Valuation: Tech Watch,headlinesIter403.csv
+2022-08-15,ATVI,80.7300033569336,60.02857275942384,0.7512122751797554,80.91999816894531,1,"Berkshire Bought Apple, Chevron, and More Stock in the Second Quarter, Filing Should Show",headlinesIter404.csv
+2022-08-16,ATVI,80.91999816894531,61.31401508270704,0.7486092734978642,80.52999877929688,0,Activision Blizzard's (NASDAQ:ATVI) Price Implies Some Positive Expected Value From M&amp;A,headlinesIter405.csv
+2022-08-17,ATVI,80.52999877929688,57.244492024003954,0.7366899896646301,80.44000244140625,0,You're Going to Play Video Games in a Whole New Way (Many do Now),headlinesIter406.csv
+2022-08-18,ATVI,80.44000244140625,56.31561508109586,0.7164413647069414,80.2699966430664,0,Take-Two (TTWO) Private Division and Roll7 Launch Rollerdrome,headlinesIter407.csv
+2022-08-19,ATVI,80.2699966430664,54.51603042385914,0.6876882784654155,79.76000213623047,0,"Zacks Value Investor Highlights: Chevron, Occidental Petroleum, Apple, Activision Blizzard and Amazon",headlinesIter408.csv
+2022-08-22,ATVI,79.76000213623047,49.41467225191786,0.6454079997547891,79.33999633789062,0,10 Stocks to Buy According to Cheyne Capital,headlinesIter409.csv
+2022-08-23,ATVI,79.33999633789062,45.62792127356794,0.5886935783506213,79.27999877929688,0,10 Stocks to Buy According to Cheyne Capital,headlinesIter410.csv
+2022-08-24,ATVI,79.27999877929688,45.09628504329012,0.523606201876515,79.06999969482422,0,Take-Two (TTWO) Set to Expand Borderlands Universe With New Game,headlinesIter411.csv
+2022-08-25,ATVI,79.06999969482422,43.19902718889864,0.4521389900097833,78.62999725341797,0,3 Metaverse Stocks with Multibagger Potential,headlinesIter412.csv
+2022-08-26,ATVI,78.62999725341797,39.453653251156446,0.3723689520692297,78.75,1,5 Stocks That Warren Buffett Is Betting on Now,headlinesIter413.csv
+2022-08-29,ATVI,78.75,40.95717302385199,0.2926424103710384,78.62000274658203,0,Should You Buy Electronic Arts Stock?,headlinesIter414.csv
+2022-08-30,ATVI,78.62000274658203,39.80404872663126,0.2143815068299098,78.48999786376953,0,7 Hot Tech Stocks to Buy in September,headlinesIter415.csv
+2022-08-31,ATVI,78.48999786376953,38.632634101163546,0.1385790319796547,78.55000305175781,1,NetEase Acquires France’s Quantic Dream in Gaming Expansion,headlinesIter416.csv
+2022-09-01,ATVI,78.55000305175781,39.51739857323797,0.0689326416775133,77.52999877929688,0,Microsoft’s deal to buy Activision Blizzard facing U.K. challenge,headlinesIter417.csv
+2022-09-02,ATVI,77.52999877929688,31.265506561870005,-0.0096349391003541,76.83999633789062,0,Microsoft's (MSFT) Activision Buyout Under Further UK Scrutiny,headlinesIter418.csv
+2022-09-06,ATVI,76.83999633789062,27.13726927154801,-0.1006621328096791,77.72000122070312,1,Microsoft's (MSFT) Activision Buyout Under Further UK Scrutiny,headlinesIter419.csv
+2022-09-07,ATVI,77.72000122070312,38.32250295888684,-0.1804575813072387,77.38999938964844,0,Tencent Set to Double Ubisoft Stake in Latest Overseas Gambit,headlinesIter420.csv
+2022-09-08,ATVI,77.38999938964844,36.08539456242497,-0.2538838673829086,78.51000213623047,1,Sony says Microsoft 'Call of Duty' offer 'inadequate',headlinesIter421.csv
+2022-09-09,ATVI,78.51000213623047,47.32444676526915,-0.3010213162181983,78.12999725341797,0,5 Best Stocks to Buy According to ‘Warren Buffett of Brazil’,headlinesIter422.csv
+2022-09-12,ATVI,78.12999725341797,44.46734599332644,-0.3345870757068308,76.76000213623047,0,10 Tech Stocks to Buy According to Billionaire Jim Simons’ Renaissance Technologies,headlinesIter423.csv
+2022-09-13,ATVI,76.76000213623047,36.0234977807715,-0.3789816709926944,76.5999984741211,0,10 Best Quality Stocks to Buy Now,headlinesIter424.csv
+2022-09-14,ATVI,76.5999984741211,35.183205828794264,-0.4295253218145977,76.83000183105469,1,EA Stock: 3 Reasons to Buy,headlinesIter425.csv
+2022-09-15,ATVI,76.83000183105469,37.44219807703752,-0.4766249555040983,76.0199966430664,0,Top 10 Stock Picks of John Hempton’s Bronte Capital,headlinesIter426.csv
+2022-09-16,ATVI,76.0199966430664,33.07089026551799,-0.5309337403597383,75.94000244140625,0,Here's How Gaming Companies Are Going to Be Making More Money,headlinesIter427.csv
+2022-09-19,ATVI,75.94000244140625,32.66529578250625,-0.5869802806347986,75.04000091552734,0,10 Best Consumer Discretionary Stocks to Buy Now,headlinesIter428.csv
+2022-09-20,ATVI,75.04000091552734,28.43925411124972,-0.654199111997108,75.31999969482422,1,3 Top Gaming Stocks to Buy in September,headlinesIter429.csv

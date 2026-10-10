@@ -1,0 +1,405 @@
+date,symbol,close,rsi,26-Day EMA,NextDayClose,Diff,Titles,filename
+2021-01-05,aapl,131.00999450683594,57.69728257215766,3.3716076665689365,126.5999984741211,0,Two former Apple insiders are building a laser technology startup to fuel the electric car boom,headlinesIter0.csv
+2021-01-07,aapl,130.9199981689453,55.96511580873317,3.089118177891229,132.0500030517578,1,Dow Jones Futures Rise: Congress Certifies Biden Win After Pro-Trump Mob Stormed Capitol Hill; These 5 Stocks Are Buys,headlinesIter2.csv
+2021-01-08,aapl,132.0500030517578,57.633667724029245,2.969111238022639,128.97999572753906,0,"The Best Mutual Funds Bet These Tech Stocks, IPOs Will Keep Running",headlinesIter3.csv
+2021-01-11,aapl,128.97999572753906,51.88188601502212,2.8121490107389246,128.8000030517578,0,"Short Selling Legend Jim Chanos’ Top 10 Stock Picks and Tesla, IBM Comments",headlinesIter4.csv
+2021-01-12,aapl,128.8000030517578,51.55701273885498,2.630971010115397,130.88999938964844,1,The World’s Top Maker of Mini Motors Bets It Can Win Over Tesla,headlinesIter5.csv
+2021-01-13,aapl,130.88999938964844,55.074755345870365,2.4714608378702407,128.91000366210938,0,The Apple Car Chatter Is Back—and It’s Helping Everyone Except Apple,headlinesIter6.csv
+2021-01-14,aapl,128.91000366210938,51.27592370413184,2.296670792884454,127.13999938964844,0,Influencers with Andy Serwer: Haim Saban,headlinesIter7.csv
+2021-01-19,aapl,127.83000183105467,49.40564837821202,1.875262447635209,132.02999877929688,1,Microsoft bets on GM’s Cruise while Amazon and others back Rivian amid electric vehicle boom,headlinesIter8.csv
+2021-01-21,aapl,136.8699951171875,63.18384946752993,1.717893238078395,139.07000732421875,1,Apple’s First Headset to Be Niche Precursor to Eventual AR Glasses,headlinesIter10.csv
+2021-01-22,aapl,139.07000732421875,65.71486609503381,1.81252676115414,142.9199981689453,1,It’s Time to Give GOEV Stock a Green Light,headlinesIter11.csv
+2021-01-25,aapl,142.9199981689453,69.64739465901626,2.028826714635,143.16000366210938,1,Roblox’s IPO Is Coming. How to Play the Videogame Boom.,headlinesIter12.csv
+2021-01-26,aapl,143.16000366210938,69.87933524849184,2.309251069640326,142.05999755859375,0,College Dropout Becomes Billionaire With Chinese Gaming Platform,headlinesIter13.csv
+2021-01-27,aapl,142.05999755859375,67.33947903956008,2.592353843927373,137.08999633789062,0,Influencers with Andy Serwer: Mubarak Muyika,headlinesIter14.csv
+2021-01-29,aapl,131.9600067138672,49.029939392177006,2.8023191455422785,134.13999938964844,1,Young Kenyan entrepreneur explains why he admires Bill Gates and Warren Buffett,headlinesIter15.csv
+2021-02-02,aapl,134.99000549316406,53.36721291961286,2.6710405162071647,133.94000244140625,0,Top 5 Dow Stocks to Boost Your Portfolio in a Capricious Market,headlinesIter17.csv
+2021-02-03,aapl,133.94000244140625,51.63850841235511,2.546475184035024,137.38999938964844,1,Ignore GameStop: Here Are 3 Better Stocks,headlinesIter18.csv
+2021-02-04,aapl,137.38999938964844,56.61166423495448,2.452000238657296,136.75999450683594,0,"Zacks Industry Outlook Highlights: Apple, HP and Lenovo",headlinesIter19.csv
+2021-02-05,aapl,136.75999450683594,55.48950846810846,2.3656979330375334,136.91000366210938,1,RPT: Apple in talks to build autonomous EV with Kia,headlinesIter20.csv
+2021-02-08,aapl,136.91000366210938,55.71460369831338,2.286043593495426,136.00999450683594,0,"Forget 5G, the U.S. and China Are Already Fighting for 6G Dominance",headlinesIter21.csv
+2021-02-09,aapl,136.00999450683594,53.95172243631328,2.195162206204979,135.38999938964844,0,Contactless Payments Gaining Traction: 5 Stocks to Watch,headlinesIter22.csv
+2021-02-11,aapl,135.1300048828125,52.17392379447382,1.9650629481234247,135.3699951171875,1,Podz app helps consumers discover podcasts via a newsfeed,headlinesIter23.csv
+2021-02-16,aapl,133.19000244140625,47.92679116053604,1.6805924423694436,130.83999633789062,0,Dow Jones Hits New High As Stock Market Gains Fade; Bitcoin Soars Again,headlinesIter25.csv
+2021-02-17,aapl,130.83999633789062,43.40121848374475,1.4667239528409586,129.7100067138672,0,Top 15 Serial Entrepreneurs In The World,headlinesIter26.csv
+2021-02-18,aapl,129.7100067138672,41.37794647491127,1.208551183200291,129.8699951171875,1,Apple Hiring Engineers to Develop 6G Wireless,headlinesIter27.csv
+2021-02-19,aapl,129.8699951171875,41.79169459995121,0.9359411812198564,126.0,0,"Apple in Talks to Buy Self-Driving Sensors, Key Step in Car Plan",headlinesIter28.csv
+2021-02-22,aapl,126.0,35.30128479317951,0.6046961573604077,125.86000061035156,0,Apple Is the Top Dog in Smartphone Sales Once Again,headlinesIter29.csv
+2021-02-24,aapl,125.3499984741211,34.28019163243274,-0.1083440518742135,120.98999786376952,0,Electric Vehicle Maker Fisker Partners With Apple Supplier Foxconn,headlinesIter30.csv
+2021-02-25,aapl,120.98999786376952,28.27909572140424,-0.5204997018389644,121.26000213623048,1,Apple Partner Foxconn to Form EV Partnership With Fisker,headlinesIter31.csv
+2021-02-26,aapl,121.26000213623048,29.10677263991908,-0.9389998886642386,127.79000091552734,1,C3.ai Has Great Pedigree and Is Set for Better Days,headlinesIter32.csv
+2021-03-01,aapl,127.79000091552734,45.49054991215194,-1.2332157495542906,125.12000274658205,0,5 Top-Rated S&amp;P 500 Growth Stocks to Buy in March,headlinesIter33.csv
+2021-03-02,aapl,125.12000274658205,41.288853603234045,-1.473896834376888,122.05999755859376,0,Steve Wozniak’s K-12 Education Program Woz ED  Announces Exclusive Strategic Partnership with Draganfly,headlinesIter34.csv
+2021-03-03,aapl,122.05999755859376,37.0636508769969,-1.7138677450959452,120.12999725341795,0,London set to overhaul listing rules to attract tech IPOs and cash in on blank-check boom,headlinesIter35.csv
+2021-03-04,aapl,120.12999725341795,34.654861680766665,-1.967699637162291,121.41999816894533,1,PREMIUM: Trading profitably and prudently as the world reopens,headlinesIter36.csv
+2021-03-05,aapl,121.41999816894533,37.575148064041855,-2.191847039900145,116.36000061035156,0,Enterprise Use Of Augmented Reality Blazing A Path For Consumer Smart Glasses,headlinesIter37.csv
+2021-03-09,aapl,121.08999633789062,41.03459061967024,-2.664136137853613,119.9800033569336,0,Disney+ tops 100 million paid subscribers,headlinesIter38.csv
+2021-03-10,aapl,119.9800033569336,39.65335541475766,-2.8260632985427483,121.95999908447266,1,Asus Brings PC Gaming Excess to Android With New ROG Phone,headlinesIter39.csv
+2021-03-11,aapl,121.95999908447266,43.31847194819248,-2.915875452343729,121.02999877929688,0,Augmented Reality Finding Niche In Workplace,headlinesIter40.csv
+2021-03-12,aapl,121.02999877929688,42.02734156454819,-2.963970957146923,123.98999786376952,1,T-Mobile CEO: Our goal is to 'offer the best network experience and the best value',headlinesIter41.csv
+2021-03-15,aapl,123.98999786376952,47.40097273459143,-2.9294174827288737,125.56999969482422,1,Two Tech Stocks To Watch As Biden Pours Trillions Into The Green Economy,headlinesIter42.csv
+2021-03-16,aapl,125.56999969482422,50.061867112350455,-2.812987838112904,124.76000213623048,0,"Apple (AAPL) Dominates Wearables Market in Q4, Xiaomi Trails",headlinesIter43.csv
+2021-03-17,aapl,124.76000213623048,48.701661677981726,-2.6578549002633887,120.52999877929688,0,Facebook (FB) to Launch New Platform for Independent Writers,headlinesIter44.csv
+2021-03-18,aapl,120.52999877929688,42.24620655683288,-2.548025257068199,119.98999786376952,0,Apple To Launch New High-End iPad Line With Self-Built Processor In April: Report,headlinesIter45.csv
+2021-03-22,aapl,123.38999938964844,47.82204279671218,-2.369386887655043,122.54000091552734,0,Apple Car Would Be Welcomed by This Parts Maker Pivoting to EVs,headlinesIter46.csv
+2021-03-23,aapl,122.54000091552734,46.46814795580402,-2.256701792779074,120.08999633789062,0,Apple's iPhone 13 To Feature Samsung's LTPO Displays: Report,headlinesIter47.csv
+2021-03-24,aapl,120.08999633789062,42.71440441544181,-2.1795340873965,120.58999633789062,1,"How Is Tesla Worth $3,000? By Becoming Bigger Than Apple.",headlinesIter48.csv
+2021-03-25,aapl,120.58999633789062,43.7137130199275,-2.1157284452551486,121.20999908447266,1,EU Deploys Region’s Largest VC Fund to Create Local Unicorns,headlinesIter49.csv
+2021-03-26,aapl,121.20999908447266,44.995052596536354,-2.0489287278756376,121.38999938964844,1,New initiative pushes brands to support civility in media,headlinesIter50.csv
+2021-03-29,aapl,121.38999938964844,45.38378216225134,-1.9762124109408663,119.9000015258789,0,"This App For iPhone, iPad Allows You To Create Your Own NFT",headlinesIter51.csv
+2021-03-30,aapl,119.9000015258789,42.69404286021128,-1.922867451378743,122.1500015258789,1,Xiaomi Plans $15 Billion Foray into Electric Cars,headlinesIter52.csv
+2021-03-31,aapl,122.1500015258789,47.73170875376103,-1.8441804744856287,123.0,1,Apple Powers Ahead in New Renewable Energy Solutions With Over 110 Suppliers,headlinesIter53.csv
+2021-04-05,aapl,125.9000015258789,55.21793366917712,-1.5647029451020056,126.20999908447266,1,Apple Brings 'Timeless Classics' To Arcade As It Looks To Boost Gaming Subscriptions,headlinesIter55.csv
+2021-04-06,aapl,126.20999908447266,55.790910150919714,-1.3543791921542545,127.9000015258789,1,Why Foxconn's Q1 Revenue Bodes Well for Apple,headlinesIter56.csv
+2021-04-07,aapl,127.9000015258789,58.87979474840317,-1.100551085108418,130.36000061035156,1,2 Top Growth Stocks That Could Be Better Than Bitcoin in 2021,headlinesIter57.csv
+2021-04-08,aapl,130.36000061035156,62.93898759752602,-0.7910051533529814,133.0,1,iPhone Users Will Now Be Able To Track Down Their Gadgets Not Made By Apple,headlinesIter58.csv
+2021-04-09,aapl,133.0,66.7341989091678,-0.4188407686159885,131.24000549316406,0,The 4 Best Semiconductor Stocks to Buy for the Next Decade,headlinesIter59.csv
+2021-04-12,aapl,131.24000549316406,62.163855883895145,-0.05406288429668,134.42999267578125,1,Huawei to Invest $1 Billion on Car Tech It Says Surpasses Tesla,headlinesIter60.csv
+2021-04-13,aapl,134.42999267578125,66.62534139241693,0.3379806278480631,132.02999877929688,0,Microsoft is updating its MacBook Air competitor for the work from home age,headlinesIter61.csv
+2021-04-15,aapl,134.5,64.26874258685447,1.029887530418959,134.16000366210938,0,Apple and Partners Launch First-Ever $200 Million Restore Fund to Accelerate Natural Solutions to Climate Change,headlinesIter62.csv
+2021-04-16,aapl,134.16000366210938,63.439890806060895,1.3420817888416263,134.83999633789062,1,3 Popular Robinhood Stocks That Warren Buffett Owns -- and You Should Too,headlinesIter63.csv
+2021-04-19,aapl,134.83999633789062,64.42798914019625,1.6267765825190577,133.11000061035156,0,Apple to Bring Back Parler Platform to App Store,headlinesIter64.csv
+2021-04-20,aapl,133.11000061035156,59.98608977438254,1.848002248595777,133.5,1,"Apple Introduces Apple Card Family, Enabling People to Share Apple Card and Build Credit Together",headlinesIter65.csv
+2021-04-21,aapl,133.5,60.64480811059466,2.019859921667325,131.94000244140625,0,"Apple (AAPL) Unveils New iPad, iMac, AirTags, TV 4K &amp; More",headlinesIter66.csv
+2021-04-22,aapl,131.94000244140625,56.62900540477409,2.122273110661632,134.32000732421875,1,Apple plans to expand ads business - FT,headlinesIter67.csv
+2021-04-23,aapl,134.32000732421875,60.88464314133962,2.208925671965711,134.72000122070312,1,Baidu-Geely Joint Venture Aims $7.7B Investment In Smart Car,headlinesIter68.csv
+2021-04-26,aapl,134.72000122070312,61.56718248931606,2.282504387295133,134.38999938964844,0,"Spotify's new tie-up to allow listeners play music, podcasts from Facebook app",headlinesIter69.csv
+2021-04-28,aapl,133.5800018310547,58.27553498073055,2.3495914530157944,133.47999572753906,0,Apple’s wave of new products brings a special kind of baggage,headlinesIter70.csv
+2021-04-29,aapl,133.47999572753906,57.97651741437711,2.3358699013658883,131.4600067138672,0,Delta Airlines To Become The First 5G-Equipped Global Airline,headlinesIter71.csv
+2021-04-30,aapl,131.4600067138672,52.155272921096206,2.266670064208005,132.5399932861328,1,GOOGL Stock Is Worth Much More Based On Its Massive Free Cash Flow,headlinesIter72.csv
+2021-05-03,aapl,132.5399932861328,54.7701022847976,2.178389437720408,127.8499984741211,0,"A Foldable iPhone Is Coming From Apple in 2023, Analyst Says",headlinesIter73.csv
+2021-05-04,aapl,127.8499984741211,43.62092477470703,2.0029860402282305,128.10000610351562,1,Investing in This ETF Right Now Could Make You a Millionaire Retiree,headlinesIter74.csv
+2021-05-05,aapl,128.10000610351562,44.2721587963934,1.7815942290188906,129.74000549316406,1,Check out these stocks: 25 companies that have incredible sales growth — and pricing power,headlinesIter75.csv
+2021-05-06,aapl,129.74000549316406,48.47651471151895,1.5650881144115243,130.2100067138672,1,IBM debuts new chip technology that could make your phone last 4 days on a charge,headlinesIter76.csv
+2021-05-07,aapl,130.2100067138672,49.64891540556853,1.3669253106463723,126.8499984741211,0,"PC, Tablet Sales Grow at Record Pace in Q1: 4 Stocks to Buy",headlinesIter77.csv
+2021-05-11,aapl,125.91000366210938,40.43187668894659,0.8737227146806784,122.7699966430664,0,"Tech Giants Urge Congress to Fund Chip Act, Focus on Long-Term",headlinesIter78.csv
+2021-05-12,aapl,122.7699966430664,35.01742094618109,0.5580219807269403,124.97000122070312,1,3 Stocks That Could Be Worth More Than Apple by 2035,headlinesIter79.csv
+2021-05-13,aapl,124.97000122070312,40.98091797690231,0.2579135746923204,127.4499969482422,1,Recent privacy changes in the digital ad industry will mainly benefit people in rich countries,headlinesIter80.csv
+2021-05-14,aapl,127.4499969482422,46.897011831141576,0.0222893624688336,126.2699966430664,0,These 5 Tech Stocks Offer Growth at Reasonable Valuations,headlinesIter81.csv
+2021-05-17,aapl,126.2699966430664,44.60587745177784,-0.1794426134458168,124.8499984741211,0,Apple Music Announces Spatial Audio with Dolby Atmos; Will Bring Lossless Audio to Entire Catalog,headlinesIter82.csv
+2021-05-18,aapl,124.8499984741211,41.94988685748909,-0.3716027241483958,124.69000244140624,0,"Apple (AAPL) Music to Add Lossless Audio, Dolby Atmos Support",headlinesIter83.csv
+2021-05-19,aapl,124.69000244140624,41.64897116493802,-0.5493957101224851,127.30999755859376,1,Ampere announces custom computing cores as it courts cloud customers,headlinesIter84.csv
+2021-05-20,aapl,127.30999755859376,48.201476383297326,-0.6658107826876313,125.43000030517578,0,Google to open first physical store in New York this summer,headlinesIter85.csv
+2021-05-24,aapl,127.0999984741211,48.30165671373058,-0.8227102929443172,126.9000015258789,0,AT&amp;T CEO: WarnerMedia spinoff is good for investors,headlinesIter86.csv
+2021-05-25,aapl,126.9000015258789,47.86359660026585,-0.8502267903497587,126.8499984741211,0,Cinedigm Collaborates With Struum Streaming Service,headlinesIter87.csv
+2021-05-26,aapl,126.8499984741211,47.74700275535877,-0.8569437821975416,125.27999877929688,0,Bezos Says Retail Is Much More Competitive Than Phone Market,headlinesIter88.csv
+2021-05-27,aapl,125.27999877929688,44.11346863384253,-0.8733672110612034,124.61000061035156,0,3 Stocks to Watch as Streaming Services Grow in Popularity,headlinesIter89.csv
+2021-05-28,aapl,124.61000061035156,42.62279097135326,-0.9037123522600404,124.27999877929688,0,Apple Looks to Create Partnerships in the ‘Alternative Payments Ecosystem’,headlinesIter90.csv
+2021-06-01,aapl,124.27999877929688,41.87226384238302,-0.9443978538229176,125.05999755859376,1,"UPDATE 1-Coinbase to allow users to use card via Apple, Google wallets",headlinesIter91.csv
+2021-06-02,aapl,125.05999755859376,44.3658711372488,-0.97483479300463,123.54000091552734,0,The Moomoo Trading App Launches New Referral Program - Moomoo Ambassador,headlinesIter92.csv
+2021-06-04,aapl,125.88999938964844,47.870211535431686,-1.030363003934543,125.9000015258789,1,Hot AI Trading Platform Offers Tools To Stay on Track,headlinesIter93.csv
+2021-06-07,aapl,125.9000015258789,47.89908162358637,-1.0174431919758662,126.73999786376952,1,"Apple Advances Its Privacy Leadership with iOS 15, iPadOS 15, macOS Monterey, and watchOS 8",headlinesIter94.csv
+2021-06-08,aapl,126.73999786376952,50.384223843337,-0.97443641945094,127.12999725341795,1,This Top Media Stock Has 1 Key Advantage Over Netflix and Spotify,headlinesIter95.csv
+2021-06-09,aapl,127.12999725341795,51.539965601529424,-0.9063830588128848,126.11000061035156,0,4 Stocks to Capitalize on the Booming Virtual Reality Market,headlinesIter96.csv
+2021-06-10,aapl,126.11000061035156,48.36669624892337,-0.8404060719781736,127.3499984741211,1,"How Apple, Amazon, Microsoft, Google and Facebook Can Unlock New Profit Engines",headlinesIter97.csv
+2021-06-11,aapl,127.3499984741211,52.21821536200358,-0.7574902415531548,130.47999572753906,1,"Amazon Joins Other Tech Giants in Setting ""3 &amp; 2"" Workweek",headlinesIter98.csv
+2021-06-14,aapl,130.47999572753906,60.273642789312106,-0.6166403053662277,129.63999938964844,0,"Apple Debuts Beats Studio Buds, Its AirPods for Android",headlinesIter99.csv
+2021-06-15,aapl,129.63999938964844,57.47330442602361,-0.4588581834417304,130.14999389648438,1,2 Great Reasons to Buy This Cancer Treatment Stock Now,headlinesIter100.csv
+2021-06-17,aapl,131.7899932861328,62.55063312576361,-0.0950728878697771,130.4600067138672,0,Apple's (AAPL) Podcast Subscriptions to Aid Services Prospects,headlinesIter101.csv
+2021-06-18,aapl,130.4600067138672,57.86861676540529,0.0839867431462627,132.3000030517578,1,ROKU Partners With TCL to Launch New TV models in the U.K.,headlinesIter102.csv
+2021-06-21,aapl,132.3000030517578,62.09572875629509,0.2731597845582034,133.97999572753906,1,Is Spotify's Exclusive Podcast Strategy Worthwhile?,headlinesIter103.csv
+2021-06-22,aapl,133.97999572753906,65.49934429943896,0.484935667798766,133.6999969482422,0,U.S. Firm GlobalFoundries Invests $4 Billion in Singapore Chip Plant,headlinesIter104.csv
+2021-06-23,aapl,133.6999969482422,64.4604317552394,0.6942044491942286,133.41000366210938,0,Microsoft needs to impress a lot of people with Windows 11,headlinesIter105.csv
+2021-06-24,aapl,133.41000366210938,63.339870258014,0.8847227065290135,133.11000061035156,0,Garmin (GRMN) to Boost Aviation Segment With Latest Move,headlinesIter106.csv
+2021-06-25,aapl,133.11000061035156,62.1364662613984,1.0466983812900783,134.77999877929688,1,3 Stocks to Supplement Your Social Security Income,headlinesIter107.csv
+2021-06-28,aapl,134.77999877929688,66.008023653837,1.2065512938267549,136.3300018310547,1,Apple's (AAPL) ECG Feature on Watch Receives China's Approval,headlinesIter108.csv
+2021-06-30,aapl,136.9600067138672,70.36289900808093,1.5563716688860647,137.27000427246094,1,Google Will Bring Digital Vaccine Cards to Android Phones,headlinesIter109.csv
+2021-07-01,aapl,137.27000427246094,70.96306443235476,1.729648352239229,139.9600067138672,1,Apple to Test Hybrid Work From Store and Home for Retail Staff,headlinesIter110.csv
+2021-07-02,aapl,139.9600067138672,75.58363264798447,1.930045399004443,142.02000427246094,1,Amazon’s Jeff Bezos Is Handing Andy Jassy a Unique Set of Challenges,headlinesIter111.csv
+2021-07-06,aapl,142.02000427246094,78.41614801334121,2.1654029138582427,144.57000732421875,1,"Fidelity, BlackRock Lead Fintech Startup’s $600 Million Funding",headlinesIter112.csv
+2021-07-07,aapl,144.57000732421875,81.30701759317034,2.446083561090778,143.24000549316406,0,Jim Cramer: You Did Have an Opportunity to Buy Apple at the Bottom,headlinesIter113.csv
+2021-07-08,aapl,143.24000549316406,75.6181988592983,2.7136636046522744,145.11000061035156,1,Southeast Asia Is World’s Fastest-Growing Mobile Wallet Market,headlinesIter114.csv
+2021-07-09,aapl,145.11000061035156,77.95380994933444,2.9826551472547003,144.5,0,"The Week In Cannabis: New ETF, First Delivery App On Apple, FBI, Sundial, M&amp;A And More",headlinesIter115.csv
+2021-07-13,aapl,145.63999938964844,76.92769057098485,3.440803593093677,149.14999389648438,1,Square Plans New iPad Payment Terminal With Built-In Tap-to-Pay,headlinesIter116.csv
+2021-07-14,aapl,149.14999389648438,80.835363520281,3.6836397270843753,148.47999572753906,0,10 Best Machine Learning Stocks to Invest In,headlinesIter117.csv
+2021-07-15,aapl,148.47999572753906,78.115686951191,3.9096613352683214,146.38999938964844,0,Apple Supplier Rockley Photonics Unveils Health Tracking Sensors Potentially Giving Peek Into Apple iWatch Future,headlinesIter118.csv
+2021-07-16,aapl,146.38999938964844,70.18326143555755,4.071039918299928,142.4499969482422,0,Microsoft (MSFT) to Launch Windows 365,headlinesIter119.csv
+2021-07-19,aapl,142.4499969482422,58.18737922786671,4.111302612249452,146.14999389648438,1,Are You a Growth Investor? This 1 Stock Could Be the Perfect Pick,headlinesIter120.csv
+2021-07-20,aapl,146.14999389648438,64.3497858041445,4.123202376437228,145.39999389648438,0,Verizon to make Google's Messages default app on Android devices from 2022,headlinesIter121.csv
+2021-07-21,aapl,145.39999389648438,62.34401051680701,4.095337576209648,146.8000030517578,1,"Books, podcasts &amp; TV: Harry and Meghan continue to expand media footprint after royal exit",headlinesIter122.csv
+2021-07-22,aapl,146.8000030517578,64.5644004584409,4.057012061911903,148.55999755859375,1,This Tech Stock Is a Solid Bet This Earnings Season,headlinesIter123.csv
+2021-07-26,aapl,148.99000549316406,67.81020451723361,4.016814555717981,146.77000427246094,0,15 Best Value Stocks to Invest In,headlinesIter124.csv
+2021-07-27,aapl,146.77000427246094,61.30655783274287,3.961870839080452,144.97999572753906,0,Apple's 5G Empire Could Expand Big Time,headlinesIter125.csv
+2021-07-28,aapl,144.97999572753906,56.59337733377743,3.8479084295581214,145.63999938964844,1,"Qualcomm forecasts sales above Wall Street estimates on 5G, connected devices strength",headlinesIter126.csv
+2021-07-29,aapl,145.63999938964844,57.87919597208725,3.7046881558327103,145.86000061035156,1,Samsung Makes Foldable Phones a Key Priority for Mobile Business,headlinesIter127.csv
+2021-07-30,aapl,145.86000061035156,58.32238601765787,3.545703720349869,145.52000427246094,0,2 Highly-Ranked Stocks to Buy in August and Hold,headlinesIter128.csv
+2021-08-02,aapl,145.52000427246094,57.31864177465001,3.3716670214988875,147.36000061035156,1,4 Must-Buy Efficient Stocks to Build a Powerful Portfolio,headlinesIter129.csv
+2021-08-03,aapl,147.36000061035156,61.20946057811904,3.2189905026845347,146.9499969482422,0,Klarna CEO: Square's acquisition of Afterpay highlights 'land grab' for market share,headlinesIter130.csv
+2021-08-04,aapl,146.9499969482422,59.89913627725991,3.073827586845341,147.05999755859375,1,Apple Stock is the Best FAANG Name to Own This Month,headlinesIter131.csv
+2021-08-06,aapl,146.13999938964844,56.99026323251313,2.787938308708023,146.08999633789062,0,UPDATE 1-Apple to roll out photo checking system on country-by-country basis,headlinesIter132.csv
+2021-08-09,aapl,146.08999633789062,56.815797253848274,2.634659701954452,145.60000610351562,0,"Billionaires Bezos, Murthy to End Controversial India Venture",headlinesIter133.csv
+2021-08-10,aapl,145.60000610351562,55.03773787349269,2.4721564781279235,145.86000061035156,1,Xiaomi Builds Front-Facing Camera Under Its New Phone’s Display,headlinesIter134.csv
+2021-08-11,aapl,145.86000061035156,55.82766842336694,2.310903646375853,148.88999938964844,1,These Apple Suppliers Could Benefit From New iPhone Models,headlinesIter135.csv
+2021-08-12,aapl,148.88999938964844,63.80793026937265,2.2019625200584847,149.10000610351562,1,EU to propose legislation on common mobile charger in Sept - source,headlinesIter136.csv
+2021-08-13,aapl,149.10000610351562,64.2894769991019,2.1298520475914966,151.1199951171875,1,"Facebook Is Really, Really Good at Advertising",headlinesIter137.csv
+2021-08-16,aapl,151.1199951171875,68.61507910259927,2.1119798468594566,150.19000244140625,0,"How Can Amazon, Microsoft, Netflix, Spotify Gain From New Big Tech Bill?",headlinesIter138.csv
+2021-08-17,aapl,150.19000244140625,64.72770978773424,2.109388915111164,146.36000061035156,0,"Apple Still a 'Top Tech Name to Own,' Wedbush Analyst Ives Says",headlinesIter139.csv
+2021-08-19,aapl,146.6999969482422,52.6388425544993,1.960416305836444,148.19000244140625,1,"This Shoe Store Company Has A Better One-Year Return Than Amazon, Apple, Disney, Microsoft, Netflix, PayPal and Tesla",headlinesIter140.csv
+2021-08-20,aapl,148.19000244140625,56.50540068660178,1.8745895234469263,149.7100067138672,1,"Samsung’s Galaxy Z Fold3 is a foldable phone with a lot of promise, and a sky-high price",headlinesIter141.csv
+2021-08-23,aapl,149.7100067138672,60.08534475590957,1.8159701107965684,149.6199951171875,0,"5G Stocks To Buy And Watch: Anticipation Builds for Apple IPhone 13s, T-Mobile Marketing Push",headlinesIter142.csv
+2021-08-24,aapl,149.6199951171875,59.7716016863997,1.7719016312098503,148.36000061035156,0,"Apple’s iPhone Sales Will Grow Faster Than Anybody Thinks, Says Analyst",headlinesIter143.csv
+2021-08-25,aapl,148.36000061035156,55.409975780467946,1.7151225383899316,147.5399932861328,0,YouTube Enhances Content Streaming Experience With Picture-in-Picture In iPhone YouTube App,headlinesIter144.csv
+2021-08-26,aapl,147.5399932861328,52.714016128581775,1.6363612841747033,148.60000610351562,1,Alibaba-Backed Indie Game Store Aims to Vie With Google,headlinesIter145.csv
+2021-08-27,aapl,148.60000610351562,55.71368322045127,1.561133119191941,153.1199951171875,1,"Apple, US Developers Agree to App Store Updates That Will Support Businesses and Maintain a Great Experience for Users",headlinesIter146.csv
+2021-08-30,aapl,153.1199951171875,65.70428121905803,1.5606186574799363,151.8300018310547,0,Apple Plans to Add Satellite Features to iPhones for Emergencies,headlinesIter147.csv
+2021-09-01,aapl,152.50999450683594,62.81281130980592,1.625342344413743,153.64999389648438,1,Apple Enables Touchless Airport Security Screening Experience,headlinesIter148.csv
+2021-09-02,aapl,153.64999389648438,65.05278698188252,1.692851080447182,154.3000030517578,1,"Following Apple's Lead, Google to Take Chip Production In-House",headlinesIter149.csv
+2021-09-03,aapl,154.3000030517578,66.29927673833495,1.7789954356442008,156.69000244140625,1,Square's $160 Billion Market Opportunity and How It Plans to Grow Its Share,headlinesIter150.csv
+2021-09-07,aapl,156.69000244140625,70.46992627844662,1.90638076039643,155.11000061035156,0,How Tesla’s battery technology is giving it an edge over the competition,headlinesIter151.csv
+2021-09-08,aapl,155.11000061035156,64.76380115769442,2.023384342882224,154.07000732421875,0,"Microsoft's Latest Move To Compete Against Google, Apple",headlinesIter152.csv
+2021-09-09,aapl,154.07000732421875,61.24828548790386,2.106543141627264,148.97000122070312,0,CoCoPIE helps lower end smartphones achieve high-end performance,headlinesIter153.csv
+2021-09-10,aapl,148.97000122070312,47.6021880835102,2.077960507287225,149.5500030517578,1,Apple (AAPL) is a Must Buy Ahead of iPhone 13 Launch on Sep 14,headlinesIter154.csv
+2021-09-14,aapl,148.1199951171875,45.76620953902221,1.830139246947304,149.02999877929688,1,"Apple Unveils iPhone 13: Up to 1 Terabyte of Storage, ‘Cinematic Mode’ and Enhanced Camera System",headlinesIter155.csv
+2021-09-15,aapl,149.02999877929688,48.10905087121828,1.6541616089251243,148.7899932861328,0,Apple is relying on the iPhone 13’s new cameras to power record sales,headlinesIter156.csv
+2021-09-16,aapl,148.7899932861328,47.52591981116653,1.4667973948277413,146.05999755859375,0,Altcoins Like Bitcoin Cash and Litecoin Were Thrust Into the Limelight by AMC Today,headlinesIter157.csv
+2021-09-17,aapl,146.05999755859375,41.38162069205159,1.235219621792366,142.94000244140625,0,5 of the Best Efficient Stocks to Add to Your Portfolio,headlinesIter158.csv
+2021-09-20,aapl,142.94000244140625,35.70096570491508,0.9354763208476172,143.42999267578125,1,Netflix Breaks Through at the Emmys on Night Streaming Dominates,headlinesIter159.csv
+2021-09-21,aapl,143.42999267578125,37.159933637063325,0.6144065949830496,145.85000610351562,1,Facebook Looks to Carve Out Market for Mobile Video-Chat Device,headlinesIter160.csv
+2021-09-22,aapl,145.85000610351562,43.92713469031124,0.3340104286423392,146.8300018310547,1,Apple Is Aggressively Pursuing This Massive Market With the iPhone 13,headlinesIter161.csv
+2021-09-23,aapl,146.8300018310547,46.44240465090657,0.1086804739461361,146.9199981689453,1,"Ambarella (AMBA), Dongfeng Fengshen Tie Up to Build DMS",headlinesIter162.csv
+2021-09-24,aapl,146.9199981689453,46.67895079891142,-0.0691347433106621,145.3699951171875,0,The iPhone 13 Is Here. It’s a Big Day for Consumers—and Investors,headlinesIter163.csv
+2021-09-27,aapl,145.3699951171875,43.14456988402515,-0.2324190974933851,141.91000366210938,0,Alphabet (GOOGL) Adds 30 Plus Streaming Services to Google TV,headlinesIter164.csv
+2021-09-28,aapl,141.91000366210938,36.50070648727866,-0.4327085652863168,142.8300018310547,1,NXP's (NXPI) Trimension UWB Solution Powers Xiaomi MIX4,headlinesIter165.csv
+2021-09-29,aapl,142.8300018310547,39.18246687245431,-0.6300283527047026,141.5,0,Amazon (AMZN) Boosts Fitness Tracking Reach With Halo Efforts,headlinesIter166.csv
+2021-09-30,aapl,141.5,36.76513017546961,-0.8349264130599667,142.64999389648438,1,How Securitize is providing a platform for investors to access private markets,headlinesIter167.csv
+2021-10-01,aapl,142.64999389648438,40.20048059529239,-1.0135828460215457,139.13999938964844,0,"Looking for an alternative to pricey Apple AirPods? I tested 5 wireless earbuds, and this comfortable pair — with crisp sound — stands out",headlinesIter168.csv
+2021-10-04,aapl,139.13999938964844,34.10952217253154,-1.2201158219129211,141.11000061035156,1,Elk Grove software company Alldata offers 'Toolkit' to helps educate mechanics on modern cars,headlinesIter169.csv
+2021-10-05,aapl,141.11000061035156,39.63750067317512,-1.3990833653105266,142.0,1,Microsoft Surface Pro 8 review: A bigger screen and great performance come at a price,headlinesIter170.csv
+2021-10-06,aapl,142.0,42.00475004396495,-1.5340034408408276,143.2899932861328,1,Aramco Fights for Apple’s Place as World’s Most Valuable Company,headlinesIter171.csv
+2021-10-07,aapl,143.2899932861328,45.35015107551804,-1.610165289944968,142.89999389648438,0,'Squid Game' global demand has grown over 500+ since Netflix launch: RPT,headlinesIter172.csv
+2021-10-08,aapl,142.89999389648438,44.5141345601403,-1.6480584111653642,142.80999755859375,0,Apple Is Building a Massive New Campus Straddling L.A. and Culver City,headlinesIter173.csv
+2021-10-12,aapl,141.50999450683594,41.37586583582215,-1.6659847081060757,140.91000366210938,0,"Apple plans Oct. 18 event that could bring MacBook Pro, AirPods launches",headlinesIter174.csv
+2021-10-13,aapl,140.91000366210938,40.05700638612446,-1.6788511757323437,143.75999450683594,1,Alphabet (GOOGL) Google TV to Launch Realme 4K Streaming Stick,headlinesIter175.csv
+2021-10-14,aapl,143.75999450683594,48.46075408213787,-1.6445925876818106,144.83999633789062,1,Apple is Looking to Turn AirPods Into Health Accessories,headlinesIter176.csv
+2021-10-15,aapl,144.83999633789062,51.24992771629314,-1.561613661873961,146.5500030517578,1,Alphabet (GOOGL) Boosts Fitness Tracking Efforts With Fitbit,headlinesIter177.csv
+2021-10-18,aapl,146.5500030517578,55.36841568686933,-1.4216062728213823,148.75999450683594,1,Introducing the next generation of AirPods: The world's most popular wireless headphones just got better,headlinesIter178.csv
+2021-10-19,aapl,148.75999450683594,60.06414435255365,-1.2146947153301513,149.25999450683594,1,Alibaba Unveils One of China’s Most Advanced Chips,headlinesIter179.csv
+2021-10-20,aapl,149.25999450683594,61.0622928519276,-0.9659498240186088,149.47999572753906,1,Adobe Is Well-Positioned For the Golden Age of Creativity,headlinesIter180.csv
+2021-10-21,aapl,149.47999572753906,61.5180453495646,-0.6983126417227714,148.69000244140625,0,Here's What Apple Is Doing to Protect This Lucrative Multibillion-Dollar Revenue Stream,headlinesIter181.csv
+2021-10-22,aapl,148.69000244140625,58.85414056249544,-0.4438764065114462,148.63999938964844,0,Phunware Soars on Rumor it Will be Working With Trump,headlinesIter182.csv
+2021-10-25,aapl,148.63999938964844,58.680931359922994,-0.210838322442899,149.32000732421875,1,Private-Equity Firm KSL Capital Seeks $3 Billion for Sixth Flagship Fund,headlinesIter183.csv
+2021-10-26,aapl,149.32000732421875,60.38827088135628,0.0079012462218804,148.85000610351562,0,Solar Stocks Are Set To Follow Tesla Higher,headlinesIter184.csv
+2021-10-27,aapl,148.85000610351562,58.58635087530008,0.1986954892878628,152.57000732421875,1,"Apple Charges Forward to 2030 Carbon Neutral Goal, Adding 9 Gigawatts of Clean Power and Doubling Supplier Commitments",headlinesIter185.csv
+2021-10-28,aapl,152.57000732421875,66.98366739685994,0.4208699737793653,149.8000030517578,0,"Facebook Paves Way to Metaverse With VR Tools for Home, Work",headlinesIter186.csv
+2021-10-29,aapl,149.8000030517578,57.615430302469626,0.6059131838952774,148.9600067138672,0,Canoo Is a Viable Play for Investors and Traders Alike,headlinesIter187.csv
+2021-11-01,aapl,148.9600067138672,55.098837086081375,0.7432003100565812,150.02000427246094,1,"Apple Wants iPhones to Detect Car Crashes, Auto-Dial 911",headlinesIter188.csv
+2021-11-02,aapl,150.02000427246094,57.614780144105296,0.8585757680945179,151.49000549316406,1,10 Best Fitness Stocks To Invest In,headlinesIter189.csv
+2021-11-03,aapl,151.49000549316406,60.88783016449224,0.975665387974118,150.9600067138672,0,"Biden, Kerry to tap Apple, Amazon and others for the tech to lower steel and trucking emissions",headlinesIter190.csv
+2021-11-04,aapl,150.9600067138672,59.11535419624777,1.0770118201754826,151.27999877929688,1,"Big Tech, Tesla &amp; An ETF to Invest in Disruption",headlinesIter191.csv
+2021-11-05,aapl,151.27999877929688,59.87483313213713,1.1658285386120246,150.44000244140625,0,"Dow Jones Futures: How To Handle The Market Rally Now; Airbus, Apple, Nvidia, Tesla, Moderna, Peloton In Focus",headlinesIter192.csv
+2021-11-08,aapl,150.44000244140625,56.887424496386174,1.2260771460213042,150.80999755859375,1,A Fast-Growing Tech Stock to Buy in November,headlinesIter193.csv
+2021-11-09,aapl,150.80999755859375,57.884202909544136,1.268370061513503,147.9199981689453,0,VC legend John Doerr says climate change brings economic opportunity that’s bigger than the internet boom,headlinesIter194.csv
+2021-11-10,aapl,147.9199981689453,48.459638845345246,1.2481925083502703,147.8699951171875,0,"Nvidia is on top of the world, but its rivals are gaining steam",headlinesIter195.csv
+2021-11-12,aapl,149.99000549316406,54.58491362553196,1.1325606732997349,150.0,1,3 Dividend-Paying Tech Stocks to Buy in November,headlinesIter196.csv
+2021-11-15,aapl,150.0,54.61287479824162,1.084382377546938,151.0,1,Apple TV+ hopes to build on rivals' success with first Korean series,headlinesIter197.csv
+2021-11-16,aapl,151.0,57.436553868327856,1.055682285656349,153.49000549316406,1,Qualcomm estimates Apple will self-supply up to 80% of iPhone modem chips by 2023,headlinesIter198.csv
+2021-11-17,aapl,153.49000549316406,63.522074986990674,1.0780157307277731,157.8699951171875,1,"Metaverse Is a Multitrillion-Dollar Opportunity, Epic CEO Says",headlinesIter199.csv
+2021-11-18,aapl,157.8699951171875,71.29628910368639,1.1985884124153778,160.5500030517578,1,Apple Reportedly Steps Up EV Plans After Reaching Key Chip Milestone: Bloomberg,headlinesIter200.csv
+2021-11-19,aapl,160.5500030517578,74.83090090896506,1.4144410611006113,161.02000427246094,1,BlackBerry Is Making All the Right Moves With Partnerships and New Products,headlinesIter201.csv
+2021-11-22,aapl,161.02000427246094,75.40295127437051,1.6829727923805085,161.41000366210938,1,Kevin O'Leary says the 'real opportunity' for Bitcoin will come from this overlooked group of investors — but he's still a big fan of blue chip income stocks,headlinesIter202.csv
+2021-11-23,aapl,161.41000366210938,75.89258007367337,1.972832252046167,161.94000244140625,1,There’s an ‘incredible’ sale on Apple Airpods Pro now at $90 off — and 4 other Apple sales to consider now,headlinesIter203.csv
+2021-11-24,aapl,161.94000244140625,76.57501141852457,2.2648239440464235,156.80999755859375,0,"Thanksgiving box office: Vaccines for kids ‘will play a major role’ in family movie attendance, analyst says",headlinesIter204.csv
+2021-11-26,aapl,156.80999755859375,59.12775277365358,2.455837167333917,160.24000549316406,1,"9 of the best Apple deals happening now, including Apple Airpods, iPads and more",headlinesIter205.csv
+2021-11-29,aapl,160.24000549316406,64.88818918008074,2.622672237557105,165.3000030517578,1,"8 of the best Apple deals we’re seeing now on Cyber Monday, from AirPods to the Apple Watch",headlinesIter206.csv
+2021-11-30,aapl,165.3000030517578,71.31168899819892,2.8403588450219623,164.77000427246094,0,1 Fast-Growing Stock Reshaping Its Industry,headlinesIter207.csv
+2021-12-01,aapl,164.77000427246094,69.86984747379785,3.063577145864976,163.75999450683594,0,7 Penny Stocks with 10x Potential in 2022,headlinesIter208.csv
+2021-12-02,aapl,163.75999450683594,67.0861313726175,3.255464504837602,161.83999633789062,0,Apple Partner Foxconn in Talks to Help Saudi Arabia Build EVs,headlinesIter209.csv
+2021-12-03,aapl,161.83999633789062,62.02700117696117,3.379602872452544,165.32000732421875,1,Amazon's (AMZN) 18 Projects to Bolster Net-Zero Carbon Efforts,headlinesIter210.csv
+2021-12-06,aapl,165.32000732421875,66.89940614210518,3.5025886906733823,171.17999267578125,1,"Goldman, Morgan Stanley Bid to Buy Into India Mapmaker’s IPO",headlinesIter211.csv
+2021-12-07,aapl,171.17999267578125,73.14757306680934,3.703914529105746,175.0800018310547,1,Apple’s key competitive advantage is ‘in its large and still growing user base’: Analyst,headlinesIter212.csv
+2021-12-08,aapl,175.0800018310547,76.34754936954214,3.9975689392350553,174.55999755859375,0,"Apple Is Working On a Second-Generation AR Headset, Analyst Says",headlinesIter213.csv
+2021-12-09,aapl,174.55999755859375,75.06310379847584,4.316291627283962,179.4499969482422,1,"B. Riley Believes Now Is An Excellent Time To Buy Globalstar, Thanks To Apple, Qualcomm",headlinesIter214.csv
+2021-12-10,aapl,179.4499969482422,78.6932519595078,4.702198038872515,175.74000549316406,0,"AlphaClone Alternative Alpha  ETF Buys Caesars Entertainment Inc, PagerDuty Inc, FormFactor ...",headlinesIter215.csv
+2021-12-13,aapl,175.74000549316406,70.32834459262307,5.040076047686016,174.3300018310547,0,"Apple has even more room to ‘build on this incredible ecosystem,' analyst explains",headlinesIter216.csv
+2021-12-14,aapl,174.3300018310547,67.39616321457078,5.296155522828174,179.3000030517578,1,3 Environmentally Friendly Alternatives to Bitcoin,headlinesIter217.csv
+2021-12-15,aapl,179.3000030517578,71.85111113012263,5.554763609558263,172.25999450683594,0,"Samsung Gets Competition in Foldables From a $1,250 China Phone",headlinesIter218.csv
+2021-12-16,aapl,172.25999450683594,59.45787608764088,5.676420263280663,171.13999938964844,0,Could Apple Soon Deploy a Fully Autonomous Vehicle?,headlinesIter219.csv
+2021-12-17,aapl,171.13999938964844,57.75124300410566,5.675054391199479,169.75,0,"PFM Multi-Manager Series Trust Buys Danaher Corp, Monolithic Power Systems Inc, Clorox Co, ...",headlinesIter220.csv
+2021-12-20,aapl,169.75,55.61757908434697,5.561540759216631,172.99000549316406,1,"Moderna, AT&amp;T Rise Premarket; United Airlines, Tesla, Exxon Mobil Fall",headlinesIter221.csv
+2021-12-21,aapl,172.99000549316406,59.38438728136008,5.422702175109746,175.63999938964844,1,"NXP (NXPI) Processors to be Used by Foxconn, Clientele to Grow",headlinesIter222.csv
+2021-12-22,aapl,175.63999938964844,62.20945876495003,5.305188219380362,176.27999877929688,1,An Under-the-Radar Advantage Could Make This Growth Stock a Winner in 2022,headlinesIter223.csv
+2021-12-23,aapl,176.27999877929688,62.88096868932648,5.205319622725045,180.3300018310547,1,These Health-Tech Deals Highlight a Big Private Investing Trend,headlinesIter224.csv
+2021-12-27,aapl,180.3300018310547,66.89040785730501,5.1744975291079545,179.2899932861328,0,Give the Gift of Investing With This Classic Stock Bundle,headlinesIter225.csv
+2021-12-28,aapl,179.2899932861328,64.95026303383807,5.160181735536772,179.3800048828125,1,"GuidePath Tactical Allocation Fund Buys Laboratory Corp of America Holdings, Alphabet Inc, The ...",headlinesIter226.csv
+2021-12-29,aapl,179.3800048828125,65.04476238038399,5.146637213090336,178.1999969482422,0,Invest Into Apple (AAPL) With Over 50% Upside Based On Point &amp; Figures Chart,headlinesIter227.csv
+2021-12-30,aapl,178.1999969482422,62.65968012570015,5.10372957000685,177.57000732421875,0,Apple (AAPL) Prospects Benefit From iPhone Production Increase,headlinesIter228.csv
+2022-01-03,aapl,182.009994506836,66.60003109106961,4.982142713373107,179.6999969482422,0,Apple Becomes the First Company Worth $3 Trillion,headlinesIter229.csv
+2022-01-04,aapl,179.6999969482422,61.90124428679008,4.920244901911103,174.9199981689453,0,Apple (AAPL) Rumored to Develop Cheaper Mac External Displays,headlinesIter230.csv
+2022-01-05,aapl,174.9199981689453,53.49126166871451,4.760917376445234,172.0,0,7 Stocks to Buy That Will Benefit From Biden’s Big Antitrust Plans,headlinesIter231.csv
+2022-01-06,aapl,172.0,49.10252965472296,4.491437046821163,172.1699981689453,1,Acorns Moves Onto Robinhood’s Turf With Direct Stock Investing,headlinesIter232.csv
+2022-01-07,aapl,172.1699981689453,49.36300731021636,4.15951700568403,172.19000244140625,1,"FOCUS-At CES, tech alliances firm up in the self-driving car wars",headlinesIter233.csv
+2022-01-10,aapl,172.19000244140625,49.395826194736514,3.7966995359009785,175.0800018310547,1,Alphabet (GOOGL) to Bring New YouTube Music Feature to Wear OS,headlinesIter234.csv
+2022-01-11,aapl,175.0800018310547,54.03114171446192,3.470990453853592,175.52999877929688,1,"Inflation ‘will help us drive subscribers,’ fuboTV CEO says",headlinesIter235.csv
+2022-01-12,aapl,175.52999877929688,54.72653926568199,3.1848827477566064,172.19000244140625,0,GlobalWafers Said to Near China Approval for Siltronic Deal,headlinesIter236.csv
+2022-01-13,aapl,172.19000244140625,48.822969068120415,2.8780479727447497,173.07000732421875,1,Here’s What Makes Apple Inc. (AAPL) A Great Investment Pick,headlinesIter237.csv
+2022-01-14,aapl,173.07000732421875,50.34289327728298,2.581786968856827,169.8000030517578,0,Prediction: Amazon Stock Will Be Worth More Than Apple in 10 Years,headlinesIter238.csv
+2022-01-18,aapl,169.8000030517578,44.99526092302046,2.249628468153908,166.22999572753906,0,Samsung Partners With AMD to Power Up Mobile Chips,headlinesIter239.csv
+2022-01-19,aapl,166.22999572753906,39.999686548228894,1.8502976692273023,164.50999450683594,0,Apple Wants to Push Further Into This Major Smartphone Market in 2022,headlinesIter240.csv
+2022-01-20,aapl,164.50999450683594,37.82099411073054,1.3981393378782456,162.41000366210938,0,Paylocity (PCTY) Enriches Product Suite With Cloudsnap Buyout,headlinesIter241.csv
+2022-01-21,aapl,162.41000366210938,35.29340634925646,0.8998818497289368,161.6199951171875,0,"GFS Advisors, LLC Buys Bank of America Corp, Unilever PLC, iShares Short Treasury Bond ETF, ...",headlinesIter242.csv
+2022-01-24,aapl,161.6199951171875,34.36301922860691,0.3841946463504159,159.77999877929688,0,TSMC Aims To Construct Advanced Packaging Fab In Taiwan,headlinesIter243.csv
+2022-01-25,aapl,159.77999877929688,32.23181656874483,-0.1456157137732077,159.69000244140625,0,China's Realme eyes Europe's high-end smartphone market with new launch,headlinesIter244.csv
+2022-01-26,aapl,159.69000244140625,32.126863696738326,-0.6576086117282136,159.22000122070312,0,"Microsoft's Azure makes it the ‘cloud king,’ analyst says",headlinesIter245.csv
+2022-01-27,aapl,159.22000122070312,31.54909333577569,-1.1375941277660893,170.3300018310547,1,Apple (AAPL) to Enable NFC Payments With New iOS Feature,headlinesIter246.csv
+2022-01-28,aapl,170.3300018310547,53.04543411878468,-1.392510024894997,174.77999877929688,1,"Stevens Capital Management Lp Buys VanEck Gold Miners ETF, Boeing Co, Financial Select Sector ...",headlinesIter247.csv
+2022-01-31,aapl,174.77999877929688,58.64715017722245,-1.4188226183281312,174.61000061035156,0,Byju’s Aims for SPAC Merger Agreement Within a Month,headlinesIter248.csv
+2022-02-01,aapl,174.61000061035156,58.36071058505738,-1.2999501779128044,175.83999633789062,1,"Goodman Financial CORP Buys Schneider National Inc, PTC Inc, iShares MSCI USA Equal Weighted ...",headlinesIter249.csv
+2022-02-02,aapl,175.83999633789062,59.88726554435774,-1.0737233478690815,172.89999389648438,0,Apple CEO Sees Big Potential in the Metaverse,headlinesIter250.csv
+2022-02-03,aapl,172.89999389648438,54.72300826781289,-0.8365268396149229,172.38999938964844,0,Meta stock presenting ‘very good buying opportunity’ for long-term investors: Strategist,headlinesIter251.csv
+2022-02-04,aapl,172.38999938964844,53.85543646773008,-0.6111190331048393,171.66000366210938,0,"Empirical Finance, LLC Buys Apple Inc, Microsoft Corp, Tesla Inc, Sells Invesco Optimum Yield ...",headlinesIter252.csv
+2022-02-07,aapl,171.66000366210938,52.570686500981935,-0.415170197737823,174.8300018310547,1,"Peloton is 'a logical match' for a number of tech companies, analyst says",headlinesIter253.csv
+2022-02-08,aapl,174.8300018310547,57.33089499641931,-0.196435910285175,176.27999877929688,1,"Nio, XPeng, Li Auto Have an Opportunity to Take Sizeable Market Share- Barclays",headlinesIter254.csv
+2022-02-09,aapl,176.27999877929688,59.341043421094255,0.0486950159369764,172.1199951171875,0,Apple To Enable Crypto Payments With ‘Tap To Pay’ by the End of 2022,headlinesIter255.csv
+2022-02-10,aapl,172.1199951171875,51.8011485631592,0.2310392611512653,168.63999938964844,0,Disney CEO: 'We continue to see value in the moviegoing experience',headlinesIter256.csv
+2022-02-11,aapl,168.63999938964844,46.48065379240749,0.3084233598789057,168.8800048828125,1,These Companies Are Winning the Metaverse Race,headlinesIter257.csv
+2022-02-14,aapl,168.8800048828125,46.8858357867979,0.3190900581226892,172.7899932861328,1,Here's Why BofA Calls Roblox 'Category Leader' In The Emerging Metaverse Media Category,headlinesIter258.csv
+2022-02-15,aapl,172.7899932861328,53.113511846007086,0.3490347269019702,172.5500030517578,0,ViacomCBS rebrands to Paramount as streaming subscribers accelerate,headlinesIter259.csv
+2022-02-16,aapl,172.5500030517578,52.70503209924863,0.3848682803486277,168.8800048828125,0,Google Will Bring Ad-Friendly Privacy Sandbox to Android,headlinesIter260.csv
+2022-02-17,aapl,168.8800048828125,46.78009709674205,0.3630845485332662,167.3000030517578,0,All You Need to Know About Apple (AAPL) Rating Upgrade to Strong Buy,headlinesIter261.csv
+2022-02-18,aapl,167.3000030517578,44.46268322542545,0.280293808213708,164.32000732421875,0,Ford’s CEO Is Exploring Ways to Separate Its EV Business to Unlock Tesla-Like Value,headlinesIter262.csv
+2022-02-22,aapl,164.32000732421875,40.397843721222,0.115422146612572,160.07000732421875,0,"Apple Supplier Luxshare Eyes $2 Billion For Device, EV Expansion",headlinesIter263.csv
+2022-02-23,aapl,160.07000732421875,35.42388781895857,-0.1603227395634245,162.74000549316406,1,Meta Is Building a Digital Voice Assistant for Metaverse Push,headlinesIter264.csv
+2022-02-24,aapl,162.74000549316406,40.38950453372546,-0.4481421430131704,164.85000610351562,1,Brookfield Renewable Sees an Enormous Opportunity in Helping Companies Go Green,headlinesIter265.csv
+2022-02-25,aapl,164.85000610351562,44.05093217179111,-0.6937564172445991,165.1199951171875,1,10 Smart Home Technology Stocks To Buy Today,headlinesIter266.csv
+2022-02-28,aapl,165.1199951171875,44.52051085331863,-0.8941530997830162,163.1999969482422,0,"Digitization, Buyout to Aid Salesforce (CRM) in Q4 Earnings",headlinesIter267.csv
+2022-03-01,aapl,163.1999969482422,41.83169892770161,-1.0842976402561857,166.55999755859375,1,Apple to Increase Covid Testing for Vaccinated Retail Employees,headlinesIter268.csv
+2022-03-02,aapl,166.55999755859375,47.77591209655511,-1.2019704646916496,166.22999572753906,0,"As Apple prepares for RTP buildout, it seeks more Triangle office space",headlinesIter269.csv
+2022-03-03,aapl,166.22999572753906,47.26504288608504,-1.2705762702788106,163.1699981689453,0,Apple Makes a Big Announcement That Can Boost Its Revenues,headlinesIter270.csv
+2022-03-04,aapl,163.1699981689453,42.70500042829878,-1.3507559628815624,159.3000030517578,0,Investor Lesson: Holding Great Companies Through Turmoil,headlinesIter271.csv
+2022-03-07,aapl,159.3000030517578,37.74519616800729,-1.49265165743726,157.44000244140625,0,"Best Fintech 2022: See The Leaders In Digital Wallets, Crypto Apps And More",headlinesIter272.csv
+2022-03-08,aapl,157.44000244140625,35.604857899431465,-1.692064507952622,162.9499969482422,1,Comcast (CMCSA) Brings Apple TV+ to Its Entertainment Platform,headlinesIter273.csv
+2022-03-09,aapl,162.9499969482422,45.46953152414034,-1.825309144841201,158.52000427246094,0,NCR Boosts Digital Banking Capabilities Through Tech IP Buyout,headlinesIter274.csv
+2022-03-10,aapl,158.52000427246094,40.14482463530823,-1.9766136203390727,154.72999572753906,0,ANSYS (ANSS) to Work With GF on New Silicon Photonics Designs,headlinesIter275.csv
+2022-03-11,aapl,154.72999572753906,36.23525939088921,-2.187268292703533,150.6199951171875,0,Blackbaud (BLKB) Collaborates With Change Donation Platform,headlinesIter276.csv
+2022-03-14,aapl,150.6199951171875,32.53496999408927,-2.484667085076402,155.08999633789062,1,Apple iPhone SE is a more than $20 billion opportunity: analyst,headlinesIter277.csv
+2022-03-15,aapl,155.08999633789062,39.74219473810427,-2.743865957558068,159.58999633789062,1,"IBM Worth Considering for the Dividend, Growth Potential",headlinesIter278.csv
+2022-03-16,aapl,159.58999633789062,45.996780531973954,-2.88748552976688,160.6199951171875,1,Citrix (CTXS) Focused on Gaining From Hybrid Work Innovation,headlinesIter279.csv
+2022-03-17,aapl,160.6199951171875,47.344011007261976,-2.928119267854478,163.97999572753906,1,Iridium (IRDM) Satcom Adopted by Japan-Based Sumitomo,headlinesIter280.csv
+2022-03-18,aapl,163.97999572753906,51.58699700504654,-2.8417927691337246,165.3800048828125,1,Alphabet (GOOGL) to Boost AR Efforts With Raxium Acquisition,headlinesIter281.csv
+2022-03-21,aapl,165.3800048828125,53.27641150585194,-2.65160208236108,168.82000732421875,1,3 Vanguard ETFs That Could Help You Retire a Millionaire,headlinesIter282.csv
+2022-03-22,aapl,168.82000732421875,57.226122968467074,-2.3453546774329816,170.2100067138672,1,Bernstein Explains How Apple Could Produce $10B In Incremental Revenue,headlinesIter283.csv
+2022-03-23,aapl,170.2100067138672,58.74373118870637,-1.954896998808302,174.07000732421875,1,Google Tests Letting Apps Like Spotify Offer Own Billing,headlinesIter284.csv
+2022-03-24,aapl,174.07000732421875,62.70133065844924,-1.466086727751804,174.72000122070312,1,Apple Is Working on a Hardware Subscription Service for iPhones,headlinesIter285.csv
+2022-03-25,aapl,174.72000122070312,63.3390826270555,-0.9275434180911044,175.60000610351562,1,"Apple is reportedly developing a subscription program for iPhones, other devices",headlinesIter286.csv
+2022-03-28,aapl,175.60000610351562,64.23080191384,-0.3699057105005179,178.9600067138672,1,Nvidia is the most important tech company on planet: analyst,headlinesIter287.csv
+2022-03-29,aapl,178.9600067138672,67.48298141981356,0.2249176429911418,177.77000427246094,0,Disney (DIS) Set to Expand Disney+ Offering in New Regions,headlinesIter288.csv
+2022-03-30,aapl,177.77000427246094,65.22121692493907,0.7923681890973947,174.61000061035156,0,Ciena's (CIEN) GeoMesh Extreme Solution Leveraged by EASSy,headlinesIter289.csv
+2022-03-31,aapl,174.61000061035156,59.51672987475758,1.2606933143140846,174.30999755859375,0,WIX Integrates WIX Restaurants Platform With DoorDash Drive,headlinesIter290.csv
+2022-04-01,aapl,174.30999755859375,58.98922899213629,1.634678420610591,178.44000244140625,1,HP (HPQ) Taps Jewelry and Fashion Market With 3D Printing,headlinesIter291.csv
+2022-04-04,aapl,178.44000244140625,63.752174995501576,1.9920941664768013,175.05999755859375,0,Apple (AAPL) Now Rumored to Launch Foldable iPhone in 2025,headlinesIter292.csv
+2022-04-05,aapl,175.05999755859375,57.8324595326596,2.2619218448343625,171.8300018310547,0,3D Systems (DDD) Introduces New Stereolithography Printers,headlinesIter293.csv
+2022-04-06,aapl,171.8300018310547,52.788045634921765,2.406018133779481,172.13999938964844,1,"TikTok is now the favorite social media app for teens, survey finds",headlinesIter294.csv
+2022-04-07,aapl,172.13999938964844,53.20987255117748,2.4632166860686806,170.08999633789062,0,Seagate (STX) &amp; Phison Collaborate to Advance SSD Development,headlinesIter295.csv
+2022-04-08,aapl,170.08999633789062,50.02666622449918,2.424630207403121,165.75,0,Carrier (CARR) Boosts Fire &amp; Security Segment Via HI-FOG LPU,headlinesIter296.csv
+2022-04-11,aapl,165.75,44.02232840540445,2.253261964462032,167.66000366210938,1,"DoorDash adds new subscription tier for college students, Etsy sellers go on strike",headlinesIter297.csv
+2022-04-12,aapl,167.66000366210938,47.03519862366709,2.03298944364556,170.39999389648438,1,Charter (CHTR) Adds Orbic Journey V Phone to its Lineup,headlinesIter298.csv
+2022-04-13,aapl,170.39999389648438,51.10116346475532,1.832693068151092,165.2899932861328,0,Alphabet (GOOGL) to Enhance Music Experience With New Features,headlinesIter299.csv
+2022-04-14,aapl,165.2899932861328,44.27479875828234,1.5697130670368242,165.07000732421875,0,"Stellantis, Qualcomm Partner To Power Vehicle Platforms With Snapdragon Digital Chassis Solutions",headlinesIter300.csv
+2022-04-18,aapl,165.07000732421875,44.002282384110174,1.2741425888393578,167.39999389648438,1,Match Group Stock Is Well-Positioned to Rally,headlinesIter302.csv
+2022-04-19,aapl,167.39999389648438,47.675796918305664,1.0079088701123942,167.22999572753906,0,This Smaller Spotify Rival Looks To Go Public Via €1.05B SPAC Merger,headlinesIter303.csv
+2022-04-20,aapl,167.22999572753906,47.43131199481737,0.7690098256472588,166.4199981689453,0,EU plan for common worldwide phone charger port takes step closer,headlinesIter304.csv
+2022-04-21,aapl,166.4199981689453,46.21522854933105,0.5450913412024017,161.7899932861328,0,PTC Set to Acquire Intland Software to Boost ALM Portfolio,headlinesIter305.csv
+2022-04-22,aapl,161.7899932861328,39.915495006576215,0.2671891613203236,162.8800048828125,1,Even Uber Pays Better Than Apple,headlinesIter306.csv
+2022-04-25,aapl,162.8800048828125,41.92263798291489,-0.013199341279722,156.8000030517578,0,Meta creating a physical building for its metaverse products,headlinesIter307.csv
+2022-04-26,aapl,156.8000030517578,34.91616254300822,-0.3774205884125188,156.57000732421875,0,Apple is seeking entrepreneurs of color for its green technology accelerator program,headlinesIter308.csv
+2022-04-27,aapl,156.57000732421875,34.68004330441111,-0.7779027257260844,163.63999938964844,1,Apple trusts you to fix your own iPhone now,headlinesIter309.csv
+2022-04-28,aapl,163.63999938964844,46.62819211247063,-1.065547959239687,157.64999389648438,0,Snap to Sell a $230 Picture-Taking Drone That Follows You Around,headlinesIter310.csv
+2022-04-29,aapl,157.64999389648438,39.95914349906589,-1.3605288088834468,157.9600067138672,1,"Snap is the next Apple, its selfie drone is the biggest clue",headlinesIter311.csv
+2022-05-02,aapl,157.9600067138672,40.43398749069733,-1.6365971032301694,159.47999572753906,1,Roku makes Apple Music app available on all of its devices,headlinesIter312.csv
+2022-05-03,aapl,159.47999572753906,42.821693427922696,-1.8583587453248207,166.02000427246094,1,"Apple, Toyota help keep NC best in US for economic development success",headlinesIter313.csv
+2022-05-04,aapl,166.02000427246094,51.77836748826096,-1.9258793260011884,156.77000427246094,0,"Yahoo Finance Presents: Tony Fadell, iPhone &amp; iPod co-inventor",headlinesIter314.csv
+2022-05-05,aapl,156.77000427246094,41.80407313628199,-2.0363739361440207,157.27999877929688,1,Apple pours millions into Oakland’s CNote platform to support minority-owned businesses,headlinesIter315.csv
+2022-05-06,aapl,157.27999877929688,42.46217888978968,-2.1552335527506647,152.05999755859375,0,"Amazon is Offering a Rare Sale on Apple AirTags, iPhone Cases and Chargers",headlinesIter316.csv
+2022-05-09,aapl,152.05999755859375,37.75589946531098,-2.351475233375014,154.50999450683594,1,Alphabet (GOOGL) Boosts YouTube Music With Latest Effort,headlinesIter317.csv
+2022-05-10,aapl,154.50999450683594,41.057925351066174,-2.54148342130293,146.5,0,Early Money: A newly unveiled startup is helping scientists clean up artificial intelligence data,headlinesIter318.csv
+2022-05-11,aapl,146.5,34.596030240124115,-2.8396262629349693,142.55999755859375,0,"Google’s Android 13 coming later this year with Wallet app, improved security",headlinesIter319.csv
+2022-05-12,aapl,142.55999755859375,31.93370466564704,-3.2463050253373966,147.11000061035156,1,10 Energy Stocks with Over 3% Dividend Yield,headlinesIter320.csv
+2022-05-13,aapl,147.11000061035156,37.8789972687746,-3.6197016003642295,145.5399932861328,0,"Despite the Negative Revisions, Block, Inc. (NYSE:SQ) has Large Future Potential",headlinesIter321.csv
+2022-05-16,aapl,145.5399932861328,36.68818839767855,-3.969461997420148,149.24000549316406,1,Apple (AAPL) Expected to Unveil iPhone 15 With USB-C,headlinesIter322.csv
+2022-05-17,aapl,149.24000549316406,41.36636456053132,-4.2179939374483135,140.82000732421875,0,Mastercard Begins Facial-Recognition Rollout With Retailers,headlinesIter323.csv
+2022-05-18,aapl,140.82000732421875,35.02400127195276,-4.514771878483635,137.35000610351562,0,Warren Buffett Bought More of These 3 Stocks in 2022,headlinesIter324.csv
+2022-05-19,aapl,137.35000610351562,32.792579560598114,-4.871303652680421,137.58999633789062,1,Apple (AAPL) Unveils Features for Users With Disabilities,headlinesIter325.csv
+2022-05-20,aapl,137.58999633789062,33.10999332766578,-5.231666396722389,143.11000061035156,1,"Texas is a ‘very friendly place’ for business, Canyon Partners co-founder says",headlinesIter326.csv
+2022-05-23,aapl,143.11000061035156,40.11570126990808,-5.475547037722782,140.36000061035156,0,10 Best Dividend Stocks to Buy According to Noam Gottesman’s GLG Partners,headlinesIter327.csv
+2022-05-24,aapl,140.36000061035156,37.98147445343973,-5.6650290915615455,140.52000427246094,1,"Apple Expands Today at Apple Creative Studios, Providing New Opportunities to Young Creatives",headlinesIter328.csv
+2022-05-25,aapl,140.52000427246094,38.18752994566526,-5.795017690279931,143.77999877929688,1,Warner Bros. Discovery Is Desperate to Find the Bottom,headlinesIter329.csv
+2022-05-26,aapl,143.77999877929688,42.387544292902334,-5.815683400868951,149.63999938964844,1,Apple to maintain current iPhone production as competitors gain momentum,headlinesIter330.csv
+2022-05-27,aapl,149.63999938964844,49.084673595523206,-5.65999630632418,148.83999633789062,0,Warren Buffett says these are the very best businesses to own — 3 high-quality examples from Berkshire's portfolio,headlinesIter331.csv
+2022-05-31,aapl,148.83999633789062,48.2598950867372,-5.401799369770781,148.7100067138672,0,3 Dividend Stocks That Are Good Enough for Warren Buffett,headlinesIter332.csv
+2022-06-01,aapl,148.7100067138672,48.11841202725995,-5.082648475352428,151.2100067138672,1,Apple’s VR headset needs to be a hit — for itself and for the VR industry,headlinesIter333.csv
+2022-06-02,aapl,151.2100067138672,51.08834360500472,-4.6905528144005295,145.3800048828125,0,Block to integrate Square payments with Apple iPhone's 'Tap to Pay' feature,headlinesIter334.csv
+2022-06-03,aapl,145.3800048828125,44.66690401956864,-4.3556146449771775,146.13999938964844,1,Block (SQ) to Attract Sellers Via Apple's Tap to Pay on iPhone,headlinesIter335.csv
+2022-06-06,aapl,146.13999938964844,45.6263608195942,-4.052007100908262,148.7100067138672,1,10 Best ETFs to Invest In For Long Term,headlinesIter336.csv
+2022-06-07,aapl,148.7100067138672,48.855928179999935,-3.7337142853079848,147.9600067138672,0,Formula 1 Streaming License Could Be Major Catalyst For Netflix - Read Why,headlinesIter337.csv
+2022-06-08,aapl,147.9600067138672,47.960660942876885,-3.426358383217395,142.63999938964844,0,Apple is finally giving the people what they’re asking for,headlinesIter338.csv
+2022-06-09,aapl,142.63999938964844,42.07143283453461,-3.219037876795316,137.1300048828125,0,Apple Plans 15-Inch MacBook Air for 2023 and New 12-Inch Laptop,headlinesIter339.csv
+2022-06-10,aapl,137.1300048828125,37.00340978854811,-3.1658576077011134,131.8800048828125,0,Apple (AAPL) to Expand Apple TV+ Content With New Series 'Sugar',headlinesIter340.csv
+2022-06-13,aapl,131.8800048828125,32.93268919421717,-3.2886223046391194,132.75999450683594,1,Rune Labs gets FDA clearance to use Apple Watch to track Parkinson's symptoms,headlinesIter341.csv
+2022-06-14,aapl,132.75999450683594,34.23857056138087,-3.493695213443749,135.42999267578125,1,New ocean health ETF aims to help 'most important ecosystem on the planet',headlinesIter342.csv
+2022-06-15,aapl,135.42999267578125,38.17221086477125,-3.689045954646677,130.05999755859375,0,"China COVID controls makes Apple supplier Pegatron ""emphasise"" expansion elsewhere",headlinesIter343.csv
+2022-06-16,aapl,130.05999755859375,33.79387561840904,-3.945329474715775,131.55999755859375,1,Apple lining up land to expand North Austin campus,headlinesIter344.csv
+2022-06-17,aapl,131.55999755859375,36.00203252884923,-4.19344584664103,135.8699951171875,1,Apple Is Betting Big on Sports,headlinesIter345.csv
+2022-06-21,aapl,135.8699951171875,41.9890708168721,-4.3451153329807966,135.35000610351562,0,Japan’s Latest Unicorn Is a Thailand Mobile Payments Firm,headlinesIter347.csv
+2022-06-22,aapl,135.35000610351562,41.48483114889253,-4.426775739071895,138.27000427246094,1,Apple 13-inch MacBook Pro Review: The Super Speedy M2 Chip in a Classic Build,headlinesIter348.csv
+2022-06-23,aapl,138.27000427246094,45.446655521257554,-4.403598653812186,141.66000366210938,1,10 Best Staffing Company Stocks To Invest In,headlinesIter349.csv
+2022-06-24,aapl,141.66000366210938,49.70420910781446,-4.251804288685012,141.66000366210938,0,3 Cathie Wood Stocks to Buy and Hold for the Long Haul,headlinesIter350.csv
+2022-06-27,aapl,141.66000366210938,49.70420910781446,-4.017661693690459,137.44000244140625,0,The Best True Wireless Earbuds of 2022,headlinesIter351.csv
+2022-06-28,aapl,137.44000244140625,44.67098160446259,-3.8023495564111807,139.22999572753906,1,"Tencent Targets Metaverse After Overseas Opportunities, EV To Drive Growth",headlinesIter352.csv
+2022-06-29,aapl,139.22999572753906,47.11717909156488,-3.572902382025996,136.72000122070312,0,Apple iPhone continues to dominate smartphone market,headlinesIter353.csv
+2022-06-30,aapl,136.72000122070312,44.16831069048106,-3.378525769401627,138.92999267578125,1,"Samsung's Commercializes 3-Nm Chip Production To Grab Bigger Pie From Apple, Qualcomm",headlinesIter354.csv
+2022-07-01,aapl,138.92999267578125,47.295990408148114,-3.1733607821211653,141.55999755859375,1,Alphabet's (GOOGL) Google Docs to Bring eSignature Feature,headlinesIter355.csv
+2022-07-05,aapl,141.55999755859375,50.82639286053111,-2.9229960152742427,142.9199981689453,1,7 Large-Cap Stocks With Sustained Dividend Growth Potential,headlinesIter356.csv
+2022-07-06,aapl,142.9199981689453,52.59476669284305,-2.6290653224306646,146.35000610351562,1,Alphabet's (GOOGL) Google TV to Woo Users With New Feature,headlinesIter357.csv
+2022-07-07,aapl,146.35000610351562,56.81304563636098,-2.2625207388107884,147.0399932861328,1,Meta Platforms' (META) New AI Model Can Translate 200 Languages,headlinesIter358.csv
+2022-07-08,aapl,147.0399932861328,57.629815940273744,-1.853512963037397,144.8699951171875,0,NFL is seeking a streaming platform to host its Sunday Ticket,headlinesIter359.csv
+2022-07-11,aapl,144.8699951171875,54.16058106088263,-1.4697274669680505,145.86000061035156,1,2 Growth Stocks to Set You Up Through the Market Downturn and Beyond,headlinesIter360.csv
+2022-07-12,aapl,145.86000061035156,55.477411325838986,-1.1027247114322434,145.49000549316406,0,Disney (DIS) to Stream BTS' Exclusive Docuseries Next Year,headlinesIter361.csv
+2022-07-13,aapl,145.49000549316406,54.84331178357156,-0.7688696667407144,148.47000122070312,1,"Apple's (AAPL) TV+, Led by Ted Lasso, Gets 52 Emmy Nominations",headlinesIter362.csv
+2022-07-14,aapl,148.47000122070312,58.91631688976098,-0.4239956972641563,150.1699981689453,1,"MacBook Air M2 Review: Apple’s Laptop Upgrade Bests M1 Air on Screen, Processor and Webcam",headlinesIter363.csv
+2022-07-15,aapl,150.1699981689453,61.07335128769182,-0.0622053121684949,147.07000732421875,0,"Apple ‘gaining share’ in PCs with new products, strategist says",headlinesIter364.csv
+2022-07-18,aapl,147.07000732421875,55.36488959377818,0.2419055397924348,151.0,1,Alphabet (GOOGL) Boosts Google Maps With Recent Capability,headlinesIter365.csv
+2022-07-19,aapl,151.0,60.41616677755072,0.5560713706331917,153.0399932861328,1,Canoo Stock Is Up 130% in July — and Has Tons of Runway Left,headlinesIter366.csv
+2022-07-20,aapl,153.0399932861328,62.77134416943222,0.8913498777472517,155.35000610351562,1,Key Apple Supplier Foxconn Forge EV Partnership With NXP Semiconductors,headlinesIter367.csv
+2022-07-21,aapl,155.35000610351562,65.28979398828815,1.2571088866401503,154.08999633789062,0,T-Mobile Collaborates With Apple In Its Bid To Extend Consumer Benefits,headlinesIter368.csv
+2022-07-22,aapl,154.08999633789062,62.79449979498355,1.5998308665612655,152.9499969482422,0,Tesla has the largest short in the U.S. market at nearly $2.7 billion,headlinesIter369.csv
+2022-07-25,aapl,152.9499969482422,60.54007974877913,1.888313267907963,151.60000610351562,0,Everyone (Except Boomers) Thinks This Is The Best Stock To Own,headlinesIter370.csv
+2022-07-26,aapl,151.60000610351562,57.88959895882233,2.10183446465082,156.7899932861328,1,3 Winning Evergreen Stocks to Buy and Hold for the Next 25 Years,headlinesIter371.csv
+2022-07-27,aapl,156.7899932861328,64.35128304325721,2.335191005034772,157.35000610351562,1,Qualcomm is 'almost Apple-proofing itself' in automotive chip production: Analyst,headlinesIter372.csv
+2022-07-28,aapl,157.35000610351562,64.97579533555312,2.572359323855448,162.50999450683594,1,From Apple to Epic Games: 5 key projects shaping Cary's explosive growth,headlinesIter373.csv
+2022-07-29,aapl,162.50999450683594,70.1625350162888,2.875945710451876,161.50999450683594,0,"Amazon's ad business could grow bigger than AWS, analyst argues",headlinesIter374.csv
+2022-08-01,aapl,161.50999450683594,68.05900965451323,3.182737877187704,160.00999450683594,0,"CHIPS Act to ‘scale up’ the smartphone market, Akoustis CEO says",headlinesIter375.csv
+2022-08-02,aapl,160.00999450683594,64.9151407643743,3.444271085122903,166.1300048828125,1,Buy Smart to Win Big in ‘The Great EV Consolidation’,headlinesIter376.csv
+2022-08-03,aapl,166.1300048828125,70.83471655334496,3.753517852246776,165.80999755859375,0,Investors ‘are taking advantage’ of flows into tech and small cap stocks: ETF expert,headlinesIter377.csv
+2022-08-04,aapl,165.80999755859375,70.1680590772156,4.06279877096326,165.35000610351562,0,Meta Makes Bond-Market Debut With Four-Part Offering,headlinesIter378.csv
+2022-08-05,aapl,165.35000610351562,69.1604571766565,4.339289243186248,164.8699951171875,0,The Best Multiport Wall Adapters of 2022,headlinesIter379.csv
+2022-08-08,aapl,164.8699951171875,68.06210656140064,4.563184798499098,164.9199981689453,1,"Holding quality stocks in tough times 'key to growing wealth,' strategist explains",headlinesIter380.csv
+2022-08-09,aapl,164.9199981689453,68.11890630437593,4.732775252139746,169.24000549316406,1,TikTok Parent Cements Presence In Healthcare With Latest Acquisition: Report,headlinesIter381.csv
+2022-08-10,aapl,169.24000549316406,72.64523194400347,4.917574349937206,168.49000549316406,0,Apple Ramps Up Its In-House Podcasting Efforts With Studio Deal,headlinesIter382.csv
+2022-08-11,aapl,168.49000549316406,70.76676570257028,5.079044498546848,172.10000610351562,1,Samsung Unveils Premium Foldable Smartphones,headlinesIter383.csv
+2022-08-12,aapl,172.10000610351562,74.22199082766153,5.263447263291515,173.19000244140625,1,"Apple expects strong iPhone demand, tells suppliers to produce at 2021 levels",headlinesIter384.csv
+2022-08-15,aapl,173.19000244140625,75.17604472228851,5.457950843876521,173.02999877929688,0,10 Best Vanguard ETFs to Diversify Your Portfolio,headlinesIter385.csv
+2022-08-16,aapl,173.02999877929688,74.73876531949861,5.633596682066073,174.5500030517578,1,Employers reaching out to candidates will be 'the new normal: ZipRecruiter CEO,headlinesIter386.csv
+2022-08-17,aapl,174.5500030517578,76.15759165213368,5.799625881595912,174.14999389648438,0,Shopify (SHOP) Unveils Collabs to Connect Merchants &amp; Creators,headlinesIter387.csv
+2022-08-18,aapl,174.14999389648438,74.96432066222278,5.931323600352838,171.52000427246094,0,Qualcomm Is Plotting a Return to Server Market With New Chip,headlinesIter388.csv
+2022-08-19,aapl,171.52000427246094,67.47817930198046,5.979120565349129,167.57000732421875,0,Apple's plan to integrate ads into apps is 'natural progression': analyst,headlinesIter389.csv
+2022-08-22,aapl,167.57000732421875,58.09463609812023,5.895177047879015,167.22999572753906,0,7 Chip Stocks to Buy That Are Better Than Nvidia,headlinesIter390.csv
+2022-08-23,aapl,167.22999572753906,57.3552717642805,5.7142006187255205,167.52999877929688,1,"Apple to compete with Xiaomi, Samsung in India’s smartphone market",headlinesIter391.csv
+2022-08-24,aapl,167.52999877929688,57.86481842202949,5.473655478235685,170.02999877929688,1,Sony Unveils High-End PS5 Controller With Parts You Can Mix &amp; Match,headlinesIter392.csv
+2022-08-25,aapl,170.02999877929688,61.94542310224702,5.235794069108897,163.6199951171875,0,Meet the Bay Area startups accepted into Apple's Impact Accelerator,headlinesIter393.csv
+2022-08-26,aapl,163.6199951171875,48.875481318347184,4.897882560451346,161.3800048828125,0,Alphabet's (GOOGL) Google Brings Google Wallet to South Africa,headlinesIter394.csv
+2022-08-29,aapl,161.3800048828125,45.28010475494704,4.468074466328468,158.91000366210938,0,Why Dividend Stocks Could Soon Be More Attractive -- Thanks to Joe Biden,headlinesIter395.csv
+2022-08-30,aapl,158.91000366210938,41.6424202909884,3.953607550896442,157.22000122070312,0,10 Best Cheap Semiconductor Stocks to Buy and Hold,headlinesIter396.csv
+2022-08-31,aapl,157.22000122070312,39.31512186384334,3.377073258949729,157.9600067138672,1,Hedge Funds Continue to Load Up on These 10 Growth Stocks Despite Recession Fears,headlinesIter397.csv
+2022-09-01,aapl,157.9600067138672,40.87335223496617,2.795968540487769,155.80999755859375,0,"EXCLUSIVE: Outstanding Cannabis Podcasts, Meet The Producers &amp; Guests At Benzinga Cannabis Capital Conference",headlinesIter398.csv
+2022-09-02,aapl,155.80999755859375,37.83372496502128,2.201786918562629,154.52999877929688,0,"Exclusive-Apple, Samsung could benefit as India aims to speed product safety approvals",headlinesIter399.csv
+2022-09-06,aapl,154.52999877929688,36.11191762502888,1.605116978639225,155.9600067138672,1,3 Non-Buffett Tech Stocks That Would Match Warren Buffett's Philosophy,headlinesIter400.csv
+2022-09-07,aapl,155.9600067138672,39.42847515024426,1.0573223885325045,154.4600067138672,0,"Apple’s iPhone 14 Offers Camera Upgrades, Satellite Feature",headlinesIter401.csv
+2022-09-08,aapl,154.4600067138672,37.24440673831526,0.5425367428896262,157.3699951171875,1,Musk Says SpaceX Discussed iPhone Satellite Service With Apple,headlinesIter402.csv
+2022-09-09,aapl,157.3699951171875,43.75371423290471,0.1206169927628612,163.42999267578125,1,Alphabet's (GOOGL) Google TV to Attract Users With New Feature,headlinesIter403.csv
+2022-09-12,aapl,163.42999267578125,54.36853438764957,-0.1245696714670665,153.83999633789062,0,12 Best Reddit Stocks To Invest In,headlinesIter404.csv
+2022-09-13,aapl,153.83999633789062,41.1376483595035,-0.3988492423519136,155.30999755859375,1,"India Wins $20B Semiconductor Tech Investment From Apple Supplier, Vedanta Kicking Off Its Journey As A Chip Maker",headlinesIter405.csv
+2022-09-14,aapl,155.30999755859375,43.410952907725935,-0.6526234261426955,152.3699951171875,0,"Apple plans to use latest chip tech by Taiwan's TSMC in iPhones, Macs - Nikkei",headlinesIter406.csv
+2022-09-15,aapl,152.3699951171875,40.07720952878906,-0.925660529558882,150.6999969482422,0,Alphabet (GOOGL) Enhances Google Photos With Recent Features,headlinesIter407.csv
+2022-09-16,aapl,150.6999969482422,38.27897578319197,-1.220992279519731,154.47999572753906,1,Apple Counts on Upscale Shoppers to Turn Latest iPhone Into Hit,headlinesIter408.csv
+2022-09-19,aapl,154.47999572753906,44.364032885012485,-1.451725542451712,156.89999389648438,1,"With EPS Growth And More, Apple (NASDAQ:AAPL) Makes An Interesting Case",headlinesIter409.csv
+2022-09-20,aapl,156.89999389648438,47.9051049276227,-1.587955872721716,153.72000122070312,0,Amazon's growth under Andy Jassy allows for 'more engagement in M&amp;A': Analyst,headlinesIter410.csv

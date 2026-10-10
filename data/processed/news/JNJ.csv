@@ -1,0 +1,428 @@
+date,symbol,close,rsi,26-Day EMA,NextDayClose,Diff,Titles,filename
+2021-01-05,CVS,70.45999908447266,58.36735485079711,0.4087331192632926,72.55999755859375,1,15 Largest Medical Device Companies in the World,headlinesIter1.csv
+2021-01-06,CVS,72.55999755859375,65.514693572197,0.4305743064502055,73.98999786376953,1,"The Daily Biotech Pulse: Aerpio Reviews Strategic Options, Hologic Goes Shopping",headlinesIter2.csv
+2021-01-07,CVS,73.98999786376953,69.37079081791147,0.5102569280459774,74.86000061035156,1,South Africa's Aspen could produce J&amp;J COVID shots by end-March,headlinesIter3.csv
+2021-01-08,CVS,74.86000061035156,71.46159231774631,0.6347337524081563,76.06999969482422,1,"The Daily Biotech Pulse: Sarepta Gene Therapy Study Readout, Novavax Vaccine Supply Deal, 2 IPOs",headlinesIter4.csv
+2021-01-11,CVS,76.06999969482422,74.1087462792366,0.7986195765181011,76.26000213623047,1,"Short Selling Legend Jim Chanos’ Top 10 Stock Picks and Tesla, IBM Comments",headlinesIter5.csv
+2021-01-12,CVS,76.26000213623047,74.5086007547167,0.979826194905955,74.91999816894531,0,"The Daily Biotech Pulse: GSK, Vir To Start COVID-19 Antibody Study, Novartis In-Licenses BeiGene's Cancer Drug, Earnings Preannouncements Continue",headlinesIter6.csv
+2021-01-13,CVS,74.91999816894531,66.68658083396252,1.1387777984507363,75.05000305175781,1,"The Daily Biotech Pulse: GSK, Vir To Start COVID-19 Antibody Study, Novartis In-Licenses BeiGene's Cancer Drug, Earnings Preannouncements Continue",headlinesIter7.csv
+2021-01-14,CVS,75.05000305175781,67.04801759397941,1.2749265311530398,76.26000213623047,1,"The Daily Biotech Pulse: Alexion Pauses COVID-19 Study, NantKwest Readout, Organogenesis Jumps On Guidance, Trial Updates",headlinesIter8.csv
+2021-01-15,CVS,76.26000213623047,70.28002006383531,1.4060447378754457,75.4000015258789,0,"The Daily Biotech Pulse: Alexion Pauses COVID-19 Study, NantKwest Readout, Organogenesis Jumps On Guidance, Trial Updates",headlinesIter9.csv
+2021-01-19,CVS,75.4000015258789,65.37227350633744,1.5102110074823585,75.25,0,Healthcare Stocks Appear Set to Move Higher,headlinesIter10.csv
+2021-01-20,CVS,75.25,64.52589257197913,1.5861884939636757,74.08000183105469,0,"The Daily Biotech Pulse: FDA Greenlights Merck's Heart Failure Drug, Histogen Hit With Clinical Hold, Aptorum Gets Nod For Commencing Human Study",headlinesIter11.csv
+2021-01-21,CVS,74.08000183105469,58.19674573280243,1.6182330500172104,74.12000274658203,1,"The Daily Biotech Pulse: Addex Jumps On Positive Data For Out-Licensed Drug, COVID-19 Vaccine Developer Inovio Announces $150M Follow-On Offering, Boston Scientific Goes Shopping",headlinesIter12.csv
+2021-01-22,CVS,74.12000274658203,58.347172482439234,1.6180113786104673,73.20999908447266,0,"Pharma Stock Roundup: FDA Nod to MRK, AZN, JNJ, GSK Drugs, LLY's New Antibody Deal",headlinesIter13.csv
+2021-01-25,CVS,73.20999908447266,53.620017679206896,1.579371129146522,74.2300033569336,1,‘The space is moving very quickly:’ MindMed Co-CEO on new psychedelic ETF,headlinesIter14.csv
+2021-01-26,CVS,74.2300033569336,57.75175078774699,1.5313503111356137,72.41999816894531,0,"The Daily Biotech Pulse: Novartis Misses, J&amp;J Beats In Big Pharma Earnings, Vaccine Developer CureVac Taps Equity Market",headlinesIter15.csv
+2021-01-27,CVS,72.41999816894531,49.350304910280485,1.447599432353836,72.61000061035156,1,"The Daily Biotech Pulse: Sorrento, Immutep Surge On COVID-19 Study Data, T2 Biosystems Sinks On Preannouncement",headlinesIter16.csv
+2021-01-28,CVS,72.61000061035156,50.1697985128446,1.34557600920165,71.6500015258789,0,"The Daily Biotech Pulse: Sorrento, Immutep Surge On COVID-19 Study Data, T2 Biosystems Sinks On Preannouncement",headlinesIter17.csv
+2021-01-29,CVS,71.6500015258789,46.1103806315972,1.2190648810469038,71.45999908447266,0,"The Daily Biotech Pulse: Sorrento, Immutep Surge On COVID-19 Study Data, T2 Biosystems Sinks On Preannouncement",headlinesIter18.csv
+2021-02-01,CVS,71.45999908447266,45.32863212006119,1.0780273827519065,71.83000183105469,1,"The Daily Biotech Pulse: Sorrento, Immutep Surge On COVID-19 Study Data, T2 Biosystems Sinks On Preannouncement",headlinesIter19.csv
+2021-02-02,CVS,71.83000183105469,47.20572447235088,0.9387245910450313,73.23999786376953,1,"The Daily Biotech Pulse: Sorrento, Immutep Surge On COVID-19 Study Data, T2 Biosystems Sinks On Preannouncement",headlinesIter20.csv
+2021-02-03,CVS,73.23999786376953,53.72592657771247,0.8281676823215186,73.0,0,Coronavirus update: US hits 1M shots per day average as scientists eye second generation COVID-19 vaccines,headlinesIter21.csv
+2021-02-04,CVS,73.0,52.536575280302166,0.7357071245777388,72.18000030517578,0,"IBD 50 Stocks To Watch: Emergent BioSolutions, A Biotech Stock With Solid Biodefense Cred",headlinesIter22.csv
+2021-02-05,CVS,72.18000030517578,48.57953401595197,0.6446765026953492,72.9800033569336,1,Coronavirus update: J&amp;J applies for vaccine emergency use; FDA to address variants,headlinesIter23.csv
+2021-02-08,CVS,72.9800033569336,52.35031646659611,0.5706083458267204,73.48999786376953,1,"If we roll out the coronavirus vaccine 'in a stepwise fashion, I think that we can be successful': Doctor",headlinesIter24.csv
+2021-02-09,CVS,73.48999786376953,54.63424319742417,0.5178908412402281,73.83000183105469,1,Nextech AR’s Virtual Event Platform Selected by Canadian Surgery Forum for Its 2021 Virtual Trade Show,headlinesIter25.csv
+2021-02-10,CVS,73.83000183105469,56.14348704561637,0.4855632373097656,73.5999984741211,0,"Annual Covid-19 Boosters May Be Needed, J&amp;J CEO Says",headlinesIter26.csv
+2021-02-11,CVS,73.5999984741211,54.81497544397761,0.4629340284447494,74.20999908447266,1,AC Immune's Alzheimer's Vaccine Candidate Elicit Response In Early-Stage Study; Shares Rally,headlinesIter27.csv
+2021-02-12,CVS,74.20999908447266,57.67545621241654,0.4562469294165623,70.52999877929688,0,What Is Vaxart Worth Now?,headlinesIter28.csv
+2021-02-16,CVS,70.52999877929688,40.86722737284998,0.4001504501425137,72.70999908447266,1,What Is Vaxart Worth Now?,headlinesIter29.csv
+2021-02-17,CVS,72.70999908447266,50.13760511204208,0.3498944065192448,71.5199966430664,0,Like Dividends? I Bet You'll Love These 3 Stocks,headlinesIter30.csv
+2021-02-18,CVS,71.5199966430664,45.90680740753331,0.286150265598966,70.41999816894531,0,J&amp;J Seeks FDA Authorization For Covid Vaccine; Is JNJ Stock A Buy Now?,headlinesIter31.csv
+2021-02-19,CVS,70.41999816894531,42.34939059286266,0.1990915922571304,70.4800033569336,1,Doctor Gawande on vaccine rollout: ‘6-8 weeks to work through’ priority groups,headlinesIter32.csv
+2021-02-22,CVS,70.4800033569336,42.6106490615761,0.1024871589029749,69.63999938964844,0,Is Teva Pharmaceuticals a Safe Stock to Buy Now?,headlinesIter33.csv
+2021-02-23,CVS,69.63999938964844,39.88568517245167,-0.0086715695307044,70.4000015258789,1,Lyft partners with CVS to increase accessibility of the COVID-19 vaccine,headlinesIter34.csv
+2021-02-24,CVS,70.4000015258789,43.41172502246208,-0.1109803694623931,69.33000183105469,0,Top 15 Pharmaceutical Companies With Highest R&amp;D Spending,headlinesIter35.csv
+2021-02-25,CVS,69.33000183105469,39.86629652115852,-0.2191972828022389,68.12999725341797,0,FOCUS-Wanted: More high-tech manufacturing space for a global vaccine push,headlinesIter36.csv
+2021-02-26,CVS,68.12999725341797,36.28700745012085,-0.3440901549821611,69.27999877929688,1,J&amp;J single-dose COVID-19 vaccine gets green light from FDA,headlinesIter37.csv
+2021-03-01,CVS,69.27999877929688,41.68999717215709,-0.4537562506031032,68.94000244140625,0,Genpact’s AI platform to process and track 'adverse events' of COVID-19 vaccine,headlinesIter38.csv
+2021-03-02,CVS,68.94000244140625,40.59395317014431,-0.5525198604385851,69.02999877929688,1,Morning Bell With Jim Cramer: Buy Emergent BioSolutions,headlinesIter39.csv
+2021-03-03,CVS,69.02999877929688,41.035848547880576,-0.6365775082389906,69.16999816894531,1,"The Daily Biotech Pulse: KemPharm ADHD Drug Gets The Nod, MediciNova Shelves Vaccine Study",headlinesIter40.csv
+2021-03-04,CVS,69.16999816894531,41.76159391807981,-0.7033268057377805,70.62999725341797,1,"Emergent BioSolutions Capable Of Manufacturing 1B COVID-19 Vaccine Doses Annually, CEO Says",headlinesIter41.csv
+2021-03-05,CVS,70.62999725341797,48.8343093709432,-0.7308319993677084,71.7300033569336,1,Canada authorizes J&amp;J's COVID-19 vaccine,headlinesIter42.csv
+2021-03-08,CVS,71.7300033569336,53.42383334297816,-0.7130822123904519,71.2300033569336,0,Leadership in sports needs to see ‘more women at the table’: Big East Commissioner,headlinesIter43.csv
+2021-03-09,CVS,71.2300033569336,51.17674049944447,-0.6742499028402292,72.69999694824219,1,Russia Secures Sputnik Italy Output in European Vaccine Push,headlinesIter44.csv
+2021-03-10,CVS,72.69999694824219,56.91455697302861,-0.5992494892902089,72.3499984741211,0,The 4 Best Dividend Stocks to Buy If the Market Crashes,headlinesIter45.csv
+2021-03-11,CVS,72.3499984741211,55.249669221685046,-0.5097294648940649,73.91999816894531,1,Stimulus Package &amp; Vaccine Rollout to Aid Recovery: 5 Picks,headlinesIter46.csv
+2021-03-12,CVS,73.91999816894531,60.79045658858101,-0.3895914125771556,74.97000122070312,1,S.Africa's Aspen Pharmacare to supply J&amp;J's COVID-19 vaccine by end-June,headlinesIter47.csv
+2021-03-15,CVS,74.97000122070312,64.00074753165929,-0.2389202656737991,75.06999969482422,1,IDT Biologika To Make J&amp;J's COVID-19 Vaccine Using Takeda's Manufacturing Capacity,headlinesIter48.csv
+2021-03-16,CVS,75.06999969482422,64.30052701622357,-0.0748700322359307,74.01000213623047,0,European Commission to accelerate delivery of 10 million doses from Pfizer and BioNTech,headlinesIter49.csv
+2021-03-17,CVS,74.01000213623047,58.718645308723474,0.0722251711164668,74.4800033569336,1,This is Why Johnson &amp; Johnson (JNJ) is a Great Dividend Stock,headlinesIter50.csv
+2021-03-18,CVS,74.4800033569336,60.36172870182811,0.2083162956613326,73.18000030517578,0,Moderna's Latest Move May be Key to COVID-19 Vaccine Market Dominance,headlinesIter51.csv
+2021-03-19,CVS,73.18000030517578,53.963814977133765,0.309160570759888,73.47000122070312,1,UPDATE 2-U.S. FDA approves J&amp;J's multiple sclerosis treatment; launch in April,headlinesIter52.csv
+2021-03-22,CVS,73.47000122070312,55.10694479501906,0.3865485356884835,71.9000015258789,0,'This is a low-cost peoples' vaccine:' Expert on India's Biological E vaccine,headlinesIter53.csv
+2021-03-23,CVS,71.9000015258789,48.13797018356185,0.4192482843445875,73.20999908447266,1,Regenerative Medicine Attracted Record $20 Billion in Funding in 2020,headlinesIter54.csv
+2021-03-24,CVS,73.20999908447266,53.43002304050631,0.4421688442412325,74.06999969482422,1,J&amp;J COVID-19 Vaccine To Get Supply Boost As Manufacturing Partner Secures Key FDA Clearance,headlinesIter55.csv
+2021-03-25,CVS,74.06999969482422,56.5636072538335,0.4704714796746163,75.95999908447266,1,UPDATE 1-Thailand approves Johnson &amp; Johnson's COVID-19 vaccine,headlinesIter56.csv
+2021-03-26,CVS,75.95999908447266,62.53064935514887,0.5297453616162627,76.30000305175781,1,U.S. to Have Supply of 240 Million COVID Shots by Next Week,headlinesIter57.csv
+2021-03-29,CVS,76.30000305175781,63.50201174033041,0.6095413539043352,76.08000183105469,0,J&amp;J's (JNJ) Pharma Unit &amp; COVID-19 Vaccine Key to 2021 Growth,headlinesIter58.csv
+2021-03-30,CVS,76.08000183105469,62.37522168156758,0.6931179105771732,75.2300033569336,0,The Rockefeller Foundation is teaming up with COVID-19 testing companies to reopen schools safely,headlinesIter59.csv
+2021-03-31,CVS,75.2300033569336,58.08667833668155,0.7595418454218855,74.30000305175781,0,Here's What You Need to Know About COVID Variants' Impact on Vaccine Efficacy,headlinesIter60.csv
+2021-04-01,CVS,74.30000305175781,53.733629805015134,0.7951640355695841,75.04000091552734,1,This Company May Be Next to Enter the U.S. Vaccine Market,headlinesIter61.csv
+2021-04-05,CVS,75.04000091552734,56.52542992195494,0.8196068088414761,74.62000274658203,0,Johnson &amp; Johnson Becomes Third Company To Expand COVID-19 Vaccine Study To Adolescents,headlinesIter63.csv
+2021-04-06,CVS,74.62000274658203,54.51478754831774,0.8271923344380229,74.48999786376953,0,Cidara Inks Licensing and Collaboration Deal With J&amp;J’s Janssen For Influenza Antiviral CD388,headlinesIter64.csv
+2021-04-07,CVS,74.48999786376953,53.875961027809424,0.8198549273540767,73.79000091552734,0,Jabil Inc. -- Moody's assigns Baa3 to Jabil's new note offering,headlinesIter65.csv
+2021-04-08,CVS,73.79000091552734,50.44801583990591,0.7905120964769603,74.06999969482422,1,Oxford scientists behind COVID-19 vaccine set for multimillion pound payday,headlinesIter66.csv
+2021-04-09,CVS,74.06999969482422,51.7699245227208,0.7515803719830962,74.45999908447266,1,J&amp;J Seeks To Conduct Study For COVID-19 Vaccine In India: Reuters,headlinesIter67.csv
+2021-04-12,CVS,74.45999908447266,53.62563760861978,0.7131885888551783,74.0199966430664,0,Spain to vaccinate 70-79 year olds with J&amp;J's COVID-19 shot,headlinesIter68.csv
+2021-04-13,CVS,74.0199966430664,51.23067462271344,0.6685023081976394,75.08000183105469,1,Stay-at-home ETFs benefit from J&amp;J vaccine pause,headlinesIter69.csv
+2021-04-14,CVS,75.08000183105469,56.29472254031596,0.6376013988043705,75.77999877929688,1,Pfizer to Raise EU Vaccine Supply by 25%,headlinesIter70.csv
+2021-04-15,CVS,75.77999877929688,59.300217383603325,0.6266755897019489,75.87999725341797,1,"Moderna (MRNA) Gives Pipeline Update, to Initiate New Pivotal Study",headlinesIter71.csv
+2021-04-16,CVS,75.87999725341797,59.726291971499045,0.6290096322655889,75.75,0,Vaccinating kids will be very important in getting to herd immunity: Doctor,headlinesIter72.csv
+2021-04-19,CVS,75.75,58.86358024077873,0.6360246681580319,75.91000366210938,1,Why Johnson &amp; Johnson (JNJ) is a Great Dividend Stock Right Now,headlinesIter73.csv
+2021-04-20,CVS,75.91000366210938,59.636386478950286,0.6467090563160063,76.69999694824219,1,German scientist: J&amp;J to cooperate in study of rare clots linked to COVID-19 vaccine,headlinesIter74.csv
+2021-04-21,CVS,76.69999694824219,63.302138222226645,0.670263130837518,76.18000030517578,0,2 Reasons This COVID Vaccine Latecomer Could Gain Major Market Share,headlinesIter75.csv
+2021-04-22,CVS,76.18000030517578,59.4733840405279,0.6908250239429059,76.05000305175781,0,S.Africa's Imperial Logistics says it has been selected to import COVID-19 vaccines,headlinesIter76.csv
+2021-04-23,CVS,76.05000305175781,58.520445163053445,0.704785027068288,75.75,0,J&amp;J COVID-19 vaccine expected to be imported to India by July - report,headlinesIter77.csv
+2021-04-26,CVS,75.75,56.27931353005161,0.7074825659070412,75.11000061035156,0,"Johnson &amp; Johnson Looks To Offload Breast Implant Business, Once Again: Bloomberg",headlinesIter78.csv
+2021-04-27,CVS,75.11000061035156,51.728122827368615,0.6911562885279936,75.4000015258789,1,Top Pharma Giants Expected to Be Most Active in M&amp;A,headlinesIter79.csv
+2021-04-28,CVS,75.4000015258789,53.56071675322214,0.6668136123796826,76.37000274658203,1,"Vaccinated Americans 'can now enjoy some more freedoms,' health expert explains",headlinesIter80.csv
+2021-04-29,CVS,76.37000274658203,59.147346852981954,0.652678495940559,76.4000015258789,1,Spain's Reig Jofre new plant to produce J&amp;J vaccine by end-Q2,headlinesIter81.csv
+2021-04-30,CVS,76.4000015258789,59.31037555680918,0.6446732930222647,77.69000244140625,1,Novavax Secures Additional $147M From Warp Speed Program For COVID-19 Vaccine,headlinesIter82.csv
+2021-05-03,CVS,77.69000244140625,65.65712775680352,0.6600417174567209,81.12000274658203,1,AbbVie's Humira Still Number 1 in Drug Sales,headlinesIter83.csv
+2021-05-04,CVS,81.12000274658203,76.26023408649569,0.7424739234952509,83.04000091552734,1,Biden aims to have 70% of U.S. adults receive first vaccine shot by July 4th,headlinesIter84.csv
+2021-05-05,CVS,83.04000091552734,79.98532143819699,0.8915593773089515,83.69999694824219,1,UPDATE 1-Poland offers to buy J&amp;J shots from Denmark,headlinesIter85.csv
+2021-05-06,CVS,83.69999694824219,81.08410491345394,1.083104296768582,85.11000061035156,1,This is Why Johnson &amp; Johnson (JNJ) is a Great Dividend Stock,headlinesIter86.csv
+2021-05-07,CVS,85.11000061035156,83.20538125396435,1.311248056668228,85.8499984741211,1,J&amp;J Vision Receives Approval For TECNIS Synergy And TECNIS Synergy Toric II IOLs In US And Canada,headlinesIter87.csv
+2021-05-10,CVS,85.8499984741211,84.20640906961923,1.559189221999283,84.37000274658203,0,UPDATE 1-Germany to make J&amp;J's COVID-19 vaccine available to all adults,headlinesIter88.csv
+2021-05-11,CVS,84.37000274658203,74.62606284016643,1.7793753568488566,83.37999725341797,0,Is SPDR MSCI USA StrategicFactors ETF (QUS) a Strong ETF Right Now?,headlinesIter89.csv
+2021-05-12,CVS,83.37999725341797,68.97308197513595,1.9507721394638,84.2699966430664,1,Maduro says Venezuela will soon receive Russia's single-dose Sputnik Light vaccine,headlinesIter90.csv
+2021-05-13,CVS,84.2699966430664,71.09303514863237,2.092357014895628,84.33000183105469,1,"MedTech Round Up: Update On Johnson &amp; Johnson, Becton Dickinson, Labcorp, Second Sight Medical, Biocept",headlinesIter91.csv
+2021-05-14,CVS,84.33000183105469,71.23573538107641,2.204022694180979,84.55999755859375,1,J&amp;J pushes Latin America to take unfrozen vaccines in Covax talks,headlinesIter92.csv
+2021-05-17,CVS,84.55999755859375,71.81015663427677,2.289727935482851,88.61000061035156,1,Why Kaiser and Mayo Clinic are investing $100 million in Medically Home,headlinesIter93.csv
+2021-05-18,CVS,88.61000061035156,79.5533441572316,2.4140655469987875,89.20999908447266,1,"India's Biological E. to make J&amp;J vaccine alongside own shot, managing director says",headlinesIter94.csv
+2021-05-19,CVS,89.20999908447266,80.41176811460714,2.5601696782089696,89.06999969482422,0,"Step Aside, Dogecoin -- This Stock Has Delivered a Gain of Over 1,100,000%",headlinesIter95.csv
+2021-05-20,CVS,89.06999969482422,79.57230396196218,2.704188869230744,89.80999755859375,1,Johnson &amp; Johnson Has a Surprisingly Strong Pipeline of Cancer Drugs. Investors Should Pay Attention.,headlinesIter96.csv
+2021-05-21,CVS,89.80999755859375,80.71813501626995,2.844994376450449,89.70999908447266,0,GAVI signs COVID-19 vaccine supply deal with J&amp;J,headlinesIter97.csv
+2021-05-24,CVS,89.70999908447266,80.0645694477587,2.9683246166458344,88.69999694824219,0,The Power and Precision of BioSig's PURE EP™ System in the Electrophysiology (EP) Market,headlinesIter98.csv
+2021-05-25,CVS,88.69999694824219,73.5839743382225,3.051357116610016,87.31999969482422,0,Moderna says its COVID-19 vaccine 100% effective in teens,headlinesIter99.csv
+2021-05-26,CVS,87.31999969482422,65.75275990612006,3.0758073625495954,86.41999816894531,0,AbbVie's (ABBV) Venclyxto Gets EU Nod for First-Line AML,headlinesIter100.csv
+2021-05-27,CVS,86.41999816894531,61.17973885049659,3.040888278444557,86.44000244140625,1,NJ lifting COVID-19 mandates is a ‘good step in the right direction’: Doctor,headlinesIter101.csv
+2021-05-28,CVS,86.44000244140625,61.244258123893005,2.96397652152112,85.87000274658203,0,This Just-Approved Amgen Drug Is the First to Hit a Hard Target in Cancer,headlinesIter102.csv
+2021-06-01,CVS,85.87000274658203,58.27238441628856,2.8489268979284827,85.98999786376953,1,"UPDATE 2-Foxconn, founder Gou apply to purchase BioNTech vaccines for Taiwan",headlinesIter103.csv
+2021-06-02,CVS,85.98999786376953,58.72644156693564,2.711425461073134,87.05999755859375,1,"Thirty Madison Vaults to Unicorn Status, Raises $140 Million",headlinesIter104.csv
+2021-06-03,CVS,87.05999755859375,62.63125449251439,2.577951048270487,86.47000122070312,0,Mexico says U.S. to send it 1 mln J&amp;J COVID-19 vaccines,headlinesIter105.csv
+2021-06-04,CVS,86.47000122070312,59.29981447025153,2.438708926511596,86.33000183105469,0,Biden partners with small businesses in COVID-19 vaccination push,headlinesIter106.csv
+2021-06-07,CVS,86.33000183105469,58.50458529840823,2.295359099187892,85.80999755859375,0,Doctor: Another Covid surge is a ‘potential that we have to acknowledge’,headlinesIter107.csv
+2021-06-08,CVS,85.80999755859375,55.526060088595,2.1434213242669395,84.94999694824219,0,argenx (ARGX) to Regain AML Candidate After J&amp;J's Dismissal,headlinesIter108.csv
+2021-06-09,CVS,84.94999694824219,50.909809481952685,1.9754595211686885,85.5,1,Brazil to receive 3 million doses of J&amp;J COVID vaccine - minister,headlinesIter109.csv
+2021-06-10,CVS,85.5,53.5684332356629,1.8105315085288745,85.47000122070312,0,Moderna’s Covid-19 Vaccine Seeks FDA Authorization for Use in Adolescents,headlinesIter110.csv
+2021-06-11,CVS,85.47000122070312,53.39856393156232,1.6515456353834843,84.62000274658203,0,The next generation Covid-19 vaccines seeking a slice of the market,headlinesIter111.csv
+2021-06-14,CVS,84.62000274658203,48.68746353326017,1.4872930465436889,85.4000015258789,1,"UPDATE 2-J&amp;J to send S.Africa more than 300,000 vaccine doses, says Aspen",headlinesIter112.csv
+2021-06-15,CVS,85.4000015258789,52.80248735654423,1.337404357728708,84.73999786376953,0,Argenx Is a Biotech Stock With Big Potential,headlinesIter113.csv
+2021-06-16,CVS,84.73999786376953,49.20657488043123,1.190797907904209,84.2300033569336,0,Here's Why Orphazyme Shares Rocketed Higher on Wednesday,headlinesIter114.csv
+2021-06-17,CVS,84.2300033569336,46.56755878395756,1.0430833204445893,82.4000015258789,0,By next summer we'll have enough vaccines to vaccinate the world: Eli Lilly CEO,headlinesIter115.csv
+2021-06-21,CVS,84.0199966430664,47.21248378068649,0.7161223605441143,83.80999755859375,0,Sanofi's (SNY) Aubagio Gets EU Nod for MS in Pediatric Patients,headlinesIter116.csv
+2021-06-22,CVS,83.80999755859375,46.30337598599312,0.5755094899923152,83.7300033569336,0,"Got $2,500? 2 Unstoppable Dividend Stocks to Buy",headlinesIter117.csv
+2021-06-23,CVS,83.7300033569336,45.94048191729132,0.4485226726357877,83.7699966430664,1,‘Vaccination is very effective against the Delta variant’: Doctor,headlinesIter118.csv
+2021-06-24,CVS,83.7699966430664,46.16763776225866,0.3363490558677385,84.08000183105469,1,"Pharma Stock Roundup: EU Nod to AZN, SNY, JNJ Drugs, Glaxo's New COVID-19 Drug Data",headlinesIter119.csv
+2021-06-25,CVS,84.08000183105469,47.99190820169776,0.2435197367807058,84.12000274658203,1,South Africa aims to more than double daily COVID-19 vaccinations over next month,headlinesIter120.csv
+2021-06-28,CVS,84.12000274658203,48.23566798224268,0.1677644755243087,83.48999786376953,0,"NexTech Closes ""Game-Changing"" Acquisition of Threedy.AI Giving the Company New Augmented Reality Technology to Employ in Global Shopping Sites",headlinesIter121.csv
+2021-06-29,CVS,83.48999786376953,44.6834735862945,0.0962483897826934,83.44000244140625,0,"UPDATE 1-J&amp;J scraps India COVID-19 vaccine trial, aims to accelerate availability - ET",headlinesIter122.csv
+2021-06-30,CVS,83.44000244140625,44.40401230138029,0.0301213112030062,82.22000122070312,0,15 Best Medical Stocks to Invest In,headlinesIter123.csv
+2021-07-01,CVS,82.22000122070312,38.136065317255856,-0.0486946108621776,82.43000030517578,1,Positive New Data for Johnson &amp; Johnson Single-Shot COVID-19 Vaccine on Activity Against Delta Variant and Long-lasting Durability of Response,headlinesIter124.csv
+2021-07-02,CVS,82.43000030517578,39.71354815808609,-0.1278705957167429,81.18000030517578,0,"Pharma Stock Roundup: EU Nod to RHHBY, MRK Drugs, FDA and Pipeline Updates",headlinesIter125.csv
+2021-07-06,CVS,81.18000030517578,34.13408222104387,-0.2227733019837499,81.33999633789062,1,Mayo Clinic Purchases BioSig's PURE EP™ for use at its Phoenix Location,headlinesIter126.csv
+2021-07-07,CVS,81.33999633789062,35.38540245782024,-0.31949786719843,80.22000122070312,0,New Zealand approves use of J&amp;J coronavirus vaccine,headlinesIter127.csv
+2021-07-08,CVS,80.22000122070312,30.95243860466369,-0.429434544467325,81.31999969482422,1,Is JNJ Stock A Buy As The Pharma Giant Takes On Covid's Delta Variant?,headlinesIter128.csv
+2021-07-09,CVS,81.31999969482422,39.03109410691582,-0.5233606539286043,81.81999969482422,1,Psychedelic-Drug Developers Bring Hallucinogens To The World Of Therapeutics,headlinesIter129.csv
+2021-07-12,CVS,81.81999969482422,42.33383439287916,-0.593157835028332,81.66000366210938,0,Why Johnson &amp; Johnson (JNJ) is a Top Dividend Stock for Your Portfolio,headlinesIter130.csv
+2021-07-13,CVS,81.66000366210938,41.55804291845795,-0.6453733042859053,82.41999816894531,1,Moderna (MRNA) Set to Supply Argentina With COVID-19 Vaccine,headlinesIter131.csv
+2021-07-14,CVS,82.41999816894531,46.5670586999926,-0.6702354712035268,82.06999969482422,0,"J&amp;J Recalls Aveeno, Neutrogena Spray Sunscreens",headlinesIter132.csv
+2021-07-15,CVS,82.06999969482422,44.66830973972,-0.6807062212893591,81.72000122070312,0,"More Than Vaccines: Tonix Programs Address the Spectrum of Covid-19 Problems from Prevention, to Infection to Post-Viral Syndrome",headlinesIter133.csv
+2021-07-16,CVS,81.72000122070312,42.78938464950623,-0.6856403701600158,80.66999816894531,0,10 Best Stocks to Buy With 50+ Years of Dividend Increases,headlinesIter134.csv
+2021-07-19,CVS,80.66999816894531,37.67003218178606,-0.7020351007604632,81.80000305175781,1,"Delta variant: 'We’re going to see breakthrough cases' and that's OK, doctor says",headlinesIter135.csv
+2021-07-20,CVS,81.80000305175781,45.26028075086705,-0.7051250151590506,83.05999755859375,1,Why Earnings Season Could Be Great for J&amp;J (JNJ),headlinesIter136.csv
+2021-07-21,CVS,83.05999755859375,52.24362518659413,-0.6780041510968082,82.62999725341797,0,Catalent Plans $100M Expansion Of Biologics Capabilities At Italian Vaccine Plant,headlinesIter137.csv
+2021-07-22,CVS,82.62999725341797,49.90382110937176,-0.6386845720074126,83.2699966430664,1,Africa to start receiving 400 mln J&amp;J COVID-19 vaccine doses next week,headlinesIter138.csv
+2021-07-23,CVS,83.2699966430664,53.25917290430986,-0.5821137641705342,82.87000274658203,0,Can Today's Vaccines Beat the Delta Variant?,headlinesIter139.csv
+2021-07-26,CVS,82.87000274658203,50.96177361649949,-0.5227506695778982,83.63999938964844,1,Aspen to start supplies of J&amp;J COVID-19 vaccine to South Africa from Monday,headlinesIter140.csv
+2021-07-27,CVS,83.63999938964844,54.98708391131271,-0.451273034009204,83.30000305175781,0,‘There’s a great opportunity that we’ll have another variant’: Doctor,headlinesIter141.csv
+2021-07-28,CVS,83.30000305175781,52.92139012005889,-0.3803451150921085,83.05999755859375,0,Why Johnson &amp; Johnson (JNJ) is a Great Dividend Stock Right Now,headlinesIter142.csv
+2021-07-29,CVS,83.05999755859375,51.451993332311964,-0.3164421706510013,82.36000061035156,0,We must move towards vaccine mandates to get ahead of Covid-19: Doctor,headlinesIter143.csv
+2021-07-30,CVS,82.36000061035156,47.3247871966447,-0.2707390488197775,82.41000366210938,1,Fauci hopes U.S. regulators fully approve COVID-19 shots by mid-August,headlinesIter144.csv
+2021-08-02,CVS,82.41000366210938,47.64784006964336,-0.237424217834618,84.0,1,"Booster shots for coronavirus 'are going to become a reality,' doctor says",headlinesIter145.csv
+2021-08-03,CVS,84.0,56.73431079633495,-0.1877119452819551,81.55000305175781,0,"New York becomes first U.S. city to order COVID vaccines for restaurants, gyms",headlinesIter146.csv
+2021-08-04,CVS,81.55000305175781,44.04787350752962,-0.1689885104046461,80.05000305175781,0,WHO urges nations to prioritize the COVAX initiative,headlinesIter147.csv
+2021-08-05,CVS,80.05000305175781,38.38807889666796,-0.1942162569575265,81.25,1,Africa's COVID vaccine project takes a step forward with bottling agreement -document,headlinesIter148.csv
+2021-08-06,CVS,81.25,44.52876789538354,-0.2260813638019941,81.6500015258789,1,"Despite Novavax’s Challenges, NVAX Stock Could Still Pop",headlinesIter149.csv
+2021-08-09,CVS,81.6500015258789,46.44487413958602,-0.2535391420488754,83.23999786376953,1,"COVID-19: ‘In schools we should start at least implementing a testing requirement’, doctor says",headlinesIter150.csv
+2021-08-10,CVS,83.23999786376953,53.34378366119537,-0.2508497800762738,84.94999694824219,1,Director of Vaccine Education Center: 'The governor of Florida has served as a friend of SARS-CoV-2 virus',headlinesIter151.csv
+2021-08-11,CVS,84.94999694824219,59.40107395507205,-0.2015519813939913,85.13999938964844,1,UPDATE 1-India in talks to buy 50 million doses of Pfizer vaccine - WSJ,headlinesIter152.csv
+2021-08-12,CVS,85.13999938964844,60.02213804988448,-0.1221344338873031,84.36000061035156,0,If fully vaccinated your immunity is higher than someone who's unvaccinated: ER Physician,headlinesIter153.csv
+2021-08-13,CVS,84.36000061035156,56.21996505208584,-0.0401676662943083,85.38999938964844,1,Novavax: Bronze Medal May Be Good Enough in COVID Race,headlinesIter154.csv
+2021-08-16,CVS,85.38999938964844,59.83792706570411,0.055624648855309,86.47000122070312,1,U.S. Lowers India Advisory; MGM’s Vaccine Mandate: Virus Update,headlinesIter155.csv
+2021-08-17,CVS,86.47000122070312,63.26584501409452,0.1721649765363381,84.58999633789062,0,UPDATE 1-U.S. plans to begin administering COVID-19 booster shots in September - source,headlinesIter156.csv
+2021-08-18,CVS,84.58999633789062,54.53928800252123,0.2652137412618129,84.2300033569336,0,Is Johnson &amp; Johnson (JNJ) A Great Investment Pick?,headlinesIter157.csv
+2021-08-19,CVS,84.2300033569336,53.03086864391622,0.3323127259088287,84.8499984741211,1,The US could 'take the lead' in vaccine production: NAM CEO,headlinesIter158.csv
+2021-08-20,CVS,84.8499984741211,55.32267899372327,0.3887637035494526,84.5999984741211,0,"Pharma Stock Roundup: FDA Nod for MRK, PFE Products &amp; New Use of LLY, GSK Drugs",headlinesIter159.csv
+2021-08-23,CVS,84.5999984741211,54.17479021865472,0.430706788048103,83.80999755859375,0,The FDA approval of Pfizer’s COVID-19 vaccine is a ‘critical step forward in vaccine confidence’: Doctor,headlinesIter160.csv
+2021-08-24,CVS,83.80999755859375,50.60177683712482,0.4477722092891987,83.56999969482422,0,"UPDATE 1-With full vaccine approval, U.S. could control COVID by spring 2022 -Fauci",headlinesIter161.csv
+2021-08-25,CVS,83.56999969482422,49.53297719082956,0.4435006063934315,83.02999877929688,0,J&amp;J Covid Booster Generates 'Rapid And Robust' Antibody Response,headlinesIter162.csv
+2021-08-26,CVS,83.02999877929688,47.12129775287852,0.4164530678028056,83.70999908447266,1,Tap the Red Hot Biotech Sector With These 2 Leveraged ETFs,headlinesIter163.csv
+2021-08-27,CVS,83.70999908447266,50.39649038744659,0.3864477175652864,84.5999984741211,1,Pfizer (PFE) Inks Deal With Eurofarma to Make COVID-19 Vaccine,headlinesIter164.csv
+2021-08-30,CVS,84.5999984741211,54.37924722821628,0.3694800262737293,86.38999938964844,1,Why Johnson &amp; Johnson (JNJ) is a Great Dividend Stock Right Now,headlinesIter165.csv
+2021-08-31,CVS,86.38999938964844,61.13771102003225,0.3892898608904646,85.70999908447266,0,15 Best Pharmaceutical Stocks to Invest In,headlinesIter166.csv
+2021-09-01,CVS,85.70999908447266,57.64405148635841,0.4193763939265154,86.95999908447266,1,J&amp;J's (JNJ) HIV Vaccine Study in Young African Women Fails,headlinesIter167.csv
+2021-09-02,CVS,86.95999908447266,61.94860023866402,0.473314152971812,87.47000122070312,1,Aspen eyes Serum Institute model as it seeks licence to make J&amp;J vaccine,headlinesIter168.csv
+2021-09-03,CVS,87.47000122070312,63.57511523305925,0.5464318994704247,86.58000183105469,0,"Fauci defends vaccine boosters, Moderna seeks FDA approval of booster",headlinesIter169.csv
+2021-09-07,CVS,86.58000183105469,58.84774459408143,0.6122934881415384,86.22000122070312,0,‘Vaccination is still working incredibly well as bolstering our immune response to Covid’: Doctor,headlinesIter170.csv
+2021-09-08,CVS,86.22000122070312,57.00138570070591,0.6630153441571532,85.41000366210938,0,Johnson &amp; Johnson's Prostate Cancer Drug Erleada Wins NICE Approval,headlinesIter171.csv
+2021-09-09,CVS,85.41000366210938,52.97407756690789,0.6871548014880156,83.79000091552734,0,Norfolk State University President on its vaccine incentive program ,headlinesIter172.csv
+2021-09-10,CVS,83.79000091552734,45.97741792395463,0.6659551336120859,84.51000213623047,1,"'There should be a vaccine mandate for all businesses,' doctor argues",headlinesIter173.csv
+2021-09-13,CVS,84.51000213623047,49.18947457237765,0.6274184545466133,83.88999938964844,0,NYC has a good plan so far for keeping kids safe as they return to the classroom: Doctor,headlinesIter174.csv
+2021-09-14,CVS,83.88999938964844,46.6189856208522,0.5687136338532461,85.54000091552734,1,COVID-19 may cause Gates Foundation to fall short on reaching ambitious 2030 goals,headlinesIter175.csv
+2021-09-15,CVS,85.54000091552734,53.57235956817523,0.5254738136740116,85.3499984741211,0,Why Johnson &amp; Johnson (JNJ) is a Great Dividend Stock Right Now,headlinesIter176.csv
+2021-09-16,CVS,85.3499984741211,52.72073199483379,0.4899648199380635,85.51000213623047,1,Iran approves U.S. J&amp;J COVID shot as fifth wave spreads,headlinesIter177.csv
+2021-09-17,CVS,85.51000213623047,53.392653806106296,0.4625988346184306,84.58000183105469,0,BioSig Expands in Electrophysiology with St. Elizabeth's Medical Center Evaluation,headlinesIter178.csv
+2021-09-20,CVS,84.58000183105469,49.03095014394946,0.4258793313637294,83.93000030517578,0,15 Best Blue-Chip Stocks to Invest In,headlinesIter179.csv
+2021-09-21,CVS,83.93000030517578,46.19077041843666,0.3738810614542088,83.86000061035156,0,"Johnson &amp; Johnson Shows Off Covid Boosters, But Can It Catch Moderna, Pfizer?",headlinesIter180.csv
+2021-09-22,CVS,83.86000061035156,45.8825301838932,0.3130632370207473,84.86000061035156,1,J&amp;J's (JNJ) New Data Shows COVID-19 Booster Ups Protection,headlinesIter181.csv
+2021-09-23,CVS,84.86000061035156,50.92120728911691,0.2651465390393992,84.70999908447266,0,Pfizer Nabs Booster OK In U.S. — But How Long Will It Hold The Covid Lead?,headlinesIter182.csv
+2021-09-24,CVS,84.70999908447266,50.16668031840774,0.2248303803348845,85.73999786376953,1,Pfizer (PFE) Booster Dose Gets CDC Backing for Older Adults Only,headlinesIter183.csv
+2021-09-27,CVS,85.73999786376953,55.0878224169259,0.2073121271029053,85.66000366210938,0,Billionaire Ray Dalio is Buying These 10 Stocks,headlinesIter184.csv
+2021-09-28,CVS,85.66000366210938,54.63655304262795,0.2032527280944232,86.79000091552734,1,Johnson &amp; Johnson Celebrates COVID-19 Vaccine Science Superheroes,headlinesIter185.csv
+2021-09-29,CVS,86.79000091552734,59.66327076690965,0.2254070707030083,84.86000061035156,0,"Swiss buy 150,000 doses of J&amp;J COVID-19 vaccine",headlinesIter186.csv
+2021-09-30,CVS,84.86000061035156,49.56169211700336,0.2315245354945274,84.06999969482422,0,"Moderna Is Likely to Get FDA Approval for Smaller Booster,  Report Says",headlinesIter187.csv
+2021-10-01,CVS,84.06999969482422,46.11959900280836,0.2141380138835772,83.80999755859375,0,"Merck seeks authorization for COVID pill, HHS clarifies HIPAA rights for COVID vaccine",headlinesIter188.csv
+2021-10-04,CVS,83.80999755859375,45.011611017209326,0.178294833056387,83.63999938964844,0,"J&amp;J to test experimental RSV vaccine in 23,000 people in Phase 3 clinical study",headlinesIter189.csv
+2021-10-05,CVS,83.63999938964844,44.26285392043736,0.1296437430756635,83.1500015258789,0,Xencor Inks Collaboration and License Agreement with Janssen; Shares Rise,headlinesIter190.csv
+2021-10-06,CVS,83.1500015258789,42.08952696831801,0.067402160246785,84.19999694824219,1,Where can Investors Find Value in a Well-Rounded Company like Johnson &amp; Johnson (NYSE:JNJ),headlinesIter191.csv
+2021-10-07,CVS,84.19999694824219,47.98345780174937,0.0165035669748696,84.37000274658203,1,'Vaccine mandates are proving to work’: Doctor on Covid-19,headlinesIter192.csv
+2021-10-08,CVS,84.37000274658203,48.890465267239264,-0.0219425435738026,84.27999877929688,0,10 Best Big Pharma Stocks to Buy Now,headlinesIter193.csv
+2021-10-12,CVS,83.79000091552734,45.76781143534577,-0.0828053098645532,83.16000366210938,0,"UPDATE 1-Moderna pushes for COVID-19 vaccine boosters in older adults, high-risk individuals",headlinesIter194.csv
+2021-10-13,CVS,83.16000366210938,42.552937996046346,-0.1224277713464425,84.55999755859375,1,These quality dividend stocks have a built-in advantage that can keep you ahead of inflation in 2022,headlinesIter195.csv
+2021-10-14,CVS,84.55999755859375,50.82021567115338,-0.1428557609781859,85.83999633789062,1,France donates COVID-19 vaccine to Nigeria under COVAX scheme,headlinesIter196.csv
+2021-10-15,CVS,85.83999633789062,56.923987529749965,-0.1294349284187602,84.4800033569336,0,Could Johnson &amp; Johnson's Booster Opportunity Be Better Than Pfizer's and Moderna's?,headlinesIter197.csv
+2021-10-18,CVS,84.4800033569336,49.84537222102623,-0.1169047374196195,84.88999938964844,1,2 Top Stocks for a Solid Portfolio Foundation,headlinesIter198.csv
+2021-10-19,CVS,84.88999938964844,51.79164185894118,-0.0987819398236347,86.55000305175781,1,How Johnson &amp; Johnson’s vaccine meets the ‘gold standard’ of the WHO,headlinesIter199.csv
+2021-10-20,CVS,86.55000305175781,58.76816081365798,-0.0513942988224926,86.86000061035156,1,"FDA authorizes mixing COVID vaccines, backs Moderna, J&amp;J boosters",headlinesIter200.csv
+2021-10-21,CVS,86.86000061035156,59.93422875548706,0.0169148086227988,87.5199966430664,1,5 Ways Johnson &amp; Johnson Is Working to Improve the Well-Being of the World by 2025,headlinesIter201.csv
+2021-10-22,CVS,87.5199966430664,62.373988530248894,0.1052475085952253,87.68000030517578,1,Mix-and-Match Booster Rollout Is Set to Start. Nearly 100 Million People Could Be Eligible.,headlinesIter202.csv
+2021-10-25,CVS,87.68000030517578,62.962811645847886,0.2038129469648413,88.31999969482422,1,Should You Invest in the Health Care Select Sector SPDR ETF (XLV)?,headlinesIter203.csv
+2021-10-26,CVS,88.31999969482422,65.3018498221006,0.3133713899095025,88.08999633789062,0,U.S. administers over 415 mln doses of COVID-19 vaccines - CDC,headlinesIter204.csv
+2021-10-27,CVS,88.08999633789062,63.74381678516141,0.4196929945224614,88.62000274658203,1,U.S. administers over 416 mln doses of COVID-19 vaccines - CDC,headlinesIter205.csv
+2021-10-28,CVS,88.62000274658203,65.77048895436293,0.5259116348482431,89.27999877929688,1,Ability to vaccinate 5 year olds &amp; up to be ‘critical’ in aiding pandemic resolution: Doctor,headlinesIter206.csv
+2021-10-29,CVS,89.27999877929688,68.15749507630923,0.6358287747471032,90.6500015258789,1,U.S. administers over 419 mln doses of COVID-19 vaccines - CDC,headlinesIter207.csv
+2021-11-01,CVS,90.6500015258789,72.45195382906346,0.7627104357086404,91.1500015258789,1,11 Best Covid Vaccine and Pill Stocks To Invest In,headlinesIter208.csv
+2021-11-02,CVS,91.1500015258789,73.83869031674894,0.899812620099038,96.33999633789062,1,Is Johnson &amp; Johnson a Good COVID Stock to Buy?,headlinesIter209.csv
+2021-11-03,CVS,96.33999633789062,83.25901332182393,1.1168861885713512,94.48999786376952,0,Johnson &amp; Johnson Launches a Health Equity Innovation Challenge in 6 U.S. Cities,headlinesIter210.csv
+2021-11-04,CVS,94.48999786376952,73.14793422175134,1.3406436614088943,93.77999877929688,0,"RTP firm to coordinate study on Covid vaccines, autoimmune disease",headlinesIter211.csv
+2021-11-05,CVS,93.77999877929688,69.65194106533106,1.54247752073637,93.76000213623048,0,Here's Why Johnson &amp; Johnson (JNJ) is a Strong Value Stock,headlinesIter212.csv
+2021-11-08,CVS,93.76000213623048,69.55111876135155,1.7161549663840678,92.76000213623048,0,2 Leading Healthcare Stocks to Buy in 2021 and Beyond,headlinesIter213.csv
+2021-11-09,CVS,92.76000213623048,64.52128114249716,1.843214178463174,92.95999908447266,1,Should You Invest in the Fidelity MSCI Health Care Index ETF (FHLC)?,headlinesIter214.csv
+2021-11-10,CVS,92.95999908447266,65.06542454325583,1.9333831075794303,94.20999908447266,1,Johnson &amp; Johnson Enters into Agreement to Provide its Single-Shot COVID-19 Vaccine for the World's Most Vulnerable People through Novel Humanitarian Buffer,headlinesIter215.csv
+2021-11-12,CVS,94.0199966430664,67.30344092598656,2.0696820436563024,93.48999786376952,0,The Johnson &amp; Johnson split ‘makes sense’ as it moves into ‘more innovative products’: Analyst,headlinesIter216.csv
+2021-11-15,CVS,93.48999786376952,64.38554060733027,2.0997195168868688,92.88999938964844,0,Johnson &amp; Johnson Spinoff Plans Point to Rise of Direct to Consumer Commerce,headlinesIter217.csv
+2021-11-16,CVS,92.88999938964844,61.15323384387929,2.0960203592441538,92.7300033569336,0,U.S. administers 443.4 mln doses of COVID-19 vaccines - CDC,headlinesIter218.csv
+2021-11-17,CVS,92.7300033569336,60.284131375410944,2.064039753276381,95.33999633789062,1,U.S. administers nearly 445 mln doses of COVID-19 vaccines - CDC,headlinesIter219.csv
+2021-11-18,CVS,95.33999633789062,68.21891493868829,2.052945909157707,93.16000366210938,0,J&amp;J sees potential for 14 new multibillion-dollar drugs by 2025,headlinesIter220.csv
+2021-11-19,CVS,93.16000366210938,57.82686862482405,2.016065451440409,92.98999786376952,0,U.S. administers 446.3 mln doses of COVID-19 vaccines - CDC,headlinesIter221.csv
+2021-11-22,CVS,92.98999786376952,57.0964053001372,1.9576484142315032,93.63999938964844,1,Walgreens (WBA) to Offer COVID-19 Vaccine Booster Shots,headlinesIter222.csv
+2021-11-23,CVS,93.63999938964844,59.217582879033536,1.8947035018374887,92.6500015258789,0,Will Investors Benefit From Johnson &amp; Johnson's Breakup?,headlinesIter223.csv
+2021-11-24,CVS,92.6500015258789,54.77561727112303,1.8121070310638363,91.5199966430664,0,UPDATE 2-Canada gives full approval to J&amp;J's single-shot COVID-19 vaccine,headlinesIter224.csv
+2021-11-26,CVS,91.5199966430664,50.15139911517078,1.699364461287656,92.0199966430664,1,Here's Why We Think Johnson &amp; Johnson (NYSE:JNJ) Is Well Worth Watching,headlinesIter225.csv
+2021-11-29,CVS,92.0199966430664,52.07914574747876,1.5777410651134611,89.05999755859375,0,Doctor explains Omicron and the possibility of more COVID-19 variants,headlinesIter226.csv
+2021-11-30,CVS,89.05999755859375,41.778659307606326,1.406105990753807,88.77999877929688,0,J&amp;J (JNJ) to Explore Omicron Version of its COVID Vaccine,headlinesIter227.csv
+2021-12-01,CVS,88.77999877929688,40.95350680107811,1.2044499426356103,89.98999786376953,1,U.S. administers 462.3 mln doses of COVID-19 vaccines - CDC,headlinesIter228.csv
+2021-12-02,CVS,89.98999786376953,45.92398308956299,1.0111081166753433,90.87000274658205,1,"Biden's new plan COVID-19 plan includes 'two new points,' analyst explains",headlinesIter229.csv
+2021-12-03,CVS,90.87000274658205,49.26873790024059,0.8448482261077359,92.6500015258789,1,Novavax (NVAX) Starts Developing Omicron-Specific COVID Jab,headlinesIter230.csv
+2021-12-06,CVS,92.6500015258789,55.292395752858326,0.7307516470956983,92.93000030517578,1,COVID: NYC expands vaccine mandate to include children,headlinesIter231.csv
+2021-12-07,CVS,92.93000030517578,56.17392817867187,0.6581328385749237,93.0999984741211,1,7 Stocks to Watch as the Omicron Variant Becomes the Market’s New Wildcard,headlinesIter232.csv
+2021-12-08,CVS,93.0999984741211,56.73175445595717,0.6165304946128218,97.30999755859376,1,Pfizer says its COVID-19 booster protects against the Omicron variant,headlinesIter233.csv
+2021-12-09,CVS,97.30999755859376,67.69725183085146,0.662312412215298,98.86000061035156,1,The Omicron variant is 4 times more transmissible than Delta: Study,headlinesIter234.csv
+2021-12-10,CVS,98.86000061035156,70.64676448655048,0.7836849777391206,98.9000015258789,1,UPDATE 1-South Africa to offer vaccine boosters as Omicron spreads,headlinesIter235.csv
+2021-12-13,CVS,98.9000015258789,70.72106437106038,0.944925761159868,98.77999877929688,0,Janssen Secures Conditional EU Marketing Authorization For Rybrevant in Lung Cancer Setting,headlinesIter236.csv
+2021-12-14,CVS,98.77999877929688,70.14741074536582,1.1186344121948444,100.5500030517578,1,"DWS CROCI(R) U.S. Fund Buys SS&amp;C Technologies Holdings Inc, Meta Platforms Inc, Johnson ...",headlinesIter237.csv
+2021-12-15,CVS,100.5500030517578,73.55475741426515,1.3167413768825589,101.22000122070312,1,"COVID-19: ‘We have the tools to fight Omicron,’ doctor says",headlinesIter238.csv
+2021-12-16,CVS,101.22000122070312,74.73050698628496,1.5274439469775,100.36000061035156,0,J&amp;J's (JNJ) COVID-19 Booster Jab Gets CHMP Recommendation,headlinesIter239.csv
+2021-12-17,CVS,100.36000061035156,70.40365248257963,1.7177936604464956,100.31999969482422,0,"PFM Multi-Manager Series Trust Buys Danaher Corp, Monolithic Power Systems Inc, Clorox Co, ...",headlinesIter240.csv
+2021-12-20,CVS,100.31999969482422,70.20005721238387,1.8808547606937025,100.79000091552734,1,Moderna says COVID-19 booster shot offers protection against Omicron,headlinesIter241.csv
+2021-12-21,CVS,100.79000091552734,71.2520040837111,2.021475701037887,100.9000015258789,1,Novavax CEO: ‘We are making an Omicron variant strain vaccine’,headlinesIter242.csv
+2021-12-22,CVS,100.9000015258789,71.50552849029461,2.137807645302701,101.30999755859376,1,Novavax (NVAX) Commences COVID-19 Vaccine Booster Study,headlinesIter243.csv
+2021-12-23,CVS,101.30999755859376,72.47969822965354,2.234486155821154,102.4000015258789,1,"COVID-19: ‘We need a more rational approach’ to Omicron, doctor says",headlinesIter244.csv
+2021-12-27,CVS,102.4000015258789,74.93330114867972,2.326075758289467,102.7699966430664,1,Sitting on Cash? These 2 Stocks Are Great Buys,headlinesIter245.csv
+2021-12-28,CVS,102.7699966430664,75.7244756901512,2.410275912305276,103.6999969482422,1,"Advisors' Inner Circle Fund III Buys Petroleo Brasileiro SA Petrobras, Devon Energy Corp, ...",headlinesIter246.csv
+2021-12-29,CVS,103.6999969482422,77.63525647122314,2.494774697334468,103.68000030517578,0,Invest Like Warren Buffett in 2022 and Buy These 3 Stocks for the Long Haul,headlinesIter247.csv
+2021-12-30,CVS,103.68000030517578,77.49401277222344,2.56902596162112,103.16000366210938,0,"J&amp;J's COVID-19 vaccine booster was 85% effective against hospitalization, in South Africa study",headlinesIter248.csv
+2022-01-03,CVS,104.16000366210938,76.13340083701627,2.6606351655398632,104.29000091552734,1,Some Investors Should Buy Novavax Stock on the Dip,headlinesIter249.csv
+2022-01-04,CVS,104.29000091552734,76.43441468722125,2.691288493444953,105.80999755859376,1,"FC Advisory LLC Buys Vanguard Large Cap ETF, Microsoft Corp, Norfolk Southern Corp, Sells ...",headlinesIter250.csv
+2022-01-05,CVS,105.80999755859376,79.66405035591649,2.7314495077071053,102.58999633789062,0,AbbVie (ABBV) Gets FDA Breakthrough Tag for Lung Cancer Drug,headlinesIter251.csv
+2022-01-06,CVS,102.58999633789062,60.688985451698585,2.7178656840605,104.19000244140624,1,Should You Invest in the iShares U.S. Pharmaceuticals ETF (IHE)?,headlinesIter252.csv
+2022-01-07,CVS,104.19000244140624,65.13309332640979,2.690640320948396,105.05999755859376,1,"Pharma Stock Roundup: FDA Nod to PFE Booster for Age 12-15, Breakthrough Tag to ABBV Drug",headlinesIter253.csv
+2022-01-10,CVS,105.05999755859376,67.2979314327542,2.6640396541278726,106.04000091552734,1,"COVID-19: Pfizer, Moderna developing Omicron booster shots",headlinesIter254.csv
+2022-01-11,CVS,106.04000091552734,69.58850971660071,2.648788481692452,105.77999877929688,0,5 Best Stocks to Buy in January and Hold Forever,headlinesIter255.csv
+2022-01-12,CVS,105.77999877929688,68.22318503483775,2.631265137146746,105.33999633789062,0,"New England Guild Wealth Advisors, Inc. Buys iShares Currency Hedged MSCI EMU ETF, Raytheon ...",headlinesIter256.csv
+2022-01-13,CVS,105.33999633789062,65.86794396326485,2.600219074349716,106.22000122070312,1,Should You Invest in the Fidelity MSCI Health Care Index ETF (FHLC)?,headlinesIter257.csv
+2022-01-14,CVS,106.22000122070312,68.23022818839316,2.570438258345976,104.51000213623048,0,"UPDATE 2-J&amp;J booster 85% effective against Omicron hospitalisation, S.Africa says",headlinesIter258.csv
+2022-01-18,CVS,104.51000213623048,59.59845221312957,2.5098710486934315,103.4499969482422,0,"David J Yvars Group Buys Amazon.com Inc, Entegris Inc, Crocs Inc, Sells iShares Core S&amp;P ...",headlinesIter259.csv
+2022-01-19,CVS,103.4499969482422,54.957105773993774,2.4105502896482376,102.38999938964844,0,Supplying an Award-Winning Model for Diversity and Inclusion,headlinesIter260.csv
+2022-01-20,CVS,102.38999938964844,50.70466313323346,2.2697403412588977,101.55999755859376,0,"CRA Financial Services, LLC Buys South Jersey Industries Inc, Innovator U.S. ...",headlinesIter261.csv
+2022-01-21,CVS,101.55999755859376,47.59888613084646,2.0918918711252235,103.51000213623048,1,J&amp;J (JNJ) to Set the Stage for Pharma Sector Q4 Earnings,headlinesIter262.csv
+2022-01-24,CVS,103.51000213623048,54.63011606038636,1.926494823226795,103.0999984741211,0,"Citizens &amp; Northern Corp Buys AmerisourceBergen Corp, PPL Corp, Cisco Systems Inc, Sells ...",headlinesIter263.csv
+2022-01-25,CVS,103.0999984741211,53.01924381437478,1.7666402317576868,104.86000061035156,1,Johnson &amp; Johnson Expects At Least $3 Billion In Sales Of Its Underdog Covid Shot,headlinesIter264.csv
+2022-01-26,CVS,104.86000061035156,58.65511326901509,1.6426926621545812,106.79000091552734,1,"Childress Capital Advisors, Llc Buys Fidelity Blue Chip Growth ETF, Vanguard Mid-Cap ETF, ...",headlinesIter265.csv
+2022-01-27,CVS,106.79000091552734,63.78552253625118,1.5747964534360286,109.2699966430664,1,"We need COVID treatments ‘that are independent of the variant,’ Longeveron co-founder says",headlinesIter266.csv
+2022-01-28,CVS,109.2699966430664,69.0927615426719,1.5815689870151766,106.51000213623048,0,"COVID-19 vaccine booster shots will be key 'LAYER OF PROTECTION' going forward, doctor says",headlinesIter267.csv
+2022-01-31,CVS,106.51000213623048,58.77023883334768,1.5871485982574132,106.2699966430664,0,"Insight Wealth Strategies, LLC Buys ISHARES TRUST, iShares TIPS Bond ETF, iShares iBoxx USD ...",headlinesIter268.csv
+2022-02-01,CVS,106.2699966430664,57.959325822783626,1.584241436276567,108.9000015258789,1,"COVID-19: Pfizer vaccine for kids under 5 ‘really good news,’ doctor says",headlinesIter269.csv
+2022-02-02,CVS,108.9000015258789,63.84627072117207,1.6145167126606703,108.72000122070312,0,"Trinity Wealth Management, LLC Buys First Trust Energy AlphaDEX Fund, Invesco Optimum Yield ...",headlinesIter270.csv
+2022-02-03,CVS,108.72000122070312,63.19404514507795,1.657451408633688,108.48999786376952,0,Janssen Inks Over $1B Pact For Mersana's ADC Technology In Three targets,headlinesIter271.csv
+2022-02-04,CVS,108.48999786376952,62.318010092588,1.6986228395865433,109.41000366210938,1,"Ironsides Asset Advisors, LLC Buys Global X Variable Rate Preferred ETF, BTC iShares MSCI USA ...",headlinesIter272.csv
+2022-02-07,CVS,109.41000366210938,64.44140602497069,1.747337465881465,110.83000183105467,1,UPDATE 2-Nigeria receives 2 million doses of J&amp;J COVID vaccine from EU countries,headlinesIter273.csv
+2022-02-08,CVS,110.83000183105467,67.48676978014454,1.816899025580424,104.79000091552734,0,"Boyer &amp; Corporon Wealth Management, LLC Buys The Walt Disney Co, iShares MSCI Brazil ETF, ...",headlinesIter274.csv
+2022-02-09,CVS,104.79000091552734,48.47110796851805,1.795374739988811,105.31999969482422,1,ARWR: New Pulmonary Programs Announced…,headlinesIter275.csv
+2022-02-10,CVS,105.31999969482422,49.80756085397032,1.72225174859387,104.23999786376952,0,Johnson &amp; Johnson subsidiary acquires homegrown medical device firm,headlinesIter276.csv
+2022-02-11,CVS,104.23999786376952,47.125356851182126,1.5994647575184533,103.0,0,Top Stocks to Buy to Help Your Portfolio Weather the Next Market Storm,headlinesIter277.csv
+2022-02-14,CVS,103.0,44.183396859513735,1.4285570851409253,102.97000122070312,0,Receiving vaccinations ‘is part of the social contract we sign up for’ in communities: Doctor,headlinesIter278.csv
+2022-02-15,CVS,102.97000122070312,44.11165002528688,1.232712981005868,103.94000244140624,1,3 Top Biotech Stocks to Buy Right Now,headlinesIter279.csv
+2022-02-16,CVS,103.94000244140624,47.10274470685524,1.0441718768154291,102.3000030517578,0,3 Desirable Drug Stocks With Very Promising Pipelines,headlinesIter280.csv
+2022-02-17,CVS,102.3000030517578,42.9203219166986,0.8415466763897651,102.12999725341795,0,Top 10 Stock Picks of Billionaire Ray Dalio,headlinesIter281.csv
+2022-02-18,CVS,102.12999725341795,42.49904696255244,0.6360853868024722,101.91999816894533,0,Janssen's Tremfya Shows Clinical Response At 12 Weeks In Ulcerative Colitis,headlinesIter282.csv
+2022-02-22,CVS,101.91999816894533,41.95129195043788,0.4348169317746069,102.23999786376952,1,J&amp;J Predicts At Least $3 Billion In Covid Vaccine Sales — Is It Now A Buy?,headlinesIter283.csv
+2022-02-23,CVS,102.23999786376952,43.153630437860855,0.250841661707376,100.7699966430664,0,UPDATE 1-J&amp;J says it nears vaccine licensing deal with S.Africa's Aspen,headlinesIter284.csv
+2022-02-24,CVS,100.7699966430664,39.14276153111316,0.0633249827947676,104.3000030517578,1,Japan to accept J&amp;J COVID vaccine for border entry next month,headlinesIter285.csv
+2022-02-25,CVS,104.3000030517578,50.93585731705284,-0.0604065882875093,103.6500015258789,0,Emergent BioSolutions to begin 'facility improvements' in Baltimore as J&amp;J evaluates Covid vaccine demand,headlinesIter286.csv
+2022-02-28,CVS,103.6500015258789,49.050964323389046,-0.1479053919729377,102.0500030517578,0,Is J&amp;J Stock A Buy After Signing Onto A $5 Billion Opioid Settlement?,headlinesIter287.csv
+2022-03-01,CVS,102.0500030517578,44.6690886839591,-0.2332973020013301,104.43000030517578,1,"Pathalys Pharma, Inc. Launches with Mission to Address High Priority Needs in Chronic Kidney Disease",headlinesIter288.csv
+2022-03-02,CVS,104.43000030517578,51.595939911644784,-0.274389068981828,104.54000091552734,1,"The Smartest Stocks To Buy With $1,000 Right Now",headlinesIter289.csv
+2022-03-03,CVS,104.54000091552734,51.89568727626571,-0.2831798825260495,105.19000244140624,1,Pfizer (PFE) Gets Breakthrough Therapy Status for RSV Vaccine,headlinesIter290.csv
+2022-03-04,CVS,105.19000244140624,53.71948120383047,-0.2602484363091977,104.55999755859376,0,10 Dividend Stocks with Over 10% Yield,headlinesIter291.csv
+2022-03-07,CVS,104.55999755859376,51.67453199448383,-0.2280943976640176,102.36000061035156,0,10 Stocks to Buy Before Interest Rates Rise in March,headlinesIter292.csv
+2022-03-08,CVS,102.36000061035156,45.20334257418692,-0.2264251777335472,103.5999984741211,1,Should You Invest in the iShares U.S. Pharmaceuticals ETF (IHE)?,headlinesIter293.csv
+2022-03-09,CVS,103.5999984741211,49.07438047422439,-0.2236512443690639,104.08000183105467,1,Got $300? These 3 Stocks Could Be Bargain Buys for 2022 and Beyond,headlinesIter294.csv
+2022-03-10,CVS,104.08000183105467,50.53122280549553,-0.212162392554724,103.47000122070312,0,3 Dividend Stocks That Should Pay You for the Rest of Your Life,headlinesIter295.csv
+2022-03-11,CVS,103.47000122070312,48.62739395044902,-0.2050621057499028,104.48999786376952,1,"Pharma Stock Roundup: PFE, SNY, ABBV's Pipeline Updates, BAYRY's Unit Sale",headlinesIter296.csv
+2022-03-14,CVS,104.48999786376952,51.89135085298127,-0.1843438665049973,106.9800033569336,1,Johnson &amp; Johnson Named a 2022 Fortune World's Most Admired Company and Ranked #1 on the Pharmaceutical Industry List,headlinesIter297.csv
+2022-03-15,CVS,106.9800033569336,58.77691534869247,-0.1160295025032962,107.11000061035156,1,Johnson &amp; Johnson: A Cornerstone Dividend Investment,headlinesIter298.csv
+2022-03-16,CVS,107.11000061035156,59.1059901593924,-0.0191254764787837,108.55999755859376,1,Stability and Pricing Power - Why Johnson &amp; Johnson's (NYSE:JNJ) 2.4% Dividend is Worth Your Time,headlinesIter299.csv
+2022-03-17,CVS,108.55999755859376,62.6841902256277,0.1137955719317862,107.3000030517578,0,"COVID-19 subvariant spreads in Europe as restrictions, testing ease",headlinesIter300.csv
+2022-03-18,CVS,107.3000030517578,57.93992360822114,0.2419616116197128,107.38999938964844,1,What's in Store for J&amp;J's (JNJ) Segments &amp; Pipeline in 2022?,headlinesIter301.csv
+2022-03-21,CVS,107.38999938964844,58.183368676298805,0.3613129879277308,107.2300033569336,0,Surgical Sutures Industry is Projected to Achieve a Global Market Size of US$ 6.5 Bn by 2031- Exclusive Report By Fact.MR,headlinesIter302.csv
+2022-03-22,CVS,107.2300033569336,57.54567418447816,0.4655067589901864,106.1999969482422,0,7 Reddit Stocks Likely to Withstand Any Recession in 2022,headlinesIter303.csv
+2022-03-23,CVS,106.1999969482422,53.48184381821447,0.5372438923391476,108.0500030517578,1,"J&amp;J’s Victory Over Cancer Victims Clears Path for 3M, Others",headlinesIter304.csv
+2022-03-24,CVS,108.0500030517578,59.07242342722071,0.6131685342784969,108.55999755859376,1,Here's Why Johnson &amp; Johnson (JNJ) is a Strong Momentum Stock,headlinesIter305.csv
+2022-03-25,CVS,108.55999755859376,60.48236874169128,0.6944768596624613,108.04000091552734,0,Halozyme (HALO) Inks Collaboration Deal With Chugai Pharma,headlinesIter306.csv
+2022-03-28,CVS,108.04000091552734,58.27787108088758,0.7650181607781883,104.68000030517578,0,Legendary Value Investor Joel Greenblatt’s 10 Dividend Stock Picks,headlinesIter307.csv
+2022-03-29,CVS,104.68000030517578,46.48721700260035,0.7697625296257298,103.5500030517578,0,Johnson &amp; Johnson MedTech Earns a Spot on Fast Company's 2022 Most Innovative Companies List,headlinesIter308.csv
+2022-03-30,CVS,103.5500030517578,43.31341819170487,0.7132350576509451,101.20999908447266,0,"J&amp;J (JNJ) Gets FDA Nod for HIV Jab, Cabenuva, in Adolescents",headlinesIter309.csv
+2022-03-31,CVS,101.20999908447266,37.59015347563571,0.5823078427716216,101.08999633789062,0,My Top Dividend Stock to Buy Now and Hold Forever,headlinesIter310.csv
+2022-04-01,CVS,101.08999633789062,37.31782256001128,0.4083699602561282,100.0,0,How to Approach Trading Downtrodden Novavax Today,headlinesIter311.csv
+2022-04-04,CVS,100.0,34.84824699371754,0.1982709230338946,99.45999908447266,0,"Doylestown Health receives $5M gift from Johnson &amp; Johnson chairman Alex Gorsky, wife",headlinesIter312.csv
+2022-04-05,CVS,99.45999908447266,33.65982146319145,-0.032546785458917,102.05999755859376,1,Chief executives of mRNA vaccine groups earned $100mn in pandemic pay,headlinesIter313.csv
+2022-04-06,CVS,102.05999755859376,43.62803808092768,-0.222695072184818,103.61000061035156,1,10 Best Value ETFs to Invest in Now,headlinesIter314.csv
+2022-04-07,CVS,103.61000061035156,48.58769931555398,-0.3521477053150832,106.61000061035156,1,Dear Biotech Investors: Novavax’s Comparable Vaccine Matters,headlinesIter315.csv
+2022-04-08,CVS,106.61000061035156,56.55485803380085,-0.3881054939869756,104.4499969482422,0,Three Safe Stocks to Buy for an Umbrella of Protection,headlinesIter316.csv
+2022-04-11,CVS,104.4499969482422,50.48826586118582,-0.3971545847107695,104.63999938964844,1,Johnson &amp; Johnson (JNJ) Stock Moves -1.25%: What You Should Know,headlinesIter317.csv
+2022-04-12,CVS,104.63999938964844,50.98632569774813,-0.3849268829629326,104.9800033569336,1,Can Q1 Earnings Bring Strength in Dow ETF?,headlinesIter318.csv
+2022-04-13,CVS,104.9800033569336,51.91842368006228,-0.3537024052755892,103.68000030517578,0,10 Biotech Stocks to Buy Today According to Ken Fisher,headlinesIter319.csv
+2022-04-14,CVS,103.68000030517578,48.14818134643392,-0.3321425852759361,103.41999816894533,0,"Genmab (GMAB), AbbVie's Epcoritamab Successful in LBCL Study",headlinesIter320.csv
+2022-04-18,CVS,103.41999816894533,47.406692451761096,-0.3211617489627661,103.86000061035156,1,J&amp;J (JNJ) to Set the Tone for Pharma Sector's Q1 Earnings,headlinesIter322.csv
+2022-04-19,CVS,103.86000061035156,48.8425022430214,-0.309635273698439,106.63999938964844,1,Amgen's (AMGN) Stelara Biosimilar Meets Psoriasis Study Goal,headlinesIter323.csv
+2022-04-20,CVS,106.63999938964844,56.856605613621255,-0.2533120610910564,105.18000030517578,0,Glaxo's (GSK) NDA for Daprodustat Gets Accepted by the FDA,headlinesIter324.csv
+2022-04-21,CVS,105.18000030517578,52.22906186960778,-0.1945797605083992,101.68000030517578,0,Best Dividend Stocks to Buy Now for May 2022,headlinesIter325.csv
+2022-04-22,CVS,101.68000030517578,43.1601929232385,-0.1928133037085123,101.7699966430664,1,Making Sense of Financial Advice on TikTok,headlinesIter326.csv
+2022-04-25,CVS,101.7699966430664,43.43218221285104,-0.2249692352339058,101.43000030517578,0,"Johnson &amp; Johnson Launches Next Satellite Center for Global Health Discovery at Holistic Drug Discovery and Development Centre, University of Cape Town, Focused on Antimicrobial Resistance (AMR)",headlinesIter327.csv
+2022-04-26,CVS,101.43000030517578,42.60276868085084,-0.2816130881139848,100.8499984741211,0,BIOAF: Collaboration Arrangement with Janssen,headlinesIter328.csv
+2022-04-27,CVS,100.8499984741211,41.15878649169888,-0.3592478685964914,100.8499984741211,0,Should You Invest in the Vanguard Health Care ETF (VHT)?,headlinesIter329.csv
+2022-04-28,CVS,100.8499984741211,41.15878649169888,-0.4451508137991687,96.12999725341795,0,"COVID-19: Moderna asks FDA to authorize vaccine for young kids, Merck antiviral pill sales top $3B",headlinesIter330.csv
+2022-04-29,CVS,96.12999725341795,31.18340243956707,-0.6060231841631167,96.5,1,Is Most-Watched Stock Johnson &amp; Johnson (JNJ) Worth Betting on Now?,headlinesIter331.csv
+2022-05-02,CVS,96.5,32.5631880598431,-0.7981673151897237,95.9800033569336,0,Why Johnson &amp; Johnson Stock Held Steady in April,headlinesIter332.csv
+2022-05-03,CVS,95.9800033569336,31.60413507160757,-1.0063165250878865,100.56999969482422,1,Jim Cramer Says You Should Buy These 10 Stocks,headlinesIter333.csv
+2022-05-04,CVS,100.56999969482422,46.564496177658405,-1.138061573098176,97.7300033569336,0,"Moderna CEO talks huge earnings beat, COVID-19 vaccine sales, new boosters",headlinesIter334.csv
+2022-05-05,CVS,97.7300033569336,40.64113537635512,-1.2577282898691169,100.69000244140624,1,Pfizer Is Poised to Shatter These 2 Records in 2022,headlinesIter335.csv
+2022-05-06,CVS,100.69000244140624,48.05755280342402,-1.3134597417791325,98.86000061035156,0,Should Invesco S&amp;P 500 Low Volatility ETF (SPLV) Be on Your Investing Radar?,headlinesIter336.csv
+2022-05-09,CVS,98.86000061035156,44.36682856729528,-1.3523992434781362,98.16000366210938,0,4 Blue-Chip Stocks to Buy for May 2022,headlinesIter337.csv
+2022-05-10,CVS,98.16000366210938,43.00628886870088,-1.3868582541164278,97.98999786376952,0,Should You Invest in the iShares U.S. Pharmaceuticals ETF (IHE)?,headlinesIter338.csv
+2022-05-11,CVS,97.98999786376952,42.66409858192506,-1.41625399420859,98.25,1,10 Dividend Achievers to Buy in 2022,headlinesIter339.csv
+2022-05-12,CVS,98.25,43.40576020337012,-1.4335590895825148,97.4800033569336,0,AbbVie's (ABBV) Rinvoq Meets Crohn's Disease Study Goals,headlinesIter340.csv
+2022-05-13,CVS,97.4800033569336,41.6860072643044,-1.451396316969583,98.5500030517578,1,Biden Says US Ready To Share COVID-19 Vaccine Related Technology,headlinesIter341.csv
+2022-05-16,CVS,98.5500030517578,44.95004497312623,-1.448252771463141,99.37999725341795,1,10 Dividend Stocks to Buy for Financial Freedom,headlinesIter342.csv
+2022-05-17,CVS,99.37999725341795,47.40910450526192,-1.4155807400714526,94.0199966430664,0,BlackRock’s Latest Portfolio 2022: Top 10 Stock Picks,headlinesIter343.csv
+2022-05-18,CVS,94.0199966430664,36.17190838365829,-1.448402832066558,93.13999938964844,0,Morrisville biotech gains 'buying power' with $35M raise,headlinesIter344.csv
+2022-05-19,CVS,93.13999938964844,34.71698742049221,-1.5312934226538932,94.93000030517578,1,UPDATE 1-India supplies non-J&amp;J COVID shots under Quad umbrella,headlinesIter345.csv
+2022-05-20,CVS,94.93000030517578,40.00329019185608,-1.6091721698178854,95.56999969482422,1,ImmixBio's Lead Candidate Shows Improved Survival Over FDA-Approved Soft Tissue Cancer Drug,headlinesIter346.csv
+2022-05-23,CVS,95.56999969482422,41.817369171507565,-1.6659486126547025,96.4499969482422,1,Could This Biosimilar Drug Candidate Create a Blockbuster for Amgen?,headlinesIter347.csv
+2022-05-24,CVS,96.4499969482422,44.31073873426425,-1.6886853489119178,97.1500015258789,1,Zacks Investment Ideas feature highlights: The Health Care Select Sector SPDR ETF and Johnson and Johnson,headlinesIter348.csv
+2022-05-25,CVS,97.1500015258789,46.28275843273151,-1.6738777395607571,97.8000030517578,1,JNJ Stock Still Outperforms S&amp;P 500; How To Enhance Gains With A Covered Call,headlinesIter349.csv
+2022-05-26,CVS,97.8000030517578,48.11988427999474,-1.622128800413721,98.0500030517578,1,Here is What to Know Beyond Why Johnson &amp; Johnson (JNJ) is a Trending Stock,headlinesIter350.csv
+2022-05-27,CVS,98.0500030517578,48.8445330732701,-1.5422527526766046,96.75,0,J&amp;J (JNJ) Carvykti Gets EU Nod for Advanced Multiple Myeloma,headlinesIter351.csv
+2022-05-31,CVS,96.75,45.30109850947447,-1.4661600960399097,96.54000091552734,0,10 New Stock Picks of Billionaire David Harding,headlinesIter352.csv
+2022-06-01,CVS,96.54000091552734,44.736514835708775,-1.3964364357576946,97.2300033569336,1,"COVID vaccines: Novavax says India, Europe, South Korea to supply global doses for 2022",headlinesIter353.csv
+2022-06-02,CVS,97.2300033569336,47.07069144137927,-1.3201684214204863,94.9000015258789,0,Here Are 6 Stocks That Pay a Lot in Dividends and Have Solid Yields. And Microsoft and Apple.,headlinesIter354.csv
+2022-06-03,CVS,94.9000015258789,40.80337219888997,-1.2779615155974535,95.72000122070312,1,2 Dividend Kings to Buy and Hold Forever,headlinesIter355.csv
+2022-06-06,CVS,95.72000122070312,43.64710995898897,-1.2433206594518278,95.91999816894533,1,How Newcomer Arcellx Is Looking To Rival Johnson &amp; Johnson In Cancer,headlinesIter356.csv
+2022-06-07,CVS,95.91999816894533,44.34930463773205,-1.2092133738030404,93.87999725341795,0,"Yumanity Therapeutics to sell its pipeline, merge with Seattle biotech",headlinesIter357.csv
+2022-06-08,CVS,93.87999725341795,39.00973756811631,-1.2070194613541203,92.73999786376952,0,Jim Cramer is Recommending These 10 Stocks in June,headlinesIter358.csv
+2022-06-09,CVS,92.73999786376952,36.37418636169616,-1.2403802244208084,93.16999816894533,1,5 key takeaways from Novavax’s Covid-19 vaccine hearing,headlinesIter359.csv
+2022-06-10,CVS,93.16999816894533,38.07369137917927,-1.28458966180227,90.88999938964844,0,5 Starter Stocks to Generate Passive Income,headlinesIter360.csv
+2022-06-13,CVS,90.88999938964844,33.035038367088454,-1.3667295155257633,90.63999938964844,0,5 Warren Buffett Stocks to Buy and Never Sell,headlinesIter361.csv
+2022-06-14,CVS,90.63999938964844,32.52673842399772,-1.4692110634780686,91.4499969482422,1,Health authorities push for a vaccine patent waiver to 'genuinely' prepare for the next pandemic,headlinesIter362.csv
+2022-06-15,CVS,91.4499969482422,35.96464034912028,-1.5627984720261268,89.8499984741211,0,"Moderna, Pfizer COVID vaccines for children under 5 approved by the FDA",headlinesIter363.csv
+2022-06-16,CVS,89.8499984741211,32.447690962904474,-1.6678703070449523,88.66000366210938,0,Doctor on COVID-19 vaccines for kids: 'We finally closed the loop',headlinesIter364.csv
+2022-06-17,CVS,88.66000366210938,30.0908260571012,-1.7898165772798809,91.08000183105467,1,"Band-Aid, Lysol, UPS among most trusted U.S. brands",headlinesIter365.csv
+2022-06-21,CVS,91.08000183105467,39.685443899414935,-1.8732577801851835,91.29000091552734,1,Johnson &amp; Johnson Opens First Satellite Center for Global Health Discovery in Asia Pacific at Duke-NUS to Advance Dengue Research,headlinesIter366.csv
+2022-06-22,CVS,91.29000091552734,40.44922338205591,-1.9205706809731928,92.37000274658205,1,COVID-19 vaccines slowly begin to roll out for young kids,headlinesIter367.csv
+2022-06-23,CVS,92.37000274658205,44.352113297799065,-1.9211506739578144,94.5199966430664,1,CDC endorses Moderna's COVID vaccine for kids 6 to 17 years old,headlinesIter368.csv
+2022-06-24,CVS,94.5199966430664,51.20774088206152,-1.8537283935887583,94.54000091552734,1,"Dow Up Over 650 Points; Health Care, Biotechs The Winners This Week",headlinesIter369.csv
+2022-06-27,CVS,94.54000091552734,51.26789756862248,-1.74267381458816,93.1999969482422,0,Emergent's (EBS) Anthrax Vaccine BLA Gets FDA Acceptance,headlinesIter370.csv
+2022-06-28,CVS,93.1999969482422,47.08051897584192,-1.627500095188129,93.3499984741211,1,Should You Invest in the Vanguard Health Care ETF (VHT)?,headlinesIter371.csv
+2022-06-29,CVS,93.3499984741211,47.59649713012033,-1.5096795864092147,92.66000366210938,0,Novavax Stock Is in Prime Position For Speculation,headlinesIter372.csv
+2022-06-30,CVS,92.66000366210938,45.40349114125562,-1.403944066166814,93.94000244140624,1,10 Best Electric Utility Stocks To Invest In,headlinesIter373.csv
+2022-07-01,CVS,93.94000244140624,50.00538373832099,-1.2877045078432094,92.52999877929688,0,The U.S. bets billions of dollars on better COVID-19 boosters as it prepares for a spike in COVID-19 cases next winter,headlinesIter374.csv
+2022-07-05,CVS,92.52999877929688,45.45975402107885,-1.190535537544753,93.19000244140624,1,Johnson &amp; Johnson (JNJ) is Attracting Investor Attention: Here is What You Should Know,headlinesIter375.csv
+2022-07-06,CVS,93.19000244140624,47.84947272660804,-1.097169956081557,93.7300033569336,1,J&amp;J Talc Judge Weighs Expert Help to Value Cancer Claims,headlinesIter376.csv
+2022-07-07,CVS,93.7300033569336,49.7879919614854,-0.9999665716293628,94.18000030517578,1,"Investing $50 Weekly Could Grow Your Portfolio to $500,000 in 30 Years",headlinesIter377.csv
+2022-07-08,CVS,94.18000030517578,51.40893438920969,-0.8959947240685676,94.70999908447266,1,This is Why  Johnson &amp; Johnson (JNJ) is a Great Dividend Stock,headlinesIter378.csv
+2022-07-11,CVS,94.70999908447266,53.3202757856848,-0.7827329368152071,94.9800033569336,1,Should You Invest in the iShares U.S. Pharmaceuticals ETF (IHE)?,headlinesIter379.csv
+2022-07-12,CVS,94.9800033569336,54.30636898449017,-0.6634939982167276,93.4499969482422,0,Is iShares Core Dividend Growth ETF (DGRO) a Strong ETF Right Now?,headlinesIter380.csv
+2022-07-13,CVS,93.4499969482422,48.10500474353331,-0.5696575207703416,92.83000183105467,0,Better Dividend Stock: AbbVie or Johnson &amp; Johnson?,headlinesIter381.csv
+2022-07-14,CVS,92.83000183105467,45.82158233070292,-0.505255172321412,95.37000274658205,1,These 3 Blue-Chip Stocks Are Great Shields for Volatility,headlinesIter382.csv
+2022-07-15,CVS,95.37000274658205,55.20312046057576,-0.4210018333485236,94.29000091552734,0,"Zacks Investment Ideas feature highlights: Coca-Cola, Kroger and Johnson &amp; Johnson",headlinesIter383.csv
+2022-07-18,CVS,94.29000091552734,51.14758532212424,-0.3449942274498743,96.79000091552734,1,10 Blue Chip Dividend Stocks with Over 5% Yield,headlinesIter384.csv
+2022-07-19,CVS,96.79000091552734,58.70954577203942,-0.2374669800780285,95.1500015258789,0,Covid-19 vaccine manufacturing is 'right-sizing': J&amp;J CFO,headlinesIter385.csv
+2022-07-20,CVS,95.1500015258789,52.92225781530585,-0.1414445852005056,93.19000244140624,0,10 Best Healthcare Stocks To Buy Now According To Motley Fool’s 1623 Capital,headlinesIter386.csv
+2022-07-21,CVS,93.19000244140624,46.9638901192708,-0.0886151214323368,94.05999755859376,1,10 Best Value ETFs To Invest In,headlinesIter387.csv
+2022-07-22,CVS,94.05999755859376,49.67246132663308,-0.0515453221200004,94.48999786376952,1,Here are 5 things we’ve learned so far from earnings season,headlinesIter388.csv
+2022-07-25,CVS,94.48999786376952,51.0043345518701,-0.0193187493630755,95.30999755859376,1,These 10 Companies Recently Increased Their Dividends,headlinesIter389.csv
+2022-07-26,CVS,95.30999755859376,53.52990985670857,0.0213094601733027,95.87000274658205,1,10 Dividend Paying REIT Stocks To Buy Now,headlinesIter390.csv
+2022-07-27,CVS,95.87000274658205,55.22728988582121,0.0739598421330584,95.52999877929688,0,Why Legend Biotech's Shares Jumped 11.8% on Wednesday,headlinesIter391.csv
+2022-07-28,CVS,95.52999877929688,53.939082613741306,0.1257923346756639,95.68000030517578,1,2 Growth Stocks That Could Be Good Bear Market Buys,headlinesIter392.csv
+2022-07-29,CVS,95.68000030517578,54.44394670514562,0.1765015256303074,96.0199966430664,1,Biden administration plans for Omicron booster open to all in September,headlinesIter393.csv
+2022-08-01,CVS,96.0199966430664,55.63103878037411,0.2288705536469593,95.37000274658205,0,10 Best High-Yield Dividend Champions to Buy in August,headlinesIter394.csv
+2022-08-02,CVS,95.37000274658205,52.79847674991851,0.2686427491134845,101.37999725341795,1,Johnson &amp; Johnson to Participate in the 2022 Wells Fargo Securities Healthcare Conference,headlinesIter395.csv
+2022-08-03,CVS,101.37999725341795,68.67857662785507,0.3937082308517423,101.87000274658205,1,Moderna CEO: ‘We are seeing very strong’ vaccine demand,headlinesIter396.csv
+2022-08-04,CVS,101.87000274658205,69.57726078817292,0.5725981635667373,102.26000213623048,1,2 Stocks That Could Lead the Market Recovery,headlinesIter397.csv
+2022-08-05,CVS,102.26000213623048,70.30749158910193,0.7807636589714884,102.0,0,3 Blue-Chip Stocks With Rock-Solid Dividends,headlinesIter398.csv
+2022-08-08,CVS,102.0,69.11641224964823,0.9904384301204892,103.69000244140624,1,"Zacks Investment Ideas feature highlights: Pfizer, Caterpillar, and Johnson &amp; Johnson",headlinesIter399.csv
+2022-08-09,CVS,103.69000244140624,72.39051626799228,1.214773280478526,104.0500030517578,1,Johnson &amp; Johnson to Participate in the Morgan Stanley 20th Annual Global Healthcare Conference,headlinesIter400.csv
+2022-08-10,CVS,104.0500030517578,73.04603922645595,1.439511666372136,104.25,1,10 Dividend ETFs to Buy in August,headlinesIter401.csv
+2022-08-11,CVS,104.25,73.42355176081348,1.652631719201479,106.38999938964844,1,Redditors are Buying These 10 Dividend ETFs in August,headlinesIter402.csv
+2022-08-12,CVS,106.38999938964844,77.11674145786162,1.877673279040712,106.2699966430664,0,"Johnson &amp; Johnson Stock: Here's the Level to Buy, and It's a Steal",headlinesIter403.csv
+2022-08-15,CVS,106.2699966430664,76.47496148241932,2.092195787133623,106.43000030517578,1,10 Best Vanguard ETFs to Diversify Your Portfolio,headlinesIter404.csv
+2022-08-16,CVS,106.43000030517578,76.75276150901128,2.2866637605969204,104.91999816894533,0,AstraZeneca's (AZN) Lynparza sNDA Gets FDA Priority Tag,headlinesIter405.csv
+2022-08-17,CVS,104.91999816894533,68.52835498567703,2.4290646363348407,103.63999938964844,0,10 Safe Dividend Stocks with Over 4% Yield,headlinesIter406.csv
+2022-08-18,CVS,103.63999938964844,62.42221942204519,2.5054080121118187,104.0500030517578,1,Mayar Capital’s Largest Holding: Johnson &amp; Johnson (JNJ),headlinesIter407.csv
+2022-08-19,CVS,104.0500030517578,63.542798044135566,2.537176818066627,102.33999633789062,0,Top 10 Stock Picks of Osman Ozsan’s Deuterium Capital Management,headlinesIter408.csv
+2022-08-22,CVS,102.33999633789062,56.03724428609917,2.506276876321849,101.12999725341795,0,"Johnson &amp; Johnson Is On a Roll, and This Trade Has My Attention",headlinesIter409.csv
+2022-08-23,CVS,101.12999725341795,51.40986812734158,2.412700062953397,101.27999877929688,1,Stock Traders Need to Be Currency Conscious as the Euro Is Crushed,headlinesIter410.csv
+2022-08-24,CVS,101.27999877929688,51.93970211209896,2.281638207144291,102.1500015258789,1,These 3 Blue-Chip Stocks Are Great Shields Against Volatility,headlinesIter411.csv
+2022-08-25,CVS,102.1500015258789,55.00429259087476,2.142632002688712,100.05999755859376,0,J&amp;J (JNJ) Gets EU Nod for Multiple Myeloma Drug Tecvayli,headlinesIter412.csv
+2022-08-26,CVS,100.05999755859376,47.21532120550891,1.967705084959091,100.33000183105467,1,10 Best Dogs of the Dow to Invest In,headlinesIter413.csv
+2022-08-29,CVS,100.33000183105467,48.23514867335826,1.7792566806874432,98.8000030517578,0,10 Best Index Funds to Diversify Your Portfolio,headlinesIter414.csv
+2022-08-30,CVS,98.8000030517578,43.1478931938265,1.563746524537564,98.1500015258789,0,10 Best Stocks That Pay Monthly Dividends,headlinesIter415.csv
+2022-08-31,CVS,98.1500015258789,41.16170124043176,1.328637495724991,99.93000030517578,1,"UPDATE 1-S.Africa's Aspen, India's Serum Institute sign vaccines deal for Africa",headlinesIter416.csv
+2022-09-01,CVS,99.93000030517578,48.19449021866908,1.118939684325071,99.44000244140624,0,J&amp;J to pay $40.5 million to settle New Hampshire opioid lawsuit,headlinesIter417.csv
+2022-09-02,CVS,99.44000244140624,46.54518363379636,0.9257939178709425,98.7300033569336,0,“A Strong Power in Rapid Ascent”: 10 China Stocks in Ray Dalio’s Portfolio,headlinesIter418.csv
+2022-09-06,CVS,98.7300033569336,44.18561202279289,0.7397099804295962,100.68000030517578,1,Should You Invest in the Health Care Select Sector SPDR ETF (XLV)?,headlinesIter419.csv
+2022-09-07,CVS,100.68000030517578,51.46324250160112,0.597232201841656,102.26000213623048,1,10 High-Yield Monthly Dividend Stocks to Buy in September,headlinesIter420.csv
+2022-09-08,CVS,102.26000213623048,56.42145259851872,0.5134016328440281,102.1500015258789,0,Should You Invest in the iShares U.S. Healthcare ETF (IYH)?,headlinesIter421.csv
+2022-09-09,CVS,102.1500015258789,55.99260103687153,0.4677993939181435,103.04000091552734,1,Johnson &amp; Johnson (JNJ) Is a Trending Stock: Facts to Know Before Betting on It,headlinesIter422.csv
+2022-09-12,CVS,103.04000091552734,58.72609187840173,0.4616816874108237,100.4499969482422,0,Investors Bet Ketamine Treatment Will Revolutionize Mental-Health Care,headlinesIter423.csv
+2022-09-13,CVS,100.4499969482422,49.15696362135535,0.43825855459323,101.0500030517578,1,Should You Invest in the iShares U.S. Pharmaceuticals ETF (IHE)?,headlinesIter424.csv
+2022-09-14,CVS,101.0500030517578,51.14309138098444,0.4137904622075358,102.30999755859376,1,Johnson &amp; Johnson Stock Has Major Support on the Chart,headlinesIter425.csv
+2022-09-15,CVS,102.30999755859376,55.1089156432824,0.4091094315410138,102.05999755859376,0,Should Vanguard Russell 1000 Value ETF (VONV) Be on Your Investing Radar?,headlinesIter426.csv
+2022-09-16,CVS,102.05999755859376,54.16937122601494,0.4121548880461392,102.11000061035156,1,"Pharma Stock Roundup: J&amp;J New Buyback Plan, CHMP Nod to PFE's BA.4, BA.5 Omicron Jab",headlinesIter427.csv
+2022-09-19,CVS,102.11000061035156,54.33705865994328,0.4197418942876626,101.33999633789062,0,"Beat the Market Like Zacks: Hargreaves Lansdown (HRGLY), Starbucks (SBUX), Johnson &amp; Johnson (JNJ) in Focus",headlinesIter428.csv
+2022-09-20,CVS,101.33999633789062,51.22864452126312,0.4165360873837513,99.7699966430664,0,Johnson &amp; Johnson Opens State-of-the-Art Science and Technology Campus in San Francisco Bay Area,headlinesIter429.csv

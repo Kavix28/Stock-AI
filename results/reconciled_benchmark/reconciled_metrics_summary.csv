@@ -1,0 +1,54 @@
+Model,Threshold,Accuracy,Balanced_Accuracy,Macro_F1,Weighted_F1,Class0_Precision,Class0_Recall,Class0_F1,Class1_Precision,Class1_Recall,Class1_F1,TN,FP,FN,TP,Pred_Down,Pred_Up,Total_N,Seed,Configuration,Timing_Limitation
+1. Training-Majority Baseline,0.5,47.22,50.0,0.3208,0.3029,0.0,0.0,0.0,0.4722,1.0,0.6415,0,95,0,85,0,180,180,N/A,Constant Majority = 1,None (Heuristic)
+2. Direction Persistence (Lag-1),0.5,59.44,59.35,0.5934,0.5946,0.617,0.6105,0.6138,0.5698,0.5765,0.5731,58,37,36,49,94,86,180,N/A,Predicts y_{t-1} for y_t,None (Heuristic)
+3a. Next-Day LR (Lag-1 Endpoint),0.5,54.44,56.1,0.5096,0.5023,0.6757,0.2632,0.3788,0.5105,0.8588,0.6404,25,70,12,73,37,143,180,N/A,16 core features from day t-1,None (Market Only)
+3b. Next-Day LR (20-Day Flat Window),0.5,52.22,52.26,0.522,0.5226,0.5506,0.5158,0.5326,0.4945,0.5294,0.5114,49,46,40,45,89,91,180,N/A,320 flattened features from days t-20..t-1,None (Market Only)
+DIAGNOSTIC: Contemporaneous LR (Leaked),0.5,67.78,68.67,0.6729,0.6707,0.7937,0.5263,0.6329,0.6154,0.8471,0.7129,50,45,13,72,63,117,180,N/A,Day t contemporaneous features (NOT a forecast),LEAKED: Day t prices used for day t return
+4. Market-Only BiLSTM (Seed 42),0.5,51.11,50.34,0.4971,0.5018,0.5304,0.6421,0.581,0.4769,0.3647,0.4133,61,34,54,31,115,65,180,42,Threshold = 0.50,None (Market Only)
+4. Market-Only BiLSTM (Seed 123),0.5,50.0,51.39,0.474,0.4675,0.5556,0.2632,0.3571,0.4815,0.7647,0.5909,25,70,20,65,45,135,180,123,Threshold = 0.50,None (Market Only)
+4. Market-Only BiLSTM (Seed 7),0.5,47.78,49.85,0.4075,0.3961,0.5217,0.1263,0.2034,0.4713,0.8706,0.6116,12,83,11,74,23,157,180,7,Threshold = 0.50,None (Market Only)
+4. Market-Only BiLSTM (Seed 2024),0.5,45.56,47.18,0.4139,0.4052,0.4595,0.1789,0.2576,0.4545,0.7647,0.5702,17,78,20,65,37,143,180,2024,Threshold = 0.50,None (Market Only)
+4. Market-Only BiLSTM (Seed 999),0.5,47.22,50.0,0.3208,0.3029,0.0,0.0,0.0,0.4722,1.0,0.6415,0,95,0,85,0,180,180,999,Threshold = 0.50,None (Market Only)
+4. Market-Only BiLSTM [5-Seed Mean (Tau=0.50)],0.5,48.33 +/- 1.99,49.75 +/- 1.39,0.4227 +/- 0.0614,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",None (Market Only)
+4. Market-Only BiLSTM (Calibrated Seed 42),0.55,49.44,47.28,0.3882,0.4024,0.5125,0.8632,0.6431,0.35,0.0824,0.1333,82,13,78,7,160,20,180,42,Validation-Calibrated Tau = 0.55 (Val F1 = 0.6392),None (Market Only)
+4. Market-Only BiLSTM (Calibrated Seed 123),0.57,52.22,49.97,0.4118,0.4259,0.5276,0.9053,0.6667,0.4706,0.0941,0.1569,86,9,77,8,163,17,180,123,Validation-Calibrated Tau = 0.57 (Val F1 = 0.5737),None (Market Only)
+4. Market-Only BiLSTM (Calibrated Seed 7),0.56,51.11,48.79,0.3908,0.4058,0.5212,0.9053,0.6615,0.4,0.0706,0.12,86,9,79,6,165,15,180,7,Validation-Calibrated Tau = 0.56 (Val F1 = 0.5897),None (Market Only)
+4. Market-Only BiLSTM (Calibrated Seed 2024),0.58,55.0,54.33,0.5396,0.5435,0.5625,0.6632,0.6087,0.5294,0.4235,0.4706,63,32,49,36,112,68,180,2024,Validation-Calibrated Tau = 0.58 (Val F1 = 0.6230),None (Market Only)
+4. Market-Only BiLSTM (Calibrated Seed 999),0.58,50.0,47.93,0.4048,0.418,0.5159,0.8526,0.6429,0.3913,0.1059,0.1667,81,14,76,9,157,23,180,999,Validation-Calibrated Tau = 0.58 (Val F1 = 0.5902),None (Market Only)
+4. Market-Only BiLSTM [5-Seed Mean (Calibrated Tau*)],Tau*,51.55 +/- 1.97,49.66 +/- 2.50,0.4270 +/- 0.0570,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",None (Market Only)
+5. Original Multimodal Early Fusion (Seed 42),0.5,50.56,50.56,0.5052,0.5059,0.5333,0.5053,0.5189,0.4778,0.5059,0.4914,48,47,42,43,90,90,180,42,Threshold = 0.50,TIMING-LIMITED
+5. Original Multimodal Early Fusion (Seed 123),0.5,49.44,50.8,0.4695,0.4632,0.5435,0.2632,0.3546,0.4776,0.7529,0.5845,25,70,21,64,46,134,180,123,Threshold = 0.50,TIMING-LIMITED
+5. Original Multimodal Early Fusion (Seed 7),0.5,51.67,51.36,0.5133,0.5155,0.54,0.5684,0.5538,0.4875,0.4588,0.4727,54,41,46,39,100,80,180,7,Threshold = 0.50,TIMING-LIMITED
+5. Original Multimodal Early Fusion (Seed 2024),0.5,46.11,46.84,0.455,0.4518,0.4848,0.3368,0.3975,0.4474,0.6,0.5126,32,63,34,51,66,114,180,2024,Threshold = 0.50,TIMING-LIMITED
+5. Original Multimodal Early Fusion (Seed 999),0.5,42.22,44.46,0.326,0.3119,0.2353,0.0421,0.0714,0.4417,0.8471,0.5806,4,91,13,72,17,163,180,999,Threshold = 0.50,TIMING-LIMITED
+5. Original Multimodal Early Fusion [5-Seed Mean (Tau=0.50)],0.5,48.00 +/- 3.44,48.80 +/- 2.70,0.4538 +/- 0.0675,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",TIMING-LIMITED
+5. Original Multimodal Early Fusion (Calibrated Seed 42),0.51,52.78,51.67,0.5019,0.5082,0.5397,0.7158,0.6154,0.5,0.3176,0.3885,68,27,58,27,126,54,180,42,Validation-Calibrated Tau = 0.51 (Val F1 = 0.5555),TIMING-LIMITED
+5. Original Multimodal Early Fusion (Calibrated Seed 123),0.53,55.56,54.92,0.5461,0.5497,0.5676,0.6632,0.6117,0.5362,0.4353,0.4805,63,32,48,37,111,69,180,123,Validation-Calibrated Tau = 0.53 (Val F1 = 0.5555),TIMING-LIMITED
+5. Original Multimodal Early Fusion (Calibrated Seed 7),0.52,48.33,46.9,0.4382,0.4471,0.5074,0.7263,0.5974,0.4091,0.2118,0.2791,69,26,67,18,136,44,180,7,Validation-Calibrated Tau = 0.52 (Val F1 = 0.6056),TIMING-LIMITED
+5. Original Multimodal Early Fusion (Calibrated Seed 2024),0.53,46.67,45.45,0.4328,0.4405,0.4961,0.6737,0.5714,0.3922,0.2353,0.2941,64,31,65,20,129,51,180,2024,Validation-Calibrated Tau = 0.53 (Val F1 = 0.6013),TIMING-LIMITED
+5. Original Multimodal Early Fusion (Calibrated Seed 999),0.55,47.22,48.58,0.4462,0.4396,0.5,0.2421,0.3262,0.4627,0.7294,0.5662,23,72,23,62,46,134,180,999,Validation-Calibrated Tau = 0.55 (Val F1 = 0.5414),TIMING-LIMITED
+5. Original Multimodal Early Fusion [5-Seed Mean (Calibrated Tau*)],Tau*,50.11 +/- 3.47,49.50 +/- 3.41,0.4730 +/- 0.0441,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Seed 42),0.5,41.11,42.17,0.3943,0.3887,0.4,0.2316,0.2933,0.416,0.6118,0.4952,22,73,33,52,55,125,180,42,Threshold = 0.50,TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Seed 123),0.5,41.67,43.81,0.3292,0.3157,0.25,0.0526,0.087,0.4375,0.8235,0.5714,5,90,15,70,20,160,180,123,Threshold = 0.50,TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Seed 7),0.5,45.56,46.81,0.4329,0.4266,0.4694,0.2421,0.3194,0.4504,0.6941,0.5463,23,72,26,59,49,131,180,7,Threshold = 0.50,TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Seed 2024),0.5,44.44,46.44,0.375,0.3634,0.4,0.1053,0.1667,0.4516,0.8235,0.5833,10,85,15,70,25,155,180,2024,Threshold = 0.50,TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Seed 999),0.5,45.0,46.97,0.3838,0.3726,0.4231,0.1158,0.1818,0.4545,0.8235,0.5858,11,84,15,70,26,154,180,999,Threshold = 0.50,TIMING-LIMITED
+6. Bottleneck Fusion (64-d) [5-Seed Mean (Tau=0.50)],0.5,43.56 +/- 1.81,45.24 +/- 1.92,0.3830 +/- 0.0334,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Calibrated Seed 42),0.54,45.56,45.08,0.4488,0.4522,0.4857,0.5368,0.51,0.4133,0.3647,0.3875,51,44,54,31,105,75,180,42,Validation-Calibrated Tau = 0.54 (Val F1 = 0.5594),TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Calibrated Seed 123),0.56,48.33,48.02,0.4797,0.4821,0.51,0.5368,0.5231,0.45,0.4235,0.4364,51,44,49,36,100,80,180,123,Validation-Calibrated Tau = 0.56 (Val F1 = 0.5452),TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Calibrated Seed 7),0.57,51.11,49.72,0.4702,0.4784,0.5259,0.7474,0.6174,0.4667,0.2471,0.3231,71,24,64,21,135,45,180,7,Validation-Calibrated Tau = 0.57 (Val F1 = 0.5241),TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Calibrated Seed 2024),0.57,47.78,46.93,0.4607,0.4661,0.5043,0.6211,0.5566,0.4286,0.3176,0.3649,59,36,58,27,117,63,180,2024,Validation-Calibrated Tau = 0.57 (Val F1 = 0.5933),TIMING-LIMITED
+6. Bottleneck Fusion (64-d) (Calibrated Seed 999),0.58,47.78,47.99,0.4777,0.4774,0.506,0.4421,0.4719,0.4536,0.5176,0.4835,42,53,41,44,83,97,180,999,Validation-Calibrated Tau = 0.58 (Val F1 = 0.5862),TIMING-LIMITED
+6. Bottleneck Fusion (64-d) [5-Seed Mean (Calibrated Tau*)],Tau*,48.11 +/- 1.78,47.55 +/- 1.52,0.4674 +/- 0.0115,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Seed 42),0.5,43.89,44.92,0.4239,0.4188,0.4464,0.2632,0.3311,0.4355,0.6353,0.5167,25,70,31,54,56,124,180,42,Threshold = 0.50,TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Seed 123),0.5,46.11,48.27,0.3803,0.3679,0.45,0.0947,0.1565,0.4625,0.8706,0.6041,9,86,11,74,20,160,180,123,Threshold = 0.50,TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Seed 7),0.5,42.78,45.05,0.3292,0.3149,0.25,0.0421,0.0721,0.4451,0.8588,0.5863,4,91,12,73,16,164,180,7,Threshold = 0.50,TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Seed 2024),0.5,48.89,48.79,0.4879,0.4891,0.5161,0.5053,0.5106,0.4598,0.4706,0.4651,48,47,45,40,93,87,180,2024,Threshold = 0.50,TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Seed 999),0.5,43.33,45.33,0.3625,0.3507,0.36,0.0947,0.15,0.4452,0.8118,0.575,9,86,16,69,25,155,180,999,Threshold = 0.50,TIMING-LIMITED
+7. GMU Gated Multimodal Fusion [5-Seed Mean (Tau=0.50)],0.5,45.00 +/- 2.25,46.47 +/- 1.69,0.3968 +/- 0.0549,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Calibrated Seed 42),0.55,46.67,45.14,0.4139,0.4237,0.4964,0.7263,0.5897,0.3659,0.1765,0.2381,69,26,70,15,139,41,180,42,Validation-Calibrated Tau = 0.55 (Val F1 = 0.5681),TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Calibrated Seed 123),0.58,47.78,45.94,0.4022,0.414,0.5034,0.7895,0.6148,0.3548,0.1294,0.1897,75,20,74,11,149,31,180,123,Validation-Calibrated Tau = 0.58 (Val F1 = 0.5737),TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Calibrated Seed 7),0.59,49.44,47.21,0.3812,0.3959,0.5123,0.8737,0.6459,0.3333,0.0706,0.1165,83,12,79,6,162,18,180,7,Validation-Calibrated Tau = 0.59 (Val F1 = 0.5681),TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Calibrated Seed 2024),0.57,49.44,47.4,0.4013,0.4144,0.5128,0.8421,0.6375,0.375,0.1059,0.1651,80,15,76,9,156,24,180,2024,Validation-Calibrated Tau = 0.57 (Val F1 = 0.5862),TIMING-LIMITED
+7. GMU Gated Multimodal Fusion (Calibrated Seed 999),0.55,48.33,47.28,0.4579,0.4644,0.5081,0.6632,0.5753,0.4286,0.2824,0.3404,63,32,61,24,124,56,180,999,Validation-Calibrated Tau = 0.55 (Val F1 = 0.5569),TIMING-LIMITED
+7. GMU Gated Multimodal Fusion [5-Seed Mean (Calibrated Tau*)],Tau*,48.33 +/- 1.05,46.59 +/- 0.90,0.4113 +/- 0.0256,N/A (Multi-Seed),N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,180,All 5 Seeds,"Mean over seeds [42, 123, 7, 2024, 999]",TIMING-LIMITED

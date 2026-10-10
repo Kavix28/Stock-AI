@@ -1,0 +1,13 @@
+ticker,train_samples,train_start,train_end,val_samples,val_start,val_end,test_samples,test_start,test_end,test_down_count,test_up_count,notes
+AAPL,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,259,313,Standard refreshed forward test horizon
+AMT,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,271,301,Standard refreshed forward test horizon
+ATVI,2782,2010-09-14,2021-09-30,64,2021-10-01,2021-12-31,180,2022-01-03,2022-09-20,106,74,Delisted Oct 2023; evaluated on historical 180-target test partition
+BIO,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,290,282,Standard refreshed forward test horizon
+JNJ,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,261,311,Standard refreshed forward test horizon
+NDAQ,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,251,321,Standard refreshed forward test horizon
+NFLX,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,289,283,Standard refreshed forward test horizon
+NVDA,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,270,302,Standard refreshed forward test horizon
+PLD,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,286,286,Standard refreshed forward test horizon
+SBUX,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,296,276,Standard refreshed forward test horizon
+SCHW,3219,2010-03-22,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,261,311,Standard refreshed forward test horizon
+TSLA,3097,2010-09-14,2022-12-30,374,2023-01-03,2024-06-28,572,2024-07-01,2026-10-09,278,294,Standard refreshed forward test horizon

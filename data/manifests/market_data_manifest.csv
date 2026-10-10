@@ -1,0 +1,13 @@
+ticker,company_name,source,retrieval_timestamp,start_date,end_date,row_count,status,notes
+AAPL,Apple Inc.,Yahoo Finance (yfinance),2026-10-10 13:11:07 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+AMT,American Tower Corporation,Yahoo Finance (yfinance),2026-10-10 13:11:12 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+ATVI,"Activision Blizzard, Inc.",Historical Archive Fallback (Delisted Oct 2023),2026-10-10 13:11:15 UTC,2010-08-16,2022-09-20,3046,SUCCESS,Delisted Oct 2023; preserved historical archive coverage without warmup NaNs.
+BIO,"Bio-Rad Laboratories, Inc.",Yahoo Finance (yfinance),2026-10-10 13:11:15 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+JNJ,Johnson & Johnson,Yahoo Finance (yfinance),2026-10-10 13:11:17 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+NDAQ,"Nasdaq, Inc.",Yahoo Finance (yfinance),2026-10-10 13:11:18 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+NFLX,"Netflix, Inc.",Yahoo Finance (yfinance),2026-10-10 13:11:21 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+NVDA,NVIDIA Corporation,Yahoo Finance (yfinance),2026-10-10 13:11:29 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+PLD,"Prologis, Inc.",Yahoo Finance (yfinance),2026-10-10 13:11:37 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+SBUX,Starbucks Corporation,Yahoo Finance (yfinance),2026-10-10 13:11:40 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+SCHW,The Charles Schwab Corporation,Yahoo Finance (yfinance),2026-10-10 13:11:42 UTC,2010-02-22,2026-10-09,4185,SUCCESS,Live refreshed via yfinance through latest trading session.
+TSLA,"Tesla, Inc.",Yahoo Finance (yfinance),2026-10-10 13:11:43 UTC,2010-08-16,2026-10-09,4063,SUCCESS,Live refreshed via yfinance through latest trading session.

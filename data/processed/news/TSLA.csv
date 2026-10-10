@@ -1,0 +1,405 @@
+date,symbol,close,rsi,26-Day EMA,NextDayClose,Diff,Titles,filename
+2021-01-06,tsla,251.9933319091797,74.79375415011783,14.720617227879568,272.0133361816406,1,Stem – A Wise Bet on Smart Batteries and SaaS Driving the Renewable Revolution,headlinesIter1.csv
+2021-01-08,tsla,293.3399963378906,83.84819160976885,16.572868633946342,270.39666748046875,0,This fund manager says Amazon and other large-cap tech companies will make lots of money for investors for years to come,headlinesIter3.csv
+2021-01-11,tsla,270.39666748046875,68.59580697240784,17.58397663422054,283.14666748046875,1,"NIO stock hits record highs after unveiling new Sedan, powerful battery pack",headlinesIter4.csv
+2021-01-12,tsla,283.14666748046875,71.67893825195262,18.605674920608912,284.8033447265625,1,The World’s Top Maker of Mini Motors Bets It Can Win Over Tesla,headlinesIter5.csv
+2021-01-13,tsla,284.8033447265625,72.06273446124798,19.56447710191811,281.6666564941406,0,EVs Are Going Full Speed Ahead,headlinesIter6.csv
+2021-01-14,tsla,281.6666564941406,70.12505257019293,20.338959798792537,275.3866577148437,0,PREMIUM: A roadmap to trading profitably and consistently in 2021 with JC Parets,headlinesIter7.csv
+2021-01-19,tsla,281.51666259765625,68.11879648699629,21.11849276758138,283.4833374023437,1,China’s Tech Giants Are Muscling In on Lucrative IPO Market,headlinesIter8.csv
+2021-01-20,tsla,283.4833374023437,68.70767538315987,21.290493015521072,281.663330078125,0,"Tesla analyst more than doubles stock price target to $1,036",headlinesIter9.csv
+2021-01-21,tsla,281.663330078125,67.46573765271077,21.290842623351203,282.2133178710937,1,Warren Buffett-Backed BYD Raises $3.9B In Hong Kong,headlinesIter10.csv
+2021-01-22,tsla,282.2133178710937,67.65600001836309,21.14383520535161,293.6000061035156,1,9 International Stocks to Buy for Enhanced Diversification,headlinesIter11.csv
+2021-01-25,tsla,293.6000061035156,71.386841458039,21.04565051312392,294.36334228515625,1,"Piedmont Lithium CEO on Tesla partnership, China, and EV battery market",headlinesIter12.csv
+2021-01-26,tsla,294.36334228515625,71.62315050159475,20.947425251703898,288.0533447265625,0,Arcimoto Is Designing Fun Electric Vehicles For A Sustainable Future,headlinesIter13.csv
+2021-01-29,tsla,264.510009765625,51.810000600391405,19.25324758336568,279.9366760253906,1,Carparts.com sees 300% increase in site traffic in 2020,headlinesIter15.csv
+2021-02-01,tsla,279.9366760253906,58.542452969414185,18.31010711070875,290.92999267578125,1,"Tesla, Aleady Soaring, Could Reach $1,200 a Share: Analyst",headlinesIter16.csv
+2021-02-02,tsla,290.92999267578125,62.55693148504479,17.54434285950827,284.89666748046875,0,Elon Musk Is Off Twitter. No One Knows Why.,headlinesIter17.csv
+2021-02-04,tsla,283.3299865722656,58.28810986248557,16.02848951427473,284.07666015625,1,12 Most Influential Chinese Entrepreneurs,headlinesIter19.csv
+2021-02-05,tsla,284.07666015625,58.60494593735994,15.269748302871658,287.8066711425781,1,Electric Aircraft Startup Archer to Go Public at Multibillion Dollar Valuation via SPAC – Sources,headlinesIter20.csv
+2021-02-08,tsla,287.8066711425781,60.2300954085468,14.579513547026144,283.1533203125,0,7 public companies with exposure to bitcoin,headlinesIter21.csv
+2021-02-09,tsla,283.1533203125,57.21240006646469,13.860929401562856,268.2733459472656,0,Aurora Partners With Toyota in Bid to Bring Autonomy to Masses,headlinesIter22.csv
+2021-02-11,tsla,270.5533447265625,50.00755860556119,11.82716631825345,272.0400085449219,1,Amazon-Backed Rivian Plans Electric-Vehicle Plant in Europe,headlinesIter23.csv
+2021-02-12,tsla,272.0400085449219,50.82612028405686,10.752047203228749,265.4066772460937,0,These EV Stocks Have 'Most Compelling Strategies' In Crowded Field: Analyst,headlinesIter24.csv
+2021-02-16,tsla,265.4066772460937,47.11892047005759,9.59728899538656,266.04998779296875,1,This EV-Related Company Has Big Plans to Recycle Batteries,headlinesIter25.csv
+2021-02-17,tsla,266.04998779296875,47.518715286536505,8.441538361534796,262.4599914550781,0,Ford To Go All-Electric In Europe By 2030: CNBC,headlinesIter26.csv
+2021-02-18,tsla,262.4599914550781,45.45351426794401,7.26923578397749,260.4333190917969,0,Motley Fool Co-Founder David Gardner Discusses His Approach to Investing in Energy and Industrials Stocks,headlinesIter27.csv
+2021-02-19,tsla,260.4333190917969,44.28344056514389,6.0991103743696815,238.1666717529297,0,"Osprey's OBTC: A New, Low-Cost Bitcoin Fund",headlinesIter28.csv
+2021-02-22,tsla,238.1666717529297,33.94458944827432,4.622537019145132,232.94667053222656,0,Traditional Automakers Are Making The Transition To Electric With These Ambitious EV Plans,headlinesIter29.csv
+2021-02-24,tsla,247.33999633789065,41.69252991833979,1.433011234752947,227.4066619873047,0,Tax season 2021: Intuit benefits from 10 million people opening brokerage accounts last year,headlinesIter30.csv
+2021-02-25,tsla,227.4066619873047,34.41266085954695,-0.2006806840868986,225.1666717529297,0,Top 10 Car Company Stocks to Invest In,headlinesIter31.csv
+2021-02-26,tsla,225.1666717529297,33.700541078898965,-1.865010023220612,239.47666931152344,1,Why Bitcoin Is Better Than Bonds,headlinesIter32.csv
+2021-03-01,tsla,239.47666931152344,41.963142474065066,-3.228737021265704,228.81333923339844,0,Hyliion CEO on bringing ‘electrified solutions to classic commercial vehicles’,headlinesIter33.csv
+2021-03-02,tsla,228.81333923339844,38.147953622285605,-4.495331731609823,217.7333374023437,0,"Volvo Cars to double U.S. footprint, as it aims to go all electric by 2030",headlinesIter34.csv
+2021-03-03,tsla,217.7333374023437,34.62527568408761,-5.801178005783208,207.14666748046875,0,3 Outside-the-Box Stocks to Buy Now,headlinesIter35.csv
+2021-03-04,tsla,207.14666748046875,31.62073633462737,-7.21885385760765,199.3166656494141,0,General Motors Looks To Add More Juice To Electric Vehicle Transformation,headlinesIter36.csv
+2021-03-05,tsla,199.3166656494141,29.576555002701543,-8.74077528942492,187.6666717529297,0,Hyliion Stock Will Likely Reward Patient Investors,headlinesIter37.csv
+2021-03-09,tsla,224.52667236328125,44.53819079105894,-11.48304718850608,222.6866607666016,0,"Premarket Movers Tuesday - Second Sight, Acadia Pharma, Tesla",headlinesIter38.csv
+2021-03-10,tsla,222.6866607666016,43.96545854325608,-12.120107978301196,233.1999969482422,1,Exclusive: LG hopes to make new battery cells for Tesla in 2023 in U.S. or Europe - sources,headlinesIter39.csv
+2021-03-11,tsla,233.1999969482422,48.074183542765375,-12.257779980077508,231.2433319091797,0,Apple Tilts to iPhone Playbook for Car as Automaker Talks Stall,headlinesIter40.csv
+2021-03-12,tsla,231.2433319091797,47.377897558152,-12.078507258314977,235.97999572753903,1,Tesla Expanding Insurance On Its Cars To Illinois,headlinesIter41.csv
+2021-03-15,tsla,235.97999572753903,49.292542852373,-11.606877430320024,225.6266632080078,0,Xpeng Secures $78M Funding From A Chinese Provincial Government,headlinesIter42.csv
+2021-03-16,tsla,225.6266632080078,45.403837997913,-11.11545439898916,233.9366607666016,1,ElectraMeccanica to establish U.S. base of operations in Arizona,headlinesIter43.csv
+2021-03-17,tsla,233.9366607666016,48.88915464547028,-10.479471051975306,217.72000122070312,0,VW Becomes Germany’s Most Valuable Company on EV Enthusiasm,headlinesIter44.csv
+2021-03-18,tsla,217.72000122070312,43.10602075708895,-10.021061895133103,218.2899932861328,1,"How bitcoin is like Tesla and here to stay, but will feel volatility from this unique effect, says Deutsche Bank",headlinesIter45.csv
+2021-03-22,tsla,223.3333282470703,45.66742363706364,-9.291960049773833,220.72000122070312,0,India to launch supercharged push for global electric vehicle players,headlinesIter46.csv
+2021-03-23,tsla,220.72000122070312,44.652171978179126,-8.946039821637184,210.08999633789065,0,Lockheed Martin And Omnispace Take On SpaceX With Plans For Space-Based Internet,headlinesIter47.csv
+2021-03-24,tsla,210.08999633789065,40.68961795442693,-8.785114878934632,213.4633331298828,1,UPDATE 2-Elon Musk says Tesla vehicles can now be bought using bitcoin,headlinesIter48.csv
+2021-03-25,tsla,213.4633331298828,42.435435107646455,-8.674734676411347,206.23666381835932,0,Goldman Sachs New Investment Product Seeks Bitcoin Exposure Through Ark Innovation ETF,headlinesIter49.csv
+2021-03-26,tsla,206.23666381835932,39.73691682703912,-8.697347063544106,203.76333618164065,0,Tesla Co-Founder's Battery Recycling Company Ties Up With E-Waste Firm ERI,headlinesIter50.csv
+2021-03-29,tsla,203.76333618164065,38.8268833119085,-8.821768735337479,211.8733367919922,1,Volkswagen Will Become Voltswagen in the U.S. Why That’s a Big Deal.,headlinesIter51.csv
+2021-03-30,tsla,211.8733367919922,43.4038137000279,-8.853983186213753,222.6433258056641,1,Xiaomi Plans $15 Billion Foray into Electric Cars,headlinesIter52.csv
+2021-03-31,tsla,222.6433258056641,48.87436928205003,-8.634706299416473,220.5833282470703,0,Goldman to offer investments in digital assets for wealth management clients,headlinesIter53.csv
+2021-04-05,tsla,230.3500061035156,52.64075649739696,-7.690689261063826,230.5399932861328,1,Tesla's market value set to gain $50 billion on record first-quarter deliveries,headlinesIter55.csv
+2021-04-06,tsla,230.5399932861328,52.73051222066346,-6.959206638916523,223.6566619873047,0,Tesla Is Offering 50% Night Discount On Supercharging In California,headlinesIter56.csv
+2021-04-07,tsla,223.6566619873047,49.09976618261057,-6.272471586532296,227.933334350586,1,How EVs Could Get a Big Boost From Biden,headlinesIter57.csv
+2021-04-08,tsla,227.933334350586,51.3415026945797,-5.567255188872132,225.67333984375,0,"Nio's William Li Hints At a Second Electric Vehicle Sedan Model, Rivaling Tesla's Model 3",headlinesIter58.csv
+2021-04-09,tsla,225.67333984375,50.08614220152532,-4.910791642617733,233.9933319091797,1,"Tesla Has Best China Sales Ever As Model 3, Model Y Soar",headlinesIter59.csv
+2021-04-12,tsla,233.9933319091797,54.49715802319511,-4.17536504132017,254.106674194336,1,Huawei to Invest $1 Billion on Car Tech It Says Surpasses Tesla,headlinesIter60.csv
+2021-04-13,tsla,254.106674194336,63.00798055201523,-3.098585073995389,244.07666015625,0,3 Legacy Automakers to Watch As the Shift to EVs Speeds Up,headlinesIter61.csv
+2021-04-15,tsla,246.2833404541016,58.16156296082677,-0.9499636802484288,246.5933380126953,1,"With flagship electric car, Mercedes takes fight to Tesla",headlinesIter62.csv
+2021-04-16,tsla,246.5933380126953,58.29512614175562,0.059698443084359,238.2100067138672,0,"GM, LG Energy Invest $2.3B In Second US EV Battery Manufacturing Plant: Report",headlinesIter63.csv
+2021-04-19,tsla,238.2100067138672,53.33631730623261,0.846421988973766,239.663330078125,1,How S&amp;P 500 Investors Maxed Out A $751 Billion Gain From This Record Rally,headlinesIter64.csv
+2021-04-20,tsla,239.663330078125,54.0657943674695,1.4734283638282872,248.0399932861328,1,Tesla's biggest rival in China is all in on flying cars,headlinesIter65.csv
+2021-04-21,tsla,248.0399932861328,58.12874964493942,2.097744927710679,239.89666748046875,0,Audi Unveils A6 e-tron Electric Vehicle Concept Car,headlinesIter66.csv
+2021-04-22,tsla,239.89666748046875,53.20211694882593,2.5529446720968,243.13333129882807,1,"Facebook has ‘very, very big plans” on digital payments through its platform: Facebook VP",headlinesIter67.csv
+2021-04-23,tsla,243.13333129882807,54.84040297490452,2.92410335112466,246.0666656494141,1,Baidu-Geely Joint Venture Aims $7.7B Investment In Smart Car,headlinesIter68.csv
+2021-04-26,tsla,246.0666656494141,56.3324117724283,3.263264980606803,234.913330078125,0,Apple Pledges $1 Billion for New North Carolina Engineering Hub,headlinesIter69.csv
+2021-04-28,tsla,231.46665954589844,47.726903171960366,3.286476262211312,225.6666717529297,0,NYC ride-hailing company plans all-electric service using Tesla Model Ys,headlinesIter70.csv
+2021-04-29,tsla,225.6666717529297,44.64101716232633,2.9677831819491667,236.47999572753903,1,Saudi Arabia Considers Starting Homegrown Electric-Car Maker,headlinesIter71.csv
+2021-04-30,tsla,236.47999572753903,51.00183889331274,2.689925339609295,228.3000030517578,0,"Volkswagen to design chips for autonomous vehicles, says CEO",headlinesIter72.csv
+2021-05-03,tsla,228.3000030517578,46.63639438634305,2.315590110904446,224.5333404541016,0,Investors Should Ride the Green Wave With Li-Cycle,headlinesIter73.csv
+2021-05-04,tsla,224.5333404541016,44.73749150309816,1.835035396650523,223.64666748046875,0,"Stellantis to hit emissions target without Tesla's help, says CEO",headlinesIter74.csv
+2021-05-05,tsla,223.64666748046875,44.28042332437892,1.2947670725727032,221.17999267578125,0,Check out these stocks: 25 companies that have incredible sales growth — and pricing power,headlinesIter75.csv
+2021-05-06,tsla,221.17999267578125,42.96531811106467,0.7030877810802562,224.1233367919922,1,UPDATE 1-Tesla developing data platform for car owners in China,headlinesIter76.csv
+2021-05-07,tsla,224.1233367919922,45.06201330894148,0.1555587544258739,209.67999267578125,0,These EV Stocks Could Electrify Your Portfolio,headlinesIter77.csv
+2021-05-11,tsla,205.7333374023437,36.00815884952579,-1.42147880591284,196.6300048828125,0,"Premarket Movers Tuesday - Tesla, Palantir, Novavax, Virgin Galactic",headlinesIter78.csv
+2021-05-12,tsla,196.6300048828125,32.33854403058386,-2.457201493293632,190.56333923339844,0,UPDATE 1-Tesla says it supports standardisation of China auto industry,headlinesIter79.csv
+2021-05-13,tsla,190.56333923339844,30.134511226812776,-3.6430342393535176,196.5800018310547,1,Musk Tweets He's Working on More Efficient Dogecoin Transactions,headlinesIter80.csv
+2021-05-14,tsla,196.5800018310547,34.875127041880035,-4.7564942003522725,192.27667236328125,0,Coinbase to Add Dogecoin to Its Platform Within Weeks,headlinesIter81.csv
+2021-05-17,tsla,192.27667236328125,33.14293269388857,-5.824038986602944,192.6233367919922,1,10 Best Alternative Fuel Stocks to Buy Now,headlinesIter82.csv
+2021-05-18,tsla,192.6233367919922,33.429779606935774,-6.788037577692206,187.82000732421875,0,The Key To Ford's Electric-Vehicle Future Will Get A First Look Soon,headlinesIter83.csv
+2021-05-19,tsla,187.82000732421875,31.418353602779906,-7.697764026176985,195.5933380126953,1,"Is GM Stock A Buy? General Motors' EV, AV Plans Race Ahead",headlinesIter84.csv
+2021-05-20,tsla,195.5933380126953,37.927434821929424,-8.38422067095374,193.6266632080078,0,Audi RS e-tron GT first drive: Audi's all-electric sedan is a winner,headlinesIter85.csv
+2021-05-24,tsla,202.14666748046875,43.60384162392997,-9.143600280904195,201.56333923339844,0,Tesla Considering Opening a Factory in Russia – Report,headlinesIter86.csv
+2021-05-25,tsla,201.56333923339844,43.268132171721575,-9.176851377348074,206.3766632080078,1,"Sentieo’s AI-Supported Collaboration Hub Builds Teams, Brings in $20 Million Series B",headlinesIter87.csv
+2021-05-26,tsla,206.3766632080078,46.90093995530524,-8.983206145579688,210.2833404541016,1,Ford says it will spend $30 billion to fuel its electric vehicle future,headlinesIter88.csv
+2021-05-27,tsla,210.2833404541016,49.71541455393249,-8.574694596327681,208.4066619873047,0,Tesla Reportedly Looking to Secure Its Own Chip Stash,headlinesIter89.csv
+2021-05-28,tsla,208.4066619873047,48.38856921814741,-8.063321697778928,207.96665954589844,0,Elon Musk is 'a competitive advantage' for Tesla: analyst,headlinesIter90.csv
+2021-06-01,tsla,207.96665954589844,48.06467355521238,-7.50292635137167,201.7066650390625,0,Tesla Is Turning Cars Into Phones. Other Car Makers Better Catch On.,headlinesIter91.csv
+2021-06-02,tsla,201.7066650390625,43.593816422038536,-7.023955403831093,190.94667053222656,0,These 25 Stocks Are the Best to Own in June,headlinesIter92.csv
+2021-06-04,tsla,199.683334350586,44.33952098635886,-6.5330348745518005,201.7100067138672,1,Jack Dorsey Says Square May Build a Bitcoin Hardware Wallet,headlinesIter93.csv
+2021-06-07,tsla,201.7100067138672,45.87846855422325,-6.256973994198073,201.19667053222656,0,EV Investors Driven Toward Xpeng’s Growth Potential,headlinesIter94.csv
+2021-06-08,tsla,201.19667053222656,45.53504846150625,-5.969064222957311,199.5933380126953,0,Faux-Chicken Maker Simulate Valued at More Than $250 Million in New Funding,headlinesIter95.csv
+2021-06-09,tsla,199.5933380126953,44.41671923649585,-5.700796031564667,203.3733367919922,1,Former Tesla Exec's Swedish Battery Company Northvolt Raises $2.75B In Funding Round: Bloomberg,headlinesIter96.csv
+2021-06-10,tsla,203.3733367919922,47.6792214201469,-5.385600923644668,203.29666137695312,0,Tesla to Introduce Upgraded Model S to Jump-Start High-End Model Sales,headlinesIter97.csv
+2021-06-11,tsla,203.29666137695312,47.61816540556601,-5.046464419528122,205.89666748046875,1,"With XPeng Delivering on Ambitious Goals, XPEV Stock Is a Buy",headlinesIter98.csv
+2021-06-14,tsla,205.89666748046875,49.958266185059614,-4.657116515973383,199.7866668701172,0,Elon Musk Says Tesla Might Use Bitcoin Again After All,headlinesIter99.csv
+2021-06-15,tsla,199.7866668701172,44.88375085433786,-4.343574321120057,201.6233367919922,1,UPDATE 1-Volkswagen seeks partners for battery materials race,headlinesIter100.csv
+2021-06-17,tsla,205.5333404541016,50.26814776193804,-3.725010684197231,207.7700042724609,1,Why Sharing Its Charging Network Could Help Tesla,headlinesIter101.csv
+2021-06-18,tsla,207.7700042724609,52.26829801078261,-3.34267314119386,206.94332885742188,0,XPeng Is Finally Justifying Its Premium Valuation,headlinesIter102.csv
+2021-06-21,tsla,206.94332885742188,51.44475164697454,-2.9529996084908907,207.90333557128903,1,"Volvo Car, Northvolt Partner For Europe's EV Battery Factory: Report",headlinesIter103.csv
+2021-06-22,tsla,207.90333557128903,52.38303781116732,-2.557108520184999,218.856674194336,1,Alset EHome Partnering with Tesla to Develop eHomes in Texas,headlinesIter104.csv
+2021-06-23,tsla,218.856674194336,61.51981800506884,-1.9974913654602309,226.606674194336,1,Tesla opens first charging station in China with energy storage facilities,headlinesIter105.csv
+2021-06-24,tsla,226.606674194336,66.4282752975211,-1.2363905296597264,223.9566650390625,0,Musk says Starlink to go public once cash flow is more predictable,headlinesIter106.csv
+2021-06-25,tsla,223.9566650390625,63.44800125702008,-0.4283631536537232,229.5733337402344,1,"Tesla (TSLA) Grows Solar Arm, Opens Solar Charging Station in China",headlinesIter107.csv
+2021-06-28,tsla,229.5733337402344,66.84338969099521,0.4573057333955408,226.9199981689453,0,"NIO Will Surpass Tesla as China's Top EV Maker, Navellier Says",headlinesIter108.csv
+2021-06-30,tsla,226.5666656494141,63.4166489449548,2.067705026790978,225.97332763671875,0,"This new ‘Tesla fighter’ from Mercedes beats out the Model S on two key measures, UBS says",headlinesIter109.csv
+2021-07-01,tsla,225.97332763671875,62.68772356297323,2.7299437832944102,226.3000030517578,1,"Nio’s strong Q2 sales, Xpeng raises $1.8 billion, ViacomCBS C-suite changes",headlinesIter110.csv
+2021-07-02,tsla,226.3000030517578,62.94029296024619,3.2915031885134005,219.8600006103516,0,7 Energy Stocks to Buy for $100 Oil in 2022,headlinesIter111.csv
+2021-07-06,tsla,219.8600006103516,55.03174855496839,3.65027237560905,214.88333129882807,0,15 Best Clean Energy Stocks to Invest In,headlinesIter112.csv
+2021-07-07,tsla,214.88333129882807,49.82189544590716,3.7754097476770254,217.60333251953125,1,Uber Could Transport Investors to New Growth,headlinesIter113.csv
+2021-07-08,tsla,217.60333251953125,52.47034570312451,3.782342424832344,218.9833374023437,1,Musk's Boring Company bids to build transit tunnel in Florida,headlinesIter114.csv
+2021-07-09,tsla,218.9833374023437,53.802612464246025,3.728219715273821,228.5666656494141,1,Nio Has an Early Mover Advantage and the Largest Market,headlinesIter115.csv
+2021-07-13,tsla,222.8466644287109,55.613571704502775,3.8034523571993946,217.7933349609375,0,10 Best Self Driving Car Stocks to Invest In,headlinesIter116.csv
+2021-07-14,tsla,217.7933349609375,50.77203878293653,3.7118818496399433,216.86666870117188,0,Brookfield and Tesla are Teaming up on the Nation's Most Sustainable Community in Austin,headlinesIter117.csv
+2021-07-15,tsla,216.86666870117188,49.913906807670415,3.531693995216022,214.7400054931641,0,10 Best 3D Printing and Additive Manufacturing Stocks to Buy,headlinesIter118.csv
+2021-07-16,tsla,214.7400054931641,47.91248676554204,3.2634291352371103,215.4066619873047,1,Buy XPeng Stock To Gain From China’s Electric Vehicle Boom,headlinesIter119.csv
+2021-07-19,tsla,215.4066619873047,48.608149937437176,2.957220301641428,220.1666717529297,1,"Xpeng Prices New EV Aggressively Amid Competition Vs. Tesla, Nio",headlinesIter120.csv
+2021-07-20,tsla,220.1666717529297,53.39438521052351,2.7124839660191293,218.42999267578125,0,Elon Musk says Tesla will open up ‘Supercharger’ stations to other EVs,headlinesIter121.csv
+2021-07-21,tsla,218.42999267578125,51.50950573591674,2.485216884313491,216.4199981689453,0,"Tesla Says It'll Open Superchargers To Other EVs, While Li Auto, Nio, Xpeng Charge Ahead",headlinesIter122.csv
+2021-07-22,tsla,216.4199981689453,49.33862952946481,2.2430803080759945,214.4600067138672,0,Elon Musk Says SpaceX Holds Bitcoin And Tesla Might Start Accepting It Again,headlinesIter123.csv
+2021-07-26,tsla,219.2066650390625,52.498191054181206,1.75776647086405,214.9266662597656,0,EV Sales Growth Is Outpacing That Of Traditional Industry,headlinesIter124.csv
+2021-07-27,tsla,214.9266662597656,47.87133748936084,1.5270523759890025,215.66000366210932,1,A new Austin community will come standard with Tesla solar panels and batteries,headlinesIter125.csv
+2021-07-28,tsla,215.66000366210932,48.70551213938456,1.3037740568446403,225.7833404541016,1,3 High-Growth Stocks That Could Be Worth $1 Trillion in 10 Years -- or Sooner,headlinesIter126.csv
+2021-07-29,tsla,225.7833404541016,58.563128226141856,1.2554013175369922,229.0666656494141,1,"Andreessen-Backed Startup to Sell $300,000 Electric Boats",headlinesIter127.csv
+2021-07-30,tsla,229.0666656494141,61.16957152748304,1.368714008448887,236.55667114257807,1,Tesla’s Battery Fire Actually Shows It Is More Than an EV Company,headlinesIter128.csv
+2021-08-02,tsla,236.55667114257807,66.36691009796199,1.6938070432083037,236.5800018310547,1,Investors Should Get Plugged Into Heliogen’s Smart Solar Power,headlinesIter129.csv
+2021-08-03,tsla,236.5800018310547,66.38200432038205,2.131109679186478,236.97332763671875,1,Indian auto part makers want Tesla's entry to benefit local companies,headlinesIter130.csv
+2021-08-04,tsla,236.97332763671875,66.65371145988229,2.617237046032169,238.2100067138672,1,"5 Best Stories on Real Money: Cramer's Millennials Stocks, 2 Steps to Trading Success",headlinesIter131.csv
+2021-08-06,tsla,233.0333404541016,60.30102139832705,3.5229156459936366,237.9199981689453,1,10 Stocks to Buy From Cathie Wood’s Fleet of ETFs,headlinesIter132.csv
+2021-08-09,tsla,237.9199981689453,64.20243341242151,3.907112525795675,236.663330078125,0,‘The marketplace dynamics of Rodo will still allow you to find a car competitively priced’: CEO,headlinesIter133.csv
+2021-08-10,tsla,236.663330078125,62.5013514367621,4.231891413925422,235.94000244140625,0,12 Best Artificial Intelligence Stocks To Invest In Right Now,headlinesIter134.csv
+2021-08-11,tsla,235.94000244140625,61.49143020490032,4.481217203461839,240.75,1,"Not Just Tesla, SpaceX, Elon Musk — Coinbase Is Also Finding Popularity With Hedge Funds",headlinesIter135.csv
+2021-08-12,tsla,240.75,65.4853228787502,4.736707484016359,239.05667114257807,0,"UPDATE 1-Chinese electric carmaker Nio to compete with Volkswagen, Toyota",headlinesIter136.csv
+2021-08-13,tsla,239.05667114257807,63.00781767356772,4.944856337998239,228.72332763671875,0,Tesla's Musk hopes to make first cars at Berlin plant in Oct,headlinesIter137.csv
+2021-08-16,tsla,228.72332763671875,50.461529633406485,4.936288207756593,221.90333557128903,0,Luminar’s plan to expand its technology beyond Tesla,headlinesIter138.csv
+2021-08-17,tsla,221.90333557128903,44.20517173993226,4.672275436303149,229.663330078125,1,15 Best Momentum Stocks To Invest In,headlinesIter139.csv
+2021-08-19,tsla,224.4900054931641,47.10362250942611,3.980341958511015,226.7533264160156,1,Tesla Plotting Battery-Storage Entry into Japan’s Power Market,headlinesIter140.csv
+2021-08-20,tsla,226.7533264160156,49.17491754769951,3.572038360387946,235.433334350586,1,Coinbase to Add $500 Million in Digital Assets on Its Balance Sheet,headlinesIter141.csv
+2021-08-23,tsla,235.433334350586,56.25029803872243,3.307024281821927,236.163330078125,1,"Elon Musk, Lex Fridman See Language Evolving With Help Of Artificial Intelligence",headlinesIter142.csv
+2021-08-24,tsla,236.163330078125,56.79503921308376,3.1498230522499986,237.0666656494141,1,Diamond Marketplace Debuts With An Elon Musk Signed Tesla And A Matching NFT,headlinesIter143.csv
+2021-08-25,tsla,237.0666656494141,57.50024362646783,3.075670683533462,233.72000122070312,0,Waymo Expands Self-Driving Operations. What It Means for Tesla.,headlinesIter144.csv
+2021-08-26,tsla,233.72000122070312,53.9846441721372,2.997054769588904,237.30667114257807,1,12 Best ARK Stocks To Invest In,headlinesIter145.csv
+2021-08-27,tsla,237.30667114257807,57.01771876768802,2.9701546978473155,243.6366729736328,1,Texas May Soon Get A New Electricity Supplier: Tesla,headlinesIter146.csv
+2021-08-30,tsla,243.6366729736328,61.80299219844447,3.071301159155094,245.2400054931641,1,Amazon and Ford-Backed Electric Truck Maker Files to Go Public for $80 Billion,headlinesIter147.csv
+2021-09-01,tsla,244.69667053222656,62.25911516659529,3.4929718997233405,244.1300048828125,0,Tesla (TSLA) to Make Inroads Into India With Nod to 4 Vehicles,headlinesIter148.csv
+2021-09-02,tsla,244.1300048828125,61.5237580099142,3.7113100656973903,244.52333068847656,1,Nikola Teams Up With Global Auto Supplier On Fuel Cells To Take On Tesla,headlinesIter149.csv
+2021-09-03,tsla,244.52333068847656,61.860487193687405,3.910596652888211,250.97332763671875,1,TSM Rival To Build $9B Chip Plant In Shanghai,headlinesIter150.csv
+2021-09-07,tsla,250.97332763671875,66.96601686473858,4.181488040794768,251.2899932861328,1,Mobileye to launch robotaxis in Germany next year -CEO,headlinesIter151.csv
+2021-09-08,tsla,251.2899932861328,67.19817812837186,4.478581114809771,251.6199951171875,1,Applied Materials Focuses On Improved EV Chip Production To Tap Likes Of Tesla,headlinesIter152.csv
+2021-09-09,tsla,251.6199951171875,67.45487163486042,4.771580182397543,245.42333984375,0,Nio's New ET7 Sedan Could Include Low-Cost Lithium Iron Phosphate Battery: Report,headlinesIter153.csv
+2021-09-10,tsla,245.42333984375,58.23863211786021,4.936914298604188,247.6666717529297,1,ETFs to Tap on Rivian's High-Profile IPO Move,headlinesIter154.csv
+2021-09-14,tsla,248.163330078125,60.82304076799423,5.090221184234838,251.94332885742188,1,UPDATE 1-China develops machines that can track data sent abroad by cars,headlinesIter155.csv
+2021-09-15,tsla,251.94332885742188,64.30842402020048,5.15755851484615,252.3300018310547,1,Rivian aims to raise as much as $8 bln in IPO -sources,headlinesIter156.csv
+2021-09-16,tsla,252.3300018310547,64.65483106782584,5.225318519065398,253.163330078125,1,'Space X is by far the most diversified of all of these space companies:' CEO of space ETF,headlinesIter157.csv
+2021-09-17,tsla,253.163330078125,65.43346584865557,5.291177063126391,243.38999938964844,0,UPDATE 1-Tesla to work with global regulators to ensure data security -Musk,headlinesIter158.csv
+2021-09-20,tsla,243.38999938964844,51.19040121950113,5.1844039492058815,246.4600067138672,1,Why Rocket Lab is ‘the best space asset’ to hit the market over the last year,headlinesIter159.csv
+2021-09-21,tsla,246.4600067138672,54.53800113742492,5.012189748095819,250.64666748046875,1,Tesla (TSLA) to Expand 'Full Self-Driving Capability' Beta,headlinesIter160.csv
+2021-09-22,tsla,250.64666748046875,58.69816730998214,4.863358027365289,251.2133331298828,1,"AMC Entertainment CEO Tells Apes To 'Stay Tuned' For Dogecoin Updates, Compliments Elon Musk",headlinesIter161.csv
+2021-09-23,tsla,251.2133331298828,59.24181900058176,4.734940239853463,258.1300048828125,1,10 Best Micro-Cap Stocks to Invest In,headlinesIter162.csv
+2021-09-24,tsla,258.1300048828125,65.25375394767877,4.725608954401052,263.78668212890625,1,"3 Mega-Cap, Most-Shorted Stocks to Buy",headlinesIter163.csv
+2021-09-27,tsla,263.78668212890625,69.2487077965399,4.87088630575776,259.1866760253906,0,Ford Is Building Megacampuses to Compete With Tesla’s Gigafactories,headlinesIter164.csv
+2021-09-28,tsla,259.1866760253906,62.91391679805313,5.020961530643668,260.4366760253906,1,Ford Is Building EV Megacampuses to Compete With Tesla’s Gigafactories,headlinesIter165.csv
+2021-09-29,tsla,260.4366760253906,63.88084556356486,5.174676011409941,258.49334716796875,0,UPDATE 1-Lucid to start deliveries of electric cars with range exceeding Tesla's in October,headlinesIter166.csv
+2021-09-30,tsla,258.49334716796875,61.20895039560379,5.279814729888152,258.4066772460937,0,Looking for a Growth Stock? Why It is Time to Focus on Tesla (TSLA),headlinesIter167.csv
+2021-10-01,tsla,258.4066772460937,61.08623504117983,5.335579022526526,260.510009765625,1,"DraftKings Is a Wild Card Now, But It Remains a Solid Long-Term Bet",headlinesIter168.csv
+2021-10-04,tsla,260.510009765625,63.02369060474155,5.378869703261889,260.1966552734375,0,"Hard to Believe, but Tesla's (NASDAQ:TSLA) High Growth may be Just Beginning",headlinesIter169.csv
+2021-10-05,tsla,260.1966552734375,62.52424336659095,5.394813876695109,260.9166564941406,1,BHP Group (BHP) to Supply Nickel to EV Battery Manufacturer,headlinesIter170.csv
+2021-10-06,tsla,260.9166564941406,63.244992764268574,5.391973296102513,264.53668212890625,1,"EVs Can Turn GM Into a Growth Company, Just Like Tesla",headlinesIter171.csv
+2021-10-07,tsla,264.53668212890625,66.71149341923439,5.422973700453019,261.8299865722656,0,Groundbreaking Tech Makes Bionano Genomics Look Better Than Ever,headlinesIter172.csv
+2021-10-08,tsla,261.8299865722656,62.00281905409126,5.418016085344509,263.9800109863281,1,Is Tesla (TSLA) Still a Great Investment Choice?,headlinesIter173.csv
+2021-10-12,tsla,268.5733337402344,68.31709389503915,5.468473008518412,270.3599853515625,1,Volume Production Is Key to Tesla (TSLA) Success: Analyst,headlinesIter174.csv
+2021-10-13,tsla,270.3599853515625,69.78322965590765,5.57557772131797,272.7733459472656,1,UPDATE 1-New Caledonia's Prony to supply nickel to Tesla in multi-year deal,headlinesIter175.csv
+2021-10-14,tsla,272.7733459472656,71.68900348350337,5.7350588685059165,281.010009765625,1,Musk tweets he is in talks with airlines to install Starlink broadband,headlinesIter176.csv
+2021-10-15,tsla,281.010009765625,77.01679987754517,6.037348086192992,290.03668212890625,1,XPeng Is a More Sustainable EV Maker Than Even Tesla,headlinesIter177.csv
+2021-10-18,tsla,290.03668212890625,81.1937216783813,6.543555083566082,288.0899963378906,0,"EV Roundup: HMC EV Ambitions in China, SOLO-Bosch Partnership &amp; More",headlinesIter178.csv
+2021-10-19,tsla,288.0899963378906,77.90545830026258,7.105065266929811,288.6000061035156,1,Chrysler Invests In EV Batteries. Car Companies Are Planning Lots of Capacity.,headlinesIter179.csv
+2021-10-20,tsla,288.6000061035156,78.15506839937065,7.66374615119954,298.0,1,Morgan Stanley Clients Believe Big-Time in Musk's SpaceX,headlinesIter180.csv
+2021-10-21,tsla,298.0,82.15631611265826,8.323870895378406,303.2266540527344,1,Autonation CEO: We’re ‘fully embracing’ electric vehicles,headlinesIter181.csv
+2021-10-22,tsla,303.2266540527344,83.91996674927563,9.077390283050525,341.6199951171875,1,Factbox-Electric-vehicle batteries: major players and their expansion plans,headlinesIter182.csv
+2021-10-25,tsla,341.6199951171875,90.9758481109975,10.44180101707548,339.4766540527344,0,MicroVision Stock Is a Solid Long-Term Bet for Speculative Investors,headlinesIter183.csv
+2021-10-26,tsla,339.4766540527344,88.63753818036844,12.05958721525133,345.9533386230469,1,6 ETFs to Ride on Tesla's Trillion-Dollar Market Cap,headlinesIter184.csv
+2021-10-27,tsla,345.9533386230469,89.51455695730198,13.827222700858265,359.0133361816406,1,General Motors (GM) to Deploy 40K Community-Based EV Chargers,headlinesIter185.csv
+2021-10-28,tsla,359.0133361816406,91.0197728927818,15.772968039647848,371.3333435058594,1,Hertz (HTZZ) Growing Its Presence in EV Market,headlinesIter186.csv
+2021-10-29,tsla,371.3333435058594,92.16272874110378,17.88895873470627,402.86334228515625,1,Hertz Says It Could Expand Uber Deal in Electric Vehicle Push,headlinesIter187.csv
+2021-11-01,tsla,402.86334228515625,94.1979834518968,20.463002352176005,390.6666564941406,0,Tesla Allows Non-Tesla's to Use Superchargers in Pilot Program,headlinesIter188.csv
+2021-11-02,tsla,390.6666564941406,85.00224039794867,22.947978727644635,404.6199951171875,1,ETFs to Tap on Rivian's High-Profile IPO Plan,headlinesIter189.csv
+2021-11-03,tsla,404.6199951171875,86.61240001729816,25.417177196441138,409.9700012207031,1,Tesla added to Uber London plan to boost electric car uptake,headlinesIter190.csv
+2021-11-04,tsla,409.9700012207031,87.1806875177403,27.7744722496502,407.36334228515625,0,"Big Tech, Tesla &amp; An ETF to Invest in Disruption",headlinesIter191.csv
+2021-11-05,tsla,407.36334228515625,85.28121347112132,29.833163746599823,387.6466674804688,0,Tesla Surpasses a Whole Index Worth of Energy Industry Leaders,headlinesIter192.csv
+2021-11-08,tsla,387.6466674804688,72.42694445709053,31.21421246342272,341.1666564941406,0,Here’s Why Miller Value Partners See General Motors (GM) as an ‘Attractive Investment Opportunity’,headlinesIter193.csv
+2021-11-09,tsla,341.1666564941406,52.3823850771752,31.28542602494193,355.9833374023437,1,Amazon is EV startup Rivian’s biggest investor—and its most important customer,headlinesIter194.csv
+2021-11-10,tsla,355.9833374023437,56.51395972222272,30.69701283024239,354.5033264160156,0,"Yes, Virgin Galactic Stock Is Worth Owning for the Long Term",headlinesIter195.csv
+2021-11-12,tsla,344.47332763671875,52.4514680565204,28.09763049281849,337.7966613769531,0,Tesla CEO Elon Musk says production and cashflow will be the 'real test' for Rivian,headlinesIter196.csv
+2021-11-15,tsla,337.7966613769531,50.17731302942845,26.178010122942744,351.57666015625,1,"Infrastructure bill 'amazing' for electric vehicle industry, Blink Charging CEO says",headlinesIter197.csv
+2021-11-16,tsla,351.57666015625,54.55663702095873,24.278005848813912,363.0033264160156,1,The Forever Battery That Promises to Change the EV Industry,headlinesIter198.csv
+2021-11-17,tsla,363.0033264160156,57.86404535203828,22.61686922734584,365.4599914550781,1,Volkswagen to Compete with Tesla in the Electric Vehicle Space,headlinesIter199.csv
+2021-11-18,tsla,365.4599914550781,58.56231619907549,21.18017598552805,379.0199890136719,1,Innoviz CEO discusses partnerships with Nvidia and BMW on LiDAR technology for autonomous vehicles,headlinesIter200.csv
+2021-11-19,tsla,379.0199890136719,62.27819770458664,20.12754127565389,385.6233215332031,1,Snapchat Stock Offers Opportunities While It Finds Footing,headlinesIter201.csv
+2021-11-22,tsla,385.6233215332031,63.9724919939581,19.430285439791504,369.6766662597656,0,Tesla’s Winning Streak Delivers Additional $175 Billion in Market Value,headlinesIter202.csv
+2021-11-23,tsla,369.6766662597656,57.28134264491106,18.693620378229344,372.0,1,Signet and Tesla are Aggressive Growth Stocks,headlinesIter203.csv
+2021-11-24,tsla,372.0,57.971077835508055,17.96533246801055,360.6400146484375,0,"There is ‘very strong momentum’ for electrics vehicles in China, XPeng president says",headlinesIter204.csv
+2021-11-26,tsla,360.6400146484375,53.42863255472003,17.05828469141116,378.9966735839844,1,Tesla to invest $188 million to expand Shanghai factory capacity -Beijing Daily,headlinesIter205.csv
+2021-11-29,tsla,378.9966735839844,59.01697364061652,16.34073312783636,381.586669921875,1,Nissan to invest $18 billion in electric vehicle push,headlinesIter206.csv
+2021-11-30,tsla,381.586669921875,59.750829961753446,15.783647400800303,365.0,0,"Tesla (TSLA) to Boost Shanghai Production, Open Berlin Plant",headlinesIter207.csv
+2021-12-01,tsla,365.0,53.18296391416559,15.055737149356412,361.5333251953125,0,3 Cathie Wood Investments That Could Deliver Superior Returns,headlinesIter208.csv
+2021-12-02,tsla,361.5333251953125,51.89892757833982,14.169291811391458,338.3233337402344,0,Exclusive-Toyota turns to Chinese tech to reach its electric holy grail,headlinesIter209.csv
+2021-12-03,tsla,338.3233337402344,44.2038736886865,12.827352141763752,336.336669921875,0,CNH Industrial (CNHI) to Enrich Portfolio With NX9 Buyout,headlinesIter210.csv
+2021-12-06,tsla,336.336669921875,43.60786554084758,11.209331953216154,350.5833435058594,1,Here’s What Makes Tesla (TSLA) A Great Long-Term Investment,headlinesIter211.csv
+2021-12-07,tsla,350.5833435058594,48.92606877663792,9.70483815730286,356.32000732421875,1,"Tesla Is the ‘Undisputed Leader’ in the EV Market, Analyst Says",headlinesIter212.csv
+2021-12-08,tsla,356.32000732421875,50.93270710915226,8.41977438726227,334.6000061035156,0,Thor (THO) Secures Elkboard Supply Via the Elkhart Buyout,headlinesIter213.csv
+2021-12-09,tsla,334.6000061035156,43.900042777443495,6.973889969686063,339.010009765625,1,Ford (F) to Invest $900M for Revamping Thai Auto Plants,headlinesIter214.csv
+2021-12-10,tsla,339.010009765625,45.54415485624833,5.557466063100248,322.1366577148437,0,11 Best Manufacturing Stocks to Invest In,headlinesIter215.csv
+2021-12-13,tsla,322.1366577148437,40.63692069029312,3.951887649289959,319.5033264160156,0,Polestar Is an Intriguing Pick Out of the Electric Vehicle Crowd,headlinesIter216.csv
+2021-12-14,tsla,319.5033264160156,39.91411844462184,2.260897514202908,325.3299865722656,1,"Tesla Has a Considerable Lead Over the Competition, Says Deutsche Bank",headlinesIter217.csv
+2021-12-15,tsla,325.3299865722656,42.35722523554348,0.692825381019996,308.97332763671875,0,"Large Company Growth Portfolio Buys Tesla Inc, Advanced Micro Devices Inc, Vertex ...",headlinesIter218.csv
+2021-12-16,tsla,308.97332763671875,37.72054101316228,-0.9785432270187622,310.8566589355469,1,Musk says Tesla's Texas factory is $10 billion investment over time,headlinesIter219.csv
+2021-12-17,tsla,310.8566589355469,38.55457998429046,-2.594762411198043,299.9800109863281,0,Will Tesla Be the First Company to Deploy a Fully Autonomous Vehicle?,headlinesIter220.csv
+2021-12-20,tsla,299.9800109863281,35.590256077357424,-4.259306701783824,312.84332275390625,1,"Nio Touts Vast Expansion, Record Preorders For New ET5 Rival To Tesla Model 3",headlinesIter221.csv
+2021-12-21,tsla,312.84332275390625,41.33500588372653,-5.651947622576969,336.2900085449219,1,"Tesla Will See More Competition in Soon, Guggenheim Says",headlinesIter222.csv
+2021-12-22,tsla,336.2900085449219,50.07568218424946,-6.414200130764073,355.6666564941406,1,"Fisker (FSR), Bridgestone Team Up for EV After-Sales Services",headlinesIter223.csv
+2021-12-23,tsla,355.6666564941406,55.92066107169378,-6.417616497799576,364.6466674804688,1,Tesla Stock Will Take Off in 2022 Thanks to a New Battery Deal,headlinesIter224.csv
+2021-12-27,tsla,364.6466674804688,58.3541291741066,-5.787332104355089,362.8233337402344,0,7 of the Best EV Stocks to Buy Now for 2022 Gains,headlinesIter225.csv
+2021-12-28,tsla,362.8233337402344,57.65810403364735,-4.808796624858202,362.0633239746094,0,"Tesla 'ranks no. 1’ in future capability with autonomy, chip building: Innovation expert",headlinesIter226.csv
+2021-12-29,tsla,362.0633239746094,57.35103763068636,-3.664445849859395,356.7799987792969,0,Rivian is a ‘category changer’ but ‘they need to execute flawlessly’: Analyst,headlinesIter227.csv
+2021-12-30,tsla,356.7799987792969,55.15212950776011,-2.5520943730469674,352.260009765625,0,"BMW (BAMXF) to Fuel EV Production Via 6,000 Fresh Positions",headlinesIter228.csv
+2022-01-03,tsla,399.9266662597656,66.32085464846331,0.0059827756165957,383.1966552734375,0,ETFs to Drive Tesla's Near $1 Million Vehicle Deliveries,headlinesIter229.csv
+2022-01-04,tsla,383.1966552734375,59.98845380584756,1.6363700298416528,362.7066650390625,0,Ford Wants to Double the Production of its Electric F-150 Lightning Pickup,headlinesIter230.csv
+2022-01-05,tsla,362.7066650390625,53.278761381500914,2.875723397763962,354.8999938964844,0,Sony Exploring Commercial Launch of its Own Electric Vehicle,headlinesIter231.csv
+2022-01-06,tsla,354.8999938964844,50.9409431425788,3.673910115905584,342.32000732421875,0,Cadillac To Feature GM's New Autonomous Driving System,headlinesIter232.csv
+2022-01-07,tsla,342.32000732421875,47.33639539723384,3.944659935292304,352.7066650390625,1,Nikola (NKLA) Teams Up With SAIA and Heniff for BEV Trucks,headlinesIter233.csv
+2022-01-10,tsla,352.7066650390625,50.45367375838013,4.027351751408648,354.79998779296875,1,10 Best EV Battery Stocks To Invest In,headlinesIter234.csv
+2022-01-11,tsla,354.79998779296875,51.08213365135678,4.012056205373212,368.739990234375,1,"Electric vehicles: Audi's ‘entire portfolio will be fully electric’ by 2025, executive says",headlinesIter235.csv
+2022-01-12,tsla,368.739990234375,55.16094741312132,4.149406206577771,343.85333251953125,0,Mercedes-Benz to assemble its EQS electric luxury sedan in India,headlinesIter236.csv
+2022-01-13,tsla,343.85333251953125,47.53992452588186,3.96872194055225,349.8699951171875,1,Buy Into the Transformation of Ford as an EV Maker,headlinesIter237.csv
+2022-01-14,tsla,349.8699951171875,49.36145537601183,3.685118542614151,343.5033264160156,0,Tesla Stock’s Future Looks Bright Thanks to Dogecoin Merch Payments,headlinesIter238.csv
+2022-01-18,tsla,343.5033264160156,47.48264146285568,3.241898774136577,331.8833312988281,0,FOCUS-Cadence Design Systems aims to cash in on new custom-chip era,headlinesIter239.csv
+2022-01-19,tsla,331.8833312988281,44.17760427915876,2.529089690974505,332.0899963378906,1,Electric Vehicle Checkpoint: Tesla Secures Plan B for EV Batteries in Africa,headlinesIter240.csv
+2022-01-20,tsla,332.0899963378906,44.2519262294473,1.682206791190109,314.6333312988281,0,Smartcar raises $24 million to build platform for ‘computers on wheels’,headlinesIter241.csv
+2022-01-21,tsla,314.6333312988281,39.47145499149745,0.513339036839964,310.0,0,"Sequent Asset Management, LLC Buys ALPS Clean Energy ETF, AbbVie Inc, Fidelity Nasdaq Composite ...",headlinesIter242.csv
+2022-01-24,tsla,310.0,38.28914606098379,-0.8711607056222437,306.1333312988281,0,"After a Terrific 2021 Performance, Ford Is Set Up to Continue Supercharging Its Business",headlinesIter243.csv
+2022-01-25,tsla,306.1333312988281,37.285420078540085,-2.377941525820676,312.4700012207031,1,BofA on Moderna: upgrading to ‘neutral’ on the ‘Tesla of biotech’,headlinesIter244.csv
+2022-01-26,tsla,312.4700012207031,40.05858246226002,-3.775860138689076,276.3666687011719,0,Bentley CEO details $3.4 billion 'transformation' for electric vehicle era,headlinesIter245.csv
+2022-01-27,tsla,276.3666687011719,31.509504985465583,-5.599666460700036,282.1166687011719,1,NIO Remains a Solid Bet on the Future of Electric Vehicles,headlinesIter246.csv
+2022-01-28,tsla,282.1166687011719,33.92800628156567,-7.490303342590778,312.239990234375,1,"Stevens Capital Management Lp Buys VanEck Gold Miners ETF, Boeing Co, Financial Select Sector ...",headlinesIter247.csv
+2022-01-31,tsla,312.239990234375,44.90425154333561,-8.826046097093354,310.4166564941406,0,"EV Roundup: TSLA's Solid Q4 Show, GM's Big Electrification Bet &amp; More",headlinesIter248.csv
+2022-02-01,tsla,310.4166564941406,44.423197137203545,-9.752944000767991,301.8866577148437,0,Ford to Spend Up to $20 Billion Reorganizing for Shift to Electric Cars,headlinesIter249.csv
+2022-02-02,tsla,301.8866577148437,42.14833718915417,-10.488858569267943,297.0466613769531,0,Biden Must Recognize That TSLA Stock Is America’s Best EV Bet,headlinesIter250.csv
+2022-02-03,tsla,297.0466613769531,40.86947239586227,-11.119803709955782,307.7733459472656,1,"Hey businesses: There's a clear-cut way to increase profit, lure new talent – ESG",headlinesIter251.csv
+2022-02-04,tsla,307.7733459472656,44.8624494539909,-11.455398590617865,302.4466552734375,0,Tesla files for 'Project Cathode' facility near Austin-area EV factory,headlinesIter252.csv
+2022-02-07,tsla,302.4466552734375,43.29880634285589,-11.647156280086486,307.3333435058594,1,"Sax Wealth Advisors, Llc Buys Apple Inc, Dimensional International Value ETF, Dimensional World ...",headlinesIter253.csv
+2022-02-08,tsla,307.3333435058594,45.18630045980602,-11.6341968679186,310.6666564941406,1,"Keudell Buys Dimensional U.S. Core Equity 2 ETF, Vanguard Growth ETF, iShares MSCI Emerging ...",headlinesIter254.csv
+2022-02-09,tsla,310.6666564941406,46.49468815273913,-11.413906346335178,301.51666259765625,0,Biden Just Gave TSLA Stock the Fuel It Needs to Overcome Threats in 2022,headlinesIter255.csv
+2022-02-10,tsla,301.51666259765625,43.430130058499664,-11.195180902441106,286.6666564941406,0,Ex-Consultant Gets Temasek to Help It Build the TSMC of Chip Design,headlinesIter256.csv
+2022-02-11,tsla,286.6666564941406,38.94378021979399,-11.200309460589889,291.9200134277344,1,This Legacy Company Is Leveling Up in the Electric Truck Race,headlinesIter257.csv
+2022-02-14,tsla,291.9200134277344,41.25564847162399,-11.236134510427837,307.4766540527344,1,Nio’s Results Should Show the Tesla Competitor is Real Competition,headlinesIter258.csv
+2022-02-15,tsla,307.4766540527344,47.58491073578258,-11.015514979485877,307.7966613769531,1,Australia's Syrah Resources to expand Louisiana graphite processing facility,headlinesIter259.csv
+2022-02-16,tsla,307.7966613769531,47.70971710575338,-10.61551407702978,292.1166687011719,0,"The 2022 Ford Mustang Mach-E—practical and high tech, with performance that lives up to its name",headlinesIter260.csv
+2022-02-17,tsla,292.1166687011719,42.38427354525626,-10.350019335812528,285.6600036621094,0,"Electric vehicles: 'Battery technology is the main differentiator,' Nissan COO says",headlinesIter261.csv
+2022-02-18,tsla,285.6600036621094,40.3852460721368,-10.262170655737846,273.84332275390625,0,Ford’s CEO Is Exploring Ways to Separate Its EV Business to Unlock Tesla-Like Value,headlinesIter262.csv
+2022-02-22,tsla,273.84332275390625,36.95041578551597,-10.455410937845748,254.67999267578125,0,Buy These 5 Stocks With Sales Growth for Robust Returns Now,headlinesIter263.csv
+2022-02-23,tsla,254.67999267578125,32.17164717185513,-11.096612103647686,266.92333984375,1,Tesla to expand parts production in Shanghai to meet export demand -document,headlinesIter264.csv
+2022-02-24,tsla,266.92333984375,37.71407983375693,-11.76434677126839,269.9566650390625,1,Exclusive-Tesla plans new Shanghai plant to more than double China capacity - sources,headlinesIter265.csv
+2022-02-25,tsla,269.9566650390625,39.04305192660999,-12.33850011126843,290.1433410644531,1,This Tesla Competitor Targets 10% EV Market Share By 2030,headlinesIter266.csv
+2022-02-28,tsla,290.1433410644531,47.12808080790968,-12.473711857639556,288.1233215332031,0,This new competitor to the ARK Innovation ETF focuses on disruptive companies but aims to reduce volatility,headlinesIter267.csv
+2022-03-01,tsla,288.1233215332031,46.46395557860211,-12.330513613005838,293.2966613769531,1,EV battery startup ONE raises $65 million to speed U.S. plant plans,headlinesIter268.csv
+2022-03-02,tsla,293.2966613769531,48.46684547594202,-11.909678717844454,279.7633361816406,0,"Ford Aims For 'Startup Speed' With This Move To Outpace Tesla, Nio",headlinesIter269.csv
+2022-03-03,tsla,279.7633361816406,43.845638815324975,-11.525659141983237,279.42999267578125,0,Ford CFO: We want to be 'a first mover' in the EV space,headlinesIter270.csv
+2022-03-04,tsla,279.42999267578125,43.73502428669972,-11.163894628119472,268.1933288574219,0,Tesla Gets Approval to Start EV Production in Germany,headlinesIter271.csv
+2022-03-07,tsla,268.1933288574219,40.0656807829896,-10.988873083984634,274.79998779296875,1,Meritor (MTOR) Inks Pact With ConMet on Zero-Emission Trailers,headlinesIter272.csv
+2022-03-08,tsla,274.79998779296875,43.089002597771405,-10.80962208471074,286.3233337402344,1,Germany hopes for first LNG terminals in two years,headlinesIter273.csv
+2022-03-09,tsla,286.3233337402344,48.01473132421371,-10.428631208751929,279.4333190917969,0,Elon Musk's Tesla Has an Invite That Will Get Its Rivals Talking,headlinesIter274.csv
+2022-03-10,tsla,279.4333190917969,45.48006055704871,-10.027323057326466,265.1166687011719,0,Oshkosh (OSK) Arm Buys CartSeeker to Enhance Tech Capabilities,headlinesIter275.csv
+2022-03-11,tsla,265.1166687011719,40.67518100701647,-9.839877165516972,255.4566650390625,0,"Ford, PG&amp;E to test backup power for home, grid with F-150 Lightning",headlinesIter276.csv
+2022-03-14,tsla,255.4566650390625,37.775239413336536,-9.92799486430636,267.2966613769531,1,Elon Musk and Tesla Have a New Car to Expand Their Domination,headlinesIter277.csv
+2022-03-15,tsla,267.2966613769531,43.127317376599706,-9.972683072755004,280.07666015625,1,Musk expected at Tesla gigafactory's first delivery on March 22 -paper,headlinesIter278.csv
+2022-03-16,tsla,280.07666015625,48.29672931402326,-9.761180709885446,290.5333251953125,1,General Motors (GM) to Deliver Cadillac's 1st Luxury EV Lyriq,headlinesIter279.csv
+2022-03-17,tsla,290.5333251953125,52.13064101801774,-9.211112674651606,301.7966613769531,1,Honda's (HMC) to Invest $1.38B in CR-V Hybrid Model in Canada,headlinesIter280.csv
+2022-03-18,tsla,301.7966613769531,55.92207714661336,-8.276979770959795,307.0533447265625,1,Tesla could eventually make flying aircrafts: analyst,headlinesIter281.csv
+2022-03-21,tsla,307.0533447265625,57.60957547602676,-7.048359014825243,331.32666015625,1,Electric vehicles: Cadillac kicks of Lyriq production in Tennessee,headlinesIter282.csv
+2022-03-22,tsla,331.32666015625,64.38920374234512,-5.296234101304246,333.03668212890625,1,Tesla's new Gigafactory is its biggest strategic endeavor in a decade: analyst,headlinesIter283.csv
+2022-03-23,tsla,333.03668212890625,64.81611653034123,-3.2684826164323986,337.97332763671875,1,"Toyota (TM), ChargePoint Team Up for Multi-Pronged EV Charging",headlinesIter284.csv
+2022-03-24,tsla,337.97332763671875,66.08034015795772,-1.0880609910692591,336.8800048828125,0,INSIGHT-Inside China's electric drive for swappable car batteries,headlinesIter285.csv
+2022-03-25,tsla,336.8800048828125,65.51884311030996,1.0587866011667617,363.9466552734375,1,"Tesla Could Play a Big Role in Restructuring the US Energy Grid, Says Morgan Stanley",headlinesIter286.csv
+2022-03-28,tsla,363.9466552734375,71.88747170974936,3.5014687515835727,366.5233459472656,1,"Tesla is one of only 11 stocks in the S&amp;P 500, excluding energy, that enjoys this critical support",headlinesIter287.csv
+2022-03-29,tsla,366.5233459472656,72.40990370442056,6.034653876371545,364.663330078125,0,Volkswagen's (VWAGY) Porsche Joins QuantumScape for Electric 911,headlinesIter288.csv
+2022-03-30,tsla,364.663330078125,71.37871620298398,8.448341098302736,359.20001220703125,0,"New Lotus electric hyper SUV the first in ‘a range of lifestyle cars,’ exec says",headlinesIter289.csv
+2022-03-31,tsla,359.20001220703125,68.30193114990543,10.554180353086362,361.5299987792969,1,Magna (MGA) to Expand Ontario Operations for Battery Enclosures,headlinesIter290.csv
+2022-04-01,tsla,361.5299987792969,68.91729066949527,12.36979335562423,381.8166809082031,1,"Tesla Supplier Looks To Invest $5B On EV Batteries, Supply Chain Software",headlinesIter291.csv
+2022-04-04,tsla,381.8166809082031,73.70391648730649,14.203789635930224,363.7533264160156,0,Tesla Has a Big Advantage Over Its Rivals: Free Money,headlinesIter292.csv
+2022-04-05,tsla,363.7533264160156,64.22066107285642,15.632603502237249,348.586669921875,0,GM and Honda Target Untapped EV Opportunity,headlinesIter293.csv
+2022-04-06,tsla,348.586669921875,57.527676221344926,16.454951085385304,352.4200134277344,1,Toyota joins Tesla in developing self-driving tech with low-cost cameras,headlinesIter294.csv
+2022-04-07,tsla,352.4200134277344,58.699265572558815,16.87772312705075,341.8299865722656,0,Sonic Automotive (SAH) Adds Raleigh to its EchoPark Footprint,headlinesIter295.csv
+2022-04-08,tsla,341.8299865722656,54.247302564164265,16.82046111291823,325.3099975585937,0,Tesla and Block Partner With Blockstream to Create Solar-Powered Bitcoin Mining Plant,headlinesIter296.csv
+2022-04-11,tsla,325.3099975585937,48.1165882183543,16.163420812226143,328.9833374023437,1,Here's How This Key Nio Supplier Looks To Tide Through China's Covid Crisis,headlinesIter297.csv
+2022-04-12,tsla,328.9833374023437,49.48368921039874,15.186660525678922,340.7900085449219,1,Honda (HMC) Pledges $63B Investment for Bold EV Efforts,headlinesIter298.csv
+2022-04-13,tsla,340.7900085449219,53.70597881636377,14.214464405405868,328.3333435058594,0,Cathie Wood 'keeping open mind' on investing in GM as carmaker scales EV plans,headlinesIter299.csv
+2022-04-14,tsla,328.3333435058594,49.04800794710129,13.064956688125031,334.7633361816406,1,"Elon Musk Says He Has ""Sufficient"" Assets to Buy Twitter",headlinesIter300.csv
+2022-04-18,tsla,334.7633361816406,51.39158361119469,11.937381689619492,342.7166748046875,1,Apollo Is Interested in Financing a Twitter Deal,headlinesIter302.csv
+2022-04-19,tsla,342.7166748046875,54.1978406242086,10.982346204049662,325.7333374023437,0,Tesla's New Factory in Germany Is Ramping Up Quickly,headlinesIter303.csv
+2022-04-20,tsla,325.7333374023437,47.84573837858247,9.889529463106555,336.260009765625,1,Musk Appeals for More Lithium Production to Meet Battery Demand,headlinesIter304.csv
+2022-04-21,tsla,336.260009765625,51.62986409242938,8.913048031323331,335.01666259765625,0,Twitter: the singular assurance of Elon Musk’s self-funded M&amp;A blockbuster,headlinesIter305.csv
+2022-04-22,tsla,335.01666259765625,51.15772176447388,8.020520570464047,332.67333984375,0,The ‘Muskonomy’ Is Growing. How the Boring Company Can Help Elon Musk’s Tesla.,headlinesIter306.csv
+2022-04-25,tsla,332.67333984375,50.22549711403832,7.171734861755274,292.1400146484375,0,Elon Musk Lands Deal to Take Twitter Private for $44 Billion,headlinesIter307.csv
+2022-04-26,tsla,292.1400146484375,37.49714029505629,5.731829020653906,293.836669921875,1,Ford Has the Perfect EV Car to Conquer The Middle Class,headlinesIter308.csv
+2022-04-27,tsla,293.836669921875,38.20310150413008,4.010907922186791,292.5033264160156,0,Musk's buying Twitter could improve it in one big way,headlinesIter309.csv
+2022-04-28,tsla,292.5033264160156,37.84137446418704,2.1736510448614594,290.2533264160156,0,Tesla Could See 50% Revenue Growth in Next Few Years,headlinesIter310.csv
+2022-04-29,tsla,290.2533264160156,37.20124911442326,0.3189375702657353,300.9800109863281,1,Elon Musk Needs to Make Twitter a Financial Success. Here’s How He Can Do It.,headlinesIter311.csv
+2022-05-02,tsla,300.9800109863281,42.21944391570887,-1.2790791519920588,303.0833435058594,1,Tesla and Musk May Have a Way Around a Big EV-Industry Problem,headlinesIter312.csv
+2022-05-03,tsla,303.0833435058594,43.17826616287785,-2.5959599237232007,317.5400085449219,1,Ex-Tesla engineer aims to build next-generation battery materials in U.S.,headlinesIter313.csv
+2022-05-04,tsla,317.5400085449219,49.3941383311568,-3.4310326969544924,291.09332275390625,0,GM has 4 new plants coming to 'have control over battery cell manufacture': Mary Barra,headlinesIter314.csv
+2022-05-05,tsla,291.09332275390625,40.63642198286519,-4.33446306441571,288.54998779296875,0,Elon Musk Secures $7.1 Billion in New Financing for Twitter,headlinesIter315.csv
+2022-05-06,tsla,288.54998779296875,39.90368940400836,-5.264077640706018,262.3699951171875,0,Tesla Looking to Boost Shanghai Car Production With Second Shift,headlinesIter316.csv
+2022-05-09,tsla,262.3699951171875,33.25625545781626,-6.5670606346899705,266.67999267578125,1,Petco expanding vet ultrasound services with Butterfly partnership,headlinesIter317.csv
+2022-05-10,tsla,266.67999267578125,35.17096423492828,-7.952028044535522,244.6666717529297,0,Apollo Plans to Lead $1 Billion Financing for Musk’s Twitter Bid,headlinesIter318.csv
+2022-05-11,tsla,244.6666717529297,30.37761513736259,-9.648864815864645,242.6666717529297,0,Tesla Urges Panasonic To Fast-Track Development Of Next-Gen Batteries,headlinesIter319.csv
+2022-05-12,tsla,242.6666717529297,29.977868654681068,-11.462141390844025,256.5299987792969,1,Volkswagen's EV business as profitable as combustion engines sooner than planned - CEO,headlinesIter320.csv
+2022-05-13,tsla,256.5299987792969,36.24104082290786,-13.00603939990632,241.4566650390625,0,Musk Sends Positive Signals to Tesla Investors and Fans,headlinesIter321.csv
+2022-05-16,tsla,241.4566650390625,32.80523430875975,-14.511005299444063,253.8699951171875,1,Tesla May Have The Location of Its Next Factory,headlinesIter322.csv
+2022-05-17,tsla,253.8699951171875,38.01677217518339,-15.681555559882234,236.60333251953125,0,"Leaders: SNAP, NEXCF, SOFI, TSLA; Visionary CEOs Advancing Next Wave of Billion Dollar Market Opportunities in AR, Robotaxi’s, Metaverse and Fintech",headlinesIter323.csv
+2022-05-18,tsla,236.60333251953125,34.059682997954646,-16.820876477599615,236.47332763671875,0,"Electric vehicles ‘attractive’ as they come back as used cars, TrueCar CEO says",headlinesIter324.csv
+2022-05-19,tsla,236.47332763671875,34.03096125713439,-17.84463433513778,221.3000030517578,0,Musk's $44-billion deal for Twitter proceeding as expected - Bloomberg News,headlinesIter325.csv
+2022-05-20,tsla,221.3000030517578,30.769607688881017,-18.943702427403984,224.96665954589844,1,"Texas is a ‘very friendly place’ for business, Canyon Partners co-founder says",headlinesIter326.csv
+2022-05-23,tsla,224.96665954589844,32.454205160480406,-19.930682657656963,209.3866729736328,0,SpaceX Seeks Funding Following Boeing's Successful Weekend,headlinesIter327.csv
+2022-05-24,tsla,209.3866729736328,29.20256898041736,-20.998812781924183,219.6000061035156,1,1 Green Growth Stock to Buy After Tesla's ESG-Index Exile,headlinesIter328.csv
+2022-05-25,tsla,219.6000061035156,33.879411859572606,-21.851004634521125,235.91000366210932,1,REFILE-U.S. automated electric truck startup Solo AVT picks battery supplier ABS,headlinesIter329.csv
+2022-05-26,tsla,235.91000366210932,40.62486281074686,-22.213157911930068,253.2100067138672,1,Why This 1 Growth Stock Could Be a Great Addition to Your Portfolio,headlinesIter330.csv
+2022-05-27,tsla,253.2100067138672,46.82189951164735,-21.922540105962742,252.7533264160156,0,These 3 Unique Stocks Have Undeniable Long-Term Upside,headlinesIter331.csv
+2022-05-31,tsla,252.7533264160156,46.68338586327683,-21.195332860879223,246.7899932861328,0,DeLorean is back for the future with brand new EV,headlinesIter332.csv
+2022-06-01,tsla,246.7899932861328,44.81887066497971,-20.279434265204863,258.3333435058594,1,TBJ Plus: Cary among best markets for starter homes; Famed ice cream spot open in Durham; Lifeguard pay tops $500K!,headlinesIter333.csv
+2022-06-02,tsla,258.3333435058594,49.06007653009211,-19.06289216066381,234.51666259765625,0,The Electric Hummer Proves the Best EV Stocks to Buy Aren’t TSLA,headlinesIter334.csv
+2022-06-03,tsla,234.51666259765625,41.90381249291079,-18.05821872316063,238.27999877929688,1,Musk Promises a Working Humanoid Robot in September,headlinesIter335.csv
+2022-06-06,tsla,238.27999877929688,43.31094126010481,-17.137806939226305,238.8866729736328,1,10 Best ETFs to Invest In For Long Term,headlinesIter336.csv
+2022-06-07,tsla,238.8866729736328,43.54831371292517,-16.26971857286999,241.86666870117188,1,China’s Strategic EV Incentive Is Another Reason to Buy Nio Stock,headlinesIter337.csv
+2022-06-08,tsla,241.86666870117188,44.77162818658249,-15.39530606655813,239.7066650390625,0,BYD executive says it will supply batteries to Tesla 'very soon',headlinesIter338.csv
+2022-06-09,tsla,239.7066650390625,44.02689150122156,-14.562140440532549,232.22999572753903,0,"EV charging: Biden says he’ll  tap infrastructure money to standardize payment methods, fill gaps",headlinesIter339.csv
+2022-06-10,tsla,232.22999572753903,41.45632397365068,-13.88459930731026,215.73666381835932,0,Tesla to seek investor approval for 3-for-1 stock split,headlinesIter340.csv
+2022-06-13,tsla,215.73666381835932,36.40651436900082,-13.571614084383054,220.88999938964844,1,Is it a Wise Choice to Invest in Tesla (TSLA)?,headlinesIter341.csv
+2022-06-14,tsla,220.88999938964844,38.91040950459995,-13.390381732965968,233.0,1,New ocean health ETF aims to help 'most important ecosystem on the planet',headlinesIter342.csv
+2022-06-15,tsla,233.0,44.44594565013759,-13.077502652756747,213.1000061035156,0,Will Warren Buffett Beat Elon Musk in Developing a Novel Lithium Mining Technique?,headlinesIter343.csv
+2022-06-16,tsla,213.1000061035156,38.303706284108415,-12.986198098016716,216.759994506836,1,"1 Green Flag for Rivian in 2022, and 1 Red Flag",headlinesIter344.csv
+2022-06-17,tsla,216.759994506836,39.94746246575798,-12.9505673491839,237.0366668701172,1,Musk Has a Huge Plan for the Las Vegas Strip (That Keeps Getting Bigger),headlinesIter345.csv
+2022-06-21,tsla,237.0366668701172,48.18398664078956,-12.598680258369289,236.086669921875,0,Toyota joins Redwood Materials' EV battery recycling initiative,headlinesIter347.csv
+2022-06-22,tsla,236.086669921875,47.85283228523044,-12.053458027778188,235.07000732421875,0,Elon Musk Says SpaceX Will Accept Dogecoin,headlinesIter348.csv
+2022-06-23,tsla,235.07000732421875,47.47677992650988,-11.404386516322992,245.7066650390625,1,China's CATL to produce next-generation EV battery in 2023,headlinesIter349.csv
+2022-06-24,tsla,245.7066650390625,51.74905776988056,-10.528555123399114,244.9199981689453,0,Bay Area EV charging companies expect to benefit from $7.5B federal push,headlinesIter350.csv
+2022-06-27,tsla,244.9199981689453,51.41595639624923,-9.545061662328866,232.663330078125,0,Tesla plans super-sized project in small Oregon town,headlinesIter351.csv
+2022-06-28,tsla,232.663330078125,46.40412124093874,-8.71943690972079,228.4900054931641,0,"Volkswagen, Siemens, Others Invest Over $700M For Hassle-Free, Cheaper EV Charging",headlinesIter352.csv
+2022-06-29,tsla,228.4900054931641,44.80272889515003,-8.082751414826872,224.47332763671875,0,Tesla Brings Back a Product That May Solidify Its Dominance,headlinesIter353.csv
+2022-06-30,tsla,224.47332763671875,43.25550864617588,-7.643527015851463,227.26333618164065,1,RIVN Stock: Rivian To Power Up Its First Fast-Charging Network; Is Rivian Stock A Buy?,headlinesIter354.csv
+2022-07-01,tsla,227.26333618164065,44.68446192473672,-7.289158174081116,233.0666656494141,1,"NIO, XPeng and Li Auto Deliveries Set a Record. That Can Help Tesla Too.",headlinesIter355.csv
+2022-07-05,tsla,233.0666656494141,47.63815676929155,-6.89734955372071,231.7333374023437,0,"BYD usurps Tesla as top EV maker by sales, Lululemon expands in Spain",headlinesIter356.csv
+2022-07-06,tsla,231.7333374023437,47.01697640842518,-6.508165679415681,244.5433349609375,1,These 10 Dividend Aristocrat stocks have made investors a lot of money — which might soar from here?,headlinesIter357.csv
+2022-07-07,tsla,244.5433349609375,53.31541526766961,-5.921819151400506,250.76333618164065,1,Elon Musk's Boring Company Accepts Dogecoin,headlinesIter358.csv
+2022-07-08,tsla,250.76333618164065,56.047569319228586,-5.129898635186441,234.3433380126953,0,Elon Musk plans to 'significantly' increase childcare benefits at his firms,headlinesIter359.csv
+2022-07-11,tsla,234.3433380126953,48.05261435141109,-4.500921511942538,233.07000732421875,0,Electric vehicles: What Ford’s Mustang Mach-E offers drivers,headlinesIter360.csv
+2022-07-12,tsla,233.07000732421875,47.4869146139906,-4.017102907693046,237.0399932861328,1,NIO Power Day 2022 &amp; VWAGY's $20B Battery Bet Rule EV Roundup Headlines,headlinesIter361.csv
+2022-07-13,tsla,237.0399932861328,49.483706850315166,-3.577134824195936,238.31333923339844,1,Panasonic Energy set to build $4 billion EV battery factory in Kansas,headlinesIter362.csv
+2022-07-14,tsla,238.31333923339844,50.13860221328733,-3.1592467467895053,240.0666656494141,1,Tesla (TSLA) &amp; Panasonic Ink Deal for Cell Production Unit,headlinesIter363.csv
+2022-07-15,tsla,240.0666656494141,51.079053575583465,-2.741930511654038,240.54666137695312,1,"GM, Tesla Strike New Partnerships to Expand EV Infrastructure",headlinesIter364.csv
+2022-07-18,tsla,240.54666137695312,51.349584999935125,-2.3329416370386964,245.52999877929688,1,Tesla plans more construction near gigafactory east of Austin,headlinesIter365.csv
+2022-07-19,tsla,245.52999877929688,54.1824282332968,-1.865788579644416,247.5,1,GM Will Finally Have Rival to Tesla’s Model Y With Blazer EV,headlinesIter366.csv
+2022-07-20,tsla,247.5,55.29074601718256,-1.350985546025168,271.7066650390625,1,"Tesla earnings meet Q2 expectations, sells 75% of its Bitcoin",headlinesIter367.csv
+2022-07-21,tsla,271.7066650390625,66.13191328044019,-0.44402088389746,272.24334716796875,1,Rivian CEO eyes expansion into broader range of commercial electric vehicles,headlinesIter368.csv
+2022-07-22,tsla,272.24334716796875,66.3268658745666,0.6707729665997806,268.4333190917969,0,Tesla has the largest short in the U.S. market at nearly $2.7 billion,headlinesIter369.csv
+2022-07-25,tsla,268.4333190917969,63.53097879411811,1.7950751902944684,258.8599853515625,0,China leads world in public EV charging connectors,headlinesIter370.csv
+2022-07-26,tsla,258.8599853515625,57.026310801571626,2.7095710096869023,274.82000732421875,1,"Eutelsat, OneWeb Brace To Unite To Compete SpaceX: Report",headlinesIter371.csv
+2022-07-27,tsla,274.82000732421875,63.69915898191388,3.693082026275373,280.8999938964844,1,Neoen Australia battery to provide grid stabilisation service in world first,headlinesIter372.csv
+2022-07-28,tsla,280.8999938964844,65.87315415135191,4.756878512554916,297.1499938964844,1,"How Tesla, GM could benefit from deal to expand EV tax credits",headlinesIter373.csv
+2022-07-29,tsla,297.1499938964844,70.89087471391524,6.063647777109244,297.27667236328125,1,TrueCar sees more incentives to buy new cars in July for first time in nearly 20 months as affordability declined,headlinesIter374.csv
+2022-08-01,tsla,297.27667236328125,70.92676177091039,7.442405468857389,300.586669921875,1,Tesla Inks Battery Materials Deals With Two China Suppliers,headlinesIter375.csv
+2022-08-02,tsla,300.586669921875,71.9015290335589,8.829853685983064,307.39666748046875,1,Tesla's Path to a $2 Trillion Market Value by 2025,headlinesIter376.csv
+2022-08-03,tsla,307.39666748046875,73.84453419001888,10.238541138912964,308.6333312988281,1,GM doubles miles open to its Super Cruise technology,headlinesIter377.csv
+2022-08-04,tsla,308.6333312988281,74.19352130793837,11.583089751998704,288.1700134277344,0,10 Stocks That Will Benefit from CHIPS Act,headlinesIter378.csv
+2022-08-05,tsla,288.1700134277344,59.94131015988437,12.464073433100925,290.42333984375,1,"Dow Jones Futures: Market Rally Resilient; Apple, Tesla, These 5 Chip Stocks Could Use This",headlinesIter379.csv
+2022-08-08,tsla,290.42333984375,60.83351304689497,13.015863337606415,283.3333435058594,0,"Tesla Is Miles Ahead of the Competition, Says Analyst",headlinesIter380.csv
+2022-08-09,tsla,283.3333435058594,56.56459194952084,13.189612685825711,294.3566589355469,1,"Leveraged Tesla, Coinbase Funds Among New Single-Stock ETFs",headlinesIter381.csv
+2022-08-10,tsla,294.3566589355469,61.13151553804668,13.263114073553258,286.6300048828125,0,Meta’s Susan Li will join a growing group of Fortune 500 CFOs under 40,headlinesIter382.csv
+2022-08-11,tsla,286.6300048828125,56.63641402567045,13.116425345051384,300.0299987792969,1,Surprise: Tesla Has a New Vehicle for the Holidays,headlinesIter383.csv
+2022-08-12,tsla,300.0299987792969,61.87253941344007,13.023309472897743,309.32000732421875,1,"Tesla, Ford attract new investments from Soros’s fund",headlinesIter384.csv
+2022-08-15,tsla,309.32000732421875,65.02559335240059,13.087187221021834,306.5633239746094,0,Ola Founder Plans to Produce Made-in-India Electric Car By 2024,headlinesIter385.csv
+2022-08-16,tsla,306.5633239746094,63.35140159216424,13.17230733199774,303.9966735839844,0,Is Tesla (TSLA) a Smart Long-Term Buy?,headlinesIter386.csv
+2022-08-17,tsla,303.9966735839844,61.757093531944406,13.1953078467695,302.8699951171875,0,"Expanded, realigned FM 973 could boost road network near Tesla factory",headlinesIter387.csv
+2022-08-18,tsla,302.8699951171875,61.03101339457726,13.130117004480889,296.6666564941406,0,Tesla (TSLA) to Bring Supercharger Network to US Non-Tesla Owners,headlinesIter388.csv
+2022-08-19,tsla,296.6666564941406,57.05368384401597,12.884170102511876,289.913330078125,0,Tesla Is Ramping Up Production in China,headlinesIter389.csv
+2022-08-22,tsla,289.913330078125,53.003952721688165,12.400710738590863,296.4533386230469,1,Apply Buy-on-the-Dip Strategy in the Near Term: 5 Picks,headlinesIter390.csv
+2022-08-23,tsla,296.4533386230469,56.24312505146077,11.869805192126822,297.0966796875,1,Volkswagen teams up with Canada in battery materials push,headlinesIter391.csv
+2022-08-24,tsla,297.0966796875,56.56030601922261,11.320202687550832,296.07000732421875,0,3 Cathie Wood Stocks to Buy for Huge Growth Potential,headlinesIter392.csv
+2022-08-25,tsla,296.07000732421875,55.86436731802985,10.745511373616306,288.0899963378906,0,"Peloton, Abercrombie &amp; Fitch Fall Premarket; Snowflake, Amazon, Tesla Rise",headlinesIter393.csv
+2022-08-26,tsla,288.0899963378906,50.64789465198805,10.03341353972505,284.82000732421875,0,Tesla Could Deliver More Than 2 Million Vehicles in 2023,headlinesIter394.csv
+2022-08-29,tsla,284.82000732421875,48.643450710413205,9.197482362371616,277.70001220703125,0,"Honda, LG Energy Eye US EV Battery Factory Fueled By Robust Demand",headlinesIter395.csv
+2022-08-30,tsla,277.70001220703125,44.51265165017544,8.193197451558001,275.6099853515625,0,Tesla Stock Split: 3 Stock-Split Stocks That Are Far Better Buys Than Tesla,headlinesIter396.csv
+2022-08-31,tsla,275.6099853515625,43.34894091841697,7.084018844578743,277.1600036621094,1,"Tesla (TSLA) Fully Self-Driven Cars to Hit US, Europe by 2022-End",headlinesIter397.csv
+2022-09-01,tsla,277.1600036621094,44.5076236683445,5.975823601346991,270.2099914550781,0,Uber and Moove Join Hands To Augment EV Delivery In London,headlinesIter398.csv
+2022-09-02,tsla,270.2099914550781,40.5070644687479,4.801834640905738,274.4200134277344,1,Rivian opens first service center on the East Coast,headlinesIter399.csv
+2022-09-06,tsla,274.4200134277344,43.802313276861085,3.704373983655875,283.70001220703125,1,Here's Where Ford Stock May Find Strong Support,headlinesIter400.csv
+2022-09-07,tsla,283.70001220703125,50.33273593568264,2.852024428322367,289.260009765625,1,This Under-the-Radar Stock-Split Stock Is a Smarter Buy Than Tesla or Shopify,headlinesIter401.csv
+2022-09-08,tsla,289.260009765625,53.79695105051382,2.2801935083883,299.67999267578125,1,Musk Says SpaceX Discussed iPhone Satellite Service With Apple,headlinesIter402.csv
+2022-09-09,tsla,299.67999267578125,59.49838439696128,2.075210275647469,304.4200134277344,1,10 Best Autonomous Vehicle ETFs and Stocks to Invest In,headlinesIter403.csv
+2022-09-12,tsla,304.4200134277344,61.80721797457742,2.181800064716792,292.1300048828125,0,"Rivian (RIVN), Mercedes to Produce Electric Vans in Europe",headlinesIter404.csv
+2022-09-13,tsla,292.1300048828125,53.31997147385362,2.277037502720653,302.6099853515625,1,China EV maker BYD could be top global auto brand: Analyst,headlinesIter405.csv
+2022-09-14,tsla,302.6099853515625,58.5472318049342,2.5221791416622588,303.75,1,Fisker Hits a Major Milestone on Road to Affordable EVs for All,headlinesIter406.csv
+2022-09-15,tsla,303.75,59.08398054682591,2.8608668112810696,303.3500061035156,0,Tesla Is Exploring Building a Lithium Refining Plant in Texas,headlinesIter407.csv
+2022-09-16,tsla,303.3500061035156,58.79631014136709,3.227530590183812,309.07000732421875,1,10 EV Materials Stocks to Invest In,headlinesIter408.csv
+2022-09-19,tsla,309.07000732421875,61.67031888776007,3.676411214882701,308.7300109863281,0,This Bold Move Could Give Tesla an Edge in Battery Production,headlinesIter409.csv
+2022-09-20,tsla,308.7300109863281,61.39618912369816,4.1394889738169205,300.79998779296875,0,7 Battery Stocks That Could 10X by 2030,headlinesIter410.csv
