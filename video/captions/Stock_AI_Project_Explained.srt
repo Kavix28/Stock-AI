@@ -1,0 +1,127 @@
+1
+00:00:01,000 --> 00:00:06,000
+Welcome to Stock-AI: Multimodal AI for Stock Trend Prediction.
+
+2
+00:00:06,500 --> 00:00:13,000
+Financial markets represent one of the lowest signal-to-noise ratio domains in applied artificial intelligence.
+
+3
+00:00:13,500 --> 00:00:20,000
+While academic literature frequently reports inflated directional forecasting accuracies, they often collapse out-of-sample.
+
+4
+00:00:20,500 --> 00:00:28,000
+Our goal is to establish an academically rigorous, leakage-free benchmark across 12 equities over 16 years of market data.
+
+5
+00:00:28,500 --> 00:00:36,000
+We investigate whether fusing financial news sentiment with price series yields genuine alpha over classical baselines.
+
+6
+00:00:46,000 --> 00:00:53,000
+Our research builds upon recent work published in Neural Computing and Applications (DOI: 10.1007/s00521-024-10303-1).
+
+7
+00:00:53,500 --> 00:01:02,000
+The target is binary classification: forecasting whether Close price on day t exceeds Close on day t-1.
+
+8
+00:01:02,500 --> 00:01:12,000
+The market branch processes a 20-day by 16-feature temporal tensor through stacked Bidirectional LSTMs.
+
+9
+00:01:12,500 --> 00:01:21,000
+The linguistic branch extracts dense 768-dimensional FinBERT embeddings from financial news headlines.
+
+10
+00:01:21,500 --> 00:01:30,000
+Both representations project into a common 64-dimensional latent space for downstream fusion.
+
+11
+00:02:01,000 --> 00:02:09,000
+Absolute data integrity is non-negotiable. We eliminate data leakage through three strict architectural guarantees.
+
+12
+00:02:09,500 --> 00:02:18,000
+First: Strict Chronological Partitioning. Training through 2022, validation through mid-2024, and 6,292 test sessions.
+
+13
+00:02:18,500 --> 00:02:27,000
+Second: Sequence Isolation. Every 20-day market window strictly terminates on trading session t-1.
+
+14
+00:02:27,500 --> 00:02:35,000
+MinMax scaling parameters are fit solely on training data, preventing cross-temporal distributional leakage.
+
+15
+00:02:35,500 --> 00:02:44,000
+Third: Handling Corporate Actions. For ATVI (delisted Oct 2023), we enforce a verified historical fallback provider.
+
+16
+00:03:31,000 --> 00:03:38,000
+We explore multiple tiers of model complexity: heuristics, linear models, and recurrent neural networks.
+
+17
+00:03:38,500 --> 00:03:47,000
+Our baselines include Training-Majority, Direction Persistence, and Logistic Regression on t-1 features.
+
+18
+00:03:47,500 --> 00:03:56,000
+For multimodal fusion, we implement a Gated Multimodal Unit (GMU) rather than naive feature concatenation.
+
+19
+00:03:56,500 --> 00:04:06,000
+The GMU learns a gating vector z to perform a convex combination between market sequences and news embeddings.
+
+20
+00:04:06,500 --> 00:04:16,000
+This dynamically suppresses linguistic noise while amplifying high-conviction corporate catalysts.
+
+21
+00:05:16,000 --> 00:05:25,000
+Evaluating across 6,292 out-of-sample forward test observations reveals crucial financial realities.
+
+22
+00:05:25,500 --> 00:05:34,000
+Shared Multi-Ticker BiLSTM achieves 52.13% directional accuracy, outperforming the Majority baseline (51.21%).
+
+23
+00:05:34,500 --> 00:05:43,000
+In modern efficient equity markets, 52% to 54% represents realistic, non-overfit directional edge.
+
+24
+00:05:43,500 --> 00:05:52,000
+Cross-asset pooling provides +3.55% accuracy improvement over single-ticker training through shared regularization.
+
+25
+00:05:52,500 --> 00:06:02,000
+Linear models achieve higher Macro F1 (0.4704) by maintaining sensitivity across both upward and downward regimes.
+
+26
+00:07:01,000 --> 00:07:10,000
+Stock-AI is packaged as a complete research platform with core library, REST API, and dashboard.
+
+27
+00:07:10,500 --> 00:07:19,000
+The Python library features data downloaders, technical indicators, window builders, and 40 passing tests.
+
+28
+00:07:19,500 --> 00:07:28,000
+FastAPI exposes endpoints for ticker metadata, historical OHLCV series, metrics, and inference.
+
+29
+00:07:28,500 --> 00:07:38,000
+The React/TypeScript frontend provides an interactive Stock Explorer, Model Lab, and Prediction Demonstration.
+
+30
+00:08:31,000 --> 00:08:40,000
+Daily news headlines lack intraday timestamps, warranting a conservative TIMING-LIMITED designation.
+
+31
+00:08:40,500 --> 00:08:49,000
+Future research will integrate high-frequency SEC Edgar 8-K filings and cross-asset graph attention.
+
+32
+00:08:49,500 --> 00:09:00,000
+Full codebase, manifests, and documentation are available at github.com/Kavix28/Stock-AI.

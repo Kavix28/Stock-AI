@@ -1,0 +1,15 @@
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_01.png'
+duration 45
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_02.png'
+duration 75
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_03.png'
+duration 90
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_04.png'
+duration 105
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_05.png'
+duration 105
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_06.png'
+duration 90
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_07.png'
+duration 60
+file 'C:/PROJECTS/multimodal-stock-ai/video/assets/slide_07.png'
