@@ -68,3 +68,9 @@ video/assets/audio/
 data/raw/*
 !data/raw/.gitkeep
 data/processed/market/*.parquet
+
+# Model binary weights & embeddings caches (reproducible via scripts)
+*.pt
+*.npz
+data/processed/embeddings/*.npz
+models/**/*.pt

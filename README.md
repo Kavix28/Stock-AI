@@ -5,7 +5,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs00521--024--10303--1-informational)](https://doi.org/10.1007/s00521-024-10303-1)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18.3+-61dafb.svg)](https://react.dev)
-[![Tests Passing](https://img.shields.io/badge/tests-40%20passed-success.svg)](https://github.com/Kavix28/Stock-AI)
+[![Tests Passing](https://img.shields.io/badge/tests-87%20passed-success.svg)](https://github.com/Kavix28/Stock-AI)
 
 > **Stock-AI** is a production-grade quantitative machine learning research platform investigating deep multimodal fusion of equity price sequences, 16 engineered technical indicators, and FinBERT financial sentiment representations across 12 S&P 500 / Nasdaq equities over 16 years (2010–2026).
 
@@ -321,6 +321,9 @@ python scripts/refresh_data.py
 
 # Validate schema, boundary checks, zero NaNs, and date monotonicity
 python scripts/validate_data.py
+
+# Precompute FinBERT news embedding caches (768-dim CLS representations)
+python scripts/build_embedding_caches.py
 ```
 
 ---
@@ -328,7 +331,10 @@ python scripts/validate_data.py
 ## 20. Model Training & Benchmark Reproduction
 
 ```bash
-# Run full benchmark evaluation across baselines and BiLSTM
+# Train PyTorch GMU multimodal fusion network & Market-BiLSTM with strict anti-leakage invariants
+python scripts/train_multimodal.py
+
+# Run legacy market-only benchmark evaluation
 python scripts/evaluate.py
 ```
 
@@ -347,12 +353,12 @@ Interactive OpenAPI Swagger UI is available at `http://localhost:8000/docs`.
 ### Core Endpoints
 
 - `GET /health` – Service health and status.
-- `GET /api/v1/metadata` – Project scope, parameters, and horizon.
+- `GET /api/v1/metadata` – Project scope, parameters, multimodal architecture, and horizon.
 - `GET /api/v1/tickers` – Universe of 12 tickers and status.
 - `GET /api/v1/tickers/{ticker}/history?limit=100` – Historical OHLCV and 16 indicators.
-- `GET /api/v1/tickers/{ticker}/news?limit=50` – Historical news headlines.
-- `GET /api/v1/metrics` – Benchmark summaries and per-ticker metrics.
-- `POST /api/v1/predict` – Inference endpoint (`{"ticker": "AAPL"}`).
+- `GET /api/v1/tickers/{ticker}/news?limit=50` – Historical news headlines with timing classification.
+- `GET /api/v1/metrics` – Multimodal benchmark summaries and per-ticker metrics.
+- `POST /api/v1/predict` – Inference endpoint supporting `model_type` (`gmu_fusion` or `market_bilstm`) and returning learned gate weights.
 
 ---
 
@@ -395,7 +401,7 @@ Run the comprehensive test suite:
 pytest tests/
 ```
 
-**Status: 51 tests passing (100% pass rate).**
+**Status: 87 tests passing (100% pass rate).**
 
 ---
 

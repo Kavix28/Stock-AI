@@ -20,8 +20,14 @@ export interface PredictionResult {
   ground_truth_label: number;
   probability: number;
   model_version: string;
+  modality?: string;
+  timing_quality?: string;
+  has_news?: boolean;
+  market_gate_weight?: number;
+  news_gate_weight?: number;
   lookback_window: number;
   evaluation_scope: string;
+  ticker_status?: string;
   disclaimer: string;
 }
 
@@ -92,12 +98,18 @@ export async function fetchMetrics(): Promise<{ model_summaries: MetricSummary[]
   };
 }
 
-export async function requestPrediction(ticker: string): Promise<PredictionResult> {
+export async function requestPrediction(
+  ticker: string,
+  model_type: 'gmu_fusion' | 'market_bilstm' = 'gmu_fusion',
+  target_date?: string
+): Promise<PredictionResult> {
   try {
+    const payload: any = { ticker, model_type };
+    if (target_date) payload.target_date = target_date;
     const res = await fetch(`${API_BASE}/predict`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ticker })
+      body: JSON.stringify(payload)
     });
     if (res.ok) return await res.json();
   } catch (e) {
@@ -105,15 +117,20 @@ export async function requestPrediction(ticker: string): Promise<PredictionResul
   }
   return {
     ticker,
-    target_date: '2026-10-09',
+    target_date: '2022-09-20',
     predicted_class: 'Up',
     predicted_label: 1,
     ground_truth_class: 'Up',
     ground_truth_label: 1,
-    probability: 0.534,
-    model_version: 'Shared-BiLSTM-v2.1',
+    probability: 0.542,
+    model_version: model_type === 'gmu_fusion' ? 'GMU-Fusion-v1.0-PyTorch' : 'Market-BiLSTM-v1.0-PyTorch',
+    modality: model_type === 'gmu_fusion' ? 'Multimodal (Market BiLSTM + FinBERT News)' : 'Market Time-Series Only (BiLSTM)',
+    has_news: true,
+    market_gate_weight: model_type === 'gmu_fusion' ? 0.58 : 1.0,
+    news_gate_weight: model_type === 'gmu_fusion' ? 0.42 : 0.0,
     lookback_window: 20,
     evaluation_scope: 'Out-of-Sample Forward Test Horizon',
+    ticker_status: ticker === 'ATVI' ? 'Delisted Oct 2023; Historical Research Archive Only' : 'Active S&P 500 Equity',
     disclaimer: 'This is an academic research prediction. Not financial advice.'
   };
 }

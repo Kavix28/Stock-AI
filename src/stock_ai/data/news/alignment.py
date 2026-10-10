@@ -16,7 +16,7 @@ from typing import Dict, List, Optional, Tuple, Set
 import pandas as pd
 import pytz
 
-from src.stock_ai.data.news.schema import (
+from .schema import (
     CanonicalNewsArticle,
     DailyNewsFeature,
     CanonicalNewsSchema

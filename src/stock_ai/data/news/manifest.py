@@ -18,8 +18,8 @@ from typing import Dict, List, Any, Tuple
 import pandas as pd
 import pytz
 
-from src.stock_ai.data.news.schema import CanonicalNewsSchema
-from src.stock_ai.data.news.validator import NewsDataValidator
+from .schema import CanonicalNewsSchema
+from .validator import NewsDataValidator
 
 
 class NewsManifestGenerator:

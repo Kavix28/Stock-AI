@@ -1,17 +1,142 @@
 """
-Gated Multimodal Unit (GMU) and Multimodal Fusion Architectures.
+Gated Multimodal Unit (GMU) Fusion Architecture in PyTorch.
 
-Implements dimensionally valid gated fusion:
-z = sigmoid(Dense(64)(concatenate([h_market, h_news])))
-h_fused = z * h_market_proj + (1 - z) * h_news_proj
+Combines sequential market representations (via BiLSTM) with contextual
+financial news embeddings (via FinBERT) using learned convex gating:
+    h_m = LayerNorm(ReLU(W_m h_bilstm + b_m))  in R^64
+    h_n = LayerNorm(ReLU(W_n h_finbert + b_n)) in R^64
+    z   = Sigmoid(W_z [h_m; h_n] + b_z)        in R^64
+    h_f = z * h_m + (1 - z) * h_n             in R^64
+    y   = Sigmoid(W_c h_f + b_c)              in (0, 1)
 """
 
-import tensorflow as tf
-from keras.models import Model
-from keras.layers import (
-    Input, Bidirectional, LSTM, Dense, Dropout,
-    LayerNormalization, Concatenate, Multiply, Add, Lambda
-)
+from typing import Tuple, Dict, Any, Optional
+import torch
+import torch.nn as nn
+
+try:
+    from stock_ai.models.market.bilstm import MarketBiLSTM
+except ImportError:
+    from src.stock_ai.models.market.bilstm import MarketBiLSTM
+
+
+class GatedMultimodalUnit(nn.Module):
+    """
+    Learned Gated Multimodal Unit fusion network for multimodal stock trend prediction.
+    """
+
+    def __init__(
+        self,
+        seq_len: int = 20,
+        market_feat_dim: int = 16,
+        news_embed_dim: int = 768,
+        proj_dim: int = 64,
+        head_hidden_dim: int = 32,
+        dropout_rate: float = 0.2
+    ):
+        super().__init__()
+        self.seq_len = seq_len
+        self.market_feat_dim = market_feat_dim
+        self.news_embed_dim = news_embed_dim
+        self.proj_dim = proj_dim
+
+        # 1. Market Branch (BiLSTM)
+        self.market_encoder = MarketBiLSTM(
+            sequence_length=seq_len,
+            feature_dim=market_feat_dim,
+            proj_dim=proj_dim,
+            dropout_rate=dropout_rate
+        )
+
+        # 2. News Branch Projection (FinBERT 768 -> proj_dim 64)
+        self.news_proj = nn.Sequential(
+            nn.Linear(news_embed_dim, proj_dim),
+            nn.LayerNorm(proj_dim),
+            nn.ReLU(),
+            nn.Dropout(dropout_rate)
+        )
+
+        # 3. GMU Gating Mechanism
+        # Concatenates h_m (proj_dim) and h_n (proj_dim) -> 2 * proj_dim
+        self.gate_fc = nn.Linear(proj_dim * 2, proj_dim)
+        self.gate_act = nn.Sigmoid()
+
+        # 4. Multimodal Classification Head
+        self.classifier = nn.Sequential(
+            nn.Linear(proj_dim, head_hidden_dim),
+            nn.ReLU(),
+            nn.Dropout(dropout_rate),
+            nn.Linear(head_hidden_dim, 1)
+        )
+
+    def compute_gate(self, h_m: torch.Tensor, h_n: torch.Tensor) -> torch.Tensor:
+        """Computes element-wise gate vector z in (0, 1)^proj_dim."""
+        concat_rep = torch.cat([h_m, h_n], dim=-1)
+        gate = self.gate_act(self.gate_fc(concat_rep))
+        return gate
+
+    def fuse_representations(
+        self,
+        h_m: torch.Tensor,
+        h_n: torch.Tensor
+    ) -> Tuple[torch.Tensor, torch.Tensor]:
+        """
+        Computes gated convex combination:
+        h_fused = z * h_m + (1 - z) * h_n
+        Returns: (h_fused, gate)
+        """
+        gate = self.compute_gate(h_m, h_n)
+        h_fused = (gate * h_m) + ((1.0 - gate) * h_n)
+        return h_fused, gate
+
+    def forward(
+        self,
+        market_input: torch.Tensor,
+        news_input: torch.Tensor
+    ) -> torch.Tensor:
+        """
+        Forward pass returning predicted probability in (0, 1).
+        
+        Args:
+            market_input: Tensor of shape (batch_size, 20, 16)
+            news_input: Tensor of shape (batch_size, 768)
+        Returns:
+            probability: Tensor of shape (batch_size, 1)
+        """
+        # Market branch representation
+        h_m = self.market_encoder.extract_features(market_input)
+
+        # News branch representation
+        h_n = self.news_proj(news_input)
+
+        # Gated fusion
+        h_fused, _ = self.fuse_representations(h_m, h_n)
+
+        # Classification
+        logits = self.classifier(h_fused)
+        return torch.sigmoid(logits)
+
+    def forward_with_gate_weights(
+        self,
+        market_input: torch.Tensor,
+        news_input: torch.Tensor
+    ) -> Tuple[torch.Tensor, torch.Tensor]:
+        """Returns both predicted probability and the gate tensor z."""
+        h_m = self.market_encoder.extract_features(market_input)
+        h_n = self.news_proj(news_input)
+        h_fused, gate = self.fuse_representations(h_m, h_n)
+        logits = self.classifier(h_fused)
+        return torch.sigmoid(logits), gate
+
+    def forward_market_only(self, market_input: torch.Tensor) -> torch.Tensor:
+        """
+        Market-only fallback prediction using zero news input.
+        Ensures consistent dimensions and evaluation without fabricated news.
+        """
+        device = market_input.device
+        batch_size = market_input.size(0)
+        zero_news = torch.zeros((batch_size, self.news_embed_dim), device=device)
+        return self.forward(market_input, zero_news)
 
 
 def build_gmu_fusion_model(
@@ -19,42 +144,15 @@ def build_gmu_fusion_model(
     market_feat_dim: int = 16,
     news_embed_dim: int = 768,
     proj_dim: int = 64,
-    learning_rate: float = 1e-3
-) -> Model:
-    """Builds a Gated Multimodal Unit fusion model combining BiLSTM market branch with FinBERT news branch."""
-    # 1. Market Branch
-    in_market = Input(shape=(seq_len, market_feat_dim), name="market_input")
-    x_m = Bidirectional(LSTM(64, return_sequences=True))(in_market)
-    x_m = Dropout(0.2)(x_m)
-    x_m = Bidirectional(LSTM(32))(x_m)
-    x_m = Dropout(0.2)(x_m)
-    h_m_proj = Dense(proj_dim, activation="relu", name="market_projection")(x_m)
-    h_m_proj = LayerNormalization(name="market_ln")(h_m_proj)
-
-    # 2. News Branch (Pre-extracted FinBERT representation)
-    in_news = Input(shape=(news_embed_dim,), name="news_input")
-    h_n_proj = Dense(proj_dim, activation="relu", name="news_projection")(in_news)
-    h_n_proj = LayerNormalization(name="news_ln")(h_n_proj)
-
-    # 3. Learned Gating Mechanism
-    concat_repr = Concatenate(name="fusion_concat")([h_m_proj, h_n_proj])
-    gate = Dense(proj_dim, activation="sigmoid", name="gmu_gate")(concat_repr)
-
-    # 4. Gated Convex Combination
-    market_gated = Multiply(name="market_gated")([gate, h_m_proj])
-    one_minus_gate = Lambda(lambda g: 1.0 - g, name="one_minus_gate")(gate)
-    news_gated = Multiply(name="news_gated")([one_minus_gate, h_n_proj])
-    h_fused = Add(name="gmu_fused")([market_gated, news_gated])
-
-    # 5. Classification Head
-    out_dense = Dense(32, activation="relu")(h_fused)
-    out_dense = Dropout(0.2)(out_dense)
-    out = Dense(1, activation="sigmoid", name="prediction")(out_dense)
-
-    model = Model(inputs=[in_market, in_news], outputs=out, name="GMU_Stock_Predictor")
-    model.compile(
-        optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
-        loss="binary_crossentropy",
-        metrics=["accuracy"]
+    head_hidden_dim: int = 32,
+    dropout_rate: float = 0.2
+) -> GatedMultimodalUnit:
+    """Factory function for GatedMultimodalUnit."""
+    return GatedMultimodalUnit(
+        seq_len=seq_len,
+        market_feat_dim=market_feat_dim,
+        news_embed_dim=news_embed_dim,
+        proj_dim=proj_dim,
+        head_hidden_dim=head_hidden_dim,
+        dropout_rate=dropout_rate
     )
-    return model

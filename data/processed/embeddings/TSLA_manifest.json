@@ -1,0 +1,21 @@
+{
+  "ticker": "TSLA",
+  "version": "v1.0",
+  "model_name": "ProsusAI/finbert",
+  "pooling_method": "cls",
+  "embedding_dim": 768,
+  "total_dates": 4062,
+  "dates_with_news": 404,
+  "news_coverage_pct": 9.95,
+  "start_date": "2010-08-17",
+  "end_date": "2026-10-09",
+  "cache_file": "TSLA_embeddings.npz",
+  "cache_file_size_bytes": 1174332,
+  "text_hashes_sample": [
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS"
+  ]
+}

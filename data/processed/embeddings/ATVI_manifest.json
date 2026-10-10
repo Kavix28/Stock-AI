@@ -1,0 +1,21 @@
+{
+  "ticker": "ATVI",
+  "version": "v1.0",
+  "model_name": "ProsusAI/finbert",
+  "pooling_method": "cls",
+  "embedding_dim": 768,
+  "total_dates": 3045,
+  "dates_with_news": 427,
+  "news_coverage_pct": 14.02,
+  "start_date": "2010-08-17",
+  "end_date": "2022-09-20",
+  "cache_file": "ATVI_embeddings.npz",
+  "cache_file_size_bytes": 1058454,
+  "text_hashes_sample": [
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS"
+  ]
+}

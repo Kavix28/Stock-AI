@@ -1,0 +1,21 @@
+{
+  "ticker": "SBUX",
+  "version": "v1.0",
+  "model_name": "ProsusAI/finbert",
+  "pooling_method": "cls",
+  "embedding_dim": 768,
+  "total_dates": 4184,
+  "dates_with_news": 427,
+  "news_coverage_pct": 10.21,
+  "start_date": "2010-02-23",
+  "end_date": "2026-10-09",
+  "cache_file": "SBUX_embeddings.npz",
+  "cache_file_size_bytes": 1130111,
+  "text_hashes_sample": [
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS",
+    "NO_NEWS"
+  ]
+}

@@ -7,8 +7,8 @@ import hashlib
 from typing import Dict, List, Any
 import pandas as pd
 
-from src.stock_ai.data.news.base import NewsDataProvider, ProviderDataError
-from src.stock_ai.data.news.schema import CanonicalNewsSchema
+from .base import NewsDataProvider, ProviderDataError
+from .schema import CanonicalNewsSchema
 
 
 class LocalCanonicalNewsProvider(NewsDataProvider):

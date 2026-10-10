@@ -2,7 +2,7 @@
 Stock-AI FastAPI Backend Service.
 
 Exposes RESTful endpoints for ticker metadata, historical prices,
-technical indicators, news headlines, benchmark metrics, and inference.
+technical indicators, news headlines, multimodal benchmark metrics, and inference.
 """
 
 import os
@@ -14,14 +14,20 @@ from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 
-# Add src to sys.path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
-from stock_ai.inference.engine import InferenceEngine
+# Add src and project root to sys.path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+src_dir = os.path.join(project_root, "src")
+if src_dir not in sys.path:
+    sys.path.insert(0, src_dir)
+
+from src.stock_ai.inference.engine import InferenceEngine
 
 app = FastAPI(
     title="Stock-AI Research API",
     description="Multimodal AI for Stock Trend Prediction RESTful API",
-    version="0.2.0"
+    version="0.3.0"
 )
 
 # CORS Middleware
@@ -34,19 +40,21 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-inference_engine = InferenceEngine(
-    data_dir="data/processed/market",
-    results_dir="results/latest"
-)
+DATA_DIR = os.path.join(project_root, "data", "processed", "market")
+NEWS_DIR = os.path.join(project_root, "data", "processed", "news")
+RESULTS_DIR = os.path.join(project_root, "results")
+MODELS_DIR = os.path.join(project_root, "models")
 
-DATA_DIR = "data/processed/market"
-NEWS_DIR = "data/processed/news"
-RESULTS_DIR = "results/latest"
+inference_engine = InferenceEngine(
+    data_dir=DATA_DIR,
+    models_dir=MODELS_DIR,
+    results_dir=RESULTS_DIR
+)
 
 TICKER_INFO = {
     "AAPL": {"name": "Apple Inc.", "sector": "Information Technology", "delisted": False},
     "AMT": {"name": "American Tower Corporation", "sector": "Real Estate", "delisted": False},
-    "ATVI": {"name": "Activision Blizzard, Inc.", "sector": "Communication Services", "delisted": True, "notes": "Delisted Oct 2023; Legacy Provenance Unverified (BLOCKED)"},
+    "ATVI": {"name": "Activision Blizzard, Inc.", "sector": "Communication Services", "delisted": True, "notes": "Delisted Oct 2023; Historical Research Archive Only"},
     "BIO": {"name": "Bio-Rad Laboratories, Inc.", "sector": "Health Care", "delisted": False},
     "JNJ": {"name": "Johnson & Johnson", "sector": "Health Care", "delisted": False},
     "NDAQ": {"name": "Nasdaq, Inc.", "sector": "Financials", "delisted": False},
@@ -62,6 +70,7 @@ TICKER_INFO = {
 class PredictionRequest(BaseModel):
     ticker: str
     target_date: Optional[str] = None
+    model_type: Optional[str] = "gmu_fusion"
 
 
 @app.get("/health")
@@ -69,7 +78,7 @@ def health_check() -> Dict[str, Any]:
     return {
         "status": "healthy",
         "service": "Stock-AI Backend",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "environment": os.getenv("ENVIRONMENT", "development")
     }
 
@@ -83,8 +92,12 @@ def get_metadata() -> Dict[str, Any]:
         "supported_tickers_count": 12,
         "features_count": 16,
         "lookback_window": 20,
-        "test_horizon": "2024-07-01 to 2026-10-09",
-        "pooled_test_observations": 6292
+        "pooled_test_observations": 6292,
+        "multimodal_architecture": "Gated Multimodal Unit (GMU)",
+        "news_encoder": "ProsusAI/finbert (768-dim CLS)",
+        "market_encoder": "Two-Layer Bidirectional LSTM (64-dim)",
+        "evaluation_period": "2021-01-05 to 2022-09-20 (Verified historical news archive)",
+        "atvi_status": "ISOLATED: Delisted Oct 2023; Historical 2021-2022 Archive Only"
     }
 
 
@@ -128,46 +141,63 @@ def get_ticker_news(ticker: str, limit: int = Query(50, ge=5, le=200)) -> Dict[s
     if ticker not in TICKER_INFO:
         raise HTTPException(status_code=404, detail=f"Ticker '{ticker}' not found.")
 
-    fpath = os.path.join(NEWS_DIR, f"{ticker}_news.csv")
+    fpath = os.path.join(NEWS_DIR, f"{ticker}.csv")
     if not os.path.exists(fpath):
-        return {"ticker": ticker, "count": 0, "news": [], "timing_status": "TIMING-LIMITED"}
+        fpath = os.path.join(NEWS_DIR, f"{ticker}_news.csv")
+
+    if not os.path.exists(fpath):
+        return {"ticker": ticker, "count": 0, "news": [], "timing_status": "NO-DATA"}
 
     df = pd.read_csv(fpath)
     records = df.tail(limit).to_dict(orient="records")
     return {
         "ticker": ticker,
         "count": len(records),
-        "timing_status": "TIMING-LIMITED (Daily aggregated without intraday timestamps)",
+        "timing_status": "TIMING-LIMITED (Calendar Date YYYY-MM-DD Alignment)",
         "news": records
     }
 
 
 @app.get("/api/v1/metrics")
 def get_metrics() -> Dict[str, Any]:
-    metrics_path = os.path.join(RESULTS_DIR, "metrics_by_ticker.csv")
-    pooled_path = os.path.join(RESULTS_DIR, "pooled_metrics.csv")
+    # Multimodal metrics path
+    multi_path = os.path.join(RESULTS_DIR, "multimodal", "multimodal_metrics_summary.csv")
+    legacy_path = os.path.join(RESULTS_DIR, "latest", "metrics_by_ticker.csv")
 
-    if not os.path.exists(metrics_path):
-        raise HTTPException(status_code=404, detail="Benchmark metrics not found.")
+    if os.path.exists(multi_path):
+        m_df = pd.read_csv(multi_path)
+        records = m_df.to_dict(orient="records")
+        return {
+            "benchmark_type": "Multimodal Research Benchmark (PyTorch GMU & FinBERT)",
+            "evaluation_period": "2021-01-05 to 2022-09-20",
+            "models": records,
+            "model_summaries": records,
+            "ticker_metrics": records
+        }
 
-    m_df = pd.read_csv(metrics_path)
-    p_df = pd.read_csv(pooled_path) if os.path.exists(pooled_path) else None
+    if os.path.exists(legacy_path):
+        l_df = pd.read_csv(legacy_path)
+        records = l_df.to_dict(orient="records")
+        return {
+            "benchmark_type": "Legacy Market-Only Benchmark",
+            "models": records,
+            "model_summaries": records,
+            "ticker_metrics": records
+        }
 
-    # Compute overall averages per model
-    model_averages = []
-    for model_name, grp in m_df.groupby("model_type"):
-        model_averages.append({
-            "model_type": model_name,
-            "mean_accuracy": float(grp["accuracy"].mean()),
-            "mean_macro_f1": float(grp["macro_f1"].mean()),
-            "mean_balanced_accuracy": float(grp["balanced_accuracy"].mean()),
-            "tickers_count": int(len(grp))
-        })
+    raise HTTPException(status_code=404, detail="Benchmark metrics not found.")
 
+
+@app.get("/api/v1/metrics/multimodal")
+def get_multimodal_metrics() -> Dict[str, Any]:
+    multi_path = os.path.join(RESULTS_DIR, "multimodal", "multimodal_metrics_summary.csv")
+    if not os.path.exists(multi_path):
+        raise HTTPException(status_code=404, detail="Multimodal metrics summary not found.")
+
+    m_df = pd.read_csv(multi_path)
     return {
-        "model_summaries": model_averages,
-        "ticker_metrics": m_df.to_dict(orient="records"),
-        "pooled_metrics": p_df.to_dict(orient="records") if p_df is not None else []
+        "benchmark_type": "Multimodal Research Benchmark",
+        "models": m_df.to_dict(orient="records")
     }
 
 
@@ -175,46 +205,39 @@ def get_metrics() -> Dict[str, Any]:
 def list_models() -> List[Dict[str, Any]]:
     return [
         {
-            "id": "majority_baseline",
-            "name": "Majority Baseline",
-            "type": "heuristic",
-            "description": "Predicts historical training-majority direction."
+            "id": "gmu_fusion",
+            "name": "Gated Multimodal Unit (GMU Fusion)",
+            "type": "multimodal_fusion",
+            "description": "Learned convex gating combining Market BiLSTM (64-d) with FinBERT embeddings (768-d).",
+            "timing_status": "TIMING-LIMITED (Daily Headline Alignment)"
         },
         {
-            "id": "direction_persistence",
-            "name": "Direction Persistence (Lag-1)",
-            "type": "heuristic",
-            "description": "Predicts next-day direction matches previous trading day."
+            "id": "market_bilstm",
+            "name": "Market-Only BiLSTM (PyTorch)",
+            "type": "deep_learning",
+            "description": "Two-layer Bidirectional LSTM on 20-session sequential market technical indicators.",
+            "timing_status": "POINT-IN-TIME CERTIFIED"
         },
         {
             "id": "lr_endpoint",
             "name": "Logistic Regression (t-1 Endpoint)",
             "type": "linear",
-            "description": "Linear classifier fitted on lag-1 technical indicator vector."
+            "description": "Linear classifier fitted on lag-1 technical indicator vector.",
+            "timing_status": "POINT-IN-TIME CERTIFIED"
         },
         {
-            "id": "lr_flat",
-            "name": "Logistic Regression (20-Day Flat)",
-            "type": "linear",
-            "description": "Linear classifier fitted on flattened 20-session market window."
+            "id": "direction_persistence",
+            "name": "Direction Persistence (Lag-1)",
+            "type": "heuristic",
+            "description": "Predicts next-day direction matches previous trading day.",
+            "timing_status": "POINT-IN-TIME CERTIFIED"
         },
         {
-            "id": "individual_bilstm",
-            "name": "Individual Market BiLSTM",
-            "type": "deep_learning",
-            "description": "Two-layer Bidirectional LSTM trained per ticker."
-        },
-        {
-            "id": "shared_bilstm",
-            "name": "Shared Multi-Ticker BiLSTM (Pooled)",
-            "type": "deep_learning",
-            "description": "Pooled Bidirectional LSTM trained across 11 active equities."
-        },
-        {
-            "id": "gmu_fusion",
-            "name": "Gated Multimodal Unit (GMU)",
-            "type": "multimodal_fusion",
-            "description": "Learned convex gating between market sequence and FinBERT embeddings."
+            "id": "majority_baseline",
+            "name": "Majority Baseline",
+            "type": "heuristic",
+            "description": "Predicts historical training-majority direction.",
+            "timing_status": "POINT-IN-TIME CERTIFIED"
         }
     ]
 
@@ -225,7 +248,7 @@ def predict_trend(req: PredictionRequest) -> Dict[str, Any]:
     if ticker not in TICKER_INFO:
         raise HTTPException(status_code=400, detail=f"Unsupported ticker: '{ticker}'")
 
-    result = inference_engine.get_prediction(ticker, req.target_date)
+    result = inference_engine.get_prediction(ticker, req.target_date, model_type=req.model_type or "gmu_fusion")
     if result.get("status") == "error":
         raise HTTPException(status_code=404, detail=result.get("message"))
     return result

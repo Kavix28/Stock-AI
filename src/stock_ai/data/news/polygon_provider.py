@@ -7,13 +7,13 @@ from typing import Dict, List, Any
 import pandas as pd
 import requests
 
-from src.stock_ai.data.news.base import (
+from .base import (
     NewsDataProvider,
     ProviderConfigurationError,
     ProviderRateLimitError,
     ProviderDataError
 )
-from src.stock_ai.data.news.schema import CanonicalNewsSchema
+from .schema import CanonicalNewsSchema
 
 
 class PolygonNewsProvider(NewsDataProvider):
