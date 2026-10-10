@@ -1,135 +1,119 @@
-# Stock-AI Platform: Final Evidence-Based Audit & Verification Report
+# Stock-AI Platform: Final Closure & Evidence-Based Verification Report
 
 **Project Title:** Stock-AI: Multimodal AI for Stock Trend Prediction  
 **GitHub Repository:** [https://github.com/Kavix28/Stock-AI.git](https://github.com/Kavix28/Stock-AI.git)  
-**Target Branch:** `main` (Fully Synchronized & Clean)  
-**Audit Date:** 2026-10-10  
-**Overall Project Status:** **PASS** (Platform, Pipeline, Test Suite, Frontend, Video & 11-Ticker Benchmark); **BLOCKED** (12-Ticker Universe on ATVI Historical Provenance)
+**Target Branch:** `main` (Synchronized & Clean)  
+**Final Commit Hash:** `b542f76`  
+**Audit & Delivery Date:** 2026-10-10  
+**Research Validation Status:** **PARTIALLY VALIDATED / BLOCKED ON ATVI PROVENANCE**  
+_(The platform, test suite, and 11 active equity forward pipelines are fully verified; however, full replication of the paper's 12-ticker universe is classified as BLOCKED due to unresolved legacy ATVI data provenance.)_
 
 ---
 
-## 1. Executive Status Matrix
+## 1. Verified Status Matrix
 
-| Subsystem / Requirement                | Status      | Evidence / Verification Metric                                                                                           |
-| :------------------------------------- | :---------- | :----------------------------------------------------------------------------------------------------------------------- |
-| **Git Safety & Remote Tracking**       | **PASS**    | `origin` points to `Kavix28/Stock-AI.git`; `old_stock_ai` preserved; clean working tree; commits pushed cleanly.         |
-| **Active 11 Equities Market Pipeline** | **PASS**    | 4,185 sessions/ticker (2010–2026); 16 technical indicators; zero NaNs; zero boundary violations; strictly chronological. |
-| **12-Ticker Paper Replication (ATVI)** | **BLOCKED** | Delisted Oct 2023; 0 observations in 2024–2026 forward test window; legacy data lacks verifiable URL/timestamps.         |
-| **Benchmark Metric Recomputation**     | **PASS**    | 6,292 test targets verified; Macro F1 contradiction resolved; marginal +0.92% edge over Majority quantified.             |
-| **Backend REST API Integrity**         | **PASS**    | 11 automated pytest tests passing (`TestClient`); valid schemas, proper 400/404 handling, zero fabrication.              |
-| **Frontend Production Build**          | **PASS**    | `npm run build` succeeds in 3.92s with zero TypeScript or bundling errors; glassmorphic UI.                              |
-| **Technical Explanatory Video**        | **PASS**    | 1920x1080 Full HD MP4 (570.0s); H.264 video + AAC synthetic speech narration track (`Microsoft David Desktop` TTS).      |
-| **Automated Test Suite**               | **PASS**    | **51 / 51 tests passing** (100% pass rate) across unit, integration, regression, and API verification.                   |
+| Subsystem / Requirement                | Status      | Exit Code / Evidence             | Verification Details                                                                                                                  |
+| :------------------------------------- | :---------- | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| **Git Safety & Remote Tracking**       | **PASS**    | Exit 0                           | `origin` tracked to `Kavix28/Stock-AI.git`; `old_stock_ai` preserved; clean working tree; commits pushed cleanly.                     |
+| **Active 11 Equities Market Pipeline** | **PASS**    | Exit 0                           | 4,185 sessions/ticker (2010–2026); 16 technical indicators; zero NaNs; zero lookahead leakage.                                        |
+| **12-Ticker Paper Replication (ATVI)** | **BLOCKED** | Unresolved                       | Delisted Oct 13, 2023; 0 sessions in 2024–2026 forward test window; legacy CSV lacks verified provider URL and retrieval metadata.    |
+| **Benchmark Metric Reconciliation**    | **PASS**    | Recomputed                       | 6,292 out-of-sample sessions; exact rankings verified; market drift vs. model skill clarified; absence of trading edge documented.    |
+| **Backend REST API Integrity**         | **PASS**    | Exit 0 (11/11 tests)             | FastAPI TestClient passes all endpoints; exact prediction alignment against saved artifacts; error handling verified.                 |
+| **Frontend Production Build**          | **PASS**    | Exit 0 (3.74s)                   | `npm run build` succeeds with zero TypeScript errors; Vite assets generated cleanly.                                                  |
+| **Technical Explanatory Video**        | **PASS**    | Exit 0 (ffprobe)                 | 1920x1080 Full HD MP4 (569.93s, 12.02 MB); H.264 video + AAC audio track; previous render safely backed up to `.mp4.bak`.             |
+| **Video Subtitles & Captions**         | **PASS**    | Exit 0 (`validate_subtitles.py`) | 37 subtitle cues covering 00:00:01 to 00:09:25 (565s); strictly monotonic timestamps; non-overlapping; synchronized to audio.         |
+| **Audio Narration Disclosure**         | **PASS**    | Disclosed                        | Narration is synthetic text-to-speech generated via Windows Speech Synthesis (SAPI `Microsoft David Desktop`), NOT human, NOT neural. |
+| **Automated Test Suite**               | **PASS**    | Exit 0 (51/51 tests)             | 100% pass rate across unit, integration, regression, and API verification tests.                                                      |
 
 ---
 
-## 2. ATVI Evidence Gap & Provenance Resolution
+## 2. ATVI Provenance Investigation & Resolution
 
-### A. The Finding
+### A. Provenance Audit Findings
 
-In accordance with strict empirical standards, the legacy file `data/processed/market/ATVI.csv` was audited:
-
-- **Observation Count:** 3,046 daily sessions (2010-08-16 to 2022-09-20).
-- **Forward Horizon (2024–2026):** **0 trading observations**.
-- **Corporate Action:** Activision Blizzard (`ATVI`) was acquired by Microsoft Corporation for $68.7B and delisted on **October 13, 2023**.
-- **Provenance Gap:** The file was inherited from historical repository archives without recorded provider API queries, retrieval timestamps, licensing metadata, or corporate action adjustment logs.
+- **Legacy File:** `data/processed/market/ATVI.csv` (3,046 daily sessions from 2010-08-16 to 2022-09-20).
+- **Forward Test Coverage (2024–2026):** **0 trading sessions**.
+- **Delisting Event:** Activision Blizzard (`ATVI`) was acquired by Microsoft Corporation for $68.7B and delisted on **October 13, 2023**.
+- **API Availability:** Public Yahoo Finance / YahooQuery endpoints purge delisted symbols and return HTTP 404 / empty DataFrames.
+- **Provenance Gap:** The historical file was inherited from earlier research student capstone archives (`stocks_ts_ATVI_2021-1-4_2022-9-20.csv`). It lacks recorded original download URLs, API query parameters, retrieval timestamps, licensing documentation, and corporate action adjustment logs.
 
 ### B. Resolution & Academic Classification
 
-- **12-Ticker Validation Status: BLOCKED.** Full replication of the paper's 12-ticker universe cannot be scientifically claimed without verified, authoritative historical pricing provider records.
-- **11 Active Equities: VERIFIED.** All modern forward-testing benchmarks are strictly reported across the 11 active equities (`AAPL`, `AMT`, `BIO`, `JNJ`, `NDAQ`, `NFLX`, `NVDA`, `PLD`, `SBUX`, `SCHW`, `TSLA`).
+- **12-Ticker Universe Status: BLOCKED.** The project cannot be certified as fully research-validated against the paper's original 12-ticker scope until an authoritative, licensed commercial historical provider (e.g., CRSP, Bloomberg, or Refinitiv) is integrated and audited.
+- **11 Active Equities: VERIFIED.** All out-of-sample forward testing (2024–2026) is strictly reported and benchmarked across the 11 active equities (`AAPL`, `AMT`, `BIO`, `JNJ`, `NDAQ`, `NFLX`, `NVDA`, `PLD`, `SBUX`, `SCHW`, `TSLA`). ATVI historical results (180 sessions in 2022) are reported separately in `reports/BENCHMARK_RECOMPUTATION_AUDIT.md`.
 
 ---
 
-## 3. Benchmark Recomputation & Empirical Audit
+## 3. Recomputed Benchmark Metrics & Ranking Audit
 
-Evaluated across **6,292 out-of-sample forward test sessions** (2024-07-01 to 2026-10-09) across 11 active equities:
+Evaluated across **6,292 out-of-sample forward test sessions** (July 1, 2024 to October 9, 2026) across 11 active equities:
 
-| Model Architecture                 | Pooled Accuracy | Balanced Acc | Macro F1   | F1 (Down) | F1 (Up) | Observations | Scope / Mechanism                        |
-| :--------------------------------- | :-------------- | :----------- | :--------- | :-------- | :------ | :----------- | :--------------------------------------- |
-| **Shared Multi-Ticker BiLSTM**     | **52.13%**      | 50.00%       | 0.3426     | 0.0000    | 0.6853  | 6,292        | Deep Recurrent (Cross-asset pooling)     |
-| **Training Majority Baseline**     | **51.21%**      | 50.00%       | 0.3382     | 0.0000    | 0.6773  | 6,292        | Heuristic Floor ($1 = Up$)               |
-| **Next-Day LR (20-Day Flat)**      | 50.19%          | 50.08%       | 0.4930     | 0.4290    | 0.5571  | 6,292        | **Top Macro F1 (Parametric Classifier)** |
-| **Next-Day LR (t-1 Endpoint)**     | 49.90%          | 49.88%       | 0.4938     | 0.4402    | 0.5475  | 6,292        | Linear Classifier ($t-1$ vector)         |
-| **Direction Persistence (Lag-1)**  | 49.63%          | 49.53%       | **0.4953** | 0.4738    | 0.5168  | 6,292        | **Top Macro F1 (All Baselines)**         |
-| **Individual BiLSTM (Per-Ticker)** | 48.58%          | 50.00%       | 0.3590     | 0.0000    | 0.6539  | 6,292        | Prone to single-ticker overfitting       |
+| Model Architecture                | Accuracy (%) | Balanced Acc (%) | Macro F1   | F1 (Down) | F1 (Up) | TN    | FP    | FN    | TP    | Total Sessions |
+| :-------------------------------- | :----------- | :--------------- | :--------- | :-------- | :------ | :---- | :---- | :---- | :---- | :------------- |
+| **Majority Baseline**             | **52.13%**   | 50.00%           | 0.3427     | 0.0000    | 0.6853  | 0     | 3,012 | 0     | 3,280 | 6,292          |
+| **BiLSTM (3-Seed Ensemble)**      | 51.30%       | 50.12%           | 0.4648     | 0.3043    | 0.6254  | 670   | 2,342 | 722   | 2,558 | 6,292          |
+| **BiLSTM (Seed 123)**             | 50.52%       | **50.58%**       | **0.5052** | 0.5012    | 0.5092  | 1,564 | 1,448 | 1,665 | 1,615 | 6,292          |
+| **Next-Day LR (20-Day Flat)**     | 50.11%       | 49.66%           | 0.4930     | 0.4290    | 0.5571  | 1,179 | 1,833 | 1,306 | 1,974 | 6,292          |
+| **Next-Day LR (t-1 Endpoint)**    | 49.95%       | 49.59%           | 0.4938     | 0.4402    | 0.5475  | 1,238 | 1,774 | 1,375 | 1,905 | 6,292          |
+| **Direction Persistence (Lag-1)** | 49.62%       | 49.53%           | 0.4953     | 0.4738    | 0.5168  | 1,427 | 1,585 | 1,585 | 1,695 | 6,292          |
+| **BiLSTM (Seed 42)**              | 48.82%       | 49.22%           | 0.4856     | 0.5225    | 0.4486  | 1,762 | 1,250 | 1,970 | 1,310 | 6,292          |
+| **BiLSTM (Seed 7)**               | 48.43%       | 48.74%           | 0.4828     | 0.5105    | 0.4551  | 1,692 | 1,320 | 1,925 | 1,355 | 6,292          |
 
-### Key Empirical Findings:
+### Critical Empirical Clarifications:
 
-1. **Resolution of Macro F1 Contradiction:** Direction Persistence achieves the highest Macro F1 (**0.4953**) among all models because it predicts both classes near 50/50 without parameter training. Among _trained parametric classifiers_, Logistic Regression (20-Day Flat) achieves the highest Macro F1 (**0.4930**).
-2. **Quantification of the Marginal Edge:** The Shared BiLSTM achieves 52.13% accuracy compared to 51.21% for the Majority baseline—an absolute improvement of only **+0.92%** (58 additional sessions correctly classified out of 6,292).
-3. **Physical Limits of Predictability:** Daily equity returns in liquid markets operate near the efficient martingale boundary ($52\% \text{ to } 54\%$). Claims of $>65\%$ daily directional accuracy reflect lookahead leakage or post-close news contamination.
+1. **Market Drift vs. Model Skill:** The Majority baseline achieves the top raw accuracy (52.13%) because the test horizon exhibited 3,280 Up sessions out of 6,292 (52.13% positive drift). Naively predicting Up every session captures this drift without requiring any predictive skill, but yields 0.0000 F1 on Down days.
+2. **True Model Rankings:** The BiLSTM ensemble achieves 51.30% accuracy, while individual BiLSTM configurations achieve 48.43% to 50.52%. Direction Persistence achieves the top Macro F1 (0.4953) among heuristic baselines, while Logistic Regression achieves 0.4930 among linear models.
+3. **Absence of Commercial Trading Edge:** A directional accuracy of ~51% in daily equity markets is consistent with the efficient market hypothesis and does **not** generate a profitable trading strategy after factoring in transaction costs, exchange fees, bid-ask spread friction, and slippage. No model in this repository is claimed to produce a commercial trading edge.
 
 ---
 
-## 4. API Verification Evidence
+## 4. Video, Subtitles & Narration Validation
 
-Exercised via dedicated automated test suite (`tests/unit/test_api_verification.py`) using FastAPI's `TestClient`:
+- **File Path:** `video/output/Stock_AI_Project_Explained.mp4`
+- **Backup File:** `video/output/Stock_AI_Project_Explained.mp4.bak`
+- **Duration:** Exactly `569.933333` seconds (9 minutes 30 seconds).
+- **Streams:**
+  - Video: H.264 / AVC, 1920x1080 (16:9), 30 fps, profile High.
+  - Audio: AAC, 22,050 Hz, 1 channel mono, 192 kbps.
+- **Narration Synthesis Method:** Synthesized speech generated using Windows SAPI (`System.Speech.Synthesis.SpeechSynthesizer`, voice `Microsoft David Desktop`). The narration is explicitly synthetic (rule-based desktop TTS), **not human** and **not neural**.
+- **Subtitle Verification:** `video/captions/Stock_AI_Project_Explained.srt` contains 37 subtitle cues extending from 00:00:01 to 00:09:25 (565.0s). Validated via `scripts/validate_subtitles.py`: strictly monotonic, non-overlapping, zero gaps in chapter structure.
+
+---
+
+## 5. Automated Regression Test Suite & Frontend Build
+
+### Python Test Suite (`pytest`):
 
 ```bash
-pytest tests/unit/test_api_verification.py -v
+pytest tests/ -v
+# Exit code: 0
+# Result: 51 passed, 1 warning in 1.70s (100% pass rate)
 ```
 
-**Output:** 11 passed in 1.25s.
-
-- `GET /health` -> 200 OK (`{"status": "healthy"}`)
-- `GET /api/v1/metadata` -> 200 OK (`{"pooled_test_observations": 6292}`)
-- `GET /api/v1/tickers` -> 200 OK (12 tickers; ATVI marked `delisted=True` with `BLOCKED` notes)
-- `GET /api/v1/tickers/{ticker}/history` -> 200 OK (verified OHLCV records)
-- `GET /api/v1/tickers/FAKE/history` -> 404 Not Found
-- `GET /api/v1/tickers/{ticker}/news` -> 200 OK (`TIMING-LIMITED` flag returned)
-- `GET /api/v1/metrics` -> 200 OK (returns verified model summaries)
-- `POST /api/v1/predict` (latest) -> 200 OK (zero fabrication, verified forward prediction)
-- `POST /api/v1/predict` (point-in-time date) -> 200 OK (exact date target alignment)
-- `POST /api/v1/predict` (unknown ticker) -> 400 Bad Request
-- `POST /api/v1/predict` (out-of-range date) -> 404 Not Found
-
----
-
-## 5. Technical Video Verification
-
-Inspected via `ffprobe`:
+### Frontend Build (`vite`):
 
 ```bash
-ffprobe -v error -show_streams -show_entries format=duration,size video/output/Stock_AI_Project_Explained.mp4
-```
-
-**Output:**
-
-- **Stream 0 (Video):** `h264`, 1920x1080 Full HD, 30 fps, 16:9 aspect ratio.
-- **Stream 1 (Audio):** `aac` (Advanced Audio Coding), 22,050 Hz, 192 kbps mono, SoundHandler.
-- **Duration:** Exactly `570.000000` seconds (9 minutes 30 seconds).
-- **File Size:** 12,634,554 bytes (~12.05 MB).
-- **Subtitles:** Synchronized SubRip (`.srt`) track in `video/captions/Stock_AI_Project_Explained.srt`.
-- **Narration Nature:** Synthesized speech narration generated using Windows Speech Synthesis (`Microsoft David Desktop` TTS), exactly matched to each scene's timing.
-
----
-
-## 6. Full Test Suite & Build Verification
-
-```bash
-# Python Test Suite
-pytest tests/
-# Output: 51 passed, 1 warning in 1.83s (100% PASS RATE)
-
-# Frontend Production Build
 cd frontend && npm run build
-# Output: built in 3.92s, 0 errors
+# Exit code: 0
+# Result: built in 3.74s, 0 errors
 ```
+
+### API Inference Match:
+
+Verified that `InferenceEngine.get_prediction("AAPL")` returns the exact target date (`2026-10-09`), ground truth label (`1`), and predicted label (`1`) stored in `results/latest/predictions/AAPL_predictions.csv`.
 
 ---
 
-## 7. Git Synchronization Status
+## 6. Final Git Delivery State
 
 ```bash
+git log -n 3 --oneline
+# b542f76 (HEAD -> main, origin/main) feat(video): complete 37 synchronized subtitles for 570s video and add validator script
+# 9c733ee fix(benchmarks): reconcile exact recomputed metrics, absence of trading edge, and ATVI separation
+# 6eb54a4 docs(audit): add final evidence-based audit delivery report
+
 git status
 # On branch main
 # Your branch is up to date with 'origin/main'.
 # nothing to commit, working tree clean
-
-git remote -v
-# old_stock_ai  https://github.com/Kavix28/stock_ai.git (fetch)
-# old_stock_ai  https://github.com/Kavix28/stock_ai.git (push)
-# origin        https://github.com/Kavix28/Stock-AI.git (fetch)
-# origin        https://github.com/Kavix28/Stock-AI.git (push)
 ```
