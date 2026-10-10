@@ -46,7 +46,7 @@ RESULTS_DIR = "results/latest"
 TICKER_INFO = {
     "AAPL": {"name": "Apple Inc.", "sector": "Information Technology", "delisted": False},
     "AMT": {"name": "American Tower Corporation", "sector": "Real Estate", "delisted": False},
-    "ATVI": {"name": "Activision Blizzard, Inc.", "sector": "Communication Services", "delisted": True, "notes": "Delisted Oct 2023; Historical Fallback"},
+    "ATVI": {"name": "Activision Blizzard, Inc.", "sector": "Communication Services", "delisted": True, "notes": "Delisted Oct 2023; Legacy Provenance Unverified (BLOCKED)"},
     "BIO": {"name": "Bio-Rad Laboratories, Inc.", "sector": "Health Care", "delisted": False},
     "JNJ": {"name": "Johnson & Johnson", "sector": "Health Care", "delisted": False},
     "NDAQ": {"name": "Nasdaq, Inc.", "sector": "Financials", "delisted": False},

@@ -79,20 +79,25 @@ While the original study introduced multimodal fusion between financial time ser
 
 The universe comprises 12 equities representing diverse market sectors, capitalization tiers, and volatility regimes:
 
-| Ticker   | Company Name          | Sector                 | Observation Range       | Sessions | Data Status                                 |
-| :------- | :-------------------- | :--------------------- | :---------------------- | :------- | :------------------------------------------ |
-| **AAPL** | Apple Inc.            | Information Technology | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **AMT**  | American Tower Corp.  | Real Estate            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **ATVI** | Activision Blizzard   | Communication Services | 2010-02-22 – 2022-09-20 | 3,171    | **Delisted Oct 2023** (Historical Fallback) |
-| **BIO**  | Bio-Rad Laboratories  | Health Care            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **JNJ**  | Johnson & Johnson     | Health Care            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **NDAQ** | Nasdaq, Inc.          | Financials             | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **NFLX** | Netflix, Inc.         | Communication Services | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **NVDA** | NVIDIA Corporation    | Information Technology | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **PLD**  | Prologis, Inc.        | Real Estate            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **SBUX** | Starbucks Corporation | Consumer Discretionary | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **SCHW** | Charles Schwab Corp.  | Financials             | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed                          |
-| **TSLA** | Tesla, Inc.           | Consumer Discretionary | 2010-06-29 – 2026-10-09 | 4,098    | Verified Refreshed                          |
+| Ticker   | Company Name          | Sector                 | Observation Range       | Sessions | Data Status                                                   |
+| :------- | :-------------------- | :--------------------- | :---------------------- | :------- | :------------------------------------------------------------ |
+| Ticker   | Company Name          | Sector                 | Observation Range       | Sessions | Data Status                                                   |
+| :------- | :-------------------- | :--------------------- | :---------------------- | :------- | :--------------------------------------------------------     |
+| **AAPL** | Apple Inc.            | Information Technology | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **AMT**  | American Tower Corp.  | Real Estate            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **ATVI** | Activision Blizzard   | Communication Services | 2010-02-22 – 2022-09-20 | 3,046    | **BLOCKED** (Delisted Oct 2023; Legacy Provenance Unverified) |
+| **BIO**  | Bio-Rad Laboratories  | Health Care            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **JNJ**  | Johnson & Johnson     | Health Care            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **NDAQ** | Nasdaq, Inc.          | Financials             | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **NFLX** | Netflix, Inc.         | Communication Services | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **NVDA** | NVIDIA Corporation    | Information Technology | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **PLD**  | Prologis, Inc.        | Real Estate            | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **SBUX** | Starbucks Corporation | Consumer Discretionary | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **SCHW** | Charles Schwab Corp.  | Financials             | 2010-02-22 – 2026-10-09 | 4,185    | Verified Refreshed (YahooQuery/YFinance)                      |
+| **TSLA** | Tesla, Inc.           | Consumer Discretionary | 2010-06-29 – 2026-10-09 | 4,098    | Verified Refreshed (YahooQuery/YFinance)                      |
+
+> [!WARNING]
+> **ATVI Provenance Notice:** Activision Blizzard (`ATVI`) was acquired by Microsoft and delisted on October 13, 2023. It contains 0 trading observations in the 2024–2026 forward test period. Furthermore, its historical data lacks verifiable retrieval metadata (original download URL, timestamps, and corporate action adjustments). Consequently, 12-ticker full replication of the paper is marked as **BLOCKED**, and verified out-of-sample benchmarks are reported strictly across the **11 active equities**.
 
 ---
 
@@ -139,7 +144,7 @@ To replicate real-world quantitative deployment, data is partitioned chronologic
 
 - **Training Horizon:** `2010-02-22` to `2022-12-31` (~3,200 sessions per active ticker; 35,000+ total training windows).
 - **Validation Horizon:** `2023-01-01` to `2024-06-30` (~375 sessions per ticker; 4,100+ validation windows). Used strictly for early stopping and threshold calibration.
-- **Out-of-Sample Forward Test:** `2024-07-01` to `2026-10-09` (572 trading sessions per active ticker; **6,292 pooled test observations**). Evaluated strictly once.
+- **Out-of-Sample Forward Test:** `2024-07-01` to `2026-10-09` (572 trading sessions per active ticker; **6,292 pooled test observations** across 11 active equities). Evaluated strictly once.
 
 ---
 
@@ -204,14 +209,19 @@ Any machine learning model must be evaluated against standard econometric baseli
 
 Out-of-sample forward evaluation on **6,292 test observations** across 11 active equities (July 2024 – October 2026):
 
-| Model Architecture                 | Mean Accuracy | Balanced Acc | Macro F1   | Total Predictions | Evaluation Scope     |
-| :--------------------------------- | :------------ | :----------- | :--------- | :---------------- | :------------------- |
-| **Shared Multi-Ticker BiLSTM**     | **52.13%**    | 50.00%       | 0.3426     | 6,292             | Pooled 11 Tickers    |
-| **Training Majority Baseline**     | **51.21%**    | 50.00%       | 0.3382     | 6,292             | Heuristic            |
-| **Next-Day LR (20-Day Flat)**      | 50.01%        | 50.19%       | **0.4704** | 6,292             | Linear Classifier    |
-| **Next-Day LR (t-1 Endpoint)**     | 49.68%        | 50.41%       | 0.4451     | 6,292             | Linear Classifier    |
-| **Direction Persistence (Lag-1)**  | 49.47%        | 49.13%       | 0.4913     | 6,292             | Momentum Heuristic   |
-| **Individual BiLSTM (Per-Ticker)** | 48.58%        | 50.00%       | 0.3590     | 6,292             | Recurrent Deep Model |
+| Model Architecture                 | Pooled Accuracy | Balanced Acc | Macro F1   | Total Predictions | Evaluation Scope     |
+| :--------------------------------- | :-------------- | :----------- | :--------- | :---------------- | :------------------- |
+| **Shared Multi-Ticker BiLSTM**     | **52.13%**      | 50.00%       | 0.3426     | 6,292             | Pooled 11 Tickers    |
+| **Training Majority Baseline**     | **51.21%**      | 50.00%       | 0.3382     | 6,292             | Heuristic Floor      |
+| **Next-Day LR (20-Day Flat)**      | 50.19%          | 50.08%       | 0.4930     | 6,292             | Linear Classifier    |
+| **Next-Day LR (t-1 Endpoint)**     | 49.90%          | 49.88%       | 0.4938     | 6,292             | Linear Classifier    |
+| **Direction Persistence (Lag-1)**  | 49.63%          | 49.53%       | **0.4953** | 6,292             | Momentum Heuristic   |
+| **Individual BiLSTM (Per-Ticker)** | 48.58%          | 50.00%       | 0.3590     | 6,292             | Recurrent Deep Model |
+
+> [!NOTE]
+> **Macro F1 Clarification:** Direction Persistence achieves the highest overall Macro F1 (**0.4953**) among all models because it predicts both Up and Down regimes near 50/50 without parameter training. Among _trained parametric classifiers_, Logistic Regression achieves the highest Macro F1 (**0.4930**).
+>
+> **Marginal Edge Over Majority:** The Shared Multi-Ticker BiLSTM achieves 52.13% accuracy versus 51.21% for the Majority baseline—an improvement of only **+0.92%** (58 additional sessions correctly classified out of 6,292). This confirms that daily market returns are near-martingale sequences and directional edge is highly constrained.
 
 ---
 
@@ -220,17 +230,19 @@ Out-of-sample forward evaluation on **6,292 test observations** across 11 active
 Our empirical findings reveal a fundamental quantitative tradeoff:
 
 - **Drift-Aligned Models:** Recurrent neural networks converge toward predicting the empirical market drift (~52% Up days in US equities), maximizing overall accuracy (52.13%) at the expense of Down-class recall.
-- **Regime-Balanced Models:** Linear models (Logistic Regression) maintain sensitivity across both Up and Down sessions, achieving substantially higher Macro F1 scores (0.4704) while sacrificing top-line accuracy.
+- **Regime-Balanced Models:** Linear models (Logistic Regression) maintain sensitivity across both Up and Down sessions, achieving higher Macro F1 scores (0.4930) while sacrificing top-line accuracy.
 
 ---
 
-## 15. Financial Reality & Market Efficiency
+## 15. Financial Reality & Limitations
 
-In modern efficient markets with high algorithmic participation, point-in-time directional predictability for daily equity trends rarely exceeds **52% to 54%**. Claims of 65% to 75% accuracy in daily financial forecasting are virtually always artifacts of:
+In modern liquid equity markets, out-of-sample point-in-time directional predictability is bounded near **52% to 54%**. Claims of 65% to 75% accuracy in daily financial forecasting are virtually always artifacts of:
 
 1. Target leakage (using current-day prices in feature calculation).
 2. Lookahead bias in news timestamp alignment.
 3. Test-set snooping during threshold or hyperparameter selection.
+
+Stock-AI provides an intellectually honest benchmark confirming the physical boundaries of daily stock predictability.
 
 Stock-AI provides an intellectually honest benchmark confirming the physical boundaries of daily stock predictability.
 
@@ -359,15 +371,16 @@ Open `http://localhost:5173` in your browser.
 
 The complete 9m 30s HD video is located at:
 
-- **Video:** `video/output/Stock_AI_Project_Explained.mp4`
+- **Video:** `video/output/Stock_AI_Project_Explained.mp4` (1920x1080 Full HD, H.264 video + AAC synthetic speech audio track, 570.0s)
+- **Audio Track:** Synthesized narration generated via Windows Speech Synthesis (SAPI TTS `Microsoft David Desktop`) and muxed into a 192 kbps AAC track, exactly timed to each scene.
 - **Narration Script:** [`video/script/NARRATION_SCRIPT.md`](video/script/NARRATION_SCRIPT.md)
 - **Visual Storyboard:** [`video/storyboard/STORYBOARD.md`](video/storyboard/STORYBOARD.md)
 - **Subtitles:** [`video/captions/Stock_AI_Project_Explained.srt`](video/captions/Stock_AI_Project_Explained.srt)
 
-To recompile the video:
+To recompile the video and synthesize narration:
 
 ```bash
-python video/render_video.py
+python scripts/synthesize_narration.py
 ```
 
 ---
@@ -380,7 +393,7 @@ Run the comprehensive test suite:
 pytest tests/
 ```
 
-**Status: 40 tests passing (100% pass rate).**
+**Status: 51 tests passing (100% pass rate).**
 
 ---
 
