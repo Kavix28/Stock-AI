@@ -5,7 +5,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs00521--024--10303--1-informational)](https://doi.org/10.1007/s00521-024-10303-1)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18.3+-61dafb.svg)](https://react.dev)
-[![Tests Passing](https://img.shields.io/badge/tests-87%20passed-success.svg)](https://github.com/Kavix28/Stock-AI)
+[![Tests Passing](https://img.shields.io/badge/tests-95%20passed-success.svg)](https://github.com/Kavix28/Stock-AI)
 
 > **Stock-AI** is a production-grade quantitative machine learning research platform investigating deep multimodal fusion of equity price sequences, 16 engineered technical indicators, and FinBERT financial sentiment representations across 12 S&P 500 / Nasdaq equities over 16 years (2010–2026).
 
@@ -401,7 +401,7 @@ Run the comprehensive test suite:
 pytest tests/
 ```
 
-**Status: 87 tests passing (100% pass rate).**
+**Status: 95 tests passing (100% pass rate).**
 
 ---
 

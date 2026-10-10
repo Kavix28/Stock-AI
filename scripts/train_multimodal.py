@@ -614,6 +614,44 @@ def run_multimodal_training(seed: int = 42) -> None:
     preds_df.to_csv(preds_csv_path, index=False)
     logger.info(f"Saved test predictions to: {preds_csv_path}")
 
+    # Compute per-ticker evaluation metrics
+    per_ticker_records = []
+    for tkr in ALL_TICKERS:
+        t_sub = preds_df[preds_df["ticker"] == tkr]
+        if len(t_sub) == 0:
+            continue
+        y_t = t_sub["actual_y"].values
+        # Heuristic persistence
+        acc_persist = accuracy_score(y_t, (t_sub["prob_persistence"].values >= 0.5).astype(int)) * 100.0
+        f1_persist = f1_score(y_t, (t_sub["prob_persistence"].values >= 0.5).astype(int), average="macro", zero_division=0)
+        # Market BiLSTM
+        acc_bilstm = accuracy_score(y_t, t_sub["pred_bilstm"].values) * 100.0
+        f1_bilstm = f1_score(y_t, t_sub["pred_bilstm"].values, average="macro", zero_division=0)
+        # GMU Fusion
+        acc_gmu = accuracy_score(y_t, t_sub["pred_gmu"].values) * 100.0
+        f1_gmu = f1_score(y_t, t_sub["pred_gmu"].values, average="macro", zero_division=0)
+        mean_z = t_sub["gmu_market_gate_weight"].mean()
+
+        per_ticker_records.append({
+            "ticker": tkr,
+            "test_samples": len(t_sub),
+            "up_count": int(np.sum(y_t == 1)),
+            "down_count": int(np.sum(y_t == 0)),
+            "persist_acc": round(acc_persist, 2),
+            "persist_f1": round(f1_persist, 4),
+            "bilstm_acc": round(acc_bilstm, 2),
+            "bilstm_f1": round(f1_bilstm, 4),
+            "gmu_acc": round(acc_gmu, 2),
+            "gmu_f1": round(f1_gmu, 4),
+            "mean_market_gate": round(float(mean_z), 4),
+            "mean_news_gate": round(float(1.0 - mean_z), 4)
+        })
+
+    per_ticker_df = pd.DataFrame(per_ticker_records)
+    per_ticker_csv_path = os.path.join(out_results, "per_ticker_metrics_summary.csv")
+    per_ticker_df.to_csv(per_ticker_csv_path, index=False)
+    logger.info(f"Saved per-ticker metrics summary to: {per_ticker_csv_path}")
+
     metrics_df = pd.DataFrame(metrics_list)
     metrics_csv_path = os.path.join(out_results, "multimodal_metrics_summary.csv")
     metrics_df.to_csv(metrics_csv_path, index=False)
@@ -638,6 +676,10 @@ def run_multimodal_training(seed: int = 42) -> None:
 
         f.write("### Benchmark Results Table\n\n")
         f.write(metrics_df.to_markdown(index=False))
+        f.write("\n\n")
+
+        f.write("### Per-Ticker Evaluation Breakdown\n\n")
+        f.write(per_ticker_df.to_markdown(index=False))
         f.write("\n\n")
 
         f.write("## 2. Modality Gate Analysis\n\n")

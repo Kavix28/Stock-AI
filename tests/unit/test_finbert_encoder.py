@@ -3,7 +3,10 @@ import numpy as np
 import torch
 from unittest.mock import MagicMock, patch
 
-from src.stock_ai.models.news.finbert import FinBertNewsEncoder
+try:
+    from stock_ai.models.news.finbert import FinBertNewsEncoder
+except ImportError:
+    from src.stock_ai.models.news.finbert import FinBertNewsEncoder
 
 
 def test_encoder_init_and_metadata():
@@ -88,3 +91,20 @@ def test_encode_batch_with_mocked_transformer():
     assert np.all(embeddings[1] == 0.0)
     # Item 2 should have non-zero embeddings
     assert np.all(embeddings[2] == 2.0)
+
+
+def test_encoder_raises_error_when_model_fails_to_load():
+    encoder = FinBertNewsEncoder(model_name="c:/nonexistent_local_dir/does_not_exist", lazy_load=True)
+    with pytest.raises(RuntimeError, match="Could not load FinBERT model"):
+        encoder.load_model()
+
+
+def test_encoder_dtype_consistency():
+    encoder = FinBertNewsEncoder(lazy_load=True)
+    zero = encoder.get_zero_news_vector()
+    assert zero.dtype == np.float32
+    assert zero.shape == (768,)
+    # Empty texts also return float32
+    empty_enc = encoder.encode_text("")
+    assert empty_enc.dtype == np.float32
+    assert empty_enc.shape == (768,)

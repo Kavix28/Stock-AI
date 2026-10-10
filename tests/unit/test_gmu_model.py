@@ -2,8 +2,12 @@ import pytest
 import torch
 import numpy as np
 
-from src.stock_ai.models.market.bilstm import MarketBiLSTM, build_market_bilstm
-from src.stock_ai.models.fusion.gmu import GatedMultimodalUnit, build_gmu_fusion_model
+try:
+    from stock_ai.models.market.bilstm import MarketBiLSTM, build_market_bilstm
+    from stock_ai.models.fusion.gmu import GatedMultimodalUnit, build_gmu_fusion_model
+except ImportError:
+    from src.stock_ai.models.market.bilstm import MarketBiLSTM, build_market_bilstm
+    from src.stock_ai.models.fusion.gmu import GatedMultimodalUnit, build_gmu_fusion_model
 
 
 def test_market_bilstm_forward_shape():
@@ -89,3 +93,70 @@ def test_gmu_gradient_flow():
     assert model.news_proj[0].weight.grad is not None
     assert model.gate_fc.weight.grad is not None
     assert model.classifier[0].weight.grad is not None
+
+
+def test_gmu_checkpoint_roundtrip_preserves_predictions(tmp_path):
+    torch.manual_seed(42)
+    model1 = build_gmu_fusion_model(seq_len=20, market_feat_dim=16, news_embed_dim=768, proj_dim=64)
+    model1.eval()
+
+    ckpt_file = tmp_path / "gmu_test_checkpoint.pt"
+    torch.save(model1.state_dict(), ckpt_file)
+
+    model2 = build_gmu_fusion_model(seq_len=20, market_feat_dim=16, news_embed_dim=768, proj_dim=64)
+    model2.load_state_dict(torch.load(ckpt_file))
+    model2.eval()
+
+    x_m = torch.randn(6, 20, 16)
+    x_n = torch.randn(6, 768)
+
+    with torch.no_grad():
+        out1 = model1(x_m, x_n)
+        out2 = model2(x_m, x_n)
+
+    assert torch.allclose(out1, out2, atol=1e-6)
+
+
+def test_gmu_finite_loss_and_trainable_updates():
+    torch.manual_seed(42)
+    model = build_gmu_fusion_model(seq_len=20, market_feat_dim=16, news_embed_dim=768, proj_dim=64)
+    model.train()
+    optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
+    criterion = torch.nn.BCELoss()
+
+    # Initial weights
+    initial_w = model.gate_fc.weight.clone().detach()
+
+    x_m = torch.randn(8, 20, 16)
+    x_n = torch.randn(8, 768)
+    y = torch.tensor([[1.0], [0.0], [1.0], [0.0], [1.0], [1.0], [0.0], [0.0]])
+
+    losses = []
+    for _ in range(3):
+        optimizer.zero_grad()
+        out = model(x_m, x_n)
+        loss = criterion(out, y)
+        assert torch.isfinite(loss).item(), f"Loss became non-finite: {loss.item()}"
+        losses.append(loss.item())
+        loss.backward()
+        optimizer.step()
+
+    # Ensure weights updated
+    updated_w = model.gate_fc.weight.clone().detach()
+    assert not torch.allclose(initial_w, updated_w)
+    # Ensure losses are valid numbers
+    assert all(l > 0.0 for l in losses)
+
+
+def test_gmu_missing_news_zero_equivalence():
+    model = build_gmu_fusion_model(seq_len=20, market_feat_dim=16, news_embed_dim=768, proj_dim=64)
+    model.eval()
+
+    x_m = torch.randn(4, 20, 16)
+    zero_news = torch.zeros(4, 768)
+
+    with torch.no_grad():
+        out_explicit_zero = model(x_m, zero_news)
+        out_fallback = model.forward_market_only(x_m)
+
+    assert torch.allclose(out_explicit_zero, out_fallback, atol=1e-6)
