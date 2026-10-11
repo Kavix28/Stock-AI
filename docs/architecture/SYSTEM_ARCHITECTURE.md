@@ -58,7 +58,7 @@ graph TD
 ## 3. Technology Stack & Dependencies
 
 - **Language & Runtime:** Python 3.10+, Node.js 18+
-- **Machine Learning & Modeling:** Scikit-learn, TensorFlow / Keras, NumPy, Pandas
+- **Machine Learning & Modeling:** PyTorch 2.0+, HuggingFace Transformers (FinBERT), Scikit-learn, NumPy, Pandas
 - **Web API:** FastAPI, Uvicorn, Pydantic v2
 - **Frontend:** React 18, Vite 5, TypeScript 5, Recharts, Lucide React
 - **Multimedia:** Matplotlib, FFmpeg

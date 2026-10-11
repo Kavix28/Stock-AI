@@ -5,7 +5,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs00521--024--10303--1-informational)](https://doi.org/10.1007/s00521-024-10303-1)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-18.3+-61dafb.svg)](https://react.dev)
-[![Tests Passing](https://img.shields.io/badge/tests-95%20passed-success.svg)](https://github.com/Kavix28/Stock-AI)
+[![Tests Passing](https://img.shields.io/badge/tests-106%20passed-success.svg)](https://github.com/Kavix28/Stock-AI)
 
 > **Stock-AI** is a production-grade quantitative machine learning research platform investigating deep multimodal fusion of equity price sequences, 16 engineered technical indicators, and FinBERT financial sentiment representations across 12 S&P 500 / Nasdaq equities over 16 years (2010–2026).
 
@@ -207,6 +207,28 @@ Any machine learning model must be evaluated against standard econometric baseli
 
 ## 13. Empirical Evaluation Results
 
+### A. Multimodal Research Benchmark (924 Test Sessions across 12 Equities, June–September 2022)
+
+Evaluated under strict chronological out-of-sample isolation on the audited 2021–2022 research horizon (Train: `2021-01-05` to `2021-12-31`, Val: `2022-01-03` to `2022-05-31`, Test: `2022-06-01` to `2022-09-20`):
+
+| Model Architecture                 | Threshold ($\tau$) | Accuracy (%) | Balanced Acc (%) |  Macro F1  | Down F1 |   Up F1    |  ROC-AUC   | Brier Score | Predicted Distribution (Down / Up) |
+| :--------------------------------- | :----------------: | :----------: | :--------------: | :--------: | :-----: | :--------: | :--------: | :---------: | :--------------------------------: |
+| **Direction Persistence**          |        0.50        |  **52.16%**  |    **52.16%**    | **0.5216** | 0.5247  | **0.5185** |   0.5216   |   0.4784    |     464 (50.2%) / 460 (49.8%)      |
+| **Logistic Regression (Flat)**     |        0.56        |    51.52%    |      51.40%      |   0.5063   | 0.5725  |   0.4400   | **0.5261** |   0.2531    |     582 (63.0%) / 342 (37.0%)      |
+| **Logistic Regression (Endpoint)** |        0.54        |    49.57%    |      49.60%      |   0.4951   | 0.4787  |   0.5115   |   0.4733   |   0.2537    |     428 (46.3%) / 496 (53.7%)      |
+| **GMU Fusion (Multimodal)**        |        0.52        |    50.00%    |      49.87%      |   0.4876   | 0.5674  |   0.4077   |   0.4830   |   0.2513    |     602 (65.2%) / 322 (34.8%)      |
+| **Market-Only BiLSTM**             |        0.53        |    50.43%    |      50.00%      |   0.3353   | 0.6705  |   0.0000   |   0.4862   |   0.2507    |      924 (100.0%) / 0 (0.0%)       |
+| **GMU Zero-News Ablation**         |        0.52        |    50.43%    |      50.00%      |   0.3353   | 0.6705  |   0.0000   |   0.4770   |   0.2640    |      924 (100.0%) / 0 (0.0%)       |
+| **Majority Baseline (All-Down)**   |        0.50        |    50.43%    |      50.00%      |   0.3353   | 0.6705  |   0.0000   |   0.5000   |   0.4957    |      924 (100.0%) / 0 (0.0%)       |
+
+> [!IMPORTANT]
+> **Key Scientific Findings:**
+>
+> 1. **Mitigation of Mode Collapse:** The Market-Only BiLSTM and Zero-News Ablation models collapsed to all-Down predictions under decision threshold $\tau$, yielding $\text{F1(Up)} = 0.0000$ and a degraded $\text{Macro F1} = \mathbf{0.3353}$. Integrating FinBERT 768-d representations via GMU convex combination broke mode collapse, achieving diverse probabilities and a balanced $\text{Macro F1} = \mathbf{0.4876}$.
+> 2. **Absence of Trading Edge:** Despite breaking mode collapse, the GMU multimodal model (50.00% accuracy) did not outperform simple lag-1 Direction Persistence (52.16% accuracy, 0.5216 Macro F1). In liquid equity markets, a ~50–52% directional hit rate yields no commercial trading alpha after transaction friction.
+
+### B. Longitudinal Market-Only Benchmark (6,292 Test Sessions across 11 Equities, July 2024–October 2026)
+
 Out-of-sample forward evaluation on **6,292 test observations** across 11 active equities (July 2024 – October 2026):
 
 | Model Architecture                | Pooled Accuracy | Balanced Acc | Macro F1   | Total Predictions | Evaluation Scope        |
@@ -401,7 +423,7 @@ Run the comprehensive test suite:
 pytest tests/
 ```
 
-**Status: 95 tests passing (100% pass rate).**
+**Status: 106 tests passing (100% pass rate in 7.14s).**
 
 ---
 
