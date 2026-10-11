@@ -3,8 +3,12 @@ import pandas as pd
 from datetime import datetime
 import pytz
 
-from src.stock_ai.data.news.alignment import NewsMarketAligner, CausalAlignmentError
-from src.stock_ai.data.news.schema import CanonicalNewsSchema
+try:
+    from stock_ai.data.news.alignment import NewsMarketAligner, CausalAlignmentError
+    from stock_ai.data.news.schema import CanonicalNewsSchema
+except ImportError:
+    from src.stock_ai.data.news.alignment import NewsMarketAligner, CausalAlignmentError
+    from src.stock_ai.data.news.schema import CanonicalNewsSchema
 
 
 def test_market_session_bounds_utc():

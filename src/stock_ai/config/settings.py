@@ -44,6 +44,9 @@ class AppConfig(BaseModel):
     stocks: List[StockConfig] = []
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+
+
 def load_config(
     base_config_path: Path = Path("configs/base.yaml"),
     stocks_config_path: Path = Path("configs/stocks.yaml")
@@ -51,6 +54,12 @@ def load_config(
     """Load and merge project YAML configurations into a structured AppConfig object."""
     base_path = Path(base_config_path)
     stocks_path = Path(stocks_config_path)
+
+    if not base_path.exists() and (PROJECT_ROOT / base_path).exists():
+        base_path = PROJECT_ROOT / base_path
+
+    if not stocks_path.exists() and (PROJECT_ROOT / stocks_path).exists():
+        stocks_path = PROJECT_ROOT / stocks_path
 
     if not base_path.exists():
         raise FileNotFoundError(f"Base configuration file not found at {base_path}")

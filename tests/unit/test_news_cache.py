@@ -4,7 +4,10 @@ import numpy as np
 import pandas as pd
 from unittest.mock import MagicMock
 
-from src.stock_ai.data.news.cache import NewsEmbeddingCache
+try:
+    from stock_ai.data.news.cache import NewsEmbeddingCache
+except ImportError:
+    from src.stock_ai.data.news.cache import NewsEmbeddingCache
 
 
 def test_cache_save_and_load(tmp_path):

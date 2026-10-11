@@ -3,7 +3,10 @@ import os
 import json
 import pandas as pd
 
-from src.stock_ai.data.news.manifest import NewsManifestGenerator
+try:
+    from stock_ai.data.news.manifest import NewsManifestGenerator
+except ImportError:
+    from src.stock_ai.data.news.manifest import NewsManifestGenerator
 
 
 def test_manifest_generator_exports_valid_files(tmp_path):

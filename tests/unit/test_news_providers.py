@@ -2,11 +2,18 @@ import pytest
 import os
 import pandas as pd
 
-from src.stock_ai.data.news.local_provider import LocalCanonicalNewsProvider
-from src.stock_ai.data.news.polygon_provider import PolygonNewsProvider
-from src.stock_ai.data.news.tiingo_provider import TiingoNewsProvider
-from src.stock_ai.data.news.sec_edgar_provider import SecEdgarNewsProvider
-from src.stock_ai.data.news.base import ProviderConfigurationError, ProviderDataError
+try:
+    from stock_ai.data.news.local_provider import LocalCanonicalNewsProvider
+    from stock_ai.data.news.polygon_provider import PolygonNewsProvider
+    from stock_ai.data.news.tiingo_provider import TiingoNewsProvider
+    from stock_ai.data.news.sec_edgar_provider import SecEdgarNewsProvider
+    from stock_ai.data.news.base import ProviderConfigurationError, ProviderDataError
+except ImportError:
+    from src.stock_ai.data.news.local_provider import LocalCanonicalNewsProvider
+    from src.stock_ai.data.news.polygon_provider import PolygonNewsProvider
+    from src.stock_ai.data.news.tiingo_provider import TiingoNewsProvider
+    from src.stock_ai.data.news.sec_edgar_provider import SecEdgarNewsProvider
+    from src.stock_ai.data.news.base import ProviderConfigurationError, ProviderDataError
 
 
 def test_local_canonical_provider_metadata():

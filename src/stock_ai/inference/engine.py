@@ -22,7 +22,11 @@ except ImportError:
     from src.stock_ai.models.market.bilstm import MarketBiLSTM
     from src.stock_ai.models.fusion.gmu import GatedMultimodalUnit
 
+from pathlib import Path
+
 logger = logging.getLogger(__name__)
+
+PROJECT_ROOT = str(Path(__file__).resolve().parents[3])
 
 
 class InferenceEngine:
@@ -32,6 +36,21 @@ class InferenceEngine:
         models_dir: str = "models",
         results_dir: str = "results"
     ):
+        if not os.path.isabs(data_dir) and not os.path.exists(data_dir):
+            cand = os.path.join(PROJECT_ROOT, data_dir)
+            if os.path.exists(cand):
+                data_dir = cand
+
+        if not os.path.isabs(models_dir) and not os.path.exists(models_dir):
+            cand = os.path.join(PROJECT_ROOT, models_dir)
+            if os.path.exists(cand):
+                models_dir = cand
+
+        if not os.path.isabs(results_dir) and not os.path.exists(results_dir):
+            cand = os.path.join(PROJECT_ROOT, results_dir)
+            if os.path.exists(cand):
+                results_dir = cand
+
         self.data_dir = data_dir
         self.models_dir = models_dir
         self.results_dir = results_dir
@@ -147,8 +166,11 @@ class InferenceEngine:
                     }
 
         # Fallback to forward test horizon predictions if present
-        pred_dir = os.path.join(self.results_dir, "latest", "predictions")
-        pred_file = os.path.join(pred_dir, f"{ticker}_predictions.csv")
+        pred_file = os.path.join(self.results_dir, "predictions", f"{ticker}_predictions.csv")
+        if not os.path.exists(pred_file):
+            pred_file = os.path.join(self.results_dir, "latest", "predictions", f"{ticker}_predictions.csv")
+        if not os.path.exists(pred_file):
+            pred_file = os.path.join(os.path.dirname(self.results_dir), "latest", "predictions", f"{ticker}_predictions.csv")
         if os.path.exists(pred_file):
             df = pd.read_csv(pred_file)
             if date is not None:

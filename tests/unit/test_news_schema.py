@@ -1,6 +1,9 @@
 import pytest
 import pandas as pd
-from src.stock_ai.data.news.schema import CanonicalNewsSchema, CANONICAL_NEWS_COLUMNS
+try:
+    from stock_ai.data.news.schema import CanonicalNewsSchema, CANONICAL_NEWS_COLUMNS
+except ImportError:
+    from src.stock_ai.data.news.schema import CanonicalNewsSchema, CANONICAL_NEWS_COLUMNS
 
 
 def test_clean_headline_text():

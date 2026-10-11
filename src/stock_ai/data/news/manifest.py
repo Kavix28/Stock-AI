@@ -22,11 +22,19 @@ from .schema import CanonicalNewsSchema
 from .validator import NewsDataValidator
 
 
+from pathlib import Path
+
+PROJECT_ROOT = str(Path(__file__).resolve().parents[4])
+
+
 class NewsManifestGenerator:
     """Generates comprehensive CSV and JSON manifests for all news datasets."""
 
     def __init__(self, news_dir: str = "data/processed/news"):
-        self.news_dir = news_dir
+        if not os.path.exists(news_dir) and os.path.exists(os.path.join(PROJECT_ROOT, news_dir)):
+            self.news_dir = os.path.join(PROJECT_ROOT, news_dir)
+        else:
+            self.news_dir = news_dir
 
     def audit_all_news_files(self) -> List[Dict[str, Any]]:
         manifest_rows = []

@@ -22,7 +22,10 @@ src_dir = os.path.join(project_root, "src")
 if src_dir not in sys.path:
     sys.path.insert(0, src_dir)
 
-from src.stock_ai.inference.engine import InferenceEngine
+try:
+    from stock_ai.inference.engine import InferenceEngine
+except ImportError:
+    from src.stock_ai.inference.engine import InferenceEngine
 
 app = FastAPI(
     title="Stock-AI Research API",

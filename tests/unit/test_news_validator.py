@@ -1,8 +1,12 @@
 import pytest
 import pandas as pd
 
-from src.stock_ai.data.news.validator import NewsDataValidator, NewsValidationError
-from src.stock_ai.data.news.schema import CanonicalNewsSchema
+try:
+    from stock_ai.data.news.validator import NewsDataValidator, NewsValidationError
+    from stock_ai.data.news.schema import CanonicalNewsSchema
+except ImportError:
+    from src.stock_ai.data.news.validator import NewsDataValidator, NewsValidationError
+    from src.stock_ai.data.news.schema import CanonicalNewsSchema
 
 
 def test_validator_canonical_dataframe():
