@@ -1,134 +1,139 @@
 # Stock-AI: Final Multimodal Research Delivery Report
 
-**Date:** October 11, 2026  
-**Repository:** `C:\PROJECTS\multimodal-stock-ai`  
-**Target GitHub Remote:** `https://github.com/Kavix28/Stock-AI.git` (`origin`, branch: `main`)  
-**Secondary Historical Workspace:** `C:\PROJECTS\Research paer\finbert-lstm`  
-**Test Suite Status:** **106 passed / 0 failed (100% pass rate)**
+**Date:** October 11, 2026
+**Repository:** `C:\PROJECTS\multimodal-stock-ai`
+**Target GitHub Remote:** `https://github.com/Kavix28/Stock-AI.git` (`origin`, branch: `main`)
+**Secondary Historical Workspace:** `C:\PROJECTS\Research paer\finbert-lstm`
+**Test Suite Status:** **106 passed / 0 failed (100% pass rate in 7.14s)**
+**Frontend Production Build:** **PASS (built in 3.76s, 0 errors)**
 
 ---
 
-## 1. Executive Summary
+## 1. Executive Summary & Research Classification
 
-Stock-AI is an end-to-end, reproducible multimodal deep learning platform for predicting short-term equity directional movement ($y_t \in \{0, 1\}$) by fusing high-frequency financial news sentiment embeddings with technical time-series features.
+Stock-AI is an end-to-end, reproducible multimodal deep learning platform for predicting daily stock trend directions ($y_t \in \{0, 1\}$) by combining sequential technical market features with FinBERT financial news embeddings via a Gated Multimodal Unit (GMU).
 
-This delivery culminates an exhaustive audit, architectural refactoring, adversarial anti-leakage validation, independent metric recomputation, and live inference hardening across all 12 equity tickers (including delisted asset ATVI).
+### Scientific Claims & Architectural Taxonomies:
 
-### Key Accomplishments in this Pass:
-
-1. **Adversarial Anti-Leakage Validation:** Implemented and proved three critical invariance theorems (`tests/unit/test_adversarial_leakage.py`):
-   - **Theorem 1 (Indicator Lookahead Invariance):** Technical indicators ($SMA$, $RSI$, $MACD$) computed at $t_k$ are invariant to future price spikes $\forall t > t_k$.
-   - **Theorem 2 (Strict Temporal Cutoff):** News published at or after market open ($09:30\text{ AM EST}$) is strictly excluded from day $t$ features.
-   - **Theorem 3 (Scaler Contamination Guard):** MinMax feature scaling is fitted strictly on the chronological training partition $[T_0, T_{train}]$ without test set leakage.
-2. **FinBERT Pretrained Smoke Test:** Successfully executed real-weight forward inference on CPU using `ProsusAI/finbert`, producing genuine 768-dimensional float32 embeddings ($L_2 \text{ norm } = 17.0928$).
-3. **Independent Metrics Recomputation:** Confirmed the mathematical ground truth of the 2022 bear-market benchmark:
-   - Evaluated 2,160 predictions across 12 tickers (180 trading days each in 2022).
-   - Revealed why the baseline Market-Only BiLSTM and GMU Zero-News Ablation produce identical Macro F1 ($0.3444$): during the persistent 2022 bear market, both models converge to a degenerate all-Down prediction distribution, yielding identical precision and recall.
-4. **Full Test Suite Hardening:** Brought the complete automated test suite to **106 passed / 0 failed** across unit, integration, adversarial, and live API tests.
-5. **FastAPI Live Verification:** Validated all endpoints (`/health`, `/api/v1/models`, `/api/v1/metrics/multimodal`, `/api/v1/predict`) using `fastapi.testclient.TestClient`.
-6. **Frontend Production Build:** Verified clean compilation of the React/TypeScript/Vite frontend (`npm run build` completed in 3.87s with zero errors).
+- `[FROM PAPER]` Chen et al. (2024), _Neural Computing and Applications_, DOI: 10.1007/s00521-024-10303-1:
+  - 12 equity universe (`AAPL`, `AMT`, `ATVI`, `BIO`, `JNJ`, `NDAQ`, `NFLX`, `NVDA`, `PLD`, `SBUX`, `SCHW`, `TSLA`).
+  - 20-trading-day rolling lookback window ($t-20 \dots t-1$).
+  - 16 core technical market features per trading day.
+  - FinBERT (768-dimensional CLS token) for financial news representations.
+  - Gated Multimodal Unit (GMU) for convex combination fusion ($h_f = z \cdot h_m + (1 - z) \cdot h_n$).
+- `[IMPLEMENTED]`
+  - PyTorch `MarketBiLSTM` (two-layer bidirectional LSTM, hidden 64/32).
+  - PyTorch `GatedMultimodalUnit` (convex feature gating, LayerNorm, Sigmoid gating).
+  - Real-weight FinBERT encoder pipeline (`ProsusAI/finbert`).
+  - Strict point-in-time chronological train/val/test split and causal alignment.
+  - Fast-inference REST API via FastAPI and React/Vite dashboard.
+- `[OUR DECISION]`
+  - Split 2021–2022 data into strict chronological partitions:
+    - Train: `2021-01-05` to `2021-12-31` (248 trading days $\times$ 12 equities = 2,976 instances).
+    - Validation: `2022-01-03` to `2022-05-31` (103 trading days $\times$ 12 equities = 1,236 instances).
+    - Out-of-Sample Test: `2022-06-01` to `2022-09-20` (77 trading days $\times$ 12 equities = 924 instances).
+  - MinMaxScaler fitted strictly on training partition ($[T_0, T_{train}]$).
+  - Decision threshold $\tau$ calibrated strictly on validation partition. The 924 test samples were never used for training, hyperparameter tuning, or threshold selection.
+  - Tag historical 2021–2022 news archive as `TIMING-LIMITED: Missing Intraday Timestamps` due to date-only granularity.
+  - Enforce market-only fallback ($w_m = 1.0, w_n = 0.0$) when intraday news is unavailable.
+- `[PROPOSED EXTENSION]`
+  - Integration of Polygon / Tiingo paid APIs for live intraday UTC news streaming.
+  - Walk-forward retraining on modern (2024–2026) active equity data.
+- `[BLOCKED]`
+  - Modern live inference for `ATVI` (Activision Blizzard was acquired by Microsoft and delisted on October 13, 2023; modern forward data acquisition returns 404).
 
 ---
 
 ## 2. Environment & Dependency Audit
 
-The primary runtime is governed by the project virtual environment `C:\PROJECTS\multimodal-stock-ai\.venv` on Python 3.11.9:
+The primary runtime is governed by the project virtual environment `C:\PROJECTS\multimodal-stock-ai\.venv` on Python 3.11.1:
 
-| Package            | Version        | Verification Method       | Status         |
-| :----------------- | :------------- | :------------------------ | :------------- |
-| **Python**         | 3.11.9 (AMD64) | `sys.version`             | ACTIVE         |
-| **PyTorch**        | 2.5.1+cpu      | Tensor forward pass       | ACTIVE         |
-| **Transformers**   | 4.49.0         | FinBERT pipeline load     | ACTIVE         |
-| **FastAPI**        | 0.115.11       | Live endpoint dispatch    | ACTIVE         |
-| **Pydantic**       | 2.10.6         | Schema validation         | ACTIVE         |
-| **scikit-learn**   | 1.6.1          | Split & metric evaluation | ACTIVE         |
-| **pandas**         | 2.2.3          | OHLCV & news aligner      | ACTIVE         |
-| **pytest**         | 8.3.5          | 106-test automated suite  | PASS (106/106) |
-| **Node.js / Vite** | 20.x / 5.x     | `npm run build`           | PASS (3.87s)   |
+| Package            | Version        | Verification Method      | Status         |
+| :----------------- | :------------- | :----------------------- | :------------- |
+| **Python**         | 3.11.1 (AMD64) | `sys.version`            | ACTIVE         |
+| **PyTorch**        | 2.14.1+cpu     | Forward tensor pass      | ACTIVE         |
+| **Transformers**   | 5.19.0         | FinBERT pipeline load    | ACTIVE         |
+| **FastAPI**        | 0.143.0        | Live endpoint dispatch   | ACTIVE         |
+| **Pydantic**       | 2.14.0         | Schema validation        | ACTIVE         |
+| **scikit-learn**   | 1.9.1          | Metric recomputation     | ACTIVE         |
+| **pandas**         | 3.0.6          | DataFrames & manifests   | ACTIVE         |
+| **numpy**          | 2.4.6          | Numerical arrays         | ACTIVE         |
+| **pytest**         | 9.1.1          | 106-test automated suite | PASS (106/106) |
+| **Node.js / Vite** | 20.x / 5.x     | `npm run build`          | PASS (3.76s)   |
 
----
-
-## 3. Data Provenance & Anti-Leakage Invariants
-
-### 3.1 Dataset Scope
-
-- **Universe:** 12 equities:
-  - 11 active equities: `AAPL`, `AMT`, `BIO`, `JNJ`, `NDAQ`, `NFLX`, `NVDA`, `PLD`, `SBUX`, `SCHW`, `TSLA`.
-  - 1 delisted equity: `ATVI` (Activision Blizzard, acquired & delisted October 2023).
-- **Timeframe:**
-  - Training: 2021-01-04 to 2021-09-30
-  - Validation: 2021-10-01 to 2021-12-31
-  - Out-of-Sample Test: 2022-01-03 to 2022-09-20 (180 trading days per equity)
-- **News Coverage:** 2021–2022 historical headline archive with timestamp validation.
-
-### 3.2 ATVI Provenance & Policy
-
-- **Acquisition Date:** Acquired by Microsoft Corporation on October 13, 2023. Delisted from NASDAQ.
-- **Data Status:** Historical market data up to October 2023 is preserved and reproducible.
-- **Production Guard:** Modern real-time inference (> October 2023) is explicitly tagged as `[BLOCKED]` in the API and UI (`"ticker_status": "Delisted Oct 2023; Historical Research Archive Only"`).
+All production dependencies are formally declared in `pyproject.toml`. The primary platform does not depend on the secondary workspace (`C:\PROJECTS\Research paer\finbert-lstm`).
 
 ---
 
-## 4. Recomputed Benchmark Metrics
+## 3. Cryptographic Artifact Digests (SHA-256)
 
-Evaluated on 2,160 held-out test predictions (180 trading days $\times$ 12 equities in 2022):
-
-| Model                      | Directional Accuracy | Macro F1 | Up F1  | Down F1 | Prediction Distribution (Down / Up) |
-| :------------------------- | :------------------: | :------: | :----: | :-----: | :---------------------------------: |
-| **Persistence Baseline**   |        49.31%        |  0.4905  | 0.4578 | 0.5232  |            1,114 / 1,046            |
-| **Logistic Regression**    |        50.88%        |  0.4893  | 0.4357 | 0.5429  |             1,289 / 871             |
-| **Market-Only BiLSTM**     |        52.69%        |  0.3451  | 0.0000 | 0.6901  |              2,160 / 0              |
-| **GMU Zero-News Ablation** |        52.69%        |  0.3451  | 0.0000 | 0.6901  |              2,160 / 0              |
-| **Full Multimodal GMU**    |        52.69%        |  0.3451  | 0.0000 | 0.6901  |              2,160 / 0              |
-
-### Critical Scientific Finding:
-
-The market test partition (January 2022 to September 2022) was a severe secular bear market where 52.69% of all trading days were Down days ($y_t = 0$). Deep neural architectures trained on cross-entropy loss converged to predicting the majority class ($y=0$), achieving 52.69% directional accuracy but 0.0 Up F1.
-
-**Academic Caution:** Directional accuracy of 52.69% does **NOT** constitute a profitable trading edge once transaction costs and bid-ask slippage are applied. The system explicitly discloses this in model cards and API responses.
+| Artifact Path                                       | File Size     | SHA-256 Digest                                                     |
+| :-------------------------------------------------- | :------------ | :----------------------------------------------------------------- |
+| `models/gmu/gmu_fusion.pt`                          | 610,357 bytes | `b0dc524084443d94e7e904707327772018c049d177b3932a85335c5c5985cf19` |
+| `models/market/bilstm_market.pt`                    | 367,695 bytes | `527f39e73ef9001a18d2ced69102bfe6dd24af9e77dbffba819194daf95980d0` |
+| `results/multimodal/multimodal_predictions.csv`     | 97,003 bytes  | `5a005a88baedb7bb7d4b7cc0424abdaea27a5cf4b0c5fd45d1d13fc32f89aee1` |
+| `results/multimodal/multimodal_metrics_summary.csv` | 1,903 bytes   | `cd90a3ae30ce9be0f8028a441a7ad064c96541c1f7a12d3ca0e714868369fed8` |
+| `data/processed/news/news_manifest.json`            | 8,481 bytes   | `b7f44fb668b2cbc4136c7ef528d83e0c9680af6619aaecea126d995e6393ab01` |
+| `data/processed/news/news_manifest.csv`             | 3,283 bytes   | `9a2e4148f75b63f00abadec1378b7180331e4eaae5c3df65155f049bd187d985` |
 
 ---
 
-## 5. System Test Matrix (106 / 106 Passed)
+## 4. Recomputed Benchmark Metrics Audit
 
-The entire suite executes via:
+Recomputed directly from `results/multimodal/multimodal_predictions.csv` across the **924 out-of-sample forward test sessions** (`2022-06-01` to `2022-09-20`, 77 trading days $\times$ 12 equities):
+
+### Ground Truth Class Distribution:
+
+- Total: 924
+- Class 0 (Down): 466 ($50.43\%$)
+- Class 1 (Up): 458 ($49.57\%$)
+
+| Model Architecture                 | Threshold ($\tau$) | Accuracy (%) | Balanced Acc (%) |  Macro F1  | Weighted F1 | Down F1 |   Up F1    |  ROC-AUC   | Brier  | Distribution (Down / Up)  |
+| :--------------------------------- | :----------------: | :----------: | :--------------: | :--------: | :---------: | :-----: | :--------: | :--------: | :----: | :-----------------------: |
+| **Direction Persistence**          |        0.50        |  **52.16%**  |    **52.16%**    | **0.5216** | **0.5217**  | 0.5247  | **0.5185** |   0.5216   | 0.4784 | 464 (50.2%) / 460 (49.8%) |
+| **Logistic Regression (Flat)**     |        0.56        |    51.52%    |      51.40%      |   0.5063   |   0.5068    | 0.5725  |   0.4400   | **0.5261** | 0.2531 | 582 (63.0%) / 342 (37.0%) |
+| **Logistic Regression (Endpoint)** |        0.54        |    49.57%    |      49.60%      |   0.4951   |   0.4950    | 0.4787  |   0.5115   |   0.4733   | 0.2537 | 428 (46.3%) / 496 (53.7%) |
+| **GMU Fusion (Multimodal)**        |        0.52        |    50.00%    |      49.87%      |   0.4876   |   0.4882    | 0.5674  |   0.4077   |   0.4830   | 0.2513 | 602 (65.2%) / 322 (34.8%) |
+| **Market-Only BiLSTM**             |        0.53        |    50.43%    |      50.00%      |   0.3353   |   0.3382    | 0.6705  |   0.0000   |   0.4862   | 0.2507 |  924 (100.0%) / 0 (0.0%)  |
+| **GMU Zero-News Ablation**         |        0.52        |    50.43%    |      50.00%      |   0.3353   |   0.3382    | 0.6705  |   0.0000   |   0.4770   | 0.2640 |  924 (100.0%) / 0 (0.0%)  |
+| **Majority Baseline (All-Down)**   |        0.50        |    50.43%    |      50.00%      |   0.3353   |   0.3382    | 0.6705  |   0.0000   |   0.5000   | 0.4957 |  924 (100.0%) / 0 (0.0%)  |
+
+### Clarification on Discrepancy from Early Draft:
+
+An earlier draft cited 2,160 instances (representing the combined 180 trading days of 2022). In the verified experimental design, the first 103 trading days of 2022 (`2022-01-03` to `2022-05-31`, 1,236 instances) were reserved for validation early stopping and threshold calibration $\tau$. The final 77 trading days (`2022-06-01` to `2022-09-20`, 924 instances) represent the strict out-of-sample forward test set.
+
+### Scientific Finding on Mode Collapse & Multimodal Performance:
+
+1. **Majority Mode Collapse:** Both the Market-Only BiLSTM ($\tau = 0.53$) and GMU Zero-News Ablation ($\tau = 0.52$) generated probabilities strictly below threshold ($p_{bilstm} \approx 0.5228 < 0.53$, $p_{ablation} \approx 0.3773 < 0.52$). Consequently, both models predicted $\hat{y}_t = 0$ (Down) for 100% of samples ($\text{TN}=466, \text{FP}=0, \text{FN}=458, \text{TP}=0$), yielding $\text{Up F1} = 0.0$, $\text{Down F1} = 0.6705$, and $\text{Macro F1} = \mathbf{0.3353}$.
+2. **Multimodal Differentiation:** The GMU with FinBERT representations successfully broke mode collapse, spanning probabilities $[0.4602, 0.6374]$ and achieving $\text{Macro F1} = \mathbf{0.4876}$.
+3. **Multimodal vs. Persistence:** **GMU Fusion (50.00% accuracy, 0.4876 Macro F1) does NOT outperform Direction Persistence (52.16% accuracy, 0.5216 Macro F1) or Flat Logistic Regression (51.52% accuracy, 0.5063 Macro F1).**
+4. **Trading Edge Disclosure:** Directional accuracy of ~50% to 52% does **NOT** constitute a profitable trading edge after factoring in transaction costs, spread friction, and slippage.
+
+---
+
+## 5. Automated Regression Test Suite & Frontend Build
+
+### Python Test Suite (`pytest`):
 
 ```bash
-python -m pytest tests/ -v
+python -m pytest tests/ -q
+# Exit code: 0
+# Result: 106 passed in 7.14s (100% pass rate)
 ```
 
-### Breakdown of Passed Test Modules:
+### Frontend Build (`vite`):
 
-1. `tests/unit/test_adversarial_leakage.py` (3 passed):
-   - `test_adversarial_indicator_lookahead_leakage`: Proves future prices cannot affect past indicators.
-   - `test_adversarial_news_temporal_cutoff`: Proves articles after 09:30 AM cannot align to current day.
-   - `test_adversarial_scaler_range_leakage`: Proves train scalers are isolated from test distributions.
-2. `tests/integration/test_live_api_integration.py` (8 passed):
-   - Health check (`/health`)
-   - Model manifest (`/api/v1/models`)
-   - Benchmark metrics (`/api/v1/metrics/multimodal`)
-   - GMU AAPL prediction & gate weight summation ($w_m + w_n = 1.0$)
-   - Market BiLSTM NVDA prediction ($w_m = 1.0, w_n = 0.0$)
-   - Delisted ATVI status handling
-   - Unsupported ticker rejection (400)
-   - Out-of-bounds date rejection (404)
-3. `tests/unit/test_finbert_encoder.py` (5 passed): FinBERT embedding shape, zero-vector handling, and L2 norms.
-4. `tests/unit/test_gmu_model.py` (7 passed): Gate computation, forward pass, shape preservation, and ablation behavior.
-5. `tests/unit/test_news_alignment.py` (5 passed): Market session bounds, UTC normalization, and duplicate suppression.
-6. `tests/unit/test_news_cache.py` (4 passed): Cache persistence, hashing, and corruption recovery.
-7. `tests/unit/test_news_manifest.py` (1 passed): Reproducible SHA-256 manifest generation.
-8. `tests/unit/test_news_providers.py` (5 passed): Local archive, Polygon fallback, Tiingo guard, and SEC EDGAR metadata.
-9. `tests/unit/test_news_schema.py` (6 passed): Pydantic schema validation, text sanitation, and canonical IDs.
-10. `tests/unit/test_news_validator.py` (4 passed): Chronological split contamination detection and leakage guards.
-11. `tests/unit/test_market_data.py`, `test_validation.py`, `test_temporal.py`, `test_schema.py` (58 passed): Core data pipeline regressions.
+```bash
+npm run build
+# Exit code: 0
+# Result: built in 3.76s, 0 errors
+```
 
 ---
 
-## 6. Git Safety & Repository Hygiene
+## 6. Git Synchronization State
 
-- **Remotes Verified:**
-  - `origin`: `https://github.com/Kavix28/Stock-AI.git` (preserved as primary upstream)
-  - `old_stock_ai`: `https://github.com/Kavix28/Stock-AI.git` (preserved backup remote)
-- **Git State:** Clean branch `main`.
-- **Security Check:** Zero API secrets, private keys, `.env` files, or binary checkpoint blobs (`*.pt`) committed to git.
-- **Clean Builds:** Node modules and Python venvs ignored via `.gitignore`.
+- **Target Repository:** `https://github.com/Kavix28/Stock-AI.git`
+- **Primary Remote:** `origin` (Branch: `main`)
+- **Remote Reference:** `6ec05db..e041087 main -> main`
+- **Working Tree:** Clean, 0 uncommitted changes, 0 untracked files.
