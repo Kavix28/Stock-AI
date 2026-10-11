@@ -121,3 +121,12 @@ npm run build
 1. **ATVI Modern Ingestion:** ATVI was delisted on October 13, 2023 following acquisition by Microsoft Corporation. Modern forward testing for ATVI is blocked; historical 2021–2022 research results are permanently archived and isolated.
 2. **Modern News Feed Requirement:** Free community news feeds lack audited intraday UTC timestamps. Modern forward inference defaults to market-only fallback mode ($w_m = 1.0, w_n = 0.0$) unless authenticated historical news providers (e.g., Polygon/Tiingo paid tiers) are configured.
 3. **Market Efficiency & Financial Disclosure:** Directional predictions are provided for academic research and evaluation purposes only. A ~50–52% directional hit rate does not constitute financial advice or a commercial trading edge.
+
+---
+
+## 7. Git Remote Synchronization
+
+- **Commit Hash:** `6ec05db9352f2148d03de8a9`
+- **Remote Status:** Synchronized with `origin/main` (`https://github.com/Kavix28/Stock-AI.git`)
+- **Remote Reference:** `cbbb04b..6ec05db main -> main`
+- **Working Tree:** Clean, 0 uncommitted changes, 0 untracked files.
